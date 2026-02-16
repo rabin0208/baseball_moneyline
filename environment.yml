@@ -1,0 +1,17 @@
+name: baseball_moneyline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - requests
+  - jupyter
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - pybaseball
+    - MLB-StatsAPI
