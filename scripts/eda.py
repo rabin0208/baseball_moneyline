@@ -11,20 +11,16 @@ import seaborn as sns
 # Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
 TABLES_DIR = PROJECT_ROOT / "results" / "tables"
 FIGURES_DIR = PROJECT_ROOT / "results" / "figures"
 
-# Date range for EDA (enough completed games for distributions)
-EDA_START = "04/01/2024"
-EDA_END = "07/31/2024"
+SCHEDULE_CSV = DATA_DIR / "schedule_8_seasons.csv"
 
 
-def fetch_schedule():
-    """Fetch schedule from MLB Stats API and return as DataFrame."""
-    import statsapi
-
-    games = statsapi.schedule(start_date=EDA_START, end_date=EDA_END)
-    return pd.DataFrame(games)
+def load_schedule() -> pd.DataFrame:
+    """Load schedule from exported CSV (from data_load.py)."""
+    return pd.read_csv(SCHEDULE_CSV)
 
 
 def prepare_data(df: pd.DataFrame) -> pd.DataFrame:
@@ -47,9 +43,27 @@ def prepare_data(df: pd.DataFrame) -> pd.DataFrame:
     return completed
 
 
-def save_tables(df: pd.DataFrame) -> None:
+def save_tables(
+    df: pd.DataFrame,
+    *,
+    n_loaded: int | None = None,
+    n_after_completed: int | None = None,
+    n_dropped: int | None = None,
+    n_observations: int | None = None,
+) -> None:
     """Compute and save summary tables to results/tables."""
     TABLES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 0. Observation counts at each stage (one row per stage)
+    n_final = len(df) if n_observations is None else n_observations
+    obs_rows = [
+        {"stage": "loaded", "n_observations": n_loaded if n_loaded is not None else n_final},
+        {"stage": "after_completed_filter", "n_observations": n_after_completed if n_after_completed is not None else n_final},
+        {"stage": "after_drop_missing", "n_observations": n_final, "n_dropped": n_dropped if n_dropped is not None else ""},
+    ]
+    obs_table = pd.DataFrame(obs_rows)
+    obs_table.to_csv(TABLES_DIR / "observation_counts.csv", index=False)
+    print(f"  Saved {TABLES_DIR / 'observation_counts.csv'}")
 
     # 1. Score summary (mean, std, min, max)
     score_summary = df[["away_score", "home_score", "total_runs"]].agg(
@@ -117,6 +131,20 @@ def save_tables(df: pd.DataFrame) -> None:
     loss_counts.columns = ["pitcher", "losses"]
     loss_counts.head(20).to_csv(TABLES_DIR / "top_losing_pitchers.csv", index=False)
     print(f"  Saved {TABLES_DIR / 'top_winning_pitchers.csv'}, top_losing_pitchers.csv")
+
+    # 7. Missing observations per column (for exported CSV / analysis data)
+    n_total = len(df)
+    missing = df.isna().sum()
+    missing_df = (
+        missing.rename("n_missing")
+        .to_frame()
+        .assign(n_total=n_total)
+        .assign(pct_missing=(missing / n_total * 100).round(2))
+        .reset_index(names="variable")
+    )
+    missing_df = missing_df.sort_values("n_missing", ascending=False)
+    missing_df.to_csv(TABLES_DIR / "missing_observations.csv", index=False)
+    print(f"  Saved {TABLES_DIR / 'missing_observations.csv'}")
 
 
 def save_figures(df: pd.DataFrame) -> None:
@@ -221,18 +249,38 @@ def save_figures(df: pd.DataFrame) -> None:
 
 
 def main():
-    print("Fetching schedule from MLB Stats API...")
-    df_raw = fetch_schedule()
-    print(f"  Retrieved {len(df_raw)} games")
+    print(f"Loading schedule from {SCHEDULE_CSV}...")
+    df_raw = load_schedule()
+    print(f"  Loaded {len(df_raw)} games")
 
     df = prepare_data(df_raw)
     if df.empty:
-        print("No completed games in range. Adjust EDA_START / EDA_END or check API.")
+        print("No completed games in data. Check that status='Final' and scores are present.")
         return
-    print(f"  {len(df)} completed games after filtering\n")
+    print(f"  {len(df)} completed games after filtering")
+    n_after_completed = len(df)
+
+    # Treat empty strings as missing in string columns, then drop any row with at least one missing value
+    obj_cols = df.select_dtypes(include=["object"]).columns
+    df[obj_cols] = df[obj_cols].replace("", pd.NA)
+    df = df.dropna()
+    n_observations = len(df)
+    n_dropped = n_after_completed - n_observations
+    print(f"  Dropped {n_dropped} rows with at least one missing value → {n_observations} observations\n")
+
+    # Save final (complete-case) data to CSV
+    final_csv = DATA_DIR / "schedule_8_seasons_final.csv"
+    df.to_csv(final_csv, index=False)
+    print(f"Saved final data to {final_csv} ({n_observations} rows)\n")
 
     print("Saving tables to results/tables/")
-    save_tables(df)
+    save_tables(
+        df,
+        n_loaded=len(df_raw),
+        n_after_completed=n_after_completed,
+        n_dropped=n_dropped,
+        n_observations=n_observations,
+    )
 
     print("\nSaving figures to results/figures/")
     save_figures(df)
