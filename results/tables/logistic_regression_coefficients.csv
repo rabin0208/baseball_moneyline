@@ -1,0 +1,14 @@
+feature,coefficient
+home_rolling_avg_h2h_wins_10,0.08753378700167237
+home_pitcher_rolling_wins_centered_10,0.06602737030360473
+away_pitcher_rolling_wins_centered_10,-0.05703982077199375
+away_rolling_avg_run_diff_10,-0.05267785808024837
+away_rolling_avg_runs_allowed_10,0.052654155036570394
+home_rest_days,0.03364748489943255
+home_rolling_avg_run_diff_10,0.028820073871734186
+away_rest_days,-0.02542928016205235
+home_rolling_avg_runs_allowed_10,-0.02221890036514754
+away_rolling_avg_runs_10,-0.01966475873081521
+home_rolling_avg_runs_10,0.018093833758926835
+away_rolling_avg_wins_10,-0.016055410915500237
+home_rolling_avg_wins_10,0.007401419162515182
