@@ -5,6 +5,8 @@ Uses a season-based train/test split: train on earlier seasons, test on holdout 
 from pathlib import Path
 
 import joblib
+
+from model_utils import print_feature_importance
 import pandas as pd
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score
@@ -81,6 +83,7 @@ def main():
     auc = roc_auc_score(y_test, y_prob)
     print(f"  Test accuracy: {acc:.4f}")
     print(f"  Test ROC-AUC:  {auc:.4f}")
+    print_feature_importance(FEATURE_COLS, model.feature_importances_.tolist())
 
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
     joblib.dump(model, MODELS_DIR / "gradient_boosting.pkl")

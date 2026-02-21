@@ -1,0 +1,2 @@
+subsample,n_estimators,min_samples_split,min_samples_leaf,max_features,max_depth,learning_rate
+0.6,50,5,4,log2,3,0.05
