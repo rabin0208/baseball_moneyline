@@ -1,2 +1,4 @@
-- venue
-- different window (hyperparameter)
+- venue (Did not work)
+- different window (10 seems suitable)
+- Game type and double header
+- Look for more data
