@@ -1,6 +1,7 @@
 """
-Fit a logistic regression model to predict home team win (home_win).
-Uses a season-based train/test split: train on earlier seasons, test on holdout season(s).
+Hyperparameter optimization for gradient boosting using RandomizedSearchCV.
+Uses the same season-based split: train on earlier seasons, tune via CV on training data,
+evaluate best model on held-out test season(s).
 """
 from pathlib import Path
 
@@ -8,15 +9,16 @@ import joblib
 
 from model_utils import print_feature_importance
 import pandas as pd
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score
-from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import RandomizedSearchCV, TimeSeriesSplit
 
 # Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 MODELS_DIR = PROJECT_ROOT / "results" / "models"
+TABLES_DIR = PROJECT_ROOT / "results" / "tables"
 
 FEATURED_CSV = DATA_DIR / "schedule_8_seasons_featured.csv"
 TEST_SEASONS = [2025]
@@ -37,6 +39,18 @@ FEATURE_COLS = [
     "away_pitcher_rolling_wins_centered_10",
 ]
 TARGET_COL = "home_win"
+
+PARAM_DISTRIBUTIONS = {
+    "n_estimators": [50, 100, 150, 200],
+    "max_depth": [3, 4, 5, 6, 7],
+    "min_samples_split": [2, 5, 10],
+    "min_samples_leaf": [1, 2, 4],
+    "learning_rate": [0.01, 0.05, 0.1, 0.2],
+    "subsample": [0.6, 0.8, 1.0],
+    "max_features": ["sqrt", "log2"],
+}
+N_ITER = 50
+CV_SPLITS = 5
 
 
 def load_and_prepare() -> tuple[pd.DataFrame, pd.Series, pd.Series]:
@@ -74,34 +88,50 @@ def main():
     X_train, X_test, y_train, y_test = season_split(X, y, season, TEST_SEASONS)
     print(f"  Train: {len(y_train)} (seasons not in {TEST_SEASONS}), test: {len(y_test)} (seasons {TEST_SEASONS})")
 
-    scaler = StandardScaler()
-    X_train_s = scaler.fit_transform(X_train)
-    X_test_s = scaler.transform(X_test)
+    print(f"\nRunning randomized search (n_iter={N_ITER}, cv={CV_SPLITS} TimeSeriesSplit)...")
+    cv = TimeSeriesSplit(n_splits=CV_SPLITS)
+    search = RandomizedSearchCV(
+        GradientBoostingClassifier(random_state=42),
+        param_distributions=PARAM_DISTRIBUTIONS,
+        n_iter=N_ITER,
+        cv=cv,
+        scoring="roc_auc",
+        random_state=42,
+        n_jobs=-1,
+    )
+    search.fit(X_train, y_train)
 
-    print("\nFitting logistic regression...")
-    model = LogisticRegression(max_iter=1000, random_state=42)
-    model.fit(X_train_s, y_train)
+    print(f"  Best CV ROC-AUC: {search.best_score_:.4f}")
+    print(f"  Best params: {search.best_params_}")
 
-    y_pred = model.predict(X_test_s)
-    y_prob = model.predict_proba(X_test_s)[:, 1]
+    best_model = search.best_estimator_
+    y_pred = best_model.predict(X_test)
+    y_prob = best_model.predict_proba(X_test)[:, 1]
     acc = accuracy_score(y_test, y_pred)
     auc = roc_auc_score(y_test, y_prob)
-    print(f"  Test accuracy: {acc:.4f}")
+    print(f"\n  Test accuracy: {acc:.4f}")
     print(f"  Test ROC-AUC:  {auc:.4f}")
-    print_feature_importance(FEATURE_COLS, model.coef_[0].tolist(), title="Coefficients (abs = importance)")
+    print_feature_importance(FEATURE_COLS, best_model.feature_importances_.tolist())
 
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
-    joblib.dump(model, MODELS_DIR / "logistic_regression.pkl")
-    joblib.dump(scaler, MODELS_DIR / "scaler.pkl")
-    print(f"\nSaved model and scaler to {MODELS_DIR}/")
+    joblib.dump(best_model, MODELS_DIR / "gradient_boosting_optimized.pkl")
+    print(f"\nSaved best model to {MODELS_DIR}/gradient_boosting_optimized.pkl")
 
-    coef = pd.DataFrame(
-        {"feature": FEATURE_COLS, "coefficient": model.coef_[0]}
-    ).sort_values("coefficient", key=abs, ascending=False)
-    coef_path = PROJECT_ROOT / "results" / "tables" / "logistic_regression_coefficients.csv"
-    coef_path.parent.mkdir(parents=True, exist_ok=True)
-    coef.to_csv(coef_path, index=False)
-    print(f"Saved coefficients to {coef_path}")
+    TABLES_DIR.mkdir(parents=True, exist_ok=True)
+    results_df = pd.DataFrame(search.cv_results_)[
+        ["params", "mean_test_score", "std_test_score", "rank_test_score"]
+    ].sort_values("rank_test_score")
+    results_df.to_csv(TABLES_DIR / "gradient_boosting_search_results.csv", index=False)
+    pd.DataFrame([search.best_params_]).to_csv(
+        TABLES_DIR / "gradient_boosting_best_params.csv", index=False
+    )
+    print(f"Saved search results and best params to {TABLES_DIR}/")
+
+    imp = pd.DataFrame(
+        {"feature": FEATURE_COLS, "importance": best_model.feature_importances_}
+    ).sort_values("importance", ascending=False)
+    imp.to_csv(TABLES_DIR / "gradient_boosting_optimized_importances.csv", index=False)
+    print(f"Saved feature importances to {TABLES_DIR}/gradient_boosting_optimized_importances.csv")
 
 
 if __name__ == "__main__":
