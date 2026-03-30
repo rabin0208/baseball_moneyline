@@ -1,0 +1,388 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+831475,2026-03-01,Final,Miami Marlins,Washington Nationals,Chris Paddack,Brad Lord,0.5368026915598988,1
+831477,2026-03-01,Final,Pittsburgh Pirates,St. Louis Cardinals,Hunter Barco,Kyle Leahy,0.48421627577086335,0
+831531,2026-03-01,Final,Atlanta Braves,Minnesota Twins,Grant Holmes,Mick Abel,0.5191711420530497,1
+831578,2026-03-01,Final,New York Yankees,Philadelphia Phillies,Will Warren,Andrew Painter,0.555529178264699,1
+831579,2026-03-01,Final,Houston Astros,New York Mets,Jason Alexander,Clay Holmes,0.5142426370602308,1
+831585,2026-03-01,Final,Tampa Bay Rays,Atlanta Braves,Drew Rasmussen,Reynaldo López,0.5176198028811254,1
+831638,2026-03-01,Final,Baltimore Orioles,Boston Red Sox,Chris Bassitt,Ranger Suarez,0.6217435740662328,1
+831639,2026-03-01,Final,Toronto Blue Jays,Detroit Tigers,Grant Rogers,Tarik Skubal,0.5229722403118736,1
+831721,2026-03-01,Final,Texas Rangers,Seattle Mariners,Jacob Latz,Logan Gilbert,0.5921815692572366,1
+831768,2026-03-01,Final,San Diego Padres,San Francisco Giants,Germán Márquez,Logan Webb,0.528778851426253,1
+831794,2026-03-01,Final,Milwaukee Brewers,Kansas City Royals,Chad Patrick,Kris Bubic,0.6061057384736662,1
+831827,2026-03-01,Final,Los Angeles Angels,Los Angeles Dodgers,Reid Detmers,Landon Knack,0.5910618683921558,1
+831867,2026-03-01,Final,Colorado Rockies,Cleveland Guardians,Chase Dollander,Gavin Williams,0.6315574909855999,1
+831888,2026-03-01,Final,Cleveland Guardians,Arizona Diamondbacks,Daniel Espino,Michael Soroka,0.5525149108161316,1
+831899,2026-03-01,Final,Cincinnati Reds,Athletics,Andrew Abbott,J.T. Ginn,0.5858297767477334,1
+831914,2026-03-01,Final,Chicago White Sox,Chicago Cubs,Anthony Kay,Shota Imanaga,0.5924556357528704,1
+831476,2026-03-02,Final,Miami Marlins,St. Louis Cardinals,Adam Mazur,Andre Pallante,0.4721504127069651,0
+831527,2026-03-02,Final,Atlanta Braves,Detroit Tigers,Bryce Elder,Framber Valdez,0.4489589449683542,0
+831529,2026-03-02,Final,Washington Nationals,Houston Astros,Josiah Gray,Hunter Brown,0.5655145026066736,1
+831577,2026-03-02,Final,Tampa Bay Rays,Pittsburgh Pirates,Mason Englert,Mike Clevinger,0.5526009555547807,1
+831640,2026-03-02,Final,Boston Red Sox,Toronto Blue Jays,Johan Oviedo,Cody Ponce,0.5433274016117581,1
+831760,2026-03-02,Final,San Francisco Giants,Chicago White Sox,Landen Roupp,Davis Martin,0.48169832785585065,0
+831808,2026-03-02,Final,Los Angeles Dodgers,Colorado Rockies,Ryder Ryan,Jimmy Herget,0.45006393938095834,0
+831840,2026-03-02,Final,Kansas City Royals,Los Angeles Angels,Noah Cameron,Grayson Rodriguez,0.46425923853399764,0
+831874,2026-03-02,Final,Cleveland Guardians,Texas Rangers,Slade Cecconi,Austin Gomber,0.515070775226106,1
+831930,2026-03-02,Final,Chicago Cubs,Cincinnati Reds,Jameson Taillon,Brady Singer,0.531013017913886,1
+831934,2026-03-02,Final,Athletics,San Diego Padres,Mason Barnett,Michael King,0.5739942262977505,1
+831430,2026-03-03,Final,Colombia,Pittsburgh Pirates,Julio Teheran,José Urquidy,0.1172388875078058,0
+831434,2026-03-03,Final,Nicaragua,New York Mets,Erasmo Ramírez,Jonah Tong,0.09896126730215007,0
+831436,2026-03-03,Final,Israel,Miami Marlins,Robert Stock,Braxton Garrett,0.17471296448004017,0
+831437,2026-03-03,Final,Canada,Toronto Blue Jays,Logan Allen,Kevin Gausman,0.14351709586174674,0
+831439,2026-03-03,Final,Puerto Rico,Boston Red Sox,Elmer Rodríguez,Jake Bennett,0.24855914253513176,0
+831440,2026-03-03,Final,Venezuela,Houston Astros,Eduard Bazardo,Cristian Javier,0.10820316944954579,0
+831445,2026-03-03,Final,Kingdom of the Netherlands,Baltimore Orioles,Ryjeteri Merite,Trevor Rogers,0.46765022212455326,0
+831532,2026-03-03,Final,Philadelphia Phillies,Tampa Bay Rays,Alan Rangel,Shane McClanahan,0.46574738883612876,0
+831641,2026-03-03,Final,Tampa Bay Rays,Minnesota Twins,Brody Hopkins,Simeon Woods Richardson,0.5682397482366931,1
+831720,2026-03-03,Final,United States,San Francisco Giants,Paul Skenes,Adrian Houser,0.15191770486244985,0
+831772,2026-03-03,Final,San Diego Padres,Chicago White Sox,Nick Pivetta,Sean Newcomb,0.45585653368822254,0
+831800,2026-03-03,Final,Mexico,Arizona Diamondbacks,,Zac Gallen,0.09911146113326823,0
+831811,2026-03-03,Final,Los Angeles Dodgers,Cleveland Guardians,Roki Sasaki,Joey Cantillo,0.4931791318292691,0
+831817,2026-03-03,Final,Los Angeles Angels,Seattle Mariners,George Klassen,Bryan Woo,0.5740528756140906,1
+831851,2026-03-03,Final,Cuba,Kansas City Royals,,Ryan Bergert,0.4707204301620726,0
+831853,2026-03-03,Final,Italy,Chicago Cubs,,Cade Horton,0.466258511095573,0
+831855,2026-03-03,Final,Great Britain,Milwaukee Brewers,,Jacob Misiorowski,0.2351866867563466,0
+836149,2026-03-03,Final,Detroit Tigers,Dominican Republic,Ty Madden,Luis Severino,0.9391099389778397,1
+831427,2026-03-04,Final,Canada,Philadelphia Phillies,Cal Quantrill,Aaron Nola,0.574020630843184,1
+831428,2026-03-04,Final,Venezuela,Washington Nationals,Eduardo Rodriguez,Foster Griffin,0.4458157290923231,0
+831429,2026-03-04,Final,Nicaragua,St. Louis Cardinals,Dilmer Mejia,Matthew Liberatore,0.6137860497979643,1
+831431,2026-03-04,Final,Israel,New York Mets,Ben Simon,David Peterson,0.4373291325933894,0
+831433,2026-03-04,Final,Panama,Detroit Tigers,Jaime Barria,Jack Flaherty,0.43532929808873105,0
+831435,2026-03-04,Final,Puerto Rico,Minnesota Twins,Raymond Burgos,Zebby Matthews,0.5533154637947384,1
+831438,2026-03-04,Final,Colombia,Atlanta Braves,Luis Patiño,Elieser Hernández,0.49068222187560495,0
+831634,2026-03-04,Final,New York Yankees,Boston Red Sox,Luis Gil,Garrett Crochet,0.5375679545922699,1
+831642,2026-03-04,Final,Houston Astros,Baltimore Orioles,Colton Gordon,Shane Baz,0.5006572704733216,1
+831739,2026-03-04,Final,Seattle Mariners,San Francisco Giants,Cooper Criswell,Robbie Ray,0.5882168498552793,1
+831799,2026-03-04,Final,Mexico,Los Angeles Dodgers,,Tyler Glasnow,0.4663231247450539,0
+831844,2026-03-04,Final,Italy,Los Angeles Angels,Gabriele Quattrini,Mitch Farris,0.3837860380776681,0
+831854,2026-03-04,Final,Great Britain,San Diego Padres,,Joe Musgrove,0.5464416800198586,1
+831929,2026-03-04,Final,Chicago Cubs,Milwaukee Brewers,Edward Cabrera,Brandon Sproat,0.5168622719310036,1
+831963,2026-03-04,Final,Arizona Diamondbacks,Athletics,Brandon Pfaadt,Jeffrey Springs,0.5424601022979596,1
+836150,2026-03-04,Final,Detroit Tigers,Dominican Republic,Burch Smith,Brayan Bello,0.6482502348839695,1
+831478,2026-03-05,Final,St. Louis Cardinals,Pittsburgh Pirates,Dustin May,Mitch Keller,0.6065596235739532,1
+831479,2026-03-05,Final,New York Mets,Washington Nationals,Justin Hagenman,Miles Mikolas,0.49914637154234826,0
+831581,2026-03-05,Final,Boston Red Sox,Philadelphia Phillies,T.J. Sikkema,Jesús Luzardo,0.5451656732814992,1
+831582,2026-03-05,Final,Houston Astros,Miami Marlins,Tatsuya Imai,Sandy Alcantara,0.4944818080236385,0
+831583,2026-03-05,Final,Toronto Blue Jays,Atlanta Braves,Eric Lauer,Chris Sale,0.5209732547320097,1
+831633,2026-03-05,Final,Baltimore Orioles,Tampa Bay Rays,Zach Eflin,Ryan Pepiot,0.5441716668430527,1
+831733,2026-03-05,Final,Texas Rangers,Kansas City Royals,MacKenzie Gore,Cole Ragans,0.6121540613873412,1
+831765,2026-03-05,Final,San Diego Padres,Seattle Mariners,Walker Buehler,Luis Castillo,0.519061244393924,1
+831792,2026-03-05,Final,Milwaukee Brewers,Colorado Rockies,Robert Gasser,Michael Lorenzen,0.5305173014977254,1
+831810,2026-03-05,Final,Los Angeles Dodgers,Cincinnati Reds,Cole Irvin,Jose Franco,0.47914541819340345,0
+831880,2026-03-05,Final,Cleveland Guardians,Chicago White Sox,Tanner Bibee,Sean Burke,0.4747399998846667,0
+831941,2026-03-05,Final,Athletics,Los Angeles Angels,Luis Morales,Alek Manoah,0.5283610745563194,1
+831961,2026-03-05,Final,Arizona Diamondbacks,Chicago Cubs,Ryne Nelson,Colin Rea,0.5580950107863665,1
+831470,2026-03-06,Final,Philadelphia Phillies,Pittsburgh Pirates,Jean Cabrera,Braxton Ashcraft,0.5653513122722387,1
+831480,2026-03-06,Final,New York Mets,Miami Marlins,Sean Manaea,Max Meyer,0.5540100332543435,1
+831519,2026-03-06,Final,St. Louis Cardinals,Baltimore Orioles,Michael McGreevy,Chris Bassitt,0.5000785545223203,1
+831521,2026-03-06,Final,Atlanta Braves,Minnesota Twins,Reynaldo López,Bailey Ober,0.47322185673751044,0
+831524,2026-03-06,Final,Washington Nationals,Houston Astros,Cade Cavalli,Mike Burrows,0.5074009147121598,1
+831525,2026-03-06,Final,Pittsburgh Pirates,Toronto Blue Jays,Bubba Chandler,José Berríos,0.5161436044008205,1
+831624,2026-03-06,Final,Tampa Bay Rays,New York Yankees,Joe Boyle,Cam Schlittler,0.6112073187373772,1
+831631,2026-03-06,Final,Boston Red Sox,Detroit Tigers,Connelly Early,Justin Verlander,0.5751510600474834,1
+831737,2026-03-06,Final,Seattle Mariners,Texas Rangers,Kade Anderson,Jack Leiter,0.6076775220796333,1
+831826,2026-03-06,Final,Los Angeles Angels,Cleveland Guardians,Reid Detmers,Gavin Williams,0.6169523131668387,1
+831842,2026-03-06,Final,Kansas City Royals,Los Angeles Dodgers,Mitch Spence,Ryder Ryan,0.5728958626319117,1
+831871,2026-03-06,Final,Colorado Rockies,Athletics,Chase Dollander,J.T. Ginn,0.6330883114690761,1
+831889,2026-03-06,Final,Cincinnati Reds,San Francisco Giants,Andrew Abbott,Tyler Mahle,0.5619203376290204,1
+831919,2026-03-06,Final,Chicago White Sox,Arizona Diamondbacks,Anthony Kay,Daniel Eagen,0.5374060325281672,1
+831921,2026-03-06,Final,Chicago Cubs,San Diego Padres,Ben Brown,Germán Márquez,0.5409359668369349,1
+831954,2026-03-06,Final,Arizona Diamondbacks,Milwaukee Brewers,Mitch Bratt,Chad Patrick,0.5756894185823579,1
+831469,2026-03-07,Final,New York Mets,St. Louis Cardinals,Kodai Senga,Kyle Leahy,0.44619432978564194,0
+831518,2026-03-07,Final,Pittsburgh Pirates,Detroit Tigers,Hunter Barco,Casey Mize,0.48230781676600254,0
+831523,2026-03-07,Final,Miami Marlins,Houston Astros,Chris Paddack,Jason Alexander,0.5681692836010407,1
+831568,2026-03-07,Final,New York Yankees,Washington Nationals,Will Warren,Josiah Gray,0.5074837806526001,1
+831576,2026-03-07,Final,Toronto Blue Jays,Philadelphia Phillies,Max Scherzer,Andrew Painter,0.49254890647909233,0
+831580,2026-03-07,Final,Baltimore Orioles,Atlanta Braves,Luis De León,Grant Holmes,0.5561872938067344,1
+831630,2026-03-07,Final,Minnesota Twins,Baltimore Orioles,Mick Abel,Cade Povich,0.4837876247470165,0
+831726,2026-03-07,Final,Texas Rangers,San Francisco Giants,Jacob Latz,Carson Whisenhunt,0.5384839675506256,1
+831774,2026-03-07,Final,San Diego Padres,Cleveland Guardians,Michael King,Slade Cecconi,0.4929747157417687,0
+831795,2026-03-07,Final,Milwaukee Brewers,Los Angeles Angels,Brandon Woodruff,Grayson Rodriguez,0.5067279961898046,1
+831828,2026-03-07,Final,Los Angeles Angels,Athletics,Ryan Johnson,Gage Jump,0.5351406916155836,1
+831863,2026-03-07,Final,Colorado Rockies,Los Angeles Dodgers,Sean Sullivan,Landon Knack,0.6342813996301988,1
+831897,2026-03-07,Final,Cincinnati Reds,Kansas City Royals,Nick Lodolo,Kris Bubic,0.5739166292628272,1
+831904,2026-03-07,Final,Chicago White Sox,Seattle Mariners,Grant Taylor,Logan Gilbert,0.5274959456740622,1
+831949,2026-03-07,Final,Athletics,Chicago Cubs,Mason Barnett,Shota Imanaga,0.526120878123228,1
+832862,2026-03-07,Final,San Francisco Giants,Arizona Diamondbacks,JT Brubaker,Kohl Drake,0.4819044040175876,0
+831467,2026-03-08,Final,St. Louis Cardinals,Miami Marlins,Andre Pallante,Braxton Garrett,0.5670620159050764,1
+831520,2026-03-08,Final,Atlanta Braves,Tampa Bay Rays,Bryce Elder,Logan Workman,0.4220457308475655,0
+831522,2026-03-08,Final,Philadelphia Phillies,Minnesota Twins,Alan Rangel,Simeon Woods Richardson,0.5556963579504219,1
+831571,2026-03-08,Final,Boston Red Sox,Pittsburgh Pirates,Jake Bennett,Carmen Mlodzinski,0.583094703299612,1
+831572,2026-03-08,Final,Houston Astros,Washington Nationals,Hunter Brown,Andrew Alvarez,0.5175413361414535,1
+831575,2026-03-08,Final,New York Yankees,New York Mets,Ryan Weathers,Freddy Peralta,0.549834579981311,1
+831627,2026-03-08,Final,Detroit Tigers,Toronto Blue Jays,Bryan Sammons,Kevin Gausman,0.5635958203734667,1
+831628,2026-03-08,Final,Toronto Blue Jays,Baltimore Orioles,Cody Ponce,Tyler Wells,0.4948829868217105,0
+831740,2026-03-08,Final,Seattle Mariners,Milwaukee Brewers,George Kirby,Kyle Harrison,0.6241157090555768,1
+831757,2026-03-08,Final,San Francisco Giants,Chicago Cubs,Landen Roupp,Caleb Thielbar,0.46215048115325563,0
+831812,2026-03-08,Final,Los Angeles Dodgers,Athletics,Justin Wrobleski,Jacob Lopez,0.5232085636774382,1
+831813,2026-03-08,Final,Los Angeles Angels,Texas Rangers,Victor Mederos,Nathan Eovaldi,0.6197276413804323,1
+831832,2026-03-08,Final,Los Angeles Angels,Athletics,Jack Kochanowicz,Aaron Civale,0.534487071597088,1
+831848,2026-03-08,Final,Kansas City Royals,Chicago White Sox,Noah Cameron,Jordan Hicks,0.5032786931975013,1
+831882,2026-03-08,Final,Cleveland Guardians,Colorado Rockies,Joey Cantillo,Eiberson Castellano,0.4729659621951681,0
+831892,2026-03-08,Final,Cincinnati Reds,San Diego Padres,Chase Burns,Logan Gillaspie,0.5902124077422586,1
+831960,2026-03-08,Final,Arizona Diamondbacks,Cincinnati Reds,Drey Jameson,Brady Singer,0.5784755686940426,1
+831468,2026-03-09,Final,Miami Marlins,New York Mets,Tyler Phillips,Zach Thornton,0.4784455954756201,0
+831515,2026-03-09,Final,Philadelphia Phillies,Boston Red Sox,Bryse Wilson,Garrett Crochet,0.5113344364991075,1
+831516,2026-03-09,Final,St. Louis Cardinals,Houston Astros,Richard Fitts,Cristian Javier,0.5962367456371355,1
+831517,2026-03-09,Final,Pittsburgh Pirates,New York Yankees,José Urquidy,Max Fried,0.5162208152013869,1
+831569,2026-03-09,Final,Minnesota Twins,Atlanta Braves,Zebby Matthews,Carlos Carrasco,0.567960228123522,1
+831570,2026-03-09,Final,Baltimore Orioles,St. Louis Cardinals,Trey Gibson,Matthew Liberatore,0.5860630852340836,1
+831626,2026-03-09,Final,Tampa Bay Rays,Detroit Tigers,Shane McClanahan,Framber Valdez,0.5447536904437176,1
+831725,2026-03-09,Final,Texas Rangers,San Diego Padres,Trey Supak,Randy Vásquez,0.5988086691550882,1
+831748,2026-03-09,Final,Seattle Mariners,Arizona Diamondbacks,Bryan Woo,Zac Gallen,0.5726266830753024,1
+831802,2026-03-09,Final,Los Angeles Dodgers,Milwaukee Brewers,Emmet Sheehan,Aaron Ashby,0.49707866346255103,0
+831816,2026-03-09,Final,Los Angeles Angels,San Francisco Giants,José Soriano,Robbie Ray,0.5775087494247698,1
+831865,2026-03-09,Final,Colorado Rockies,Chicago White Sox,Kyle Freeland,Jedixson Paez,0.5846892869382758,1
+831881,2026-03-09,Final,Cleveland Guardians,Kansas City Royals,Parker Messick,Ryan Bergert,0.4834163730537068,0
+831943,2026-03-09,Final,Athletics,Cincinnati Reds,Jack Perkins,Rhett Lowder,0.458005020976377,0
+831471,2026-03-10,Final,Washington Nationals,Miami Marlins,Foster Griffin,Eury Pérez,0.4936629117786019,0
+831473,2026-03-10,Final,St. Louis Cardinals,New York Mets,Jared Shuster,David Peterson,0.5874415745134666,1
+831513,2026-03-10,Final,Atlanta Braves,Toronto Blue Jays,JR Ritchie,Dylan Cease,0.4980965408963754,0
+831573,2026-03-10,Final,New York Yankees,Philadelphia Phillies,Luis Gil,Tanner Banks,0.5158368916240144,1
+831617,2026-03-10,Final,Baltimore Orioles,Houston Astros,Levi Wells,Lance McCullers Jr.,0.5920939866895869,1
+831618,2026-03-10,Final,Minnesota Twins,Tampa Bay Rays,Joe Ryan,Steven Matz,0.5399688021198535,1
+831625,2026-03-10,Final,Detroit Tigers,Boston Red Sox,Ty Madden,Sonny Gray,0.5069770749288566,1
+831758,2026-03-10,Final,San Francisco Giants,Cleveland Guardians,Carson Seymour,Tanner Bibee,0.5485505589790408,1
+831771,2026-03-10,Final,San Diego Padres,Los Angeles Angels,Walker Buehler,Mitch Farris,0.510862862458623,1
+831836,2026-03-10,Final,Kansas City Royals,Seattle Mariners,Cole Ragans,Cooper Criswell,0.4723017425865482,0
+831898,2026-03-10,Final,Cincinnati Reds,Colorado Rockies,Brandon Williamson,Ryan Feltner,0.5270479156858173,1
+831918,2026-03-10,Final,Chicago White Sox,Athletics,Shane Smith,Jeffrey Springs,0.5140673631647849,1
+831920,2026-03-10,Final,Chicago Cubs,Texas Rangers,Cade Horton,Jacob deGrom,0.5233029119668545,1
+831956,2026-03-10,Final,Arizona Diamondbacks,Los Angeles Dodgers,Brandon Pfaadt,Tyler Glasnow,0.6401709274482918,1
+831465,2026-03-11,Final,St. Louis Cardinals,Washington Nationals,Dustin May,Cade Cavalli,0.5193977731544236,1
+831507,2026-03-11,Final,Pittsburgh Pirates,Baltimore Orioles,Noah Davis,Kyle Bradish,0.5448493510190013,1
+831561,2026-03-11,Final,Houston Astros,Miami Marlins,Tatsuya Imai,Max Meyer,0.5175814513232467,1
+831574,2026-03-11,Final,Tampa Bay Rays,Atlanta Braves,Nick Martinez,Spencer Strider,0.5364417636679191,1
+831619,2026-03-11,Final,Detroit Tigers,Minnesota Twins,Tanner Rainey,Taj Bradley,0.49780300443995024,0
+831620,2026-03-11,Final,Toronto Blue Jays,New York Yankees,Eric Lauer,Cam Schlittler,0.49378648191177316,0
+831762,2026-03-11,Final,San Francisco Giants,Kansas City Royals,Tyler Mahle,Bailey Falter,0.48905481787471544,0
+831793,2026-03-11,Final,Milwaukee Brewers,Cincinnati Reds,Robert Gasser,Andrew Abbott,0.49227821331596594,0
+831824,2026-03-11,Final,Los Angeles Angels,Chicago White Sox,Alek Manoah,Anthony Kay,0.6037549832248764,1
+831849,2026-03-11,Final,Kansas City Royals,Chicago Cubs,Mitch Spence,Colin Rea,0.5650766374078047,1
+831861,2026-03-11,Final,Colorado Rockies,Seattle Mariners,Chase Dollander,Luis Castillo,0.5810880005254683,1
+831950,2026-03-11,Final,Athletics,Arizona Diamondbacks,Luis Morales,Ryne Nelson,0.49813828813596905,0
+831466,2026-03-12,Final,Atlanta Braves,Pittsburgh Pirates,Grant Holmes,Bubba Chandler,0.5244208213793372,1
+831472,2026-03-12,Final,New York Mets,St. Louis Cardinals,Sean Manaea,Michael McGreevy,0.49275274843125566,0
+831510,2026-03-12,Final,Washington Nationals,Houston Astros,Jake Irvin,Mike Burrows,0.5362826739386787,1
+831621,2026-03-12,Final,New York Yankees,Detroit Tigers,Will Warren,Justin Verlander,0.5253266037343755,1
+831622,2026-03-12,Final,Boston Red Sox,Minnesota Twins,Connelly Early,Bailey Ober,0.5893723917356163,1
+831754,2026-03-12,Final,Seattle Mariners,Chicago Cubs,Emerson Hancock,Edward Cabrera,0.6267000800255024,1
+831791,2026-03-12,Final,Milwaukee Brewers,Cleveland Guardians,DL Hall,Slade Cecconi,0.5204927465918134,1
+831839,2026-03-12,Final,Kansas City Royals,San Diego Padres,Kris Bubic,Germán Márquez,0.5438752230184911,1
+831869,2026-03-12,Final,Colorado Rockies,Arizona Diamondbacks,Sean Sullivan,Taylor Clarke,0.5021254255523037,1
+831894,2026-03-12,Final,Cincinnati Reds,Los Angeles Dodgers,Nick Lodolo,Cole Irvin,0.5850940473627712,1
+831908,2026-03-12,Final,Chicago White Sox,San Francisco Giants,Ryan Borucki,Trevor McDonald,0.6053070803108673,1
+831936,2026-03-12,Final,Athletics,Texas Rangers,J.T. Ginn,Jack Leiter,0.5322460478355441,1
+831462,2026-03-13,Final,Miami Marlins,New York Mets,Chris Paddack,Kodai Senga,0.5497432762096554,1
+831464,2026-03-13,Final,New York Mets,Washington Nationals,Carl Edwards Jr.,Zack Littell,0.5407883547938014,1
+831512,2026-03-13,Final,Pittsburgh Pirates,Detroit Tigers,Mike Clevinger,Casey Mize,0.5281573619073527,1
+831563,2026-03-13,Final,New York Yankees,Atlanta Braves,Ryan Weathers,Didier Fuentes,0.5211312743985471,1
+831565,2026-03-13,Final,Baltimore Orioles,Philadelphia Phillies,Cade Povich,Andrew Painter,0.5206277588620832,1
+831567,2026-03-13,Final,Houston Astros,St. Louis Cardinals,Kai-Wei Teng,Kyle Leahy,0.46877578981738843,0
+831616,2026-03-13,Final,Tampa Bay Rays,Boston Red Sox,Drew Rasmussen,Johan Oviedo,0.5587752533163916,1
+831623,2026-03-13,Final,Minnesota Twins,Toronto Blue Jays,Mick Abel,Cody Ponce,0.5760915079290045,1
+831731,2026-03-13,Final,Texas Rangers,Colorado Rockies,Jacob Latz,Jose Quintana,0.5169816271565504,1
+831759,2026-03-13,Final,San Francisco Giants,Cincinnati Reds,Carson Whisenhunt,Brady Singer,0.5313934919648763,1
+831778,2026-03-13,Final,San Diego Padres,Athletics,Michael King,Aaron Civale,0.4887535025156237,0
+831801,2026-03-13,Final,Los Angeles Dodgers,Seattle Mariners,Landon Knack,Kade Anderson,0.4703308613433316,0
+831879,2026-03-13,Final,Cleveland Guardians,Los Angeles Angels,Joey Cantillo,Grayson Rodriguez,0.4947609508904147,0
+831891,2026-03-13,Final,Cincinnati Reds,San Francisco Giants,Chase Burns,Landen Roupp,0.6215905571977068,1
+831933,2026-03-13,Final,Chicago Cubs,Chicago White Sox,Riley Martin,Davis Martin,0.5284498200147804,1
+831935,2026-03-13,Final,Athletics,Milwaukee Brewers,Gage Jump,Kyle Harrison,0.6076069374606926,1
+831958,2026-03-13,Final,Arizona Diamondbacks,Kansas City Royals,Merrill Kelly,Michael Wacha,0.6292027138447238,1
+831459,2026-03-14,Final,Miami Marlins,Washington Nationals,,Alex Clemmey,0.5616565764139995,1
+831460,2026-03-14,Final,St. Louis Cardinals,Miami Marlins,Andre Pallante,,0.5112762790136612,1
+831508,2026-03-14,Final,New York Mets,Houston Astros,Freddy Peralta,Ryan Weiss,0.5243230998944864,1
+831514,2026-03-14,Final,Philadelphia Phillies,New York Yankees,Bryse Wilson,Max Fried,0.5845005862142271,1
+831562,2026-03-14,Final,Baltimore Orioles,Pittsburgh Pirates,Trevor Rogers,Carmen Mlodzinski,0.5302018702815362,1
+831566,2026-03-14,Final,Boston Red Sox,Atlanta Braves,Brayan Bello,Bryce Elder,0.5866161861667729,1
+831613,2026-03-14,Final,Tampa Bay Rays,Minnesota Twins,Jake Woodford,Simeon Woods Richardson,0.5791523857053757,1
+831614,2026-03-14,Final,Detroit Tigers,Toronto Blue Jays,Tarik Skubal,Max Scherzer,0.576834107996583,1
+831728,2026-03-14,Final,Texas Rangers,Cincinnati Reds,Austin Gomber,Rhett Lowder,0.4837252892399725,0
+831747,2026-03-14,Final,Seattle Mariners,Los Angeles Angels,Logan Gilbert,Walbert Urena,0.5841467302945558,1
+831770,2026-03-14,Final,San Diego Padres,Texas Rangers,Marco Gonzales,Nathan Eovaldi,0.5347776436303782,1
+831809,2026-03-14,Final,Los Angeles Dodgers,Chicago White Sox,Justin Wrobleski,Mike Vasil,0.47058888189152714,0
+831850,2026-03-14,Final,Kansas City Royals,Athletics,Ryan Bergert,Jacob Lopez,0.6383349325480016,1
+831860,2026-03-14,Final,Colorado Rockies,Milwaukee Brewers,Zach Agnos,Jacob Misiorowski,0.5682373243642808,1
+831877,2026-03-14,Final,Cleveland Guardians,San Diego Padres,Logan Allen,Nick Pivetta,0.5258095926049945,1
+831928,2026-03-14,Final,Chicago Cubs,Colorado Rockies,Ben Brown,Kyle Freeland,0.5139423081721293,1
+831953,2026-03-14,Final,Arizona Diamondbacks,San Francisco Giants,Zac Gallen,Adrian Houser,0.6338585441074593,1
+831458,2026-03-15,Final,Atlanta Braves,Philadelphia Phillies,José Suarez,Taijuan Walker,0.5628571968870908,1
+831461,2026-03-15,Final,Washington Nationals,St. Louis Cardinals,Miles Mikolas,Richard Fitts,0.521474523969499,1
+831509,2026-03-15,Final,Miami Marlins,Houston Astros,Eury Pérez,Cristian Javier,0.581935599757668,1
+831511,2026-03-15,Final,Pittsburgh Pirates,Tampa Bay Rays,José Urquidy,Shane McClanahan,0.5317797508887995,1
+831611,2026-03-15,Final,Detroit Tigers,New York Yankees,Framber Valdez,Luis Gil,0.5800121237885402,1
+831615,2026-03-15,Final,Minnesota Twins,Boston Red Sox,Zebby Matthews,Kyle Keller,0.5053451587193378,1
+831727,2026-03-15,Final,Texas Rangers,Los Angeles Dodgers,Trey Supak,River Ryan,0.5187975498922535,1
+831777,2026-03-15,Final,San Diego Padres,Arizona Diamondbacks,Randy Vásquez,Brandon Pfaadt,0.4521675682206605,0
+831787,2026-03-15,Final,Milwaukee Brewers,San Francisco Giants,Shane Drohan,Robbie Ray,0.5528809463569522,1
+831814,2026-03-15,Final,Los Angeles Dodgers,Chicago Cubs,Emmet Sheehan,Jameson Taillon,0.5426391332239345,1
+831858,2026-03-15,Final,Colorado Rockies,Los Angeles Angels,Tanner Gordon,Austin Gordon,0.5389437601026273,1
+831890,2026-03-15,Final,Cincinnati Reds,Seattle Mariners,Brandon Williamson,George Kirby,0.5108312406605765,1
+831913,2026-03-15,Final,Chicago White Sox,Kansas City Royals,Hagen Smith,Cole Ragans,0.5491318505468298,1
+831944,2026-03-15,Final,Athletics,Cleveland Guardians,Wei-En Lin,Tanner Bibee,0.5319343074934365,1
+831457,2026-03-16,Final,Washington Nationals,New York Mets,Zach Penrod,David Peterson,0.5425785176788237,1
+831498,2026-03-16,Final,Philadelphia Phillies,Detroit Tigers,Chuck King,Jack Flaherty,0.5381358168021365,1
+831506,2026-03-16,Final,Pittsburgh Pirates,Minnesota Twins,Noah Davis,Joe Ryan,0.560386432074962,1
+831557,2026-03-16,Final,Tampa Bay Rays,Atlanta Braves,Nick Martinez,Chris Sale,0.5436768058966865,1
+831751,2026-03-16,Final,San Francisco Giants,San Diego Padres,Tyler Mahle,Walker Buehler,0.5349686724255108,1
+831785,2026-03-16,Final,Milwaukee Brewers,Los Angeles Dodgers,Chad Patrick,Tyler Glasnow,0.5971584121146116,1
+831834,2026-03-16,Final,Los Angeles Angels,Athletics,George Klassen,Jeffrey Springs,0.5170007774625878,1
+831903,2026-03-16,Final,Cincinnati Reds,Arizona Diamondbacks,Andrew Abbott,Ryne Nelson,0.46568776012635665,0
+831905,2026-03-16,Final,Chicago White Sox,Texas Rangers,Sean Burke,MacKenzie Gore,0.5470652048290591,1
+831924,2026-03-16,Final,Chicago Cubs,Cleveland Guardians,Cade Horton,Gavin Williams,0.5807179051887145,1
+831454,2026-03-17,Final,St. Louis Cardinals,Washington Nationals,Dustin May,Jake Irvin,0.5192507470625434,1
+831504,2026-03-17,Final,Atlanta Braves,Boston Red Sox,Reynaldo López,Sonny Gray,0.4724540458971729,0
+831554,2026-03-17,Final,Minnesota Twins,Philadelphia Phillies,Bailey Ober,Jesús Luzardo,0.5580413284921845,1
+831560,2026-03-17,Final,Houston Astros,Pittsburgh Pirates,Lance McCullers Jr.,Mitch Keller,0.4595089349438727,0
+831609,2026-03-17,Final,New York Yankees,Tampa Bay Rays,Will Warren,Ryan Pepiot,0.5312532497353646,1
+831610,2026-03-17,Final,Baltimore Orioles,Detroit Tigers,Chris Bassitt,Justin Verlander,0.6200604275839652,1
+831742,2026-03-17,Final,Seattle Mariners,Colorado Rockies,Cooper Criswell,Chase Dollander,0.5239004475956512,1
+831769,2026-03-17,Final,San Diego Padres,Seattle Mariners,Germán Márquez,Luis Castillo,0.580484060491193,1
+831806,2026-03-17,Final,Los Angeles Dodgers,Kansas City Royals,Roki Sasaki,Aaron Sanchez,0.5190914862900138,1
+831831,2026-03-17,Final,Los Angeles Angels,Chicago Cubs,Alek Manoah,Shota Imanaga,0.50702684883906,1
+831883,2026-03-17,Final,Cleveland Guardians,Cincinnati Reds,Kolby Allard,Nick Lodolo,0.5133011407315713,1
+831942,2026-03-17,Final,Athletics,Chicago White Sox,Luis Morales,Anthony Kay,0.4702802451413714,0
+831453,2026-03-18,Final,Philadelphia Phillies,Atlanta Braves,Andrew Painter,Martín Pérez,0.5400864915629822,1
+831556,2026-03-18,Final,Houston Astros,St. Louis Cardinals,J.P. France,Kyle Leahy,0.49441324422278377,0
+831558,2026-03-18,Final,Detroit Tigers,Pittsburgh Pirates,Casey Mize,Braxton Ashcraft,0.515363041421056,1
+831600,2026-03-18,Final,Baltimore Orioles,Toronto Blue Jays,Albert Suárez,Josh Fleming,0.5900665757338287,1
+831607,2026-03-18,Final,Boston Red Sox,New York Yankees,Connelly Early,Gerrit Cole,0.5973820971119215,1
+831784,2026-03-18,Final,Milwaukee Brewers,Seattle Mariners,Carlos Rodriguez,Emerson Hancock,0.49757060553232635,0
+831818,2026-03-18,Final,Los Angeles Angels,Milwaukee Brewers,Ryan Johnson,Kyle Harrison,0.5425296002378976,1
+831833,2026-03-18,Final,Kansas City Royals,Texas Rangers,Michael Wacha,Kumar Rocker,0.5816667435218991,1
+831866,2026-03-18,Final,Colorado Rockies,Cincinnati Reds,Jose Quintana,Brady Singer,0.6228866864326944,1
+831895,2026-03-18,Final,Cincinnati Reds,Los Angeles Angels,Chase Burns,Jack Kochanowicz,0.5358053289144995,1
+831932,2026-03-18,Final,Chicago Cubs,Arizona Diamondbacks,Edward Cabrera,Merrill Kelly,0.5008828699467613,1
+831452,2026-03-19,Final,Washington Nationals,St. Louis Cardinals,Zack Littell,Quinn Mathews,0.5298336546280671,1
+831500,2026-03-19,Final,New York Mets,Houston Astros,Kodai Senga,Peter Lambert,0.5289096309581269,1
+831501,2026-03-19,Final,Pittsburgh Pirates,Baltimore Orioles,Cam Sanders,Trevor Rogers,0.5605228466855686,1
+831551,2026-03-19,Final,Tampa Bay Rays,Philadelphia Phillies,Drew Rasmussen,Tim Mayza,0.5754572106260917,1
+831605,2026-03-19,Final,New York Yankees,Toronto Blue Jays,Ryan Weathers,Cody Ponce,0.56884689188999,1
+831606,2026-03-19,Final,Minnesota Twins,Boston Red Sox,Mick Abel,Brayan Bello,0.521784136231663,1
+831722,2026-03-19,Final,Texas Rangers,Milwaukee Brewers,Jacob Latz,Brandon Woodruff,0.5164286055270411,1
+831755,2026-03-19,Final,Seattle Mariners,Athletics,,Aaron Civale,0.548784957350247,1
+831756,2026-03-19,Final,San Francisco Giants,Colorado Rockies,Logan Webb,Tomoyuki Sugano,0.4481730881162472,0
+831822,2026-03-19,Final,Los Angeles Angels,Kansas City Royals,Yusei Kikuchi,Kris Bubic,0.5255193058344032,1
+831846,2026-03-19,Final,Kansas City Royals,Cleveland Guardians,Noah Cameron,Parker Messick,0.6221882826253923,1
+831907,2026-03-19,Final,Chicago White Sox,San Diego Padres,Jonathan Cannon,Michael King,0.5595527484166319,1
+831962,2026-03-19,Final,Arizona Diamondbacks,Chicago White Sox,Michael Soroka,Davis Martin,0.5809817829921237,1
+832062,2026-03-19,Final,Baltimore Orioles,New York Yankees,Dean Kremer,Max Fried,0.5655423728352078,1
+831450,2026-03-20,Final,Washington Nationals,Miami Marlins,Foster Griffin,Chris Paddack,0.4820654486100076,0
+831451,2026-03-20,Final,Pittsburgh Pirates,Atlanta Braves,Yohan Ramírez,José Suarez,0.5414319211394659,1
+831456,2026-03-20,Final,St. Louis Cardinals,New York Mets,Matthew Liberatore,Tobias Myers,0.5555372596227472,1
+831505,2026-03-20,Final,Miami Marlins,Houston Astros,Eury Pérez,Hunter Brown,0.572986867195333,1
+831550,2026-03-20,Final,Detroit Tigers,Philadelphia Phillies,Tarik Skubal,Cristopher Sánchez,0.510996457384252,1
+831602,2026-03-20,Final,Boston Red Sox,Tampa Bay Rays,Blake Wehunt,Shane McClanahan,0.5056758248600831,1
+831603,2026-03-20,Final,Baltimore Orioles,New York Yankees,Zach Eflin,Luis Gil,0.5868017332175168,1
+831604,2026-03-20,Final,Toronto Blue Jays,Minnesota Twins,Max Scherzer,Simeon Woods Richardson,0.4595218406884701,0
+831743,2026-03-20,Final,Seattle Mariners,Cleveland Guardians,Gabe Mosser,Logan Allen,0.5441835680327998,1
+831749,2026-03-20,Final,San Francisco Giants,Texas Rangers,Spencer Bivens,Nathan Eovaldi,0.5389456977684307,1
+831766,2026-03-20,Final,San Diego Padres,Los Angeles Dodgers,Marco Gonzales,Yoshinobu Yamamoto,0.5956278235660161,1
+831796,2026-03-20,Final,Milwaukee Brewers,Arizona Diamondbacks,Jacob Misiorowski,Zac Gallen,0.5410669436902196,1
+831835,2026-03-20,Final,Kansas City Royals,San Francisco Giants,Ryan Bergert,Adrian Houser,0.6302896712266584,1
+831864,2026-03-20,Final,Colorado Rockies,San Diego Padres,Juan Mejia,Nick Pivetta,0.5862381034327465,1
+831902,2026-03-20,Final,Cincinnati Reds,Chicago Cubs,Brandon Williamson,Matthew Boyd,0.5249196156929046,1
+831910,2026-03-20,Final,Chicago White Sox,Los Angeles Angels,Shane Smith,José Soriano,0.5582621159549895,1
+831931,2026-03-20,Final,Chicago Cubs,Athletics,Jameson Taillon,,0.5672682960300884,1
+831448,2026-03-21,Final,New York Mets,Washington Nationals,,Cade Cavalli,0.5353181966156438,1
+831449,2026-03-21,Final,Miami Marlins,St. Louis Cardinals,Janson Junk,,0.5590302753825435,1
+831499,2026-03-21,Final,Philadelphia Phillies,Baltimore Orioles,Ryan Cusick,Levi Wells,0.46722766845323355,0
+831502,2026-03-21,Final,Atlanta Braves,Boston Red Sox,Chris Sale,Garrett Crochet,0.5064101302783515,1
+831549,2026-03-21,Final,Houston Astros,New York Mets,Mike Burrows,Jonah Tong,0.5085488396320933,1
+831553,2026-03-21,Final,Toronto Blue Jays,Pittsburgh Pirates,Kevin Gausman,Paul Skenes,0.490402629972184,0
+831599,2026-03-21,Final,Minnesota Twins,Tampa Bay Rays,Joe Ryan,Jackson Baumeister,0.5414128623944473,1
+831601,2026-03-21,Final,New York Yankees,Detroit Tigers,Cam Schlittler,Framber Valdez,0.5283329232529453,1
+831734,2026-03-21,Final,Texas Rangers,Arizona Diamondbacks,,Ryne Nelson,0.49320990842725165,0
+831767,2026-03-21,Final,San Diego Padres,Milwaukee Brewers,Randy Vásquez,Robert Gasser,0.544656912652446,1
+831868,2026-03-21,Final,Colorado Rockies,Kansas City Royals,Kyle Freeland,Cole Ragans,0.5474251248989298,1
+831873,2026-03-21,Final,Cleveland Guardians,San Francisco Giants,Tanner Bibee,Robbie Ray,0.5697047055576152,1
+831916,2026-03-21,Final,Chicago White Sox,Cincinnati Reds,Jedixson Paez,Andrew Abbott,0.4918863497213237,0
+831923,2026-03-21,Final,Chicago Cubs,Seattle Mariners,Colin Rea,,0.5589903567193553,1
+831937,2026-03-21,Final,Athletics,Los Angeles Dodgers,Jacob Lopez,Emmet Sheehan,0.5231941654413096,1
+831446,2026-03-22,Final,New York Mets,Miami Marlins,David Peterson,Sandy Alcantara,0.5626999237846572,1
+831492,2026-03-22,Final,Atlanta Braves,Minnesota Twins,Reynaldo López,Taj Bradley,0.4015988925870432,0
+831493,2026-03-22,Final,Philadelphia Phillies,New York Yankees,Aaron Nola,Will Warren,0.5223434832064634,1
+831496,2026-03-22,Final,St. Louis Cardinals,Houston Astros,Michael McGreevy,Cristian Javier,0.4884431352440168,0
+831503,2026-03-22,Final,Washington Nationals,Baltimore Orioles,Mitchell Parker,Kyle Bradish,0.5360662879052238,1
+831552,2026-03-22,Final,Boston Red Sox,Pittsburgh Pirates,Sonny Gray,Mitch Keller,0.51717398082884,1
+831592,2026-03-22,Final,Tampa Bay Rays,Toronto Blue Jays,Nick Martinez,Dylan Cease,0.569778912072828,1
+831746,2026-03-22,Final,Seattle Mariners,Chicago White Sox,Bryan Woo,Sean Burke,0.47809977897987205,0
+831752,2026-03-22,Final,San Francisco Giants,Sacramento River Cats,Tyler Mahle,John Michael Bertrand,0.7889658487047503,1
+831789,2026-03-22,Final,Milwaukee Brewers,Chicago Cubs,Chad Patrick,Cade Horton,0.5395052449739094,1
+831804,2026-03-22,Final,Los Angeles Dodgers,Los Angeles Angels,Tyler Glasnow,George Klassen,0.5434347992524006,1
+831896,2026-03-22,Final,Cincinnati Reds,Cleveland Guardians,Nick Lodolo,Gavin Williams,0.5490185735712863,1
+831945,2026-03-22,Final,Athletics,Colorado Rockies,Jeffrey Springs,Michael Lorenzen,0.5326417046571044,1
+831947,2026-03-22,Final,Arizona Diamondbacks,San Diego Padres,Joe Ross,Walker Buehler,0.6083773081646359,1
+831442,2026-03-23,Final,St. Louis Cardinals,Springfield Cardinals,Dustin May,Brycen Mautz,0.4600175426496903,0
+831447,2026-03-23,Final,Atlanta Braves,Pittsburgh Pirates,Didier Fuentes,Carson Fulmer,0.48499715029562007,0
+831546,2026-03-23,Final,Baltimore Orioles,Washington Nationals,Shane Baz,PJ Poulin,0.5217496788369311,1
+831547,2026-03-23,Final,Tampa Bay Rays,Philadelphia Phillies,Steven Matz,Jesús Luzardo,0.6029640654762451,1
+831735,2026-03-23,Final,Seattle Mariners,San Diego Padres,Luis Castillo,Germán Márquez,0.46548674781014326,0
+831780,2026-03-23,Final,New York Yankees,Chicago Cubs,Carlos Lagrange,Shota Imanaga,0.546611059316186,1
+831786,2026-03-23,Final,Sultanes de Monterrey,San Francisco Giants,Stephen Tarpley,Tristan Beck,0.44704349857251735,0
+831821,2026-03-23,Final,Los Angeles Angels,Los Angeles Dodgers,Reid Detmers,Roki Sasaki,0.570125042532803,1
+831838,2026-03-23,Final,Kansas City Royals,Texas Rangers,Michael Wacha,MacKenzie Gore,0.5808038241076176,1
+831857,2026-03-23,Final,Detroit Tigers,Colorado Rockies,Jack Flaherty,,0.4759164862940261,0
+831885,2026-03-23,Final,Cleveland Guardians,Arizona Diamondbacks,Slade Cecconi,Merrill Kelly,0.5872068270557408,1
+831915,2026-03-23,Final,Chicago White Sox,Athletics,Anthony Kay,Luis Morales,0.5744552133983409,1
+832036,2026-03-23,Final,Minnesota Twins,Boston Red Sox,Bailey Ober,Johan Oviedo,0.5458010416447312,1
+832078,2026-03-23,Final,Cincinnati Reds,Milwaukee Brewers,Brady Singer,Aaron Ashby,0.5231151822351485,1
+831441,2026-03-24,Final,Sugar Land Space Cowboys,Houston Astros,Miguel Ullola,Lance McCullers Jr.,0.4270766386028722,0
+831545,2026-03-24,Final,Tampa Bay Rays,Atlanta Braves,Cam Booser,Grant Holmes,0.5665533542130823,1
+831779,2026-03-24,Final,New York Yankees,Chicago Cubs,Gerrit Cole,Edward Cabrera,0.5990547607343978,1
+831782,2026-03-24,Final,Sultanes de Monterrey,San Francisco Giants,Justus Sheffield,Landen Roupp,0.7255065168143223,1
+831820,2026-03-24,Final,Los Angeles Angels,Los Angeles Dodgers,Jack Kochanowicz,Shohei Ohtani,0.5179523462762902,1
+831837,2026-03-24,Final,Kansas City Royals,Texas Rangers,Seth Lugo,Jack Leiter,0.600313540148675,1
+831856,2026-03-24,Final,Detroit Tigers,Colorado Rockies,Justin Verlander,Tomoyuki Sugano,0.45450039770019107,0
+831887,2026-03-24,Final,Cleveland Guardians,Arizona Diamondbacks,Parker Messick,Michael Soroka,0.5277852451765929,1
+832037,2026-03-24,Final,Boston Red Sox,Minnesota Twins,Ranger Suarez,Zak Kent,0.5690155901087247,1
+832077,2026-03-24,Final,Cincinnati Reds,Milwaukee Brewers,Chase Burns,Brandon Sproat,0.5957341662132178,1
+823244,2026-03-25,Final,New York Yankees,San Francisco Giants,Max Fried,Logan Webb,0.561112302478832,1
+823081,2026-03-26,Final,Tampa Bay Rays,St. Louis Cardinals,Drew Rasmussen,Matthew Liberatore,0.5986449068000176,1
+823163,2026-03-26,Final,Cleveland Guardians,Seattle Mariners,Tanner Bibee,Logan Gilbert,0.5403389334632889,1
+823325,2026-03-26,Final,Detroit Tigers,San Diego Padres,Tarik Skubal,Nick Pivetta,0.5051970444554106,1
+823486,2026-03-26,Final,Texas Rangers,Philadelphia Phillies,Nathan Eovaldi,Cristopher Sánchez,0.4686888185320756,0
+823649,2026-03-26,Final,Pittsburgh Pirates,New York Mets,Paul Skenes,Freddy Peralta,0.5290823603236735,1
+823812,2026-03-26,Final,Chicago White Sox,Milwaukee Brewers,Shane Smith,Jacob Misiorowski,0.6024788561236438,1
+823974,2026-03-26,Final,Arizona Diamondbacks,Los Angeles Dodgers,Zac Gallen,Yoshinobu Yamamoto,0.5310712561918715,1
+824218,2026-03-26,Final,Los Angeles Angels,Houston Astros,José Soriano,Hunter Brown,0.517993170289091,1
+824541,2026-03-26,Final,Boston Red Sox,Cincinnati Reds,Garrett Crochet,Andrew Abbott,0.5042915261240224,1
+824704,2026-03-26,Final,Washington Nationals,Chicago Cubs,Cade Cavalli,Matthew Boyd,0.5552362953954343,1
+824865,2026-03-26,Final,Minnesota Twins,Baltimore Orioles,Joe Ryan,Trevor Rogers,0.5471677970802935,1
+822839,2026-03-27,Final,Athletics,Toronto Blue Jays,Luis Severino,Kevin Gausman,0.5137735532417479,1
+823162,2026-03-27,Final,Cleveland Guardians,Seattle Mariners,Gavin Williams,George Kirby,0.5228001449411679,1
+823243,2026-03-27,Final,New York Yankees,San Francisco Giants,Cam Schlittler,Robbie Ray,0.5162463746655995,1
+823324,2026-03-27,Final,Detroit Tigers,San Diego Padres,Framber Valdez,Michael King,0.479707307621341,0
+823893,2026-03-27,Final,Colorado Rockies,Miami Marlins,Kyle Freeland,Sandy Alcantara,0.5833573325327698,1
+823971,2026-03-27,Final,Arizona Diamondbacks,Los Angeles Dodgers,Ryne Nelson,Emmet Sheehan,0.5759970348655606,1
+824216,2026-03-27,Final,Los Angeles Angels,Houston Astros,Yusei Kikuchi,Mike Burrows,0.5316414068470786,1
+824946,2026-03-27,Final,Kansas City Royals,Atlanta Braves,Cole Ragans,Chris Sale,0.6529069494772437,1
+822838,2026-03-28,Final,Athletics,Toronto Blue Jays,Jeffrey Springs,Dylan Cease,0.5728984912199512,1
+823082,2026-03-28,Final,Tampa Bay Rays,St. Louis Cardinals,Joe Boyle,Michael McGreevy,0.6192663998855763,1
+823161,2026-03-28,Final,Cleveland Guardians,Seattle Mariners,Joey Cantillo,Bryan Woo,0.5604674576677801,1
+823241,2026-03-28,Final,New York Yankees,San Francisco Giants,Will Warren,Tyler Mahle,0.4841654742236852,0
+823323,2026-03-28,Final,Detroit Tigers,San Diego Padres,Jack Flaherty,Randy Vásquez,0.47774766050961204,0
+823488,2026-03-28,Final,Texas Rangers,Philadelphia Phillies,Jacob Latz,Aaron Nola,0.5159501445500378,1
+823651,2026-03-28,Final,Pittsburgh Pirates,New York Mets,Mitch Keller,David Peterson,0.5922568695895768,1
+823811,2026-03-28,Final,Chicago White Sox,Milwaukee Brewers,Sean Burke,Chad Patrick,0.6627628431037784,1
+823892,2026-03-28,Final,Colorado Rockies,Miami Marlins,Michael Lorenzen,Eury Pérez,0.5618558448699249,1
+823973,2026-03-28,Final,Arizona Diamondbacks,Los Angeles Dodgers,Eduardo Rodriguez,Tyler Glasnow,0.5804558708516658,1
+824213,2026-03-28,Final,Los Angeles Angels,Houston Astros,Reid Detmers,Cristian Javier,0.5411778889805522,1
+824540,2026-03-28,Final,Boston Red Sox,Cincinnati Reds,Sonny Gray,Brady Singer,0.4920861613277266,0
+824701,2026-03-28,Final,Washington Nationals,Chicago Cubs,Miles Mikolas,Cade Horton,0.5573187340111119,1
+824862,2026-03-28,Final,Minnesota Twins,Baltimore Orioles,Taj Bradley,Kyle Bradish,0.5444859304517239,1
+824945,2026-03-28,Final,Kansas City Royals,Atlanta Braves,Michael Wacha,Reynaldo López,0.6375513221523674,1
+822837,2026-03-29,Final,Athletics,Toronto Blue Jays,Luis Morales,Eric Lauer,0.583381062598159,1
+823079,2026-03-29,Final,Tampa Bay Rays,St. Louis Cardinals,Steven Matz,Dustin May,0.5893707239861143,1
+823160,2026-03-29,Final,Cleveland Guardians,Seattle Mariners,Slade Cecconi,Emerson Hancock,0.5229518969516141,1
+823487,2026-03-29,Final,Texas Rangers,Philadelphia Phillies,MacKenzie Gore,Jesús Luzardo,0.5333943683961316,1
+823647,2026-03-29,Final,Pittsburgh Pirates,New York Mets,Carmen Mlodzinski,Nolan McLean,0.5910691867963331,1
+823810,2026-03-29,Final,Chicago White Sox,Milwaukee Brewers,Anthony Kay,Brandon Sproat,0.6162513047244703,1
+823891,2026-03-29,Final,Colorado Rockies,Miami Marlins,Jose Quintana,Max Meyer,0.5708810514900483,1
+824215,2026-03-29,Final,Los Angeles Angels,Houston Astros,Jack Kochanowicz,Tatsuya Imai,0.52065254226373,1
+824538,2026-03-29,Final,Boston Red Sox,Cincinnati Reds,Connelly Early,Rhett Lowder,0.5334299342857037,1
+824700,2026-03-29,Final,Washington Nationals,Chicago Cubs,Jake Irvin,Shota Imanaga,0.563313469630289,1
+824864,2026-03-29,Final,Minnesota Twins,Baltimore Orioles,Bailey Ober,Shane Baz,0.4863835011250624,0
+824944,2026-03-29,Final,Kansas City Royals,Atlanta Braves,Seth Lugo,Grant Holmes,0.6258017577010805,1
