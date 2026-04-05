@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822757,2026-04-04,Scheduled,Los Angeles Dodgers,Washington Nationals,Tyler Glasnow,Jake Irvin,0.4497713821494051,0
+822920,2026-04-04,Scheduled,Cincinnati Reds,Texas Rangers,Rhett Lowder,Kumar Rocker,0.5907410206623,1
+823239,2026-04-04,Scheduled,New York Mets,San Francisco Giants,Clay Holmes,Landen Roupp,0.5151372448130108,1
+823404,2026-04-04,Scheduled,Baltimore Orioles,Pittsburgh Pirates,Shane Baz,Carmen Mlodzinski,0.5162148417979145,1
+823569,2026-04-04,Scheduled,Miami Marlins,New York Yankees,Max Meyer,Ryan Weathers,0.5177782049531281,1
+823730,2026-04-04,Scheduled,Tampa Bay Rays,Minnesota Twins,Steven Matz,Mick Abel,0.5638509729085053,1
+824054,2026-04-04,Scheduled,Seattle Mariners,Los Angeles Angels,Emerson Hancock,Jack Kochanowicz,0.5137260900952353,1
+824132,2026-04-04,Scheduled,Milwaukee Brewers,Kansas City Royals,Chad Patrick,Luinder Avila,0.46629065205615866,0
+824134,2026-04-04,Postponed,Milwaukee Brewers,Kansas City Royals,Chad Patrick,Luinder Avila,0.46629065205615866,0
+824134,2026-04-04,Scheduled,Milwaukee Brewers,Kansas City Royals,Brandon Sproat,Seth Lugo,0.48365368288373234,0
+824295,2026-04-04,Pre-Game,St. Louis Cardinals,Detroit Tigers,Dustin May,Jack Flaherty,0.5551257795492809,1
+824378,2026-04-04,Scheduled,Philadelphia Phillies,Colorado Rockies,Jesús Luzardo,,0.5197306080079079,1
+824460,2026-04-04,Scheduled,Chicago Cubs,Cleveland Guardians,Shota Imanaga,Slade Cecconi,0.5224071586528949,1
+824622,2026-04-04,Scheduled,Toronto Blue Jays,Chicago White Sox,Mason Fluharty,Grant Taylor,0.4940517291058874,0
+824782,2026-04-04,Scheduled,San Diego Padres,Boston Red Sox,Randy Vásquez,Connelly Early,0.5029945120544984,1
+825027,2026-04-04,Scheduled,Houston Astros,Athletics,Tatsuya Imai,Luis Morales,0.548901596912529,1
+825104,2026-04-04,Scheduled,Atlanta Braves,Arizona Diamondbacks,Bryce Elder,Michael Soroka,0.4144527303258673,0

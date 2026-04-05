@@ -19,7 +19,7 @@ Run all commands from the project root.
 ```bash
 python scripts/data_load.py
 ```
-Fetches 8 seasons (2018–2025) of schedule data from the MLB Stats API. Outputs `data/schedule_8_seasons.csv`.
+Fetches the last 8 calendar years of schedule data from the MLB Stats API, plus the current year when it is not already included (so new-season games are available). Outputs `data/schedule_8_seasons.csv`.
 
 ### 2. Exploratory data analysis
 ```bash
@@ -39,7 +39,7 @@ python scripts/fit_logistic_model.py
 python scripts/fit_random_forest.py
 python scripts/fit_gradient_boosting.py
 ```
-Each script loads the featured CSV, splits by season (**train on 2018–2024, test on 2025**), fits the model, prints accuracy and ROC-AUC, and saves the model to `results/models/` (e.g. `logistic_regression.pkl` and `scaler.pkl` for the logistic pipeline).
+Each script loads the featured CSV, splits by season (**train on 2018–2025, test on completed 2026 games**), fits the model, prints accuracy and ROC-AUC, and saves the model to `results/models/` (e.g. `logistic_regression.pkl` and `scaler.pkl` for the logistic pipeline). The holdout year is `TEST_SEASONS` in `scripts/model_utils.py`.
 
 ### 5. Predictions (deployment on a new season)
 
@@ -65,7 +65,13 @@ python scripts/predict_2026.py --forecast
 python scripts/predict_2026.py --next-day
 ```
 
-Optional `--predict-date YYYY-MM-DD` (today or a future date). Output: `results/tables/predictions_next_day_<date>.csv`. Do not combine `--next-day` with `--forecast`.
+To score today's games that have not started/finished yet:
+
+```bash
+python scripts/predict_2026.py --next-day --today
+```
+
+Optional `--predict-date YYYY-MM-DD` (today or a future date; use instead of `--today`). Output: `results/tables/predictions_next_day_<date>.csv`. Do not combine `--next-day` with `--forecast`.
 
 Use `--start`, `--end`, `-o` / `--output`, and `--season` as needed for other seasons or paths.
 
@@ -80,11 +86,11 @@ Uses `RandomizedSearchCV` with `TimeSeriesSplit` to tune hyperparameters. Saves 
 
 | Phase | Seasons (with current pipeline) |
 |--------|-----------------------------------|
-| Training | 2018–2024 |
-| Test (holdout) | 2025 |
+| Training | 2018–2025 (all seasons before the holdout year) |
+| Test (holdout) | 2026 completed games only (`Final` in EDA) |
 | Live predictions | e.g. 2026 via `predict_2026.py` |
 
-`data_load.py` pulls the **last 8 full calendar years** of completed seasons (e.g. in 2026 that is **2018–2025**), which feeds EDA and feature engineering.
+`data_load.py` pulls the **last 8 calendar years** of schedule data **plus the current year** when it is not already in that window (so in 2026 you get **2018–2026**, including completed games from the new season). That feeds EDA and feature engineering.
 
 ## Environment
 

@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822756,2026-04-05,Pre-Game,Los Angeles Dodgers,Washington Nationals,Roki Sasaki,Foster Griffin,0.4882599934688135,0
+822917,2026-04-05,Scheduled,Cincinnati Reds,Texas Rangers,Chase Burns,Jack Leiter,0.5859302422596624,1
+823238,2026-04-05,Scheduled,New York Mets,San Francisco Giants,Kodai Senga,Logan Webb,0.48995031261938865,0
+823405,2026-04-05,Scheduled,Baltimore Orioles,Pittsburgh Pirates,Chris Bassitt,Braxton Ashcraft,0.514586876820045,1
+823566,2026-04-05,Scheduled,Miami Marlins,New York Yankees,Chris Paddack,Max Fried,0.5481660135132252,1
+823729,2026-04-05,Scheduled,Tampa Bay Rays,Minnesota Twins,Nick Martinez,Simeon Woods Richardson,0.5393555152472607,1
+824053,2026-04-05,Scheduled,Seattle Mariners,Los Angeles Angels,Luis Castillo,Ryan Johnson,0.5425577522279872,1
+824131,2026-04-05,Scheduled,Milwaukee Brewers,Kansas City Royals,Kyle Harrison,Kris Bubic,0.48338391922416946,0
+824296,2026-04-05,Scheduled,St. Louis Cardinals,Detroit Tigers,Kyle Leahy,Keider Montero,0.5776729936118573,1
+824379,2026-04-05,Scheduled,Philadelphia Phillies,Colorado Rockies,Taijuan Walker,Tomoyuki Sugano,0.48699782354909643,0
+824459,2026-04-05,Pre-Game,Chicago Cubs,Cleveland Guardians,Edward Cabrera,Slade Cecconi,0.5009639332674591,1
+824460,2026-04-05,Postponed,Chicago Cubs,Cleveland Guardians,Shota Imanaga,Slade Cecconi,0.5225784104155151,1
+824460,2026-04-05,Scheduled,Chicago Cubs,Cleveland Guardians,Shota Imanaga,Parker Messick,0.5393044795093164,1
+824620,2026-04-05,Scheduled,Toronto Blue Jays,Chicago White Sox,Eric Lauer,Davis Martin,0.4952850519432129,0
+824781,2026-04-05,Pre-Game,San Diego Padres,Boston Red Sox,Walker Buehler,Ranger Suarez,0.46683119108856647,0
+825025,2026-04-05,Scheduled,Houston Astros,Athletics,Lance McCullers Jr.,Jacob Lopez,0.5331235151030355,1
+825102,2026-04-05,Scheduled,Atlanta Braves,Arizona Diamondbacks,Martín Pérez,Brandon Pfaadt,0.46770252285040476,0

@@ -1,5 +1,6 @@
 """
-Download MLB schedule data from the MLB Stats API for the last 8 seasons.
+Download MLB schedule data from the MLB Stats API for the last 8 seasons,
+plus the current calendar year when it falls after that window (in-season updates).
 Saves to the project data folder as CSV (or JSON if the dataset is very large).
 Uses the API directly (no statsapi parsing) to avoid KeyError on varying response shapes.
 """
@@ -24,16 +25,24 @@ SCHEDULE_URL = "https://statsapi.mlb.com/api/v1/schedule"
 
 
 def get_season_dates():
-    """Yield (start_date_iso, end_date_iso) for each of the last NUM_SEASONS seasons."""
+    """Yield (start_date_iso, end_date_iso) for each of the last NUM_SEASONS seasons.
+
+    Also fetches the current and next calendar year when they are not already in that
+    block (so new-season games exist for evaluation even if the rolling window ended
+    at the prior year, or the machine clock is a year behind).
+    """
     from datetime import datetime
 
     current_year = datetime.now().year
-    # e.g. 2026 -> last 8 full seasons: 2018..2025
     start_year = current_year - NUM_SEASONS
+    fetched_years: set[int] = set()
     for year in range(start_year, start_year + NUM_SEASONS):
-        start_iso = f"{year}-03-01"
-        end_iso = f"{year}-11-30"
-        yield start_iso, end_iso
+        fetched_years.add(year)
+        yield f"{year}-03-01", f"{year}-11-30"
+    for extra in (current_year, current_year + 1):
+        if extra not in fetched_years:
+            fetched_years.add(extra)
+            yield f"{extra}-03-01", f"{extra}-11-30"
 
 
 def _game_to_row(g):

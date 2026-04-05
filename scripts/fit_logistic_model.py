@@ -1,12 +1,13 @@
 """
 Fit a logistic regression model to predict home team win (home_win).
-Uses a season-based train/test split: train on earlier seasons, test on holdout season(s).
+Uses a season-based train/test split: train on all seasons before TEST_SEASONS,
+test on the holdout year (see model_utils.TEST_SEASONS).
 """
 from pathlib import Path
 
 import joblib
 
-from model_utils import print_feature_importance
+from model_utils import print_feature_importance, TEST_SEASONS, verify_test_set
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, roc_auc_score
@@ -19,7 +20,6 @@ DATA_DIR = PROJECT_ROOT / "data"
 MODELS_DIR = PROJECT_ROOT / "results" / "models"
 
 FEATURED_CSV = DATA_DIR / "schedule_8_seasons_featured.csv"
-TEST_SEASONS = [2025]
 
 FEATURE_COLS = [
     "home_rolling_avg_wins_10",
@@ -72,6 +72,7 @@ def main():
     print(f"  Samples: {len(X)}, features: {len(FEATURE_COLS)}")
 
     X_train, X_test, y_train, y_test = season_split(X, y, season, TEST_SEASONS)
+    verify_test_set(y_test, TEST_SEASONS)
     print(f"  Train: {len(y_train)} (seasons not in {TEST_SEASONS}), test: {len(y_test)} (seasons {TEST_SEASONS})")
 
     scaler = StandardScaler()
