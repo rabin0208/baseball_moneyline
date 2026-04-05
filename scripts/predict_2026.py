@@ -20,8 +20,8 @@ import pandas as pd
 import requests
 
 from data_load import SCHEDULE_URL, _game_to_row
-from fit_logistic_model import FEATURE_COLS
-from rolling_state import RollingFeatureState, ROLLING_WINDOW
+from model_utils import FEATURE_COLS, LAG_WINDOW
+from rolling_state import RollingFeatureState
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -156,7 +156,7 @@ def main() -> None:
     history = load_history()
     print(f"  {len(history)} completed games for seeding.")
 
-    state = RollingFeatureState(window=ROLLING_WINDOW)
+    state = RollingFeatureState(window=LAG_WINDOW)
     state.seed_from_completed(history)
 
     if args.next_day:

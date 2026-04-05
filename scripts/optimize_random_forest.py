@@ -7,7 +7,7 @@ from pathlib import Path
 
 import joblib
 
-from model_utils import print_feature_importance, TEST_SEASONS, verify_test_set
+from model_utils import FEATURE_COLS, print_feature_importance, TEST_SEASONS, verify_test_set
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score
@@ -22,21 +22,6 @@ TABLES_DIR = PROJECT_ROOT / "results" / "tables"
 
 FEATURED_CSV = DATA_DIR / "schedule_8_seasons_featured.csv"
 
-FEATURE_COLS = [
-    "home_rolling_avg_wins_10",
-    "away_rolling_avg_wins_10",
-    "home_rolling_avg_runs_10",
-    "away_rolling_avg_runs_10",
-    "home_rolling_avg_runs_allowed_10",
-    "away_rolling_avg_runs_allowed_10",
-    "home_rolling_avg_run_diff_10",
-    "away_rolling_avg_run_diff_10",
-    "home_rolling_avg_h2h_wins_10",
-    "home_rest_days",
-    "away_rest_days",
-    "home_pitcher_rolling_wins_centered_10",
-    "away_pitcher_rolling_wins_centered_10",
-]
 TARGET_COL = "home_win"
 
 PARAM_DISTRIBUTIONS = {

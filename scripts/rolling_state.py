@@ -8,13 +8,13 @@ from collections import defaultdict
 
 import pandas as pd
 
-ROLLING_WINDOW = 10
+from model_utils import LAG_WINDOW, lag_vector, lag_vector_pitcher_centered
 
 
 class RollingFeatureState:
     """Holds team / H2H / rest / pitcher history to match split_n_preprocess feature order."""
 
-    def __init__(self, window: int = ROLLING_WINDOW) -> None:
+    def __init__(self, window: int = LAG_WINDOW) -> None:
         self.window = window
         self.team_wins: dict[int, list[int]] = defaultdict(list)
         self.team_runs: dict[int, list[float]] = defaultdict(list)
@@ -40,89 +40,59 @@ class RollingFeatureState:
 
         tw, tr, tra, trd = self.team_wins, self.team_runs, self.team_runs_allowed, self.team_run_diff
 
-        home_wins_last = tw[home_id][-w:] if tw[home_id] else []
-        away_wins_last = tw[away_id][-w:] if tw[away_id] else []
-        home_runs_last = tr[home_id][-w:] if tr[home_id] else []
-        away_runs_last = tr[away_id][-w:] if tr[away_id] else []
-        home_ra_last = tra[home_id][-w:] if tra[home_id] else []
-        away_ra_last = tra[away_id][-w:] if tra[away_id] else []
-        home_rd_last = trd[home_id][-w:] if trd[home_id] else []
-        away_rd_last = trd[away_id][-w:] if trd[away_id] else []
+        feats: dict[str, float] = {}
 
-        home_rolling_avg_wins_10 = (
-            sum(home_wins_last) / len(home_wins_last) if home_wins_last else 0.0
-        )
-        away_rolling_avg_wins_10 = (
-            sum(away_wins_last) / len(away_wins_last) if away_wins_last else 0.0
-        )
-        home_rolling_avg_runs_10 = (
-            sum(home_runs_last) / len(home_runs_last) if home_runs_last else 0.0
-        )
-        away_rolling_avg_runs_10 = (
-            sum(away_runs_last) / len(away_runs_last) if away_runs_last else 0.0
-        )
-        home_rolling_avg_runs_allowed_10 = (
-            sum(home_ra_last) / len(home_ra_last) if home_ra_last else 0.0
-        )
-        away_rolling_avg_runs_allowed_10 = (
-            sum(away_ra_last) / len(away_ra_last) if away_ra_last else 0.0
-        )
-        home_rolling_avg_run_diff_10 = (
-            sum(home_rd_last) / len(home_rd_last) if home_rd_last else 0.0
-        )
-        away_rolling_avg_run_diff_10 = (
-            sum(away_rd_last) / len(away_rd_last) if away_rd_last else 0.0
-        )
+        def side_lags(team_id: int, prefix: str) -> None:
+            tw_l = lag_vector(tw[team_id], w, 0.0)
+            tr_l = lag_vector(tr[team_id], w, 0.0)
+            tra_l = lag_vector(tra[team_id], w, 0.0)
+            trd_l = lag_vector(trd[team_id], w, 0.0)
+            for k in range(w):
+                feats[f"{prefix}_win_lag_{k + 1}"] = tw_l[k]
+                feats[f"{prefix}_runs_lag_{k + 1}"] = tr_l[k]
+                feats[f"{prefix}_runs_allowed_lag_{k + 1}"] = tra_l[k]
+                feats[f"{prefix}_run_diff_lag_{k + 1}"] = trd_l[k]
+
+        side_lags(home_id, "home")
+        side_lags(away_id, "away")
 
         key = (min(home_id, away_id), max(home_id, away_id))
         past_h2h = self.h2h[key]
         last_n = [p for p in past_h2h if p[0] < game_date][-w:]
-        current_home_wins = []
-        for past_date, past_home_id, past_home_won in last_n:
+        wins_chrono: list[int] = []
+        for _past_date, past_home_id, past_home_won in last_n:
             if past_home_id == home_id:
-                current_home_wins.append(past_home_won)
+                wins_chrono.append(past_home_won)
             else:
-                current_home_wins.append(1 - past_home_won)
-        home_rolling_avg_h2h_wins_10 = (
-            sum(current_home_wins) / len(current_home_wins) if current_home_wins else 0.0
-        )
+                wins_chrono.append(1 - past_home_won)
+        h2h_l = lag_vector(wins_chrono, w, 0.0)
+        for k in range(w):
+            feats[f"home_h2h_win_lag_{k + 1}"] = h2h_l[k]
 
         if home_id in self.team_last_game_date:
-            home_rest_days = float((game_date - self.team_last_game_date[home_id]).days)
+            feats["home_rest_days"] = float((game_date - self.team_last_game_date[home_id]).days)
         else:
-            home_rest_days = 0.0
+            feats["home_rest_days"] = 0.0
         if away_id in self.team_last_game_date:
-            away_rest_days = float((game_date - self.team_last_game_date[away_id]).days)
+            feats["away_rest_days"] = float((game_date - self.team_last_game_date[away_id]).days)
         else:
-            away_rest_days = 0.0
+            feats["away_rest_days"] = 0.0
 
-        def centered_pitcher(pitcher_name: str) -> float:
+        def pitcher_lags(pitcher_name: str, prefix: str) -> None:
             if not pitcher_name:
-                return 0.0
-            past = [(d, x) for d, x in self.pitcher_starts[pitcher_name] if d < game_date][-w:]
-            if not past:
-                return 0.0
-            win_rate = sum(x for _, x in past) / len(past)
-            return win_rate - 0.5
+                for k in range(w):
+                    feats[f"{prefix}_pitcher_win_lag_{k + 1}"] = 0.0
+                return
+            past = [(d, x) for d, x in self.pitcher_starts[pitcher_name] if d < game_date]
+            win_vals = [x for _, x in past[-w:]]
+            pl = lag_vector_pitcher_centered(win_vals, w)
+            for k in range(w):
+                feats[f"{prefix}_pitcher_win_lag_{k + 1}"] = pl[k]
 
-        home_pitcher_rolling_wins_centered_10 = centered_pitcher(home_pitcher)
-        away_pitcher_rolling_wins_centered_10 = centered_pitcher(away_pitcher)
+        pitcher_lags(home_pitcher, "home")
+        pitcher_lags(away_pitcher, "away")
 
-        return {
-            "home_rolling_avg_wins_10": home_rolling_avg_wins_10,
-            "away_rolling_avg_wins_10": away_rolling_avg_wins_10,
-            "home_rolling_avg_runs_10": home_rolling_avg_runs_10,
-            "away_rolling_avg_runs_10": away_rolling_avg_runs_10,
-            "home_rolling_avg_runs_allowed_10": home_rolling_avg_runs_allowed_10,
-            "away_rolling_avg_runs_allowed_10": away_rolling_avg_runs_allowed_10,
-            "home_rolling_avg_run_diff_10": home_rolling_avg_run_diff_10,
-            "away_rolling_avg_run_diff_10": away_rolling_avg_run_diff_10,
-            "home_rolling_avg_h2h_wins_10": home_rolling_avg_h2h_wins_10,
-            "home_rest_days": home_rest_days,
-            "away_rest_days": away_rest_days,
-            "home_pitcher_rolling_wins_centered_10": home_pitcher_rolling_wins_centered_10,
-            "away_pitcher_rolling_wins_centered_10": away_pitcher_rolling_wins_centered_10,
-        }
+        return feats
 
     def update_after_final_game(self, row: pd.Series) -> None:
         """Apply a completed game's result (must match split_n_preprocess update order)."""
