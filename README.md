@@ -75,7 +75,19 @@ Optional `--predict-date YYYY-MM-DD` (today or a future date; use instead of `--
 
 Use `--start`, `--end`, `-o` / `--output`, and `--season` as needed for other seasons or paths.
 
-### 6. Hyperparameter tuning (optional)
+### 6. Walk-forward evaluation (optional, biweekly full year)
+```bash
+python scripts/eval_early_2025_walkforward.py
+```
+For **each** biweekly window (default 14 days) from **Jan 1 through Dec 31** of the chosen year (default 2025), fits a logistic model on all games **before** that window and evaluates on games **inside** the window. Prints accuracy and ROC-AUC per period, plus means. Writes `results/tables/walkforward_biweekly_<year>.csv`. Uses `data/schedule_8_seasons_featured.csv`; does not save a model. Options: `--season`, `--period-days`, `-o`.
+
+### 7. Fixed train, weekly (or period) test (optional)
+```bash
+python scripts/eval_weekly_fixed_train.py
+```
+Fits **one** logistic model on all games with `game_date` before Jan 1 after `--train-through-year` (default **2025**), then reports accuracy and ROC-AUC for each **week** (default **7** days) from Jan 1 through Dec 31 of `--test-year` (default **2026**). Does not refit between weeks. Writes `results/tables/weekly_fixed_train_<train>_test_<test>.csv`. Options: `--train-through-year`, `--test-year`, `--period-days`, `-o`.
+
+### 8. Hyperparameter tuning (optional)
 ```bash
 python scripts/optimize_random_forest.py
 python scripts/optimize_gradient_boosting.py
