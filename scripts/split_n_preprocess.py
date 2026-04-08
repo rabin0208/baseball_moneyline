@@ -151,6 +151,16 @@ def add_rest_days(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_calendar_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Calendar year and ISO week number (1–53) from game_date."""
+    out = df.copy()
+    out["season"] = out["game_date"].dt.year.astype(float)
+    out["week_of_year"] = pd.to_numeric(out["game_date"].dt.strftime("%V"), errors="coerce").astype(
+        float
+    )
+    return out
+
+
 def add_pitcher_lag_centered(df: pd.DataFrame, window: int = LAG_WINDOW) -> pd.DataFrame:
     """
     Last `window` starts for each probable pitcher: win encoded as (win - 0.5); missing → 0.
@@ -207,6 +217,10 @@ def main():
 
     print("Adding rest days (days since last game) for home and away...")
     df = add_rest_days(df)
+    print("  Done.")
+
+    print("Adding calendar features (season year, ISO week of year)...")
+    df = add_calendar_features(df)
     print("  Done.")
 
     print(f"Adding pitcher lagged wins (centered, last {LAG_WINDOW} starts; not found → 0)...")

@@ -22026,108 +22026,108 @@ game_id,game_date,game_datetime,status,away_id,away_name,away_score,home_id,home
 824054,2026-04-04,2026-04-05T01:38:00Z,Final,136,Seattle Mariners,0.0,108,Los Angeles Angels,1.0,1,Angel Stadium,R,N,Jack Kochanowicz,Emerson Hancock,Jack Kochanowicz,Emerson Hancock
 824460,2026-04-05,2026-04-04T23:15:00Z,Postponed,112,Chicago Cubs,,114,Cleveland Guardians,,5,Progressive Field,R,N,,,Slade Cecconi,Shota Imanaga
 824459,2026-04-05,2026-04-05T17:10:00Z,Final,112,Chicago Cubs,1.0,114,Cleveland Guardians,0.0,5,Progressive Field,R,Y,Caleb Thielbar,Connor Brogdon,Slade Cecconi,Edward Cabrera
-824460,2026-04-05,2026-04-05T17:15:00Z,In Progress,112,Chicago Cubs,1.0,114,Cleveland Guardians,0.0,5,Progressive Field,R,Y,,,Parker Messick,Shota Imanaga
-822756,2026-04-05,2026-04-05T17:35:00Z,In Progress,119,Los Angeles Dodgers,3.0,120,Washington Nationals,6.0,3309,Nationals Park,R,N,,,Foster Griffin,Roki Sasaki
+824460,2026-04-05,2026-04-05T17:15:00Z,Final,112,Chicago Cubs,5.0,114,Cleveland Guardians,6.0,5,Progressive Field,R,Y,Shawn Armstrong,Jacob Webb,Parker Messick,Shota Imanaga
+822756,2026-04-05,2026-04-05T17:35:00Z,Final,119,Los Angeles Dodgers,8.0,120,Washington Nationals,6.0,3309,Nationals Park,R,N,Jack Dreyer,Cionel Pérez,Foster Griffin,Roki Sasaki
 823405,2026-04-05,2026-04-05T17:35:00Z,Final,110,Baltimore Orioles,2.0,134,Pittsburgh Pirates,8.0,31,PNC Park,R,N,Braxton Ashcraft,Chris Bassitt,Braxton Ashcraft,Chris Bassitt
 824781,2026-04-05,2026-04-05T17:35:00Z,Final,135,San Diego Padres,8.0,111,Boston Red Sox,6.0,3,Fenway Park,R,N,Jeremiah Estrada,Tyler Uberstine,Ranger Suarez,Walker Buehler
-823566,2026-04-05,2026-04-05T17:35:00Z,In Progress,146,Miami Marlins,1.0,147,New York Yankees,3.0,3313,Yankee Stadium,R,N,,,Max Fried,Pete Fairbanks
+823566,2026-04-05,2026-04-05T17:35:00Z,Final,146,Miami Marlins,7.0,147,New York Yankees,6.0,3313,Yankee Stadium,R,N,John King,Jake Bird,Max Fried,Pete Fairbanks
 823729,2026-04-05,2026-04-05T18:10:00Z,Final,139,Tampa Bay Rays,4.0,142,Minnesota Twins,1.0,3312,Target Field,R,N,Bryan Baker,Justin Topa,Simeon Woods Richardson,Nick Martinez
 824620,2026-04-05,2026-04-05T18:10:00Z,Final,141,Toronto Blue Jays,0.0,145,Chicago White Sox,3.0,4,Rate Field,R,N,Davis Martin,Eric Lauer,Davis Martin,Eric Lauer
 824131,2026-04-05,2026-04-05T18:10:00Z,Final,158,Milwaukee Brewers,8.0,118,Kansas City Royals,5.0,7,Kauffman Stadium,R,N,Kyle Harrison,Kris Bubic,Kris Bubic,Kyle Harrison
-822917,2026-04-05,2026-04-05T18:35:00Z,In Progress,113,Cincinnati Reds,2.0,140,Texas Rangers,1.0,5325,Globe Life Field,R,N,,,Jack Leiter,Chase Burns
-824379,2026-04-05,2026-04-05T19:10:00Z,Game Over,143,Philadelphia Phillies,1.0,115,Colorado Rockies,4.0,19,Coors Field,R,N,Tomoyuki Sugano,Taijuan Walker,Tomoyuki Sugano,Taijuan Walker
-825025,2026-04-05,2026-04-05T20:05:00Z,In Progress,117,Houston Astros,2.0,133,Athletics,0.0,2529,Sutter Health Park,R,N,,,Jacob Lopez,Lance McCullers Jr.
-823238,2026-04-05,2026-04-05T20:05:00Z,In Progress,121,New York Mets,1.0,137,San Francisco Giants,2.0,2395,Oracle Park,R,N,,,Logan Webb,Kodai Senga
-824053,2026-04-05,2026-04-05T20:07:00Z,In Progress,136,Seattle Mariners,2.0,108,Los Angeles Angels,2.0,1,Angel Stadium,R,N,,,George Klassen,Luis Castillo
-825102,2026-04-05,2026-04-05T20:10:00Z,In Progress,144,Atlanta Braves,3.0,109,Arizona Diamondbacks,3.0,15,Chase Field,R,N,,,Brandon Pfaadt,Martín Pérez
-824296,2026-04-05,2026-04-05T23:20:00Z,Pre-Game,138,St. Louis Cardinals,0.0,116,Detroit Tigers,0.0,2394,Comerica Park,R,N,,,Keider Montero,Kyle Leahy
-823002,2026-04-06,2026-04-06T20:10:00Z,Scheduled,112,Chicago Cubs,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,Shane McClanahan,
-824456,2026-04-06,2026-04-06T22:10:00Z,Scheduled,118,Kansas City Royals,,114,Cleveland Guardians,,5,Progressive Field,R,N,,,Tanner Bibee,Michael Wacha
-823401,2026-04-06,2026-04-06T22:40:00Z,Scheduled,135,San Diego Padres,,134,Pittsburgh Pirates,,31,PNC Park,R,N,,,Bubba Chandler,Germán Márquez
-823886,2026-04-06,2026-04-06T22:40:00Z,Scheduled,113,Cincinnati Reds,,146,Miami Marlins,,4169,loanDepot park,R,N,,,Janson Junk,Brandon Williamson
-822755,2026-04-06,2026-04-06T22:45:00Z,Scheduled,138,St. Louis Cardinals,,120,Washington Nationals,,3309,Nationals Park,R,N,,,Zack Littell,Andre Pallante
-824783,2026-04-06,2026-04-06T22:45:00Z,Scheduled,158,Milwaukee Brewers,,111,Boston Red Sox,,3,Fenway Park,R,N,,,Brayan Bello,Brandon Woodruff
-822832,2026-04-06,2026-04-06T23:07:00Z,Scheduled,119,Los Angeles Dodgers,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,Max Scherzer,Justin Wrobleski
-823728,2026-04-06,2026-04-06T23:40:00Z,Scheduled,116,Detroit Tigers,,142,Minnesota Twins,,3312,Target Field,R,N,,,Joe Ryan,
-824619,2026-04-06,2026-04-06T23:40:00Z,Scheduled,110,Baltimore Orioles,,145,Chicago White Sox,,4,Rate Field,R,N,,,Erick Fedde,
-822918,2026-04-06,2026-04-07T00:05:00Z,Scheduled,136,Seattle Mariners,,140,Texas Rangers,,5325,Globe Life Field,R,N,,,Jacob deGrom,Logan Gilbert
-824376,2026-04-06,2026-04-07T00:40:00Z,Scheduled,117,Houston Astros,,115,Colorado Rockies,,19,Coors Field,R,N,,,Ryan Feltner,
-824052,2026-04-06,2026-04-07T01:38:00Z,Scheduled,144,Atlanta Braves,,108,Los Angeles Angels,,1,Angel Stadium,R,N,,,José Soriano,Chris Sale
-823237,2026-04-06,2026-04-07T01:45:00Z,Scheduled,143,Philadelphia Phillies,,137,San Francisco Giants,,2395,Oracle Park,R,N,,,Adrian Houser,Andrew Painter
-824457,2026-04-07,2026-04-07T22:10:00Z,Scheduled,118,Kansas City Royals,,114,Cleveland Guardians,,5,Progressive Field,R,N,,,Gavin Williams,Noah Cameron
-823402,2026-04-07,2026-04-07T22:40:00Z,Scheduled,135,San Diego Padres,,134,Pittsburgh Pirates,,31,PNC Park,R,N,,,Paul Skenes,Nick Pivetta
-822999,2026-04-07,2026-04-07T22:40:00Z,Scheduled,112,Chicago Cubs,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,Drew Rasmussen,
-823887,2026-04-07,2026-04-07T22:40:00Z,Scheduled,113,Cincinnati Reds,,146,Miami Marlins,,4169,loanDepot park,R,N,,,Sandy Alcantara,Andrew Abbott
-822754,2026-04-07,2026-04-07T22:45:00Z,Scheduled,138,St. Louis Cardinals,,120,Washington Nationals,,3309,Nationals Park,R,N,,,Cade Cavalli,Matthew Liberatore
-824780,2026-04-07,2026-04-07T22:45:00Z,Scheduled,158,Milwaukee Brewers,,111,Boston Red Sox,,3,Fenway Park,R,N,,,Garrett Crochet,Jacob Misiorowski
-823567,2026-04-07,2026-04-07T23:05:00Z,Scheduled,133,Athletics,,147,New York Yankees,,3313,Yankee Stadium,R,N,,,Cam Schlittler,Aaron Civale
-822831,2026-04-07,2026-04-07T23:07:00Z,Scheduled,119,Los Angeles Dodgers,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,Kevin Gausman,Yoshinobu Yamamoto
-823648,2026-04-07,2026-04-07T23:10:00Z,Scheduled,109,Arizona Diamondbacks,,121,New York Mets,,3289,Citi Field,R,N,,,Freddy Peralta,Zac Gallen
-823727,2026-04-07,2026-04-07T23:40:00Z,Scheduled,116,Detroit Tigers,,142,Minnesota Twins,,3312,Target Field,R,N,,,Taj Bradley,
-824618,2026-04-07,2026-04-07T23:40:00Z,Scheduled,110,Baltimore Orioles,,145,Chicago White Sox,,4,Rate Field,R,N,,,Shane Smith,Trevor Rogers
-822916,2026-04-07,2026-04-08T00:05:00Z,Scheduled,136,Seattle Mariners,,140,Texas Rangers,,5325,Globe Life Field,R,N,,,Nathan Eovaldi,George Kirby
-824375,2026-04-07,2026-04-08T00:40:00Z,Scheduled,117,Houston Astros,,115,Colorado Rockies,,19,Coors Field,R,N,,,Kyle Freeland,
-824051,2026-04-07,2026-04-08T01:38:00Z,Scheduled,144,Atlanta Braves,,108,Los Angeles Angels,,1,Angel Stadium,R,N,,,Yusei Kikuchi,Reynaldo López
-823235,2026-04-07,2026-04-08T01:45:00Z,Scheduled,143,Philadelphia Phillies,,137,San Francisco Giants,,2395,Oracle Park,R,N,,,Robbie Ray,Cristopher Sánchez
-823403,2026-04-08,2026-04-08T16:35:00Z,Scheduled,135,San Diego Padres,,134,Pittsburgh Pirates,,31,PNC Park,R,N,,,Mitch Keller,Michael King
-824455,2026-04-08,2026-04-08T17:10:00Z,Scheduled,118,Kansas City Royals,,114,Cleveland Guardians,,5,Progressive Field,R,N,,,Joey Cantillo,Cole Ragans
-824779,2026-04-08,2026-04-08T17:35:00Z,Scheduled,158,Milwaukee Brewers,,111,Boston Red Sox,,3,Fenway Park,R,N,,,Sonny Gray,Chad Patrick
+822917,2026-04-05,2026-04-05T18:35:00Z,Final,113,Cincinnati Reds,2.0,140,Texas Rangers,1.0,5325,Globe Life Field,R,N,Sam Moll,Robert Garcia,Jack Leiter,Chase Burns
+824379,2026-04-05,2026-04-05T19:10:00Z,Final,143,Philadelphia Phillies,1.0,115,Colorado Rockies,4.0,19,Coors Field,R,N,Tomoyuki Sugano,Taijuan Walker,Tomoyuki Sugano,Taijuan Walker
+825025,2026-04-05,2026-04-05T20:05:00Z,Final,117,Houston Astros,10.0,133,Athletics,12.0,2529,Sutter Health Park,R,N,Elvis Alvarado,Bryan Abreu,Jacob Lopez,Lance McCullers Jr.
+823238,2026-04-05,2026-04-05T20:05:00Z,Final,121,New York Mets,5.0,137,San Francisco Giants,2.0,2395,Oracle Park,R,N,Huascar Brazobán,Keaton Winn,Logan Webb,Kodai Senga
+824053,2026-04-05,2026-04-05T20:07:00Z,Final,136,Seattle Mariners,7.0,108,Los Angeles Angels,8.0,1,Angel Stadium,R,N,Shaun Anderson,Gabe Speier,George Klassen,Luis Castillo
+825102,2026-04-05,2026-04-05T20:10:00Z,Final,144,Atlanta Braves,5.0,109,Arizona Diamondbacks,6.0,15,Chase Field,R,N,Taylor Rashi,Joel Payamps,Brandon Pfaadt,Martín Pérez
+824296,2026-04-05,2026-04-05T23:20:00Z,Final,138,St. Louis Cardinals,5.0,116,Detroit Tigers,3.0,2394,Comerica Park,R,N,Kyle Leahy,Keider Montero,Keider Montero,Kyle Leahy
+823002,2026-04-06,2026-04-06T20:10:00Z,Final,112,Chicago Cubs,4.0,139,Tampa Bay Rays,6.0,12,Tropicana Field,R,N,Kevin Kelly,Jameson Taillon,Shane McClanahan,Jameson Taillon
+824456,2026-04-06,2026-04-06T22:10:00Z,Final,118,Kansas City Royals,4.0,114,Cleveland Guardians,2.0,5,Progressive Field,R,N,Michael Wacha,Peyton Pallette,Tanner Bibee,Michael Wacha
+823401,2026-04-06,2026-04-06T22:40:00Z,Final,135,San Diego Padres,5.0,134,Pittsburgh Pirates,0.0,31,PNC Park,R,N,Germán Márquez,Bubba Chandler,Bubba Chandler,Germán Márquez
+823886,2026-04-06,2026-04-06T22:40:00Z,Final,113,Cincinnati Reds,2.0,146,Miami Marlins,0.0,4169,loanDepot park,R,N,Brandon Williamson,Janson Junk,Janson Junk,Brandon Williamson
+822755,2026-04-06,2026-04-06T22:45:00Z,Final,138,St. Louis Cardinals,6.0,120,Washington Nationals,9.0,3309,Nationals Park,R,N,Cionel Pérez,Matt Svanson,Zack Littell,Andre Pallante
+824783,2026-04-06,2026-04-06T22:45:00Z,Final,158,Milwaukee Brewers,8.0,111,Boston Red Sox,6.0,3,Fenway Park,R,N,Aaron Ashby,Garrett Whitlock,Brayan Bello,Brandon Woodruff
+822832,2026-04-06,2026-04-06T23:07:00Z,Final,119,Los Angeles Dodgers,14.0,141,Toronto Blue Jays,2.0,14,Rogers Centre,R,N,Justin Wrobleski,Max Scherzer,Max Scherzer,Justin Wrobleski
+823728,2026-04-06,2026-04-06T23:40:00Z,Final,116,Detroit Tigers,3.0,142,Minnesota Twins,7.0,3312,Target Field,R,N,Joe Ryan,Casey Mize,Joe Ryan,Casey Mize
+824619,2026-04-06,2026-04-06T23:40:00Z,Final,110,Baltimore Orioles,2.0,145,Chicago White Sox,1.0,4,Rate Field,R,N,Brandon Young,Erick Fedde,Grant Taylor,Brandon Young
+822918,2026-04-06,2026-04-07T00:05:00Z,Final,136,Seattle Mariners,1.0,140,Texas Rangers,2.0,5325,Globe Life Field,R,N,Jalen Beeks,Logan Gilbert,Jacob deGrom,Logan Gilbert
+824376,2026-04-06,2026-04-07T00:40:00Z,Final,117,Houston Astros,7.0,115,Colorado Rockies,9.0,19,Coors Field,R,N,Ryan Feltner,Ryan Weiss,Ryan Feltner,Cody Bolton
+824052,2026-04-06,2026-04-07T01:38:00Z,Final,144,Atlanta Braves,2.0,108,Los Angeles Angels,6.0,1,Angel Stadium,R,N,José Soriano,Chris Sale,José Soriano,Chris Sale
+823237,2026-04-06,2026-04-07T01:45:00Z,Final,143,Philadelphia Phillies,6.0,137,San Francisco Giants,4.0,2395,Oracle Park,R,N,Jonathan Bowlan,Ryan Borucki,Adrian Houser,Andrew Painter
+824457,2026-04-07,2026-04-07T17:10:00Z,Final,118,Kansas City Royals,1.0,114,Cleveland Guardians,2.0,5,Progressive Field,R,N,Cade Smith,John Schreiber,Gavin Williams,Noah Cameron
+824618,2026-04-07,2026-04-07T19:10:00Z,Final,110,Baltimore Orioles,4.0,145,Chicago White Sox,2.0,4,Rate Field,R,N,Yennier Cano,Jordan Hicks,Shane Smith,Trevor Rogers
+823648,2026-04-07,2026-04-07T20:10:00Z,Final,109,Arizona Diamondbacks,3.0,121,New York Mets,4.0,3289,Citi Field,R,N,Luke Weaver,Paul Sewald,Freddy Peralta,Zac Gallen
+823402,2026-04-07,2026-04-07T22:40:00Z,Final,135,San Diego Padres,1.0,134,Pittsburgh Pirates,7.0,31,PNC Park,R,N,Paul Skenes,Nick Pivetta,Paul Skenes,Nick Pivetta
+822999,2026-04-07,2026-04-07T22:40:00Z,Final,112,Chicago Cubs,9.0,139,Tampa Bay Rays,2.0,12,Tropicana Field,R,N,Javier Assad,Mason Englert,Mason Englert,Javier Assad
+823887,2026-04-07,2026-04-07T22:40:00Z,Final,113,Cincinnati Reds,6.0,146,Miami Marlins,3.0,4169,loanDepot park,R,N,Emilio Pagán,Calvin Faucher,Sandy Alcantara,Andrew Abbott
+822754,2026-04-07,2026-04-07T22:45:00Z,Final,138,St. Louis Cardinals,7.0,120,Washington Nationals,6.0,3309,Nationals Park,R,N,George Soriano,Cole Henry,Cade Cavalli,Matthew Liberatore
+824780,2026-04-07,2026-04-07T22:45:00Z,Final,158,Milwaukee Brewers,2.0,111,Boston Red Sox,3.0,3,Fenway Park,R,N,Garrett Crochet,Jacob Misiorowski,Garrett Crochet,Jacob Misiorowski
+823567,2026-04-07,2026-04-07T23:05:00Z,Final,133,Athletics,3.0,147,New York Yankees,5.0,3313,Yankee Stadium,R,N,Fernando Cruz,Mark Leiter Jr.,Cam Schlittler,Aaron Civale
+822831,2026-04-07,2026-04-07T23:07:00Z,Final,119,Los Angeles Dodgers,4.0,141,Toronto Blue Jays,1.0,14,Rogers Centre,R,N,Yoshinobu Yamamoto,Kevin Gausman,Kevin Gausman,Yoshinobu Yamamoto
+823727,2026-04-07,2026-04-07T23:40:00Z,Final,116,Detroit Tigers,2.0,142,Minnesota Twins,4.0,3312,Target Field,R,N,Taj Bradley,Tarik Skubal,Taj Bradley,Tarik Skubal
+822916,2026-04-07,2026-04-08T00:05:00Z,Final,136,Seattle Mariners,2.0,140,Texas Rangers,3.0,5325,Globe Life Field,R,N,Nathan Eovaldi,George Kirby,Nathan Eovaldi,George Kirby
+824375,2026-04-07,2026-04-08T00:40:00Z,Final,117,Houston Astros,1.0,115,Colorado Rockies,5.0,19,Coors Field,R,N,Kyle Freeland,Mike Burrows,Kyle Freeland,Mike Burrows
+824051,2026-04-07,2026-04-08T01:38:00Z,Final,144,Atlanta Braves,7.0,108,Los Angeles Angels,2.0,1,Angel Stadium,R,N,Tyler Kinley,Yusei Kikuchi,Yusei Kikuchi,Reynaldo López
+823235,2026-04-07,2026-04-08T01:45:00Z,Final,143,Philadelphia Phillies,0.0,137,San Francisco Giants,6.0,2395,Oracle Park,R,N,Robbie Ray,Cristopher Sánchez,Robbie Ray,Cristopher Sánchez
+823403,2026-04-08,2026-04-08T16:35:00Z,Pre-Game,135,San Diego Padres,,134,Pittsburgh Pirates,,31,PNC Park,R,N,,,Mitch Keller,Michael King
+824455,2026-04-08,2026-04-08T17:10:00Z,Pre-Game,118,Kansas City Royals,0.0,114,Cleveland Guardians,0.0,5,Progressive Field,R,N,,,Joey Cantillo,Cole Ragans
+824779,2026-04-08,2026-04-08T17:35:00Z,Pre-Game,158,Milwaukee Brewers,,111,Boston Red Sox,,3,Fenway Park,R,N,,,Sonny Gray,Shane Drohan
 824617,2026-04-08,2026-04-08T18:10:00Z,Scheduled,110,Baltimore Orioles,,145,Chicago White Sox,,4,Rate Field,R,N,,,Sean Burke,Kyle Bradish
 822915,2026-04-08,2026-04-08T18:35:00Z,Scheduled,136,Seattle Mariners,,140,Texas Rangers,,5325,Globe Life Field,R,N,,,MacKenzie Gore,Bryan Woo
 822833,2026-04-08,2026-04-08T19:07:00Z,Scheduled,119,Los Angeles Dodgers,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,Dylan Cease,Shohei Ohtani
-824374,2026-04-08,2026-04-08T19:10:00Z,Scheduled,117,Houston Astros,,115,Colorado Rockies,,19,Coors Field,R,N,,,,
+824374,2026-04-08,2026-04-08T19:10:00Z,Scheduled,117,Houston Astros,,115,Colorado Rockies,,19,Coors Field,R,N,,,Michael Lorenzen,Cristian Javier
 823234,2026-04-08,2026-04-08T19:45:00Z,Scheduled,143,Philadelphia Phillies,,137,San Francisco Giants,,2395,Oracle Park,R,N,,,Tyler Mahle,Aaron Nola
 822753,2026-04-08,2026-04-08T20:05:00Z,Scheduled,138,St. Louis Cardinals,,120,Washington Nationals,,3309,Nationals Park,R,N,,,Miles Mikolas,Michael McGreevy
 824050,2026-04-08,2026-04-08T20:07:00Z,Scheduled,144,Atlanta Braves,,108,Los Angeles Angels,,1,Angel Stadium,R,N,,,Reid Detmers,Grant Holmes
-823000,2026-04-08,2026-04-08T22:40:00Z,Scheduled,112,Chicago Cubs,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,Joe Boyle,
+823646,2026-04-08,2026-04-08T20:10:00Z,Scheduled,109,Arizona Diamondbacks,,121,New York Mets,,3289,Citi Field,R,N,,,David Peterson,Ryne Nelson
+823000,2026-04-08,2026-04-08T22:40:00Z,Scheduled,112,Chicago Cubs,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,Joe Boyle,Colin Rea
 823885,2026-04-08,2026-04-08T22:40:00Z,Scheduled,113,Cincinnati Reds,,146,Miami Marlins,,4169,loanDepot park,R,N,,,Eury Pérez,Brady Singer
 823564,2026-04-08,2026-04-08T23:05:00Z,Scheduled,133,Athletics,,147,New York Yankees,,3313,Yankee Stadium,R,N,,,Will Warren,Luis Severino
-823646,2026-04-08,2026-04-08T23:10:00Z,Scheduled,109,Arizona Diamondbacks,,121,New York Mets,,3289,Citi Field,R,N,,,David Peterson,
-823726,2026-04-08,2026-04-08T23:40:00Z,Scheduled,116,Detroit Tigers,,142,Minnesota Twins,,3312,Target Field,R,N,,,Bailey Ober,
-823884,2026-04-09,2026-04-09T16:10:00Z,Scheduled,113,Cincinnati Reds,,146,Miami Marlins,,4169,loanDepot park,R,N,,,,Rhett Lowder
+823726,2026-04-08,2026-04-08T23:40:00Z,Scheduled,116,Detroit Tigers,,142,Minnesota Twins,,3312,Target Field,R,N,,,Bailey Ober,Framber Valdez
+823884,2026-04-09,2026-04-09T16:10:00Z,Scheduled,113,Cincinnati Reds,,146,Miami Marlins,,4169,loanDepot park,R,N,,,Max Meyer,Rhett Lowder
 823565,2026-04-09,2026-04-09T17:35:00Z,Scheduled,133,Athletics,,147,New York Yankees,,3313,Yankee Stadium,R,N,,,Ryan Weathers,Jeffrey Springs
-823724,2026-04-09,2026-04-09T17:40:00Z,Scheduled,116,Detroit Tigers,,142,Minnesota Twins,,3312,Target Field,R,N,,,Mick Abel,
+823724,2026-04-09,2026-04-09T17:40:00Z,Scheduled,116,Detroit Tigers,,142,Minnesota Twins,,3312,Target Field,R,N,,,Mick Abel,Jack Flaherty
 823645,2026-04-09,2026-04-09T23:10:00Z,Scheduled,109,Arizona Diamondbacks,,121,New York Mets,,3289,Citi Field,R,N,,,Nolan McLean,Eduardo Rodriguez
-824130,2026-04-09,2026-04-09T23:40:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,
-823319,2026-04-09,2026-04-10T01:40:00Z,Scheduled,115,Colorado Rockies,,135,San Diego Padres,,2680,Petco Park,R,N,,,,
+824130,2026-04-09,2026-04-09T23:40:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,Anthony Kay
+823319,2026-04-09,2026-04-10T01:40:00Z,Scheduled,115,Colorado Rockies,,135,San Diego Padres,,2680,Petco Park,R,N,,,Randy Vásquez,
 824695,2026-04-10,2026-04-10T18:20:00Z,Scheduled,134,Pittsburgh Pirates,,112,Chicago Cubs,,17,Wrigley Field,R,N,,,,
 823482,2026-04-10,2026-04-10T22:40:00Z,Scheduled,109,Arizona Diamondbacks,,143,Philadelphia Phillies,,2681,Citizens Bank Park,R,N,,,,
-824297,2026-04-10,2026-04-10T22:40:00Z,Scheduled,146,Miami Marlins,,116,Detroit Tigers,,2394,Comerica Park,R,N,,,,
-824534,2026-04-10,2026-04-10T22:45:00Z,Scheduled,108,Los Angeles Angels,,113,Cincinnati Reds,,2602,Great American Ball Park,R,N,,,,
-822829,2026-04-10,2026-04-10T23:07:00Z,Scheduled,142,Minnesota Twins,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,,
-823643,2026-04-10,2026-04-10T23:10:00Z,Scheduled,133,Athletics,,121,New York Mets,,3289,Citi Field,R,N,,,,
+824297,2026-04-10,2026-04-10T22:40:00Z,Scheduled,146,Miami Marlins,,116,Detroit Tigers,,2394,Comerica Park,R,N,,,,Chris Paddack
+824534,2026-04-10,2026-04-10T22:45:00Z,Scheduled,108,Los Angeles Angels,,113,Cincinnati Reds,,2602,Great American Ball Park,R,N,,,Chase Burns,
+822829,2026-04-10,2026-04-10T23:07:00Z,Scheduled,142,Minnesota Twins,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,Patrick Corbin,
+823643,2026-04-10,2026-04-10T23:10:00Z,Scheduled,133,Athletics,,121,New York Mets,,3289,Citi Field,R,N,,,Clay Holmes,
 822997,2026-04-10,2026-04-10T23:10:00Z,Scheduled,147,New York Yankees,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,,
 824858,2026-04-10,2026-04-10T23:15:00Z,Scheduled,137,San Francisco Giants,,110,Baltimore Orioles,,2,Oriole Park at Camden Yards,R,N,,,,
-824941,2026-04-10,2026-04-10T23:15:00Z,Scheduled,114,Cleveland Guardians,,144,Atlanta Braves,,4705,Truist Park,R,N,,,,
-824128,2026-04-10,2026-04-10T23:40:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,
+824941,2026-04-10,2026-04-10T23:15:00Z,Scheduled,114,Cleveland Guardians,,144,Atlanta Braves,,4705,Truist Park,R,N,,,,Slade Cecconi
+824128,2026-04-10,2026-04-10T23:40:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,Davis Martin
 823808,2026-04-10,2026-04-10T23:40:00Z,Scheduled,120,Washington Nationals,,158,Milwaukee Brewers,,32,American Family Field,R,N,,,,
-823076,2026-04-10,2026-04-11T00:15:00Z,Scheduled,111,Boston Red Sox,,138,St. Louis Cardinals,,2889,Busch Stadium,R,N,,,,
+823076,2026-04-10,2026-04-11T00:15:00Z,Scheduled,111,Boston Red Sox,,138,St. Louis Cardinals,,2889,Busch Stadium,R,N,,,Dustin May,
 823318,2026-04-10,2026-04-11T01:40:00Z,Scheduled,115,Colorado Rockies,,135,San Diego Padres,,2680,Petco Park,R,N,,,,
 823156,2026-04-10,2026-04-11T01:40:00Z,Scheduled,117,Houston Astros,,136,Seattle Mariners,,680,T-Mobile Park,R,N,,,,
 823968,2026-04-10,2026-04-11T02:10:00Z,Scheduled,140,Texas Rangers,,119,Los Angeles Dodgers,,22,UNIQLO Field at Dodger Stadium,R,N,,,,
 823480,2026-04-11,2026-04-11T17:05:00Z,Scheduled,109,Arizona Diamondbacks,,143,Philadelphia Phillies,,2681,Citizens Bank Park,R,N,,,,
-824294,2026-04-11,2026-04-11T17:10:00Z,Scheduled,146,Miami Marlins,,116,Detroit Tigers,,2394,Comerica Park,R,N,,,,
+824294,2026-04-11,2026-04-11T17:10:00Z,Scheduled,146,Miami Marlins,,116,Detroit Tigers,,2394,Comerica Park,R,N,,,,Janson Junk
 824697,2026-04-11,2026-04-11T18:20:00Z,Scheduled,134,Pittsburgh Pirates,,112,Chicago Cubs,,17,Wrigley Field,R,N,,,,
-822830,2026-04-11,2026-04-11T19:07:00Z,Scheduled,142,Minnesota Twins,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,,
-824535,2026-04-11,2026-04-11T20:10:00Z,Scheduled,108,Los Angeles Angels,,113,Cincinnati Reds,,2602,Great American Ball Park,R,N,,,,
-823644,2026-04-11,2026-04-11T20:10:00Z,Scheduled,133,Athletics,,121,New York Mets,,3289,Citi Field,R,N,,,,
-824129,2026-04-11,2026-04-11T20:10:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,
+822830,2026-04-11,2026-04-11T19:07:00Z,Scheduled,142,Minnesota Twins,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,Eric Lauer,
+824535,2026-04-11,2026-04-11T20:10:00Z,Scheduled,108,Los Angeles Angels,,113,Cincinnati Reds,,2602,Great American Ball Park,R,N,,,Brandon Williamson,
+823644,2026-04-11,2026-04-11T20:10:00Z,Scheduled,133,Athletics,,121,New York Mets,,3289,Citi Field,R,N,,,Kodai Senga,
+824129,2026-04-11,2026-04-11T20:10:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,Erick Fedde
 822996,2026-04-11,2026-04-11T22:10:00Z,Scheduled,147,New York Yankees,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,,
 823805,2026-04-11,2026-04-11T23:10:00Z,Scheduled,120,Washington Nationals,,158,Milwaukee Brewers,,32,American Family Field,R,N,,,,
 824857,2026-04-11,2026-04-11T23:15:00Z,Scheduled,137,San Francisco Giants,,110,Baltimore Orioles,,2,Oriole Park at Camden Yards,R,N,,,,
-823074,2026-04-11,2026-04-11T23:15:00Z,Scheduled,111,Boston Red Sox,,138,St. Louis Cardinals,,2889,Busch Stadium,R,N,,,,
-824939,2026-04-11,2026-04-11T23:15:00Z,Scheduled,114,Cleveland Guardians,,144,Atlanta Braves,,4705,Truist Park,R,N,,,,
+823074,2026-04-11,2026-04-11T23:15:00Z,Scheduled,111,Boston Red Sox,,138,St. Louis Cardinals,,2889,Busch Stadium,R,N,,,Kyle Leahy,
+824939,2026-04-11,2026-04-11T23:15:00Z,Scheduled,114,Cleveland Guardians,,144,Atlanta Braves,,4705,Truist Park,R,N,,,,Parker Messick
 823316,2026-04-11,2026-04-12T00:40:00Z,Scheduled,115,Colorado Rockies,,135,San Diego Padres,,2680,Petco Park,R,N,,,,
 823967,2026-04-11,2026-04-12T01:10:00Z,Scheduled,140,Texas Rangers,,119,Los Angeles Dodgers,,22,UNIQLO Field at Dodger Stadium,R,N,,,,
 823155,2026-04-11,2026-04-12T01:40:00Z,Scheduled,117,Houston Astros,,136,Seattle Mariners,,680,T-Mobile Park,R,N,,,,
 824859,2026-04-12,2026-04-12T17:35:00Z,Scheduled,137,San Francisco Giants,,110,Baltimore Orioles,,2,Oriole Park at Camden Yards,R,N,,,,
 823479,2026-04-12,2026-04-12T17:35:00Z,Scheduled,109,Arizona Diamondbacks,,143,Philadelphia Phillies,,2681,Citizens Bank Park,R,N,,,,
-822828,2026-04-12,2026-04-12T17:37:00Z,Scheduled,142,Minnesota Twins,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,,
+822828,2026-04-12,2026-04-12T17:37:00Z,Scheduled,142,Minnesota Twins,,141,Toronto Blue Jays,,14,Rogers Centre,R,N,,,Max Scherzer,
 824533,2026-04-12,2026-04-12T17:40:00Z,Scheduled,108,Los Angeles Angels,,113,Cincinnati Reds,,2602,Great American Ball Park,R,N,,,,
 823642,2026-04-12,2026-04-12T17:40:00Z,Scheduled,133,Athletics,,121,New York Mets,,3289,Citi Field,R,N,,,,
 824293,2026-04-12,2026-04-12T17:40:00Z,Scheduled,146,Miami Marlins,,116,Detroit Tigers,,2394,Comerica Park,R,N,,,,
 822998,2026-04-12,2026-04-12T17:40:00Z,Scheduled,147,New York Yankees,,139,Tampa Bay Rays,,12,Tropicana Field,R,N,,,,
-824126,2026-04-12,2026-04-12T18:10:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,
+824126,2026-04-12,2026-04-12T18:10:00Z,Scheduled,145,Chicago White Sox,,118,Kansas City Royals,,7,Kauffman Stadium,R,N,,,,Shane Smith
 823804,2026-04-12,2026-04-12T18:10:00Z,Scheduled,120,Washington Nationals,,158,Milwaukee Brewers,,32,American Family Field,R,N,,,,
 823075,2026-04-12,2026-04-12T18:15:00Z,Scheduled,111,Boston Red Sox,,138,St. Louis Cardinals,,2889,Busch Stadium,R,N,,,,
 824696,2026-04-12,2026-04-12T18:20:00Z,Scheduled,134,Pittsburgh Pirates,,112,Chicago Cubs,,17,Wrigley Field,R,N,,,,

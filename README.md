@@ -31,7 +31,7 @@ Filters to completed ("Final") games, drops rows with missing values, adds deriv
 ```bash
 python scripts/split_n_preprocess.py
 ```
-Adds **lagged** features (per-game values for each of the last 10 games: wins, runs, runs allowed, run differential for home and away), lagged head-to-head wins for the current home team, rest days, and lagged pitcher outcomes (win encoded as ±0.5 vs 0 for padding). Column list: `FEATURE_COLS` in `scripts/model_utils.py`. Outputs `data/schedule_8_seasons_featured.csv`.
+Adds **lagged** features (per-game values for each of the last 10 games: wins, runs, runs allowed, run differential for home and away), lagged head-to-head wins for the current home team, rest days, **calendar `season` (year) and `week_of_year` (ISO week)**, and lagged pitcher outcomes (win encoded as ±0.5 vs 0 for padding). Column list: `FEATURE_COLS` in `scripts/model_utils.py`. Outputs `data/schedule_8_seasons_featured.csv`.
 
 ### 4. Fit models
 ```bash

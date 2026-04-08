@@ -30,12 +30,18 @@ def pitcher_lag_column_names() -> list[str]:
     return names
 
 
+def calendar_feature_names() -> list[str]:
+    """Calendar year (MLB season year) and ISO week number (1–53) for time effects."""
+    return ["season", "week_of_year"]
+
+
 def feature_column_names() -> list[str]:
     """Column order matches split_n_preprocess.py and rolling_state.RollingFeatureState."""
     return (
         team_lag_column_names()
         + h2h_lag_column_names()
         + ["home_rest_days", "away_rest_days"]
+        + calendar_feature_names()
         + pitcher_lag_column_names()
     )
 

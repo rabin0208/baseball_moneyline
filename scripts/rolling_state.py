@@ -78,6 +78,10 @@ class RollingFeatureState:
         else:
             feats["away_rest_days"] = 0.0
 
+        ts = pd.to_datetime(game_date)
+        feats["season"] = float(ts.year)
+        feats["week_of_year"] = float(int(ts.strftime("%V")))
+
         def pitcher_lags(pitcher_name: str, prefix: str) -> None:
             if not pitcher_name:
                 for k in range(w):
