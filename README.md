@@ -94,6 +94,17 @@ python scripts/optimize_gradient_boosting.py
 ```
 Uses `RandomizedSearchCV` with `TimeSeriesSplit` to tune hyperparameters. Saves the best model and search results to `results/models/` and `results/tables/`.
 
+### 9. Market lines & ROI (optional)
+```bash
+python scripts/fetch_odds.py --season 2026
+python scripts/eval_vs_market.py --season 2026 --fetch-odds
+```
+Fetches **closing moneylines** from SportsBookReview (via `sbr-odds-scraper`) into `data/odds_moneyline.csv`, then compares the saved logistic model to the market on completed games: accuracy, log loss, Brier score, and **flat-bet ROI** when the model edge (model prob minus fair market prob) exceeds a threshold (default 2–5%).
+
+`--fetch-odds` on `eval_vs_market.py` pulls any missing dates automatically. Optional: set `ODDS_API_KEY` and use `fetch_odds.py --odds-api` for a current snapshot from [The Odds API](https://the-odds-api.com/) (live odds only on free tier).
+
+Writes `results/tables/market_roi_<season>.csv` and optional per-game output via `-o`.
+
 ## Train / test / deploy
 
 | Phase | Seasons (with current pipeline) |
@@ -107,6 +118,6 @@ Uses `RandomizedSearchCV` with `TimeSeriesSplit` to tune hyperparameters. Saves 
 ## Environment
 
 - **Python** 3.11
-- **Data:** pandas, numpy, pybaseball, MLB-StatsAPI
+- **Data:** pandas, numpy, pybaseball, MLB-StatsAPI, sbr-odds-scraper
 - **Modeling:** scikit-learn
 - **Exploration:** jupyter, matplotlib, seaborn

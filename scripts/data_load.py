@@ -172,7 +172,17 @@ def main():
                 print("Existing file has invalid game_date values. Downloading full history window...")
                 df = fetch_all_seasons()
             else:
-                last_known = max_date.normalize()
+                # Use the latest *completed* game, not the furthest scheduled date.
+                # Otherwise a full-season schedule fetch skips re-scoring games that
+                # have finished since the last update (e.g. stuck at early April).
+                final_dates = existing_df.loc[
+                    existing_df["status"] == "Final", "game_date"
+                ]
+                last_known = (
+                    final_dates.max().normalize()
+                    if not final_dates.empty and pd.notna(final_dates.max())
+                    else max_date.normalize()
+                )
                 start_ts = last_known - pd.Timedelta(days=INCREMENTAL_LOOKBACK_DAYS)
                 # Fetch through the furthest season end the script currently targets.
                 season_ends = [pd.Timestamp(end_iso) for _, end_iso in get_season_dates()]
@@ -184,7 +194,8 @@ def main():
                     print(
                         "Incremental update enabled: "
                         f"fetching from {start_ts.date().isoformat()} to {end_ts.date().isoformat()} "
-                        f"(includes {INCREMENTAL_LOOKBACK_DAYS}-day lookback for late updates)."
+                        f"(last Final game: {last_known.date().isoformat()}, "
+                        f"{INCREMENTAL_LOOKBACK_DAYS}-day lookback)."
                     )
                     new_df = fetch_date_range(start_ts.date().isoformat(), end_ts.date().isoformat())
                     if new_df.empty:
