@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822829,2026-04-10,Scheduled,Minnesota Twins,Toronto Blue Jays,Simeon Woods Richardson,Patrick Corbin,0.5521230523635459,1
+822997,2026-04-10,Scheduled,New York Yankees,Tampa Bay Rays,Luis Gil,Steven Matz,0.44931803288705846,0
+823076,2026-04-10,Scheduled,Boston Red Sox,St. Louis Cardinals,Connelly Early,Dustin May,0.5818188406800434,1
+823156,2026-04-10,Scheduled,Houston Astros,Seattle Mariners,Tatsuya Imai,Emerson Hancock,0.49014014296942715,0
+823318,2026-04-10,Scheduled,Colorado Rockies,San Diego Padres,Tomoyuki Sugano,Walker Buehler,0.5802537001639626,1
+823482,2026-04-10,Scheduled,Arizona Diamondbacks,Philadelphia Phillies,Michael Soroka,Jesús Luzardo,0.504486621732323,1
+823643,2026-04-10,Scheduled,Athletics,New York Mets,J.T. Ginn,Clay Holmes,0.6464266333380168,1
+823808,2026-04-10,Scheduled,Washington Nationals,Milwaukee Brewers,Jake Irvin,Chad Patrick,0.6011427539092914,1
+823968,2026-04-10,Scheduled,Texas Rangers,Los Angeles Dodgers,Kumar Rocker,Tyler Glasnow,0.6079778562927551,1
+824128,2026-04-10,Scheduled,Chicago White Sox,Kansas City Royals,Davis Martin,Kris Bubic,0.5647740160439603,1
+824297,2026-04-10,Scheduled,Miami Marlins,Detroit Tigers,Chris Paddack,Keider Montero,0.49611405502991224,0
+824534,2026-04-10,Scheduled,Los Angeles Angels,Cincinnati Reds,Jack Kochanowicz,Chase Burns,0.6095575777699833,1
+824695,2026-04-10,Scheduled,Pittsburgh Pirates,Chicago Cubs,Carmen Mlodzinski,Shota Imanaga,0.5271935593759864,1
+824858,2026-04-10,Scheduled,San Francisco Giants,Baltimore Orioles,Landen Roupp,Shane Baz,0.4985528522348894,0
+824941,2026-04-10,Scheduled,Cleveland Guardians,Atlanta Braves,Slade Cecconi,Bryce Elder,0.5476047774478836,1

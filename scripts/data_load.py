@@ -1,5 +1,6 @@
 """
-Download MLB schedule data from the MLB Stats API for the last 8 seasons.
+Download MLB schedule data from the MLB Stats API for the last 8 seasons,
+plus the current calendar year when it falls after that window (in-season updates).
 Saves to the project data folder as CSV (or JSON if the dataset is very large).
 Uses the API directly (no statsapi parsing) to avoid KeyError on varying response shapes.
 """
@@ -21,19 +22,28 @@ NUM_SEASONS = 8
 JSON_IF_ROWS_OVER = 100_000
 
 SCHEDULE_URL = "https://statsapi.mlb.com/api/v1/schedule"
+INCREMENTAL_LOOKBACK_DAYS = 3
 
 
 def get_season_dates():
-    """Yield (start_date_iso, end_date_iso) for each of the last NUM_SEASONS seasons."""
+    """Yield (start_date_iso, end_date_iso) for each of the last NUM_SEASONS seasons.
+
+    Also fetches the current and next calendar year when they are not already in that
+    block (so new-season games exist for evaluation even if the rolling window ended
+    at the prior year, or the machine clock is a year behind).
+    """
     from datetime import datetime
 
     current_year = datetime.now().year
-    # e.g. 2026 -> last 8 full seasons: 2018..2025
     start_year = current_year - NUM_SEASONS
+    fetched_years: set[int] = set()
     for year in range(start_year, start_year + NUM_SEASONS):
-        start_iso = f"{year}-03-01"
-        end_iso = f"{year}-11-30"
-        yield start_iso, end_iso
+        fetched_years.add(year)
+        yield f"{year}-03-01", f"{year}-11-30"
+    for extra in (current_year, current_year + 1):
+        if extra not in fetched_years:
+            fetched_years.add(extra)
+            yield f"{extra}-03-01", f"{extra}-11-30"
 
 
 def _game_to_row(g):
@@ -94,21 +104,106 @@ def fetch_all_seasons():
     return pd.DataFrame(all_rows)
 
 
+def fetch_date_range(start_iso: str, end_iso: str) -> pd.DataFrame:
+    """Fetch schedule from MLB Stats API for one date range; return one DataFrame."""
+    hydrate = "decisions,probablePitcher(note),linescore"
+    all_rows = []
+    print(f"  Fetching {start_iso} – {end_iso} ...")
+    params = {
+        "sportId": 1,
+        "startDate": start_iso,
+        "endDate": end_iso,
+        "hydrate": hydrate,
+    }
+    resp = requests.get(SCHEDULE_URL, params=params, timeout=60)
+    resp.raise_for_status()
+    data = resp.json()
+    for date_block in data.get("dates") or []:
+        for g in date_block.get("games") or []:
+            all_rows.append(_game_to_row(g))
+    return pd.DataFrame(all_rows)
+
+
+def load_existing_schedule(base_name: str) -> tuple[pd.DataFrame | None, Path | None]:
+    """Load existing schedule data if present (CSV first, then JSON lines)."""
+    csv_path = DATA_DIR / f"{base_name}.csv"
+    json_path = DATA_DIR / f"{base_name}.json"
+
+    if csv_path.exists():
+        return pd.read_csv(csv_path), csv_path
+    if json_path.exists():
+        return pd.read_json(json_path, orient="records", lines=True), json_path
+    return None, None
+
+
+def upsert_games(existing: pd.DataFrame, incoming: pd.DataFrame) -> pd.DataFrame:
+    """Merge new games into existing data by game_id, keeping the newest fetched row."""
+    if incoming.empty:
+        return existing
+    combined = pd.concat([existing, incoming], ignore_index=True)
+    combined = combined.drop_duplicates(subset=["game_id"], keep="last")
+    if "game_date" in combined.columns:
+        combined["game_date"] = pd.to_datetime(combined["game_date"], errors="coerce")
+        combined = combined.sort_values(["game_date", "game_id"]).reset_index(drop=True)
+        combined["game_date"] = combined["game_date"].dt.strftime("%Y-%m-%d")
+    return combined
+
+
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    print("Downloading MLB schedule data (last 8 seasons) from MLB Stats API...")
-    df = fetch_all_seasons()
+    base_name = "schedule_8_seasons"
+    csv_path = DATA_DIR / f"{base_name}.csv"
+    json_path = DATA_DIR / f"{base_name}.json"
+    existing_df, existing_path = load_existing_schedule(base_name)
+
+    if existing_df is None:
+        print("No local schedule file found. Downloading full history window from MLB Stats API...")
+        df = fetch_all_seasons()
+    else:
+        print(f"Found existing schedule file: {existing_path}")
+        if "game_date" not in existing_df.columns or existing_df.empty:
+            print("Existing file has no usable game_date rows. Downloading full history window...")
+            df = fetch_all_seasons()
+        else:
+            existing_df["game_date"] = pd.to_datetime(existing_df["game_date"], errors="coerce")
+            max_date = existing_df["game_date"].max()
+            if pd.isna(max_date):
+                print("Existing file has invalid game_date values. Downloading full history window...")
+                df = fetch_all_seasons()
+            else:
+                last_known = max_date.normalize()
+                start_ts = last_known - pd.Timedelta(days=INCREMENTAL_LOOKBACK_DAYS)
+                # Fetch through the furthest season end the script currently targets.
+                season_ends = [pd.Timestamp(end_iso) for _, end_iso in get_season_dates()]
+                end_ts = max(season_ends)
+                if start_ts > end_ts:
+                    print("Local data is already beyond configured fetch window. Keeping existing file as-is.")
+                    df = existing_df.copy()
+                else:
+                    print(
+                        "Incremental update enabled: "
+                        f"fetching from {start_ts.date().isoformat()} to {end_ts.date().isoformat()} "
+                        f"(includes {INCREMENTAL_LOOKBACK_DAYS}-day lookback for late updates)."
+                    )
+                    new_df = fetch_date_range(start_ts.date().isoformat(), end_ts.date().isoformat())
+                    if new_df.empty:
+                        print("No new/updated games returned by API. Keeping existing file as-is.")
+                        df = existing_df.copy()
+                    else:
+                        before_n = len(existing_df)
+                        df = upsert_games(existing_df, new_df)
+                        print(
+                            f"  Existing rows: {before_n:,}, fetched rows: {len(new_df):,}, "
+                            f"merged rows: {len(df):,}"
+                        )
+
     n = len(df)
     if n == 0:
         print("No games returned. Check API or date range.")
         return
 
-    print(f"  Total games: {n}")
-
-    base_name = "schedule_8_seasons"
-    csv_path = DATA_DIR / f"{base_name}.csv"
-    json_path = DATA_DIR / f"{base_name}.json"
+    print(f"  Total games after update: {n}")
 
     if n > JSON_IF_ROWS_OVER:
         # Save as JSON (lines format) for very large data

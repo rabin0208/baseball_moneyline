@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822826,2026-04-25,Scheduled,Cleveland Guardians,Toronto Blue Jays,Joey Cantillo,Kevin Gausman,0.5129392466898332,1
+822910,2026-04-25,Scheduled,Athletics,Texas Rangers,Jeffrey Springs,MacKenzie Gore,0.5712437437816245,1
+822989,2026-04-25,Scheduled,Minnesota Twins,Tampa Bay Rays,Bailey Ober,Shane McClanahan,0.5783213666479815,1
+823070,2026-04-25,Scheduled,Seattle Mariners,St. Louis Cardinals,Bryan Woo,Matthew Liberatore,0.5815348435138828,1
+823229,2026-04-25,Scheduled,Miami Marlins,San Francisco Giants,Eury Pérez,Robbie Ray,0.5143610837852304,1
+823799,2026-04-25,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,Mitch Keller,Jacob Misiorowski,0.5939803746468596,1
+823960,2026-04-25,Scheduled,Chicago Cubs,Los Angeles Dodgers,Colin Rea,Roki Sasaki,0.42084186629232084,0
+824121,2026-04-25,Scheduled,Los Angeles Angels,Kansas City Royals,Walbert Urena,Cole Ragans,0.43067046958532873,0
+824203,2026-04-25,Scheduled,New York Yankees,Houston Astros,Ryan Weathers,Mike Burrows,0.5142483401725262,1
+824527,2026-04-25,Scheduled,Detroit Tigers,Cincinnati Reds,Jack Flaherty,Brady Singer,0.5228261250089636,1
+824613,2026-04-25,Scheduled,Washington Nationals,Chicago White Sox,Jake Irvin,Noah Schultz,0.5351357914143106,1
+824851,2026-04-25,Pre-Game,Boston Red Sox,Baltimore Orioles,Garrett Crochet,Trevor Rogers,0.5741289555728147,1
+824933,2026-04-25,Scheduled,Philadelphia Phillies,Atlanta Braves,Zack Wheeler,Bryce Elder,0.707774255711838,1
+825093,2026-04-25,Scheduled,San Diego Padres,Arizona Diamondbacks,Germán Márquez,Zac Gallen,0.4746102665199678,0

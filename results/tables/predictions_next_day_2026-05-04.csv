@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822984,2026-05-04,Scheduled,Toronto Blue Jays,Tampa Bay Rays,,Nick Martinez,0.5218689781626396,1
+823064,2026-05-04,Scheduled,Milwaukee Brewers,St. Louis Cardinals,Chad Patrick,Kyle Leahy,0.4615592075292989,0
+823143,2026-05-04,Scheduled,Atlanta Braves,Seattle Mariners,JR Ritchie,Logan Gilbert,0.4978223473353136,0
+823228,2026-05-04,Scheduled,San Diego Padres,San Francisco Giants,Randy Vásquez,Trevor McDonald,0.537387948146801,1
+823552,2026-05-04,Scheduled,Baltimore Orioles,New York Yankees,Shane Baz,Cam Schlittler,0.7223528953507844,1
+823874,2026-05-04,Scheduled,Philadelphia Phillies,Miami Marlins,Aaron Nola,Janson Junk,0.5217923682214267,1
+824039,2026-05-04,Scheduled,Chicago White Sox,Los Angeles Angels,Davis Martin,José Soriano,0.5209948538774619,1
+824120,2026-05-04,Scheduled,Cleveland Guardians,Kansas City Royals,Tanner Bibee,Michael Wacha,0.5066470718593944,1
+824201,2026-05-04,Scheduled,Los Angeles Dodgers,Houston Astros,Yoshinobu Yamamoto,Steven Okert,0.5125622174088619,1
+824283,2026-05-04,Scheduled,Boston Red Sox,Detroit Tigers,Payton Tolle,Tarik Skubal,0.5513525812835159,1
+824363,2026-05-04,Scheduled,New York Mets,Colorado Rockies,,Tomoyuki Sugano,0.4554351019404494,0
+824684,2026-05-04,Scheduled,Cincinnati Reds,Chicago Cubs,Chase Petty,Edward Cabrera,0.568929312230755,1

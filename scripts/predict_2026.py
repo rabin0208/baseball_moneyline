@@ -20,8 +20,8 @@ import pandas as pd
 import requests
 
 from data_load import SCHEDULE_URL, _game_to_row
-from fit_logistic_model import FEATURE_COLS
-from rolling_state import RollingFeatureState, ROLLING_WINDOW
+from model_utils import FEATURE_COLS, LAG_WINDOW
+from rolling_state import RollingFeatureState
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -98,6 +98,11 @@ def main() -> None:
         help="With --next-day, date YYYY-MM-DD to predict (default: tomorrow).",
     )
     parser.add_argument(
+        "--today",
+        action="store_true",
+        help="With --next-day, predict today's not-yet-final games.",
+    )
+    parser.add_argument(
         "-o",
         "--output",
         type=str,
@@ -108,6 +113,10 @@ def main() -> None:
 
     if args.next_day and args.forecast:
         raise SystemExit("--next-day cannot be used with --forecast.")
+    if args.today and not args.next_day:
+        raise SystemExit("--today requires --next-day.")
+    if args.today and args.predict_date:
+        raise SystemExit("Use either --today or --predict-date, not both.")
 
     season = args.season
     start_iso = args.start or f"{season}-03-01"
@@ -116,7 +125,9 @@ def main() -> None:
     season_start = date(season, 3, 1)
 
     if args.next_day:
-        if args.predict_date:
+        if args.today:
+            predict_d = today
+        elif args.predict_date:
             predict_d = date.fromisoformat(args.predict_date)
         else:
             predict_d = today + timedelta(days=1)
@@ -145,7 +156,7 @@ def main() -> None:
     history = load_history()
     print(f"  {len(history)} completed games for seeding.")
 
-    state = RollingFeatureState(window=ROLLING_WINDOW)
+    state = RollingFeatureState(window=LAG_WINDOW)
     state.seed_from_completed(history)
 
     if args.next_day:

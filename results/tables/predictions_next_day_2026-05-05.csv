@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822743,2026-05-05,Scheduled,Minnesota Twins,Washington Nationals,Taj Bradley,Cade Cavalli,0.4999514211759846,0
+822986,2026-05-05,Scheduled,Toronto Blue Jays,Tampa Bay Rays,Kevin Gausman,Drew Rasmussen,0.4867337006230523,0
+823062,2026-05-05,Scheduled,Milwaukee Brewers,St. Louis Cardinals,Brandon Sproat,Andre Pallante,0.513583511401296,1
+823142,2026-05-05,Scheduled,Atlanta Braves,Seattle Mariners,Bryce Elder,George Kirby,0.5091594577509782,1
+823227,2026-05-05,Scheduled,San Diego Padres,San Francisco Giants,Walker Buehler,Logan Webb,0.5328928608528565,1
+823469,2026-05-05,Scheduled,Athletics,Philadelphia Phillies,Luis Severino,Cristopher Sánchez,0.5473898243122286,1
+823553,2026-05-05,Scheduled,Texas Rangers,New York Yankees,Jacob deGrom,Elmer Rodríguez,0.5918256214925686,1
+823873,2026-05-05,Scheduled,Baltimore Orioles,Miami Marlins,Chris Bassitt,Sandy Alcantara,0.5427785885042351,1
+824040,2026-05-05,Scheduled,Chicago White Sox,Los Angeles Angels,Erick Fedde,Sam Aldegheri,0.49394025978120293,0
+824119,2026-05-05,Scheduled,Cleveland Guardians,Kansas City Royals,Gavin Williams,Stephen Kolek,0.566797136619103,1
+824200,2026-05-05,Scheduled,Los Angeles Dodgers,Houston Astros,Shohei Ohtani,Peter Lambert,0.39447840191506484,0
+824281,2026-05-05,Scheduled,Boston Red Sox,Detroit Tigers,Jovani Morán,Framber Valdez,0.588067135462083,1
+824362,2026-05-05,Scheduled,New York Mets,Colorado Rockies,Freddy Peralta,Michael Lorenzen,0.4839921157377203,0
+824682,2026-05-05,Scheduled,Cincinnati Reds,Chicago Cubs,Andrew Abbott,Jameson Taillon,0.5123082737540935,1
+825092,2026-05-05,Scheduled,Pittsburgh Pirates,Arizona Diamondbacks,Bubba Chandler,Eduardo Rodriguez,0.47698713835339723,0

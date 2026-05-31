@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822756,2026-04-05,In Progress,Los Angeles Dodgers,Washington Nationals,Roki Sasaki,Foster Griffin,0.49887678950285685,0
+823238,2026-04-05,In Progress,New York Mets,San Francisco Giants,Kodai Senga,Logan Webb,0.5708441418760303,1
+823566,2026-04-05,In Progress,Miami Marlins,New York Yankees,Pete Fairbanks,Max Fried,0.5117532290471503,1
+824053,2026-04-05,In Progress,Seattle Mariners,Los Angeles Angels,Luis Castillo,George Klassen,0.6039500524035223,1
+824296,2026-04-05,Pre-Game,St. Louis Cardinals,Detroit Tigers,Kyle Leahy,Keider Montero,0.5116958922314305,1
+824460,2026-04-05,Postponed,Chicago Cubs,Cleveland Guardians,Shota Imanaga,Slade Cecconi,0.4960060511160184,0
+824460,2026-04-05,In Progress,Chicago Cubs,Cleveland Guardians,Shota Imanaga,Parker Messick,0.5223690986925945,1
+825025,2026-04-05,In Progress,Houston Astros,Athletics,Lance McCullers Jr.,Jacob Lopez,0.4813405739465978,0
+825102,2026-04-05,In Progress,Atlanta Braves,Arizona Diamondbacks,Martín Pérez,Brandon Pfaadt,0.48850694161850633,0

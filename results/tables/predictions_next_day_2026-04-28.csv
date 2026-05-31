@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822823,2026-04-28,Scheduled,Boston Red Sox,Toronto Blue Jays,Payton Tolle,Trey Yesavage,0.5524920173116873,1
+822908,2026-04-28,Scheduled,New York Yankees,Texas Rangers,Cam Schlittler,Jacob deGrom,0.5250506042429606,1
+823310,2026-04-28,Scheduled,Chicago Cubs,San Diego Padres,Edward Cabrera,Walker Buehler,0.5591443214576539,1
+823390,2026-04-28,Scheduled,St. Louis Cardinals,Pittsburgh Pirates,Kyle Leahy,,0.5551443137509163,1
+823473,2026-04-28,Scheduled,San Francisco Giants,Philadelphia Phillies,Tyler Mahle,Jesús Luzardo,0.5022816273771974,1
+823636,2026-04-28,Scheduled,Washington Nationals,New York Mets,Zack Littell,Clay Holmes,0.5571275608445082,1
+823716,2026-04-28,Scheduled,Seattle Mariners,Minnesota Twins,Logan Gilbert,Joe Ryan,0.5675268042598836,1
+823798,2026-04-28,Scheduled,Arizona Diamondbacks,Milwaukee Brewers,,Chad Patrick,0.5289763382481931,1
+823956,2026-04-28,Scheduled,Miami Marlins,Los Angeles Dodgers,Janson Junk,Shohei Ohtani,0.6329186520867514,1
+824447,2026-04-28,Scheduled,Tampa Bay Rays,Cleveland Guardians,Nick Martinez,Tanner Bibee,0.5569482067043188,1
+824526,2026-04-28,Scheduled,Colorado Rockies,Cincinnati Reds,,Chase Burns,0.6163486905007114,1
+824610,2026-04-28,Scheduled,Los Angeles Angels,Chicago White Sox,José Soriano,Davis Martin,0.49824150812899365,0
+824849,2026-04-28,Scheduled,Houston Astros,Baltimore Orioles,Kai-Wei Teng,Shane Baz,0.5589322046772416,1
+824931,2026-04-28,Scheduled,Detroit Tigers,Atlanta Braves,Casey Mize,Martín Pérez,0.6377661293625363,1
+825017,2026-04-28,Scheduled,Kansas City Royals,Athletics,Kris Bubic,,0.5960084953567989,1

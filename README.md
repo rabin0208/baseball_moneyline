@@ -19,7 +19,7 @@ Run all commands from the project root.
 ```bash
 python scripts/data_load.py
 ```
-Fetches 8 seasons (2018–2025) of schedule data from the MLB Stats API. Outputs `data/schedule_8_seasons.csv`.
+Fetches the last 8 calendar years of schedule data from the MLB Stats API, plus the current year when it is not already included (so new-season games are available). Outputs `data/schedule_8_seasons.csv`.
 
 ### 2. Exploratory data analysis
 ```bash
@@ -31,7 +31,7 @@ Filters to completed ("Final") games, drops rows with missing values, adds deriv
 ```bash
 python scripts/split_n_preprocess.py
 ```
-Adds rolling features (wins, runs, runs allowed, run differential over last 10 games), H2H win rate, rest days, and pitcher rolling win rate (centered). Outputs `data/schedule_8_seasons_featured.csv`.
+Adds **lagged** features (per-game values for each of the last 10 games: wins, runs, runs allowed, run differential for home and away), lagged head-to-head wins for the current home team, rest days, **calendar `season` (year) and `week_of_year` (ISO week)**, and lagged pitcher outcomes (win encoded as ±0.5 vs 0 for padding). Column list: `FEATURE_COLS` in `scripts/model_utils.py`. Outputs `data/schedule_8_seasons_featured.csv`.
 
 ### 4. Fit models
 ```bash
@@ -39,7 +39,7 @@ python scripts/fit_logistic_model.py
 python scripts/fit_random_forest.py
 python scripts/fit_gradient_boosting.py
 ```
-Each script loads the featured CSV, splits by season (**train on 2018–2024, test on 2025**), fits the model, prints accuracy and ROC-AUC, and saves the model to `results/models/` (e.g. `logistic_regression.pkl` and `scaler.pkl` for the logistic pipeline).
+Each script loads the featured CSV, splits by season (**train on 2018–2025, test on completed 2026 games**), fits the model, prints accuracy and ROC-AUC, and saves the model to `results/models/` (e.g. `logistic_regression.pkl` and `scaler.pkl` for the logistic pipeline). The holdout year is `TEST_SEASONS` in `scripts/model_utils.py`.
 
 ### 5. Predictions (deployment on a new season)
 
@@ -65,11 +65,29 @@ python scripts/predict_2026.py --forecast
 python scripts/predict_2026.py --next-day
 ```
 
-Optional `--predict-date YYYY-MM-DD` (today or a future date). Output: `results/tables/predictions_next_day_<date>.csv`. Do not combine `--next-day` with `--forecast`.
+To score today's games that have not started/finished yet:
+
+```bash
+python scripts/predict_2026.py --next-day --today
+```
+
+Optional `--predict-date YYYY-MM-DD` (today or a future date; use instead of `--today`). Output: `results/tables/predictions_next_day_<date>.csv`. Do not combine `--next-day` with `--forecast`.
 
 Use `--start`, `--end`, `-o` / `--output`, and `--season` as needed for other seasons or paths.
 
-### 6. Hyperparameter tuning (optional)
+### 6. Walk-forward evaluation (optional, biweekly full year)
+```bash
+python scripts/eval_early_2025_walkforward.py
+```
+For **each** biweekly window (default 14 days) from **Jan 1 through Dec 31** of the chosen year (default 2025), fits a logistic model on all games **before** that window and evaluates on games **inside** the window. Prints accuracy and ROC-AUC per period, plus means. Writes `results/tables/walkforward_biweekly_<year>.csv`. Uses `data/schedule_8_seasons_featured.csv`; does not save a model. Options: `--season`, `--period-days`, `-o`.
+
+### 7. Fixed train, weekly (or period) test (optional)
+```bash
+python scripts/eval_weekly_fixed_train.py
+```
+Fits **one** logistic model on all games with `game_date` before Jan 1 after `--train-through-year` (default **2025**), then reports accuracy and ROC-AUC for each **week** (default **7** days) from Jan 1 through Dec 31 of `--test-year` (default **2026**). Does not refit between weeks. Writes `results/tables/weekly_fixed_train_<train>_test_<test>.csv`. Options: `--train-through-year`, `--test-year`, `--period-days`, `-o`.
+
+### 8. Hyperparameter tuning (optional)
 ```bash
 python scripts/optimize_random_forest.py
 python scripts/optimize_gradient_boosting.py
@@ -80,11 +98,11 @@ Uses `RandomizedSearchCV` with `TimeSeriesSplit` to tune hyperparameters. Saves 
 
 | Phase | Seasons (with current pipeline) |
 |--------|-----------------------------------|
-| Training | 2018–2024 |
-| Test (holdout) | 2025 |
+| Training | 2018–2025 (all seasons before the holdout year) |
+| Test (holdout) | 2026 completed games only (`Final` in EDA) |
 | Live predictions | e.g. 2026 via `predict_2026.py` |
 
-`data_load.py` pulls the **last 8 full calendar years** of completed seasons (e.g. in 2026 that is **2018–2025**), which feeds EDA and feature engineering.
+`data_load.py` pulls the **last 8 calendar years** of schedule data **plus the current year** when it is not already in that window (so in 2026 you get **2018–2026**, including completed games from the new season). That feeds EDA and feature engineering.
 
 ## Environment
 

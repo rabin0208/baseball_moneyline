@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822809,2026-05-27,Scheduled,Miami Marlins,Toronto Blue Jays,Eury Pérez,Kevin Gausman,0.5724980931812614,1
+822897,2026-05-27,Scheduled,Houston Astros,Texas Rangers,Mike Burrows,Jacob deGrom,0.5045405355848606,1
+823217,2026-05-27,Scheduled,Arizona Diamondbacks,San Francisco Giants,Michael Soroka,Trevor McDonald,0.4537211553529695,0
+823295,2026-05-27,Scheduled,Philadelphia Phillies,San Diego Padres,Cristopher Sánchez,Walker Buehler,0.5805685219046676,1
+823376,2026-05-27,Scheduled,Chicago Cubs,Pittsburgh Pirates,Jameson Taillon,Bubba Chandler,0.5879884656057581,1
+823626,2026-05-27,Scheduled,Cincinnati Reds,New York Mets,Andrew Abbott,Huascar Brazobán,0.4856714774712227,0
+823783,2026-05-27,Scheduled,St. Louis Cardinals,Milwaukee Brewers,Dustin May,,0.524209667014921,1
+823947,2026-05-27,Scheduled,Colorado Rockies,Los Angeles Dodgers,Tomoyuki Sugano,Shohei Ohtani,0.588352764823728,1
+824104,2026-05-27,Scheduled,New York Yankees,Kansas City Royals,Gerrit Cole,Noah Cameron,0.4157580708585492,0
+824270,2026-05-27,Scheduled,Los Angeles Angels,Detroit Tigers,José Soriano,Casey Mize,0.5160786838050477,1
+824432,2026-05-27,Scheduled,Washington Nationals,Cleveland Guardians,Miles Mikolas,Gavin Williams,0.5358823971508708,1
+824596,2026-05-27,Scheduled,Minnesota Twins,Chicago White Sox,Connor Prielipp,Davis Martin,0.5833976320189636,1
+824756,2026-05-27,Scheduled,Atlanta Braves,Boston Red Sox,Bryce Elder,Connelly Early,0.5019507055537265,1
+824836,2026-05-27,Scheduled,Tampa Bay Rays,Baltimore Orioles,Steven Matz,,0.4634216711291336,0
+825003,2026-05-27,Scheduled,Seattle Mariners,Athletics,Logan Gilbert,Jeffrey Springs,0.5575772831193324,1

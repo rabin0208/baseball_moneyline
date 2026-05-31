@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822813,2026-05-24,Pre-Game,Pittsburgh Pirates,Toronto Blue Jays,Mitch Keller,Dylan Cease,0.6166149028236692,1
+823220,2026-05-24,Scheduled,Chicago White Sox,San Francisco Giants,Noah Schultz,Robbie Ray,0.5613447435410232,1
+823297,2026-05-24,Scheduled,Athletics,San Diego Padres,Luis Medina,Michael King,0.5554928307373919,1
+823459,2026-05-24,Scheduled,Cleveland Guardians,Philadelphia Phillies,Parker Messick,Andrew Painter,0.4694917191809142,0
+823544,2026-05-24,Scheduled,Tampa Bay Rays,New York Yankees,Drew Rasmussen,Ryan Weathers,0.5255338773427044,1
+823786,2026-05-24,Scheduled,Los Angeles Dodgers,Milwaukee Brewers,Yoshinobu Yamamoto,Brandon Sproat,0.4364979993856227,0
+823861,2026-05-24,Scheduled,New York Mets,Miami Marlins,Christian Scott,Tyler Phillips,0.5583290183146116,1
+824028,2026-05-24,Scheduled,Texas Rangers,Los Angeles Angels,MacKenzie Gore,Reid Detmers,0.5265462373665254,1
+824108,2026-05-24,Scheduled,Seattle Mariners,Kansas City Royals,Bryan Woo,Seth Lugo,0.506810106769902,1
+824514,2026-05-24,Scheduled,St. Louis Cardinals,Cincinnati Reds,Matthew Liberatore,Brady Singer,0.5094348161284548,1
+824676,2026-05-24,Scheduled,Houston Astros,Chicago Cubs,Peter Lambert,Shota Imanaga,0.5429132205668674,1
+824759,2026-05-24,Pre-Game,Minnesota Twins,Boston Red Sox,Bailey Ober,Sonny Gray,0.5315835597261618,1
+824839,2026-05-24,Pre-Game,Detroit Tigers,Baltimore Orioles,Framber Valdez,Brandon Young,0.5543433609653319,1
+824840,2026-05-24,Postponed,Detroit Tigers,Baltimore Orioles,Framber Valdez,Brandon Young,0.5543433609653319,1
+824840,2026-05-24,Scheduled,Detroit Tigers,Baltimore Orioles,,Trevor Rogers,0.5239324438624159,1
+824921,2026-05-24,Scheduled,Washington Nationals,Atlanta Braves,Foster Griffin,Martín Pérez,0.6099324981726935,1
+825081,2026-05-24,Scheduled,Colorado Rockies,Arizona Diamondbacks,Jose Quintana,Ryne Nelson,0.5651217419797007,1

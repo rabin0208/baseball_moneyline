@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822736,2026-05-19,Scheduled,New York Mets,Washington Nationals,Nolan McLean,Foster Griffin,0.4974358829196714,0
+822979,2026-05-19,Scheduled,Baltimore Orioles,Tampa Bay Rays,Kyle Bradish,Griffin Jax,0.5525876794842794,1
+823059,2026-05-19,Scheduled,Pittsburgh Pirates,St. Louis Cardinals,Mitch Keller,Matthew Liberatore,0.6232851767924772,1
+823136,2026-05-19,Scheduled,Chicago White Sox,Seattle Mariners,Anthony Kay,Bryce Miller,0.5104575905098532,1
+823302,2026-05-19,Scheduled,Los Angeles Dodgers,San Diego Padres,Emmet Sheehan,Griffin Canning,0.56949158564472,1
+823464,2026-05-19,Scheduled,Cincinnati Reds,Philadelphia Phillies,Chase Burns,Jesús Luzardo,0.600607925187233,1
+823548,2026-05-19,Scheduled,Toronto Blue Jays,New York Yankees,Dylan Cease,Will Warren,0.5373289629391145,1
+823704,2026-05-19,Scheduled,Houston Astros,Minnesota Twins,Lance McCullers Jr.,Zebby Matthews,0.5343656504081576,1
+823865,2026-05-19,Scheduled,Atlanta Braves,Miami Marlins,Martín Pérez,Braxton Garrett,0.45836172874467773,0
+824033,2026-05-19,Scheduled,Athletics,Los Angeles Angels,Jacob Lopez,Reid Detmers,0.3922657815087533,0
+824112,2026-05-19,Scheduled,Boston Red Sox,Kansas City Royals,Ranger Suarez,Bailey Falter,0.501837983755593,1
+824276,2026-05-19,Scheduled,Cleveland Guardians,Detroit Tigers,Parker Messick,Keider Montero,0.432969389353748,0
+824356,2026-05-19,Scheduled,Texas Rangers,Colorado Rockies,Kumar Rocker,Sammy Peralta,0.5077443408558006,1
+824677,2026-05-19,Scheduled,Milwaukee Brewers,Chicago Cubs,Jacob Misiorowski,Ben Brown,0.4571132931765103,0
+825086,2026-05-19,Scheduled,San Francisco Giants,Arizona Diamondbacks,Landen Roupp,Ryne Nelson,0.5482831617077807,1

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822811,2026-05-26,Scheduled,Miami Marlins,Toronto Blue Jays,Sandy Alcantara,Braydon Fisher,0.5644102889938571,1
+822898,2026-05-26,Scheduled,Houston Astros,Texas Rangers,Jason Alexander,Jack Leiter,0.4367646969902239,0
+823216,2026-05-26,Scheduled,Arizona Diamondbacks,San Francisco Giants,Eduardo Rodriguez,Tyler Mahle,0.4365592755717681,0
+823294,2026-05-26,Scheduled,Philadelphia Phillies,San Diego Padres,Aaron Nola,Randy Vásquez,0.5448258025709193,1
+823379,2026-05-26,Scheduled,Chicago Cubs,Pittsburgh Pirates,Jordan Wicks,Braxton Ashcraft,0.5934906490059725,1
+823624,2026-05-26,Scheduled,Cincinnati Reds,New York Mets,Chase Burns,,0.5330080082144624,1
+823785,2026-05-26,Scheduled,St. Louis Cardinals,Milwaukee Brewers,Michael McGreevy,Kyle Harrison,0.6070195349349575,1
+823949,2026-05-26,Scheduled,Colorado Rockies,Los Angeles Dodgers,Kyle Freeland,Eric Lauer,0.6384335268319887,1
+824106,2026-05-26,Scheduled,New York Yankees,Kansas City Royals,Cam Schlittler,Bailey Falter,0.41784344734052087,0
+824275,2026-05-26,Scheduled,Los Angeles Angels,Detroit Tigers,Jack Kochanowicz,Keider Montero,0.6466283494384873,1
+824434,2026-05-26,Pre-Game,Washington Nationals,Cleveland Guardians,Cade Cavalli,Joey Cantillo,0.6049870861650894,1
+824597,2026-05-26,Scheduled,Minnesota Twins,Chicago White Sox,Joe Ryan,Sean Burke,0.5203616192789672,1
+824758,2026-05-26,Pre-Game,Atlanta Braves,Boston Red Sox,Spencer Strider,Ranger Suarez,0.4664028182347184,0
+824837,2026-05-26,Scheduled,Tampa Bay Rays,Baltimore Orioles,Griffin Jax,Shane Baz,0.5054179165358084,1
+825004,2026-05-26,Scheduled,Seattle Mariners,Athletics,Emerson Hancock,Luis Severino,0.4899659848056395,0

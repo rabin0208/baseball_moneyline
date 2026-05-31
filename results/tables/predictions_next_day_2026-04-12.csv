@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822828,2026-04-12,Scheduled,Minnesota Twins,Toronto Blue Jays,Taj Bradley,Max Scherzer,0.5645752849286656,1
+822998,2026-04-12,Scheduled,New York Yankees,Tampa Bay Rays,Cam Schlittler,Drew Rasmussen,0.34262737004992994,0
+823075,2026-04-12,Pre-Game,Boston Red Sox,St. Louis Cardinals,Brayan Bello,Andre Pallante,0.6056281788358703,1
+823154,2026-04-12,Scheduled,Houston Astros,Seattle Mariners,,Logan Gilbert,0.47846174480019793,0
+823317,2026-04-12,Scheduled,Colorado Rockies,San Diego Padres,Kyle Freeland,Nick Pivetta,0.5444339757385215,1
+823479,2026-04-12,Pre-Game,Arizona Diamondbacks,Philadelphia Phillies,Zac Gallen,Andrew Painter,0.5504706859837932,1
+823642,2026-04-12,Scheduled,Athletics,New York Mets,Aaron Civale,Freddy Peralta,0.5148568819118826,1
+823804,2026-04-12,Scheduled,Washington Nationals,Milwaukee Brewers,Zack Littell,Brandon Woodruff,0.6839747321361889,1
+823966,2026-04-12,Scheduled,Texas Rangers,Los Angeles Dodgers,Jacob deGrom,Roki Sasaki,0.6215949376936251,1
+824126,2026-04-12,Scheduled,Chicago White Sox,Kansas City Royals,Grant Taylor,Noah Cameron,0.46468080089446867,0
+824293,2026-04-12,Scheduled,Miami Marlins,Detroit Tigers,Sandy Alcantara,Tarik Skubal,0.4503700226811629,0
+824533,2026-04-12,Scheduled,Los Angeles Angels,Cincinnati Reds,José Soriano,Andrew Abbott,0.425787435412322,0
+824696,2026-04-12,Scheduled,Pittsburgh Pirates,Chicago Cubs,Bubba Chandler,Jameson Taillon,0.4976702101636926,0
+824859,2026-04-12,Scheduled,San Francisco Giants,Baltimore Orioles,Adrian Houser,Cade Povich,0.6420197494930159,1
+824938,2026-04-12,Scheduled,Cleveland Guardians,Atlanta Braves,Tanner Bibee,Chris Sale,0.6466396273554386,1

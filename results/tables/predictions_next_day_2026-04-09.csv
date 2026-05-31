@@ -1,0 +1,7 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823319,2026-04-09,Scheduled,Colorado Rockies,San Diego Padres,,Randy Vásquez,0.5494031258627068,1
+823565,2026-04-09,Pre-Game,Athletics,New York Yankees,Jeffrey Springs,Ryan Weathers,0.5483938223349811,1
+823645,2026-04-09,Scheduled,Arizona Diamondbacks,New York Mets,Eduardo Rodriguez,Nolan McLean,0.5821059558694776,1
+823724,2026-04-09,Pre-Game,Detroit Tigers,Minnesota Twins,Jack Flaherty,Mick Abel,0.5582509641759207,1
+823884,2026-04-09,Pre-Game,Cincinnati Reds,Miami Marlins,Rhett Lowder,Max Meyer,0.48207818767111815,0
+824130,2026-04-09,Scheduled,Chicago White Sox,Kansas City Royals,Anthony Kay,Seth Lugo,0.6660207587929883,1

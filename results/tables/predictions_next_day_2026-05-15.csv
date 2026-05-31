@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822739,2026-05-15,Scheduled,Baltimore Orioles,Washington Nationals,Shane Baz,Zack Littell,0.5824170484668598,1
+822983,2026-05-15,Scheduled,Miami Marlins,Tampa Bay Rays,Janson Junk,Jesse Scholtens,0.5577951087170017,1
+823061,2026-05-15,Scheduled,Kansas City Royals,St. Louis Cardinals,Michael Wacha,Dustin May,0.5694538112619553,1
+823140,2026-05-15,Scheduled,San Diego Padres,Seattle Mariners,Randy Vásquez,Emerson Hancock,0.4895773500877037,0
+823384,2026-05-15,Scheduled,Philadelphia Phillies,Pittsburgh Pirates,Aaron Nola,Braxton Ashcraft,0.5610881740709509,1
+823629,2026-05-15,Scheduled,New York Yankees,New York Mets,Cam Schlittler,Clay Holmes,0.5547085563443763,1
+823707,2026-05-15,Scheduled,Milwaukee Brewers,Minnesota Twins,,Joe Ryan,0.5024991037986037,1
+824037,2026-05-15,Scheduled,Los Angeles Dodgers,Los Angeles Angels,Blake Snell,Jack Kochanowicz,0.4402758495946749,0
+824194,2026-05-15,Scheduled,Texas Rangers,Houston Astros,Jack Leiter,Spencer Arrighetti,0.521226169506845,1
+824280,2026-05-15,Scheduled,Toronto Blue Jays,Detroit Tigers,Trey Yesavage,Brenan Hanifee,0.48058524172978156,0
+824360,2026-05-15,Scheduled,Arizona Diamondbacks,Colorado Rockies,Merrill Kelly,Kyle Freeland,0.5115558736920338,1
+824439,2026-05-15,Scheduled,Cincinnati Reds,Cleveland Guardians,Andrew Abbott,Tanner Bibee,0.49735743765082396,0
+824601,2026-05-15,Scheduled,Chicago Cubs,Chicago White Sox,Edward Cabrera,Sean Burke,0.4972694960910126,0
+824925,2026-05-15,Scheduled,Boston Red Sox,Atlanta Braves,Connelly Early,Spencer Strider,0.5595482925063349,1
+825009,2026-05-15,Scheduled,San Francisco Giants,Athletics,Tyler Mahle,Aaron Civale,0.48604076839400634,0

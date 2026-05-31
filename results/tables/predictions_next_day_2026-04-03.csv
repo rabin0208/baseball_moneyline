@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822758,2026-04-03,Pre-Game,Los Angeles Dodgers,Washington Nationals,Emmet Sheehan,Miles Mikolas,0.4819244706556033,0
+822919,2026-04-03,Scheduled,Cincinnati Reds,Texas Rangers,Brady Singer,MacKenzie Gore,0.5960494858080813,1
+823240,2026-04-03,Scheduled,New York Mets,San Francisco Giants,Nolan McLean,Tyler Mahle,0.5215011497356132,1
+823406,2026-04-03,Scheduled,Baltimore Orioles,Pittsburgh Pirates,Kyle Bradish,Mitch Keller,0.4661599051154441,0
+823568,2026-04-03,Pre-Game,Miami Marlins,New York Yankees,Eury Pérez,Will Warren,0.5029404208684257,1
+823732,2026-04-03,Scheduled,Tampa Bay Rays,Minnesota Twins,Joe Boyle,Bailey Ober,0.5742744981338286,1
+824056,2026-04-03,Scheduled,Seattle Mariners,Los Angeles Angels,Bryan Woo,Reid Detmers,0.4932406057321484,0
+824134,2026-04-03,Scheduled,Milwaukee Brewers,Kansas City Royals,Chad Patrick,Luinder Avila,0.4661198369513996,0
+824299,2026-04-03,Pre-Game,St. Louis Cardinals,Detroit Tigers,Michael McGreevy,Framber Valdez,0.5038643901351562,1
+824377,2026-04-03,Scheduled,Philadelphia Phillies,Colorado Rockies,Aaron Nola,Michael Lorenzen,0.5594498843329547,1
+824458,2026-04-03,Scheduled,Chicago Cubs,Cleveland Guardians,,Joey Cantillo,0.49236634059335405,0
+824621,2026-04-03,Postponed,Toronto Blue Jays,Chicago White Sox,Dylan Cease,Sean Burke,0.41105595529088473,0
+824621,2026-04-03,Pre-Game,Toronto Blue Jays,Chicago White Sox,Dylan Cease,Grant Taylor,0.44945404147479046,0
+824786,2026-04-03,Pre-Game,San Diego Padres,Boston Red Sox,Michael King,Sonny Gray,0.5230863925711268,1
+825026,2026-04-03,Scheduled,Houston Astros,Athletics,Cristian Javier,Jeffrey Springs,0.5072924068984855,1
+825103,2026-04-03,Scheduled,Atlanta Braves,Arizona Diamondbacks,Grant Holmes,Eduardo Rodriguez,0.49478635046424546,0

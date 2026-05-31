@@ -1,0 +1,12 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822741,2026-05-07,Scheduled,Minnesota Twins,Washington Nationals,Simeon Woods Richardson,Jake Irvin,0.5807234462639944,1
+823306,2026-05-07,Scheduled,St. Louis Cardinals,San Diego Padres,Matthew Liberatore,Michael King,0.503734409606603,1
+823467,2026-05-07,Scheduled,Athletics,Philadelphia Phillies,J.T. Ginn,Andrew Painter,0.5975948243085769,1
+823551,2026-05-07,Pre-Game,Texas Rangers,New York Yankees,MacKenzie Gore,Paul Blackburn,0.5762218060665243,1
+823870,2026-05-07,Scheduled,Baltimore Orioles,Miami Marlins,Cade Povich,Max Meyer,0.5275540444761943,1
+824117,2026-05-07,Scheduled,Cleveland Guardians,Kansas City Royals,Slade Cecconi,Seth Lugo,0.4913616098281396,0
+824362,2026-05-07,Postponed,New York Mets,Colorado Rockies,Freddy Peralta,Michael Lorenzen,0.5401915442243289,1
+824362,2026-05-07,Scheduled,New York Mets,Colorado Rockies,Christian Scott,Jose Quintana,0.47601058190233,0
+824681,2026-05-07,Scheduled,Cincinnati Reds,Chicago Cubs,Rhett Lowder,Shota Imanaga,0.5734921084769621,1
+824767,2026-05-07,Scheduled,Tampa Bay Rays,Boston Red Sox,Griffin Jax,Jake Bennett,0.5140921318451585,1
+825090,2026-05-07,Scheduled,Pittsburgh Pirates,Arizona Diamondbacks,Mitch Keller,Zac Gallen,0.571402503283395,1

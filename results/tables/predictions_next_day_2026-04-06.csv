@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822755,2026-04-06,Scheduled,St. Louis Cardinals,Washington Nationals,Andre Pallante,Zack Littell,0.47511739213142673,0
+822832,2026-04-06,Scheduled,Los Angeles Dodgers,Toronto Blue Jays,Justin Wrobleski,Max Scherzer,0.5550144670765099,1
+822918,2026-04-06,Scheduled,Seattle Mariners,Texas Rangers,Logan Gilbert,Jacob deGrom,0.5775507532347502,1
+823002,2026-04-06,Scheduled,Chicago Cubs,Tampa Bay Rays,Jameson Taillon,Shane McClanahan,0.6009430236842187,1
+823237,2026-04-06,Scheduled,Philadelphia Phillies,San Francisco Giants,Andrew Painter,Adrian Houser,0.48583640226193553,0
+823401,2026-04-06,Scheduled,San Diego Padres,Pittsburgh Pirates,Germán Márquez,Bubba Chandler,0.48373481343668456,0
+823728,2026-04-06,Scheduled,Detroit Tigers,Minnesota Twins,Casey Mize,Joe Ryan,0.5251850766624684,1
+823886,2026-04-06,Scheduled,Cincinnati Reds,Miami Marlins,Brandon Williamson,Janson Junk,0.540717046067187,1
+824052,2026-04-06,Scheduled,Atlanta Braves,Los Angeles Angels,Chris Sale,José Soriano,0.4858504695523423,0
+824376,2026-04-06,Scheduled,Houston Astros,Colorado Rockies,Cody Bolton,Ryan Feltner,0.4542632188617284,0
+824456,2026-04-06,Scheduled,Kansas City Royals,Cleveland Guardians,Michael Wacha,Tanner Bibee,0.5954056068967188,1
+824619,2026-04-06,Scheduled,Baltimore Orioles,Chicago White Sox,,Grant Taylor,0.46375959706228276,0
+824783,2026-04-06,Scheduled,Milwaukee Brewers,Boston Red Sox,Brandon Woodruff,Brayan Bello,0.39354875220562563,0

@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822734,2026-05-18,Scheduled,New York Mets,Washington Nationals,Christian Scott,Jake Irvin,0.6238884587671839,1
+822980,2026-05-18,Scheduled,Baltimore Orioles,Tampa Bay Rays,Trevor Rogers,Shane McClanahan,0.5978825937350775,1
+823137,2026-05-18,Scheduled,Chicago White Sox,Seattle Mariners,Noah Schultz,Bryan Woo,0.5830177685173512,1
+823301,2026-05-18,Scheduled,Los Angeles Dodgers,San Diego Padres,Yoshinobu Yamamoto,Michael King,0.4887247984247252,0
+823465,2026-05-18,Scheduled,Cincinnati Reds,Philadelphia Phillies,Nick Lodolo,Andrew Painter,0.5733135007419806,1
+823549,2026-05-18,Scheduled,Toronto Blue Jays,New York Yankees,Patrick Corbin,Ryan Weathers,0.5451735208123454,1
+823705,2026-05-18,Scheduled,Houston Astros,Minnesota Twins,Tatsuya Imai,Kendry Rojas,0.5006286760583086,1
+823867,2026-05-18,Scheduled,Atlanta Braves,Miami Marlins,JR Ritchie,Max Meyer,0.4671452171382767,0
+824035,2026-05-18,Scheduled,Athletics,Los Angeles Angels,J.T. Ginn,Walbert Ureña,0.4262959454960533,0
+824114,2026-05-18,Scheduled,Boston Red Sox,Kansas City Royals,Sonny Gray,Seth Lugo,0.49116181306594603,0
+824277,2026-05-18,Scheduled,Cleveland Guardians,Detroit Tigers,Slade Cecconi,Framber Valdez,0.49734773254824605,0
+824357,2026-05-18,Scheduled,Texas Rangers,Colorado Rockies,MacKenzie Gore,Jose Quintana,0.45658510407527797,0
+824680,2026-05-18,Scheduled,Milwaukee Brewers,Chicago Cubs,Brandon Sproat,Shota Imanaga,0.4616572294087354,0
+825087,2026-05-18,Scheduled,San Francisco Giants,Arizona Diamondbacks,Robbie Ray,Zac Gallen,0.49680392883431085,0

@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822812,2026-05-25,Scheduled,Miami Marlins,Toronto Blue Jays,Janson Junk,Trey Yesavage,0.5442401707277238,1
+822899,2026-05-25,Scheduled,Houston Astros,Texas Rangers,Tatsuya Imai,Kumar Rocker,0.525598433166161,1
+823219,2026-05-25,Scheduled,Arizona Diamondbacks,San Francisco Giants,Merrill Kelly,Landen Roupp,0.3788915858640058,0
+823296,2026-05-25,Scheduled,Philadelphia Phillies,San Diego Padres,Jesús Luzardo,Randy Vásquez,0.5002544683747904,1
+823380,2026-05-25,Pre-Game,Chicago Cubs,Pittsburgh Pirates,Ben Brown,Carmen Mlodzinski,0.560941298737892,1
+823625,2026-05-25,Scheduled,Cincinnati Reds,New York Mets,Nick Lodolo,Nolan McLean,0.5497563950232147,1
+823784,2026-05-25,Scheduled,St. Louis Cardinals,Milwaukee Brewers,Matthew Liberatore,Jacob Misiorowski,0.5583156824446485,1
+823948,2026-05-25,Scheduled,Colorado Rockies,Los Angeles Dodgers,Tanner Gordon,Emmet Sheehan,0.6451782865359702,1
+824107,2026-05-25,Scheduled,New York Yankees,Kansas City Royals,Will Warren,Michael Wacha,0.4781802483883218,0
+824437,2026-05-25,Scheduled,Washington Nationals,Cleveland Guardians,Zack Littell,Tanner Bibee,0.5449063826153269,1
+824598,2026-05-25,Scheduled,Minnesota Twins,Chicago White Sox,Zebby Matthews,Anthony Kay,0.48733247711976774,0
+824838,2026-05-25,Pre-Game,Tampa Bay Rays,Baltimore Orioles,Shane McClanahan,Kyle Bradish,0.44035364659424214,0
+825005,2026-05-25,Scheduled,Seattle Mariners,Athletics,Luis Castillo,Aaron Civale,0.5658962629213499,1

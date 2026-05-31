@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822827,2026-04-24,Scheduled,Cleveland Guardians,Toronto Blue Jays,Gavin Williams,Max Scherzer,0.469717219398773,0
+822909,2026-04-24,Scheduled,Athletics,Texas Rangers,Luis Severino,Nathan Eovaldi,0.5956846144744864,1
+822992,2026-04-24,Scheduled,Minnesota Twins,Tampa Bay Rays,Taj Bradley,Drew Rasmussen,0.47066302819480466,0
+823069,2026-04-24,Scheduled,Seattle Mariners,St. Louis Cardinals,George Kirby,Andre Pallante,0.5618467394116776,1
+823232,2026-04-24,Scheduled,Miami Marlins,San Francisco Giants,Sandy Alcantara,Adrian Houser,0.5451306885400997,1
+823638,2026-04-24,Scheduled,Colorado Rockies,New York Mets,Michael Lorenzen,Freddy Peralta,0.5455479609864876,1
+823800,2026-04-24,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,Paul Skenes,Brandon Woodruff,0.5546314235844788,1
+823962,2026-04-24,Scheduled,Chicago Cubs,Los Angeles Dodgers,Jameson Taillon,Emmet Sheehan,0.5815736931043993,1
+824124,2026-04-24,Scheduled,Los Angeles Angels,Kansas City Royals,Yusei Kikuchi,Noah Cameron,0.4375125902402447,0
+824204,2026-04-24,Scheduled,New York Yankees,Houston Astros,Will Warren,Lance McCullers Jr.,0.5453901105872572,1
+824529,2026-04-24,Scheduled,Detroit Tigers,Cincinnati Reds,Framber Valdez,Andrew Abbott,0.5591670866221694,1
+824611,2026-04-24,Scheduled,Washington Nationals,Chicago White Sox,Miles Mikolas,Bryan Hudson,0.6467219365395892,1
+824854,2026-04-24,Scheduled,Boston Red Sox,Baltimore Orioles,Brayan Bello,Brandon Young,0.5955943316449681,1
+824932,2026-04-24,Scheduled,Philadelphia Phillies,Atlanta Braves,Andrew Painter,Grant Holmes,0.6411126687537193,1

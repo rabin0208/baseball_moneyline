@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822731,2026-05-30,Scheduled,San Diego Padres,Washington Nationals,Michael King,Foster Griffin,0.4960898011874293,0
+822893,2026-05-30,Scheduled,Kansas City Royals,Texas Rangers,Seth Lugo,Kumar Rocker,0.6393270530448224,1
+822975,2026-05-30,Scheduled,Los Angeles Angels,Tampa Bay Rays,Reid Detmers,Drew Rasmussen,0.5497696692241555,1
+823054,2026-05-30,Scheduled,Chicago Cubs,St. Louis Cardinals,Ben Brown,Kyle Leahy,0.5519499915692284,1
+823132,2026-05-30,Scheduled,Arizona Diamondbacks,Seattle Mariners,Ryne Nelson,Bryan Woo,0.5135434224195001,1
+823375,2026-05-30,Scheduled,Minnesota Twins,Pittsburgh Pirates,Bailey Ober,Mitch Keller,0.5007904266560226,1
+823622,2026-05-30,Scheduled,Miami Marlins,New York Mets,Tyler Phillips,Christian Scott,0.4593229937951306,0
+823945,2026-05-30,Scheduled,Philadelphia Phillies,Los Angeles Dodgers,Jesús Luzardo,Roki Sasaki,0.5716961432996533,1
+824190,2026-05-30,Scheduled,Milwaukee Brewers,Houston Astros,Brandon Sproat,Peter Lambert,0.4300829579720479,0
+824352,2026-05-30,Scheduled,San Francisco Giants,Colorado Rockies,Adrian Houser,Ryan Feltner,0.4817655415131173,0
+824431,2026-05-30,Scheduled,Boston Red Sox,Cleveland Guardians,Sonny Gray,Parker Messick,0.5144099409064119,1
+824513,2026-05-30,Scheduled,Atlanta Braves,Cincinnati Reds,Martín Pérez,Brady Singer,0.4646980528739829,0
+824593,2026-05-30,Pre-Game,Detroit Tigers,Chicago White Sox,Framber Valdez,Anthony Kay,0.6307918210915184,1
+824833,2026-05-30,Scheduled,Toronto Blue Jays,Baltimore Orioles,Trey Yesavage,Brandon Young,0.5015934441387958,1
+825000,2026-05-30,Scheduled,New York Yankees,Athletics,Ryan Weathers,J.T. Ginn,0.46955032950757836,0

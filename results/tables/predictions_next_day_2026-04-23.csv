@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822745,2026-04-23,Scheduled,Atlanta Braves,Washington Nationals,JR Ritchie,Cade Cavalli,0.48655156781921355,0
+822912,2026-04-23,Scheduled,Pittsburgh Pirates,Texas Rangers,Bubba Chandler,Jacob deGrom,0.6257000929112538,1
+823233,2026-04-23,Scheduled,Los Angeles Dodgers,San Francisco Giants,Tyler Glasnow,Logan Webb,0.40840443280244826,0
+823639,2026-04-23,Scheduled,Minnesota Twins,New York Mets,Joe Ryan,Christian Scott,0.42297718867603173,0
+824288,2026-04-23,Scheduled,Milwaukee Brewers,Detroit Tigers,Brandon Sproat,Tarik Skubal,0.4829371396768315,0
+824368,2026-04-23,Scheduled,San Diego Padres,Colorado Rockies,Matt Waldron,Ryan Feltner,0.39972153789047504,0
+824689,2026-04-23,Scheduled,Philadelphia Phillies,Chicago Cubs,Cristopher Sánchez,Edward Cabrera,0.6859868801683414,1
+824770,2026-04-23,Scheduled,New York Yankees,Boston Red Sox,Cam Schlittler,Payton Tolle,0.4242410019013008,0
+825096,2026-04-23,Scheduled,Chicago White Sox,Arizona Diamondbacks,Davis Martin,Michael Soroka,0.5454758686179626,1

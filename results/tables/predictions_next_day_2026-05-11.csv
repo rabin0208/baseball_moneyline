@@ -1,0 +1,7 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822818,2026-05-11,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Drew Rasmussen,Kevin Gausman,0.6054636541013685,1
+822901,2026-05-11,Scheduled,Arizona Diamondbacks,Texas Rangers,Michael Soroka,Nathan Eovaldi,0.5739825526118367,1
+823953,2026-05-11,Scheduled,San Francisco Giants,Los Angeles Dodgers,Trevor McDonald,Roki Sasaki,0.5400722812794029,1
+824199,2026-05-11,Scheduled,Seattle Mariners,Houston Astros,George Kirby,Peter Lambert,0.4626729027338486,0
+824441,2026-05-11,Scheduled,Los Angeles Angels,Cleveland Guardians,,Joey Cantillo,0.6165336683461318,1
+824844,2026-05-11,Scheduled,New York Yankees,Baltimore Orioles,Ryan Weathers,Brandon Young,0.44091993680428065,0

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822753,2026-04-08,Scheduled,St. Louis Cardinals,Washington Nationals,Michael McGreevy,Miles Mikolas,0.5190017914860626,1
+822833,2026-04-08,Scheduled,Los Angeles Dodgers,Toronto Blue Jays,Shohei Ohtani,Dylan Cease,0.4448734849702464,0
+822915,2026-04-08,Scheduled,Seattle Mariners,Texas Rangers,Bryan Woo,MacKenzie Gore,0.6234043262192963,1
+823000,2026-04-08,Scheduled,Chicago Cubs,Tampa Bay Rays,Colin Rea,Joe Boyle,0.4261128138636467,0
+823234,2026-04-08,Scheduled,Philadelphia Phillies,San Francisco Giants,Aaron Nola,Tyler Mahle,0.5443008434390252,1
+823403,2026-04-08,Pre-Game,San Diego Padres,Pittsburgh Pirates,Michael King,Mitch Keller,0.48492587738733844,0
+823564,2026-04-08,Scheduled,Athletics,New York Yankees,Luis Severino,Will Warren,0.6769391485617013,1
+823646,2026-04-08,Scheduled,Arizona Diamondbacks,New York Mets,Ryne Nelson,David Peterson,0.5416054767130808,1
+823726,2026-04-08,Scheduled,Detroit Tigers,Minnesota Twins,Framber Valdez,Bailey Ober,0.5311299565157027,1
+823885,2026-04-08,Scheduled,Cincinnati Reds,Miami Marlins,Brady Singer,Eury Pérez,0.45568656095644444,0
+824050,2026-04-08,Scheduled,Atlanta Braves,Los Angeles Angels,Grant Holmes,Reid Detmers,0.4635249922133574,0
+824374,2026-04-08,Scheduled,Houston Astros,Colorado Rockies,Cristian Javier,Michael Lorenzen,0.5441746532966388,1
+824455,2026-04-08,Pre-Game,Kansas City Royals,Cleveland Guardians,Cole Ragans,Joey Cantillo,0.5544758124266861,1
+824617,2026-04-08,Scheduled,Baltimore Orioles,Chicago White Sox,Kyle Bradish,Sean Burke,0.4571968440719181,0
+824779,2026-04-08,Pre-Game,Milwaukee Brewers,Boston Red Sox,Shane Drohan,Sonny Gray,0.4975104355133872,0

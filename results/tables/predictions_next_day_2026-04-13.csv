@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823073,2026-04-13,Scheduled,Cleveland Guardians,St. Louis Cardinals,Gavin Williams,Matthew Liberatore,0.5954507193703815,1
+823153,2026-04-13,Scheduled,Houston Astros,Seattle Mariners,Mike Burrows,George Kirby,0.6406751131717217,1
+823400,2026-04-13,Scheduled,Washington Nationals,Pittsburgh Pirates,Cade Cavalli,Paul Skenes,0.6056368409045902,1
+823481,2026-04-13,Scheduled,Chicago Cubs,Philadelphia Phillies,Javier Assad,Cristopher Sánchez,0.496810585496033,0
+823563,2026-04-13,Scheduled,Los Angeles Angels,New York Yankees,Yusei Kikuchi,Will Warren,0.555917780947994,1
+823725,2026-04-13,Scheduled,Boston Red Sox,Minnesota Twins,Garrett Crochet,Bailey Ober,0.5193199647827909,1
+823964,2026-04-13,Scheduled,New York Mets,Los Angeles Dodgers,David Peterson,Justin Wrobleski,0.4940009142294348,0
+824856,2026-04-13,Scheduled,Arizona Diamondbacks,Baltimore Orioles,Ryne Nelson,,0.5974871059489526,1
+824937,2026-04-13,Scheduled,Miami Marlins,Atlanta Braves,Eury Pérez,Grant Holmes,0.656888295687438,1
+825024,2026-04-13,Scheduled,Texas Rangers,Athletics,Nathan Eovaldi,Luis Severino,0.6121015826064712,1

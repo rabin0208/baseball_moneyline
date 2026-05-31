@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822750,2026-04-19,Pre-Game,San Francisco Giants,Washington Nationals,Robbie Ray,PJ Poulin,0.40315880397642495,0
+823150,2026-04-19,Scheduled,Texas Rangers,Seattle Mariners,MacKenzie Gore,Bryan Woo,0.44700591000012463,0
+823393,2026-04-19,Pre-Game,Tampa Bay Rays,Pittsburgh Pirates,Shane McClanahan,Mitch Keller,0.4979455624986063,0
+823475,2026-04-19,Scheduled,Atlanta Braves,Philadelphia Phillies,Grant Holmes,Andrew Painter,0.43845025679604643,0
+823556,2026-04-19,Pre-Game,Kansas City Royals,New York Yankees,Cole Ragans,Ryan Weathers,0.6005024095262094,1
+823718,2026-04-19,Pre-Game,Cincinnati Reds,Minnesota Twins,Brady Singer,Bailey Ober,0.585306063237552,1
+823881,2026-04-19,Pre-Game,Milwaukee Brewers,Miami Marlins,Jacob Misiorowski,Eury Pérez,0.5693349508022697,1
+824047,2026-04-19,Scheduled,San Diego Padres,Los Angeles Angels,Michael King,Reid Detmers,0.47897780529996187,0
+824205,2026-04-19,Pre-Game,St. Louis Cardinals,Houston Astros,Matthew Liberatore,Mike Burrows,0.4574396877397434,0
+824371,2026-04-19,Pre-Game,Los Angeles Dodgers,Colorado Rockies,Roki Sasaki,Michael Lorenzen,0.4048583836337969,0
+824452,2026-04-19,Pre-Game,Baltimore Orioles,Cleveland Guardians,Trevor Rogers,Joey Cantillo,0.5102521626510934,1
+824691,2026-04-19,Pre-Game,New York Mets,Chicago Cubs,Tobias Myers,Javier Assad,0.6586344154795613,1
+824777,2026-04-19,Pre-Game,Detroit Tigers,Boston Red Sox,Framber Valdez,Garrett Crochet,0.4999501502894101,0
+825018,2026-04-19,Scheduled,Chicago White Sox,Athletics,Noah Schultz,Jeffrey Springs,0.56424519661814,1
+825100,2026-04-19,Scheduled,Toronto Blue Jays,Arizona Diamondbacks,Kevin Gausman,Ryne Nelson,0.5502092634513679,1

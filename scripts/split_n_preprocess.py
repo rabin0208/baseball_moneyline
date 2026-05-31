@@ -1,11 +1,20 @@
 """
-Feature engineering and train/val/test split for MLB schedule data.
-Reads the final EDA CSV, adds features (e.g. rolling win averages), and saves processed data.
+Feature engineering for MLB schedule data.
+Reads the final EDA CSV, adds lagged features (last K games per stat), and saves processed data.
 """
 from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
+
+from model_utils import (
+    LAG_WINDOW,
+    h2h_lag_column_names,
+    lag_vector,
+    lag_vector_pitcher_centered,
+    pitcher_lag_column_names,
+    team_lag_column_names,
+)
 
 # Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -13,7 +22,6 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
 FINAL_CSV = DATA_DIR / "schedule_8_seasons_final.csv"
-ROLLING_WINDOW = 10
 
 
 def load_final_data() -> pd.DataFrame:
@@ -24,28 +32,29 @@ def load_final_data() -> pd.DataFrame:
     return df
 
 
-def add_rolling_avg_wins_and_runs(
-    df: pd.DataFrame, window: int = ROLLING_WINDOW
-) -> pd.DataFrame:
+def add_lagged_team_features(df: pd.DataFrame, window: int = LAG_WINDOW) -> pd.DataFrame:
     """
-    Add rolling average of wins (win rate), runs scored, runs allowed, and run differential
-    in the last `window` games for home and away team.
-    Run differential = runs scored - runs allowed per game.
-    Uses only games before the current game; early games use available history (< window).
+    For home and away: last `window` games of win (0/1), runs, runs allowed, run diff.
+    Lag 1 = most recent prior game; missing lags padded with 0.
     """
     team_wins: dict[int, list[int]] = defaultdict(list)
     team_runs: dict[int, list[float]] = defaultdict(list)
     team_runs_allowed: dict[int, list[float]] = defaultdict(list)
     team_run_diff: dict[int, list[float]] = defaultdict(list)
 
-    home_wins_rolling = []
-    away_wins_rolling = []
-    home_runs_rolling = []
-    away_runs_rolling = []
-    home_runs_allowed_rolling = []
-    away_runs_allowed_rolling = []
-    home_run_diff_rolling = []
-    away_run_diff_rolling = []
+    cnames = team_lag_column_names()
+    cols: dict[str, list[float]] = {c: [] for c in cnames}
+
+    def append_side(team_id: int, prefix: str) -> None:
+        tw = lag_vector(team_wins[team_id], window, 0.0)
+        tr = lag_vector(team_runs[team_id], window, 0.0)
+        tra = lag_vector(team_runs_allowed[team_id], window, 0.0)
+        trd = lag_vector(team_run_diff[team_id], window, 0.0)
+        for k in range(window):
+            cols[f"{prefix}_win_lag_{k + 1}"].append(tw[k])
+            cols[f"{prefix}_runs_lag_{k + 1}"].append(tr[k])
+            cols[f"{prefix}_runs_allowed_lag_{k + 1}"].append(tra[k])
+            cols[f"{prefix}_run_diff_lag_{k + 1}"].append(trd[k])
 
     for _, row in df.iterrows():
         home_id = int(row["home_id"])
@@ -54,42 +63,9 @@ def add_rolling_avg_wins_and_runs(
         home_score = float(row["home_score"])
         away_score = float(row["away_score"])
 
-        # Last `window` games (before this game)
-        home_wins_last = team_wins[home_id][-window:] if team_wins[home_id] else []
-        away_wins_last = team_wins[away_id][-window:] if team_wins[away_id] else []
-        home_runs_last = team_runs[home_id][-window:] if team_runs[home_id] else []
-        away_runs_last = team_runs[away_id][-window:] if team_runs[away_id] else []
-        home_ra_last = team_runs_allowed[home_id][-window:] if team_runs_allowed[home_id] else []
-        away_ra_last = team_runs_allowed[away_id][-window:] if team_runs_allowed[away_id] else []
-        home_rd_last = team_run_diff[home_id][-window:] if team_run_diff[home_id] else []
-        away_rd_last = team_run_diff[away_id][-window:] if team_run_diff[away_id] else []
+        append_side(home_id, "home")
+        append_side(away_id, "away")
 
-        home_wins_rolling.append(
-            sum(home_wins_last) / len(home_wins_last) if home_wins_last else 0.0
-        )
-        away_wins_rolling.append(
-            sum(away_wins_last) / len(away_wins_last) if away_wins_last else 0.0
-        )
-        home_runs_rolling.append(
-            sum(home_runs_last) / len(home_runs_last) if home_runs_last else 0.0
-        )
-        away_runs_rolling.append(
-            sum(away_runs_last) / len(away_runs_last) if away_runs_last else 0.0
-        )
-        home_runs_allowed_rolling.append(
-            sum(home_ra_last) / len(home_ra_last) if home_ra_last else 0.0
-        )
-        away_runs_allowed_rolling.append(
-            sum(away_ra_last) / len(away_ra_last) if away_ra_last else 0.0
-        )
-        home_run_diff_rolling.append(
-            sum(home_rd_last) / len(home_rd_last) if home_rd_last else 0.0
-        )
-        away_run_diff_rolling.append(
-            sum(away_rd_last) / len(away_rd_last) if away_rd_last else 0.0
-        )
-
-        # Append this game to both teams' histories (run diff = runs scored - runs allowed)
         team_wins[home_id].append(home_won)
         team_wins[away_id].append(1 - home_won)
         team_runs[home_id].append(home_score)
@@ -99,28 +75,20 @@ def add_rolling_avg_wins_and_runs(
         team_run_diff[home_id].append(home_score - away_score)
         team_run_diff[away_id].append(away_score - home_score)
 
-    df = df.copy()
-    df["home_rolling_avg_wins_10"] = home_wins_rolling
-    df["away_rolling_avg_wins_10"] = away_wins_rolling
-    df["home_rolling_avg_runs_10"] = home_runs_rolling
-    df["away_rolling_avg_runs_10"] = away_runs_rolling
-    df["home_rolling_avg_runs_allowed_10"] = home_runs_allowed_rolling
-    df["away_rolling_avg_runs_allowed_10"] = away_runs_allowed_rolling
-    df["home_rolling_avg_run_diff_10"] = home_run_diff_rolling
-    df["away_rolling_avg_run_diff_10"] = away_run_diff_rolling
-    return df
+    out = df.copy()
+    for c in cnames:
+        out[c] = cols[c]
+    return out
 
 
-def add_rolling_avg_h2h(df: pd.DataFrame, window: int = ROLLING_WINDOW) -> pd.DataFrame:
+def add_lagged_h2h(df: pd.DataFrame, window: int = LAG_WINDOW) -> pd.DataFrame:
     """
-    Add rolling average of wins for the home team in head-to-head games:
-    win rate of the current home team in the last `window` meetings between these two teams.
-    Uses only games before the current game.
+    Per meeting: 1 if current home team won that past H2H game, else 0.
+    Lag 1 = most recent H2H meeting; missing lags → 0.
     """
-    # Key (min_id, max_id) -> list of (game_date, home_id, home_won) in chronological order
     h2h: dict[tuple[int, int], list[tuple[pd.Timestamp, int, int]]] = defaultdict(list)
-
-    home_h2h_rolling = []
+    cnames = h2h_lag_column_names()
+    cols: dict[str, list[float]] = {c: [] for c in cnames}
 
     for _, row in df.iterrows():
         home_id = int(row["home_id"])
@@ -129,27 +97,25 @@ def add_rolling_avg_h2h(df: pd.DataFrame, window: int = ROLLING_WINDOW) -> pd.Da
         home_won = int(row["home_win"])
 
         key = (min(home_id, away_id), max(home_id, away_id))
-        past = h2h[key]  # all prior H2H games (date < this game)
+        past = h2h[key]
         last_n = [p for p in past if p[0] < game_date][-window:]
-
-        # For each past H2H game: did the *current* home team win that meeting?
-        current_home_wins = []
-        for past_date, past_home_id, past_home_won in last_n:
+        wins_chrono: list[int] = []
+        for _past_date, past_home_id, past_home_won in last_n:
             if past_home_id == home_id:
-                current_home_wins.append(past_home_won)
+                wins_chrono.append(past_home_won)
             else:
-                current_home_wins.append(1 - past_home_won)
+                wins_chrono.append(1 - past_home_won)
 
-        home_avg = (
-            sum(current_home_wins) / len(current_home_wins) if current_home_wins else 0.0
-        )
-        home_h2h_rolling.append(home_avg)
+        lags = lag_vector(wins_chrono, window, 0.0)
+        for k in range(window):
+            cols[f"home_h2h_win_lag_{k + 1}"].append(lags[k])
 
         h2h[key].append((game_date, home_id, home_won))
 
-    df = df.copy()
-    df["home_rolling_avg_h2h_wins_10"] = home_h2h_rolling
-    return df
+    out = df.copy()
+    for c in cnames:
+        out[c] = cols[c]
+    return out
 
 
 def add_rest_days(df: pd.DataFrame) -> pd.DataFrame:
@@ -185,19 +151,23 @@ def add_rest_days(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def add_pitcher_rolling_wins_centered(
-    df: pd.DataFrame, window: int = ROLLING_WINDOW
-) -> pd.DataFrame:
-    """
-    Add rolling win rate (centered) for probable pitchers in their last `window` starts.
-    Value = win_rate - 0.5: positive if won more than lost, negative if lost more, 0 if .500 or pitcher not found.
-    Pitcher not found (missing/empty) → 0.
-    """
-    # pitcher name -> list of (game_date, got_win 0/1) in chronological order
-    pitcher_starts: dict[str, list[tuple[pd.Timestamp, int]]] = defaultdict(list)
+def add_calendar_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Calendar year and ISO week number (1–53) from game_date."""
+    out = df.copy()
+    out["season"] = out["game_date"].dt.year.astype(float)
+    out["week_of_year"] = pd.to_numeric(out["game_date"].dt.strftime("%V"), errors="coerce").astype(
+        float
+    )
+    return out
 
-    home_vals = []
-    away_vals = []
+
+def add_pitcher_lag_centered(df: pd.DataFrame, window: int = LAG_WINDOW) -> pd.DataFrame:
+    """
+    Last `window` starts for each probable pitcher: win encoded as (win - 0.5); missing → 0.
+    """
+    pitcher_starts: dict[str, list[tuple[pd.Timestamp, int]]] = defaultdict(list)
+    cnames = pitcher_lag_column_names()
+    cols: dict[str, list[float]] = {c: [] for c in cnames}
 
     for _, row in df.iterrows():
         game_date = row["game_date"]
@@ -205,31 +175,29 @@ def add_pitcher_rolling_wins_centered(
         home_pitcher = str(row.get("home_probable_pitcher", "") or "").strip()
         away_pitcher = str(row.get("away_probable_pitcher", "") or "").strip()
 
-        def centered_value(pitcher_name: str) -> float:
+        def fill(pitcher_name: str, prefix: str) -> None:
             if not pitcher_name:
-                return 0.0
-            past = [
-                (d, w)
-                for d, w in pitcher_starts[pitcher_name]
-                if d < game_date
-            ][-window:]
-            if not past:
-                return 0.0
-            win_rate = sum(w for _, w in past) / len(past)
-            return win_rate - 0.5
+                for k in range(window):
+                    cols[f"{prefix}_pitcher_win_lag_{k + 1}"].append(0.0)
+                return
+            past = [(d, w) for d, w in pitcher_starts[pitcher_name] if d < game_date]
+            win_vals = [w for _, w in past[-window:]]
+            lags = lag_vector_pitcher_centered(win_vals, window)
+            for k in range(window):
+                cols[f"{prefix}_pitcher_win_lag_{k + 1}"].append(lags[k])
 
-        home_vals.append(centered_value(home_pitcher))
-        away_vals.append(centered_value(away_pitcher))
+        fill(home_pitcher, "home")
+        fill(away_pitcher, "away")
 
         if home_pitcher:
             pitcher_starts[home_pitcher].append((game_date, home_won))
         if away_pitcher:
             pitcher_starts[away_pitcher].append((game_date, 1 - home_won))
 
-    df = df.copy()
-    df["home_pitcher_rolling_wins_centered_10"] = home_vals
-    df["away_pitcher_rolling_wins_centered_10"] = away_vals
-    return df
+    out = df.copy()
+    for c in cnames:
+        out[c] = cols[c]
+    return out
 
 
 def main():
@@ -238,21 +206,25 @@ def main():
     print(f"  Loaded {len(df)} games")
 
     print(
-        f"Adding rolling averages (last {ROLLING_WINDOW} games): wins, runs, runs allowed, and run diff for home and away..."
+        f"Adding lagged team features (last {LAG_WINDOW} games): win, runs, runs allowed, run diff..."
     )
-    df = add_rolling_avg_wins_and_runs(df, window=ROLLING_WINDOW)
+    df = add_lagged_team_features(df, window=LAG_WINDOW)
     print("  Done.")
 
-    print(f"Adding rolling average of home team wins in last {ROLLING_WINDOW} head-to-head games...")
-    df = add_rolling_avg_h2h(df, window=ROLLING_WINDOW)
+    print(f"Adding lagged head-to-head wins (last {LAG_WINDOW} meetings)...")
+    df = add_lagged_h2h(df, window=LAG_WINDOW)
     print("  Done.")
 
     print("Adding rest days (days since last game) for home and away...")
     df = add_rest_days(df)
     print("  Done.")
 
-    print(f"Adding pitcher rolling win rate (centered, last {ROLLING_WINDOW} starts; not found → 0)...")
-    df = add_pitcher_rolling_wins_centered(df, window=ROLLING_WINDOW)
+    print("Adding calendar features (season year, ISO week of year)...")
+    df = add_calendar_features(df)
+    print("  Done.")
+
+    print(f"Adding pitcher lagged wins (centered, last {LAG_WINDOW} starts; not found → 0)...")
+    df = add_pitcher_lag_centered(df, window=LAG_WINDOW)
     print("  Done.")
 
     out_path = DATA_DIR / "schedule_8_seasons_featured.csv"

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822735,2026-05-20,Scheduled,New York Mets,Washington Nationals,Zach Thornton,Zack Littell,0.4495640762880605,0
+822977,2026-05-20,Scheduled,Baltimore Orioles,Tampa Bay Rays,Shane Baz,,0.6232914943879369,1
+823057,2026-05-20,Scheduled,Pittsburgh Pirates,St. Louis Cardinals,Carmen Mlodzinski,Michael McGreevy,0.5823613621609363,1
+823134,2026-05-20,Scheduled,Chicago White Sox,Seattle Mariners,Sean Burke,Emerson Hancock,0.5271305554134984,1
+823299,2026-05-20,Scheduled,Los Angeles Dodgers,San Diego Padres,Shohei Ohtani,Randy Vásquez,0.5600928565953346,1
+823462,2026-05-20,Scheduled,Cincinnati Reds,Philadelphia Phillies,Andrew Abbott,Aaron Nola,0.5918459114115562,1
+823547,2026-05-20,Scheduled,Toronto Blue Jays,New York Yankees,Trey Yesavage,Cam Schlittler,0.5364743989237609,1
+823703,2026-05-20,Scheduled,Houston Astros,Minnesota Twins,Mike Burrows,Joe Ryan,0.5964329295611469,1
+823866,2026-05-20,Scheduled,Atlanta Braves,Miami Marlins,Chris Sale,Janson Junk,0.47472206633686453,0
+824032,2026-05-20,Scheduled,Athletics,Los Angeles Angels,Aaron Civale,Jack Kochanowicz,0.4013577636280778,0
+824111,2026-05-20,Scheduled,Boston Red Sox,Kansas City Royals,Connelly Early,Michael Wacha,0.4905752709219763,0
+824273,2026-05-20,Scheduled,Cleveland Guardians,Detroit Tigers,Tanner Bibee,,0.48309834672261986,0
+824355,2026-05-20,Scheduled,Texas Rangers,Colorado Rockies,Jack Leiter,Kyle Freeland,0.34377456113352095,0
+824678,2026-05-20,Scheduled,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,Edward Cabrera,0.569763138802333,1
+825084,2026-05-20,Scheduled,San Francisco Giants,Arizona Diamondbacks,Tyler Mahle,Merrill Kelly,0.5728066825448916,1

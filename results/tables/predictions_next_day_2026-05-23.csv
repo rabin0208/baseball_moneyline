@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822814,2026-05-23,Scheduled,Pittsburgh Pirates,Toronto Blue Jays,Paul Skenes,Patrick Corbin,0.4992032662581497,0
+823222,2026-05-23,Scheduled,Chicago White Sox,San Francisco Giants,Bryan Hudson,Adrian Houser,0.4881937531667105,0
+823300,2026-05-23,Scheduled,Athletics,San Diego Padres,J.T. Ginn,Lucas Giolito,0.5477560578762743,1
+823458,2026-05-23,Scheduled,Cleveland Guardians,Philadelphia Phillies,Slade Cecconi,Zack Wheeler,0.5369581871051048,1
+823787,2026-05-23,Scheduled,Los Angeles Dodgers,Milwaukee Brewers,Roki Sasaki,Robert Gasser,0.5371470123102798,1
+823862,2026-05-23,Scheduled,New York Mets,Miami Marlins,Freddy Peralta,Max Meyer,0.514803760813996,1
+824030,2026-05-23,Scheduled,Texas Rangers,Los Angeles Angels,Nathan Eovaldi,Walbert Ureña,0.45401274899297306,0
+824109,2026-05-23,Scheduled,Seattle Mariners,Kansas City Royals,George Kirby,Stephen Kolek,0.5056925575553342,1
+824516,2026-05-23,Scheduled,St. Louis Cardinals,Cincinnati Reds,Kyle Leahy,Chase Petty,0.47642318276121115,0
+824518,2026-05-23,Postponed,St. Louis Cardinals,Cincinnati Reds,Kyle Leahy,Chris Paddack,0.4761680213523297,0
+824518,2026-05-23,Scheduled,St. Louis Cardinals,Cincinnati Reds,Andre Pallante,Chris Paddack,0.4775556688404438,0
+824674,2026-05-23,Scheduled,Houston Astros,Chicago Cubs,Kai-Wei Teng,Colin Rea,0.5400360448109859,1
+824760,2026-05-23,Scheduled,Minnesota Twins,Boston Red Sox,Taj Bradley,Jovani Morán,0.47304861490860417,0
+824840,2026-05-23,Scheduled,Detroit Tigers,Baltimore Orioles,Framber Valdez,Brandon Young,0.5542053516511933,1
+824920,2026-05-23,Scheduled,Washington Nationals,Atlanta Braves,Jake Irvin,Grant Holmes,0.6393778921416912,1
+825080,2026-05-23,Scheduled,Colorado Rockies,Arizona Diamondbacks,Michael Lorenzen,Zac Gallen,0.5497303287212983,1

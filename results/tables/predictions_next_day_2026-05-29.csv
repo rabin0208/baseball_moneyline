@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822732,2026-05-29,Scheduled,San Diego Padres,Washington Nationals,Lucas Giolito,Paxton Schultz,0.5000184841066595,1
+822894,2026-05-29,Scheduled,Kansas City Royals,Texas Rangers,Stephen Kolek,MacKenzie Gore,0.5995934144533382,1
+822978,2026-05-29,Scheduled,Los Angeles Angels,Tampa Bay Rays,Walbert Ureña,Nick Martinez,0.634248741646742,1
+823055,2026-05-29,Scheduled,Chicago Cubs,St. Louis Cardinals,Shota Imanaga,Andre Pallante,0.5714293890331202,1
+823135,2026-05-29,Scheduled,Arizona Diamondbacks,Seattle Mariners,Zac Gallen,George Kirby,0.459554740546701,0
+823377,2026-05-29,Scheduled,Minnesota Twins,Pittsburgh Pirates,Taj Bradley,Jared Jones,0.49511800978521225,0
+823623,2026-05-29,Scheduled,Miami Marlins,New York Mets,Max Meyer,Freddy Peralta,0.446099775857122,0
+823946,2026-05-29,Scheduled,Philadelphia Phillies,Los Angeles Dodgers,Zack Wheeler,Justin Wrobleski,0.6009719861406676,1
+824191,2026-05-29,Scheduled,Milwaukee Brewers,Houston Astros,Coleman Crow,Kai-Wei Teng,0.4241446910573486,0
+824353,2026-05-29,Scheduled,San Francisco Giants,Colorado Rockies,Logan Webb,Michael Lorenzen,0.4669950025774938,0
+824433,2026-05-29,Scheduled,Boston Red Sox,Cleveland Guardians,Tyler Samaniego,Slade Cecconi,0.5467044259529217,1
+824515,2026-05-29,Scheduled,Atlanta Braves,Cincinnati Reds,Grant Holmes,Chris Paddack,0.3995299119914658,0
+824594,2026-05-29,Scheduled,Detroit Tigers,Chicago White Sox,Troy Melton,Erick Fedde,0.5801699631071993,1
+824835,2026-05-29,Scheduled,Toronto Blue Jays,Baltimore Orioles,,Trevor Rogers,0.4533594181628752,0
+825002,2026-05-29,Scheduled,New York Yankees,Athletics,Carlos Rodón,Luis Severino,0.47962246545202397,0
