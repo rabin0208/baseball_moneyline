@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822817,2026-05-12,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Shane McClanahan,Patrick Corbin,0.4994877770786469,0
+822903,2026-05-12,Scheduled,Arizona Diamondbacks,Texas Rangers,Zac Gallen,MacKenzie Gore,0.46239988698244033,0
+823385,2026-05-12,Pre-Game,Colorado Rockies,Pittsburgh Pirates,Michael Lorenzen,Paul Skenes,0.6857493733231622,1
+823632,2026-05-12,Pre-Game,Detroit Tigers,New York Mets,Jack Flaherty,Freddy Peralta,0.5199334777521026,1
+823712,2026-05-12,Pre-Game,Miami Marlins,Minnesota Twins,Eury Pérez,Bailey Ober,0.5072398458045471,1
+823790,2026-05-12,Scheduled,San Diego Padres,Milwaukee Brewers,Bradgley Rodriguez,Brandon Sproat,0.5937832781408239,1
+823951,2026-05-12,Scheduled,San Francisco Giants,Los Angeles Dodgers,Adrian Houser,Yoshinobu Yamamoto,0.6090787433760874,1
+824197,2026-05-12,Scheduled,Seattle Mariners,Houston Astros,Bryan Woo,Tatsuya Imai,0.5071808836061555,1
+824442,2026-05-12,Pre-Game,Los Angeles Angels,Cleveland Guardians,Walbert Ureña,Slade Cecconi,0.5336211247396344,1
+824521,2026-05-12,Pre-Game,Washington Nationals,Cincinnati Reds,Miles Mikolas,Brady Singer,0.43105488897401156,0
+824604,2026-05-12,Scheduled,Kansas City Royals,Chicago White Sox,Stephen Kolek,Erick Fedde,0.45337392189295017,0
+824764,2026-05-12,Pre-Game,Philadelphia Phillies,Boston Red Sox,Zack Wheeler,,0.489211931913226,0
+824843,2026-05-12,Scheduled,New York Yankees,Baltimore Orioles,Will Warren,Trevor Rogers,0.3583670754355534,0
+824927,2026-05-12,Pre-Game,Chicago Cubs,Atlanta Braves,Colin Rea,Grant Holmes,0.46897678361122325,0
+825011,2026-05-12,Scheduled,St. Louis Cardinals,Athletics,Andre Pallante,Jeffrey Springs,0.48091088461777654,0

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822729,2026-05-31,Pre-Game,San Diego Padres,Washington Nationals,Griffin Canning,Zack Littell,0.525224730785853,1
+822895,2026-05-31,Pre-Game,Kansas City Royals,Texas Rangers,Michael Wacha,Jack Leiter,0.605188806394822,1
+822976,2026-05-31,Pre-Game,Los Angeles Angels,Tampa Bay Rays,Jack Kochanowicz,Shane McClanahan,0.522858051031984,1
+823053,2026-05-31,Scheduled,Chicago Cubs,St. Louis Cardinals,Jordan Wicks,Matthew Liberatore,0.5283018520940859,1
+823133,2026-05-31,Scheduled,Arizona Diamondbacks,Seattle Mariners,Merrill Kelly,Bryce Miller,0.5062761217612572,1
+823373,2026-05-31,Scheduled,Minnesota Twins,Pittsburgh Pirates,Zebby Matthews,Braxton Ashcraft,0.5329620220398017,1
+823621,2026-05-31,Scheduled,Miami Marlins,New York Mets,John King,Nolan McLean,0.5044327952785019,1
+823944,2026-05-31,Scheduled,Philadelphia Phillies,Los Angeles Dodgers,Andrew Painter,Yoshinobu Yamamoto,0.6004508253864154,1
+824187,2026-05-31,Pre-Game,Milwaukee Brewers,Houston Astros,Jacob Misiorowski,Tatsuya Imai,0.5388174235439158,1
+824354,2026-05-31,Scheduled,San Francisco Giants,Colorado Rockies,Robbie Ray,Tanner Gordon,0.45310033633682206,0
+824430,2026-05-31,Pre-Game,Boston Red Sox,Cleveland Guardians,Ranger Suarez,Tanner Bibee,0.455698044409603,0
+824512,2026-05-31,Pre-Game,Atlanta Braves,Cincinnati Reds,Spencer Strider,Nick Lodolo,0.38393547498047026,0
+824592,2026-05-31,Pre-Game,Detroit Tigers,Chicago White Sox,Keider Montero,Sean Burke,0.54931468253001,1
+824832,2026-05-31,Pre-Game,Toronto Blue Jays,Baltimore Orioles,Spencer Miles,Kyle Bradish,0.49816639289155196,0
+825001,2026-05-31,Scheduled,New York Yankees,Athletics,Will Warren,Jacob Lopez,0.4534778758622499,0

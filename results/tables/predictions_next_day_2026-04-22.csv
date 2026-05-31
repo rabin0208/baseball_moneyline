@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822748,2026-04-22,Scheduled,Atlanta Braves,Washington Nationals,Didier Fuentes,Zack Littell,0.39825522400859115,0
+822913,2026-04-22,Scheduled,Pittsburgh Pirates,Texas Rangers,Braxton Ashcraft,Jack Leiter,0.5593894607455815,1
+822993,2026-04-22,Scheduled,Cincinnati Reds,Tampa Bay Rays,Brandon Williamson,Nick Martinez,0.45766938022264336,0
+823147,2026-04-22,Scheduled,Athletics,Seattle Mariners,Aaron Civale,Logan Gilbert,0.5058879414508818,1
+823231,2026-04-22,Scheduled,Los Angeles Dodgers,San Francisco Giants,Shohei Ohtani,Tyler Mahle,0.42430828888656413,0
+823641,2026-04-22,Scheduled,Minnesota Twins,New York Mets,Connor Prielipp,Clay Holmes,0.510816421039025,1
+823878,2026-04-22,Pre-Game,St. Louis Cardinals,Miami Marlins,Kyle Leahy,Janson Junk,0.47136925195677065,0
+824044,2026-04-22,Scheduled,Toronto Blue Jays,Los Angeles Angels,Eric Lauer,José Soriano,0.5833048017353802,1
+824123,2026-04-22,Scheduled,Baltimore Orioles,Kansas City Royals,Chris Bassitt,Michael Wacha,0.5173831062621249,1
+824286,2026-04-22,Scheduled,Milwaukee Brewers,Detroit Tigers,Chad Patrick,Casey Mize,0.4819663520797997,0
+824367,2026-04-22,Scheduled,San Diego Padres,Colorado Rockies,Walker Buehler,Tomoyuki Sugano,0.4220279939000051,0
+824449,2026-04-22,Scheduled,Houston Astros,Cleveland Guardians,Peter Lambert,Tanner Bibee,0.5907530604460804,1
+824688,2026-04-22,Scheduled,Philadelphia Phillies,Chicago Cubs,Kyle Backhus,Matthew Boyd,0.6358364999098322,1
+824774,2026-04-22,Scheduled,New York Yankees,Boston Red Sox,Max Fried,Ranger Suarez,0.5139438506694184,1
+825097,2026-04-22,Scheduled,Chicago White Sox,Arizona Diamondbacks,Anthony Kay,Eduardo Rodriguez,0.5002324165575015,1

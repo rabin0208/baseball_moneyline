@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822821,2026-04-29,Scheduled,Boston Red Sox,Toronto Blue Jays,Brayan Bello,Eric Lauer,0.5495022950345235,1
+822907,2026-04-29,Scheduled,New York Yankees,Texas Rangers,Elmer Rodríguez,Nathan Eovaldi,0.46561928370040007,0
+823312,2026-04-29,Scheduled,Chicago Cubs,San Diego Padres,Jameson Taillon,Matt Waldron,0.49900718017318146,0
+823392,2026-04-29,Scheduled,St. Louis Cardinals,Pittsburgh Pirates,Andre Pallante,Bubba Chandler,0.47943480922851817,0
+823471,2026-04-29,Scheduled,San Francisco Giants,Philadelphia Phillies,Logan Webb,Cristopher Sánchez,0.4813457107266995,0
+823633,2026-04-29,Scheduled,Washington Nationals,New York Mets,Cade Cavalli,David Peterson,0.5248057307248734,1
+823717,2026-04-29,Scheduled,Seattle Mariners,Minnesota Twins,George Kirby,Taj Bradley,0.5515189560014772,1
+823796,2026-04-29,Scheduled,Arizona Diamondbacks,Milwaukee Brewers,Eduardo Rodriguez,Brandon Sproat,0.5687597785273951,1
+823958,2026-04-29,Scheduled,Miami Marlins,Los Angeles Dodgers,Sandy Alcantara,Tyler Glasnow,0.6183081722108642,1
+824445,2026-04-29,Scheduled,Tampa Bay Rays,Cleveland Guardians,Drew Rasmussen,Gavin Williams,0.6232361880222532,1
+824525,2026-04-29,Scheduled,Colorado Rockies,Cincinnati Reds,Tomoyuki Sugano,Brandon Williamson,0.629150250337926,1
+824608,2026-04-29,Scheduled,Los Angeles Angels,Chicago White Sox,Yusei Kikuchi,Erick Fedde,0.5496354218963991,1
+824850,2026-04-29,Scheduled,Houston Astros,Baltimore Orioles,Peter Lambert,Chris Bassitt,0.5449380335577921,1
+824930,2026-04-29,Scheduled,Detroit Tigers,Atlanta Braves,Tarik Skubal,JR Ritchie,0.5985288056379034,1
+825015,2026-04-29,Scheduled,Kansas City Royals,Athletics,Michael Wacha,Luis Severino,0.5382224869374941,1

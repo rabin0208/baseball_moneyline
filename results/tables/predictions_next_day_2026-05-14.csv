@@ -1,0 +1,12 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823383,2026-05-14,In Progress,Colorado Rockies,Pittsburgh Pirates,Chase Dollander,Mason Montgomery,0.5942286730290666,1
+823630,2026-05-14,In Progress,Detroit Tigers,New York Mets,Keider Montero,Nolan McLean,0.521652537453487,1
+823709,2026-05-14,Warmup,Miami Marlins,Minnesota Twins,Braxton Garrett,Zebby Matthews,0.5115665420615644,1
+823789,2026-05-14,Warmup,San Diego Padres,Milwaukee Brewers,Griffin Canning,Kyle Harrison,0.5783146271684958,1
+823950,2026-05-14,Scheduled,San Francisco Giants,Los Angeles Dodgers,Landen Roupp,Emmet Sheehan,0.5178121219012152,1
+824196,2026-05-14,Pre-Game,Seattle Mariners,Houston Astros,Luis Castillo,Mike Burrows,0.4286918530560379,0
+824517,2026-05-14,In Progress,Washington Nationals,Cincinnati Reds,Foster Griffin,Chase Burns,0.48868651023917914,0
+824602,2026-05-14,Scheduled,Kansas City Royals,Chicago White Sox,Kris Bubic,Anthony Kay,0.5390860378037693,1
+824762,2026-05-14,Scheduled,Philadelphia Phillies,Boston Red Sox,Jesús Luzardo,Ranger Suarez,0.4421128632377852,0
+824926,2026-05-14,Scheduled,Chicago Cubs,Atlanta Braves,Ben Brown,Chris Sale,0.6176610410301359,1
+825008,2026-05-14,Pre-Game,St. Louis Cardinals,Athletics,Michael McGreevy,Jacob Lopez,0.5520566308930644,1

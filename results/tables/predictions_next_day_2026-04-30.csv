@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823391,2026-04-30,Pre-Game,St. Louis Cardinals,Pittsburgh Pirates,Hunter Dobbins,Paul Skenes,0.582680658647556,1
+823471,2026-04-30,Postponed,San Francisco Giants,Philadelphia Phillies,Logan Webb,Cristopher Sánchez,0.48148517262995494,0
+823471,2026-04-30,Scheduled,San Francisco Giants,Philadelphia Phillies,,,0.48062401198478033,0
+823472,2026-04-30,Pre-Game,San Francisco Giants,Philadelphia Phillies,Logan Webb,Cristopher Sánchez,0.48148517262995494,0
+823634,2026-04-30,Pre-Game,Washington Nationals,New York Mets,Miles Mikolas,Freddy Peralta,0.5099400975911231,1
+823714,2026-04-30,Scheduled,Toronto Blue Jays,Minnesota Twins,Kevin Gausman,Bailey Ober,0.4822799647036088,0
+823795,2026-04-30,Pre-Game,Arizona Diamondbacks,Milwaukee Brewers,Michael Soroka,Brandon Woodruff,0.6451320976502566,1
+824524,2026-04-30,Pre-Game,Colorado Rockies,Cincinnati Reds,Michael Lorenzen,Andrew Abbott,0.5427131379086443,1
+824848,2026-04-30,Pre-Game,Houston Astros,Baltimore Orioles,Peter Lambert,Chris Bassitt,0.5450765568292069,1
+824850,2026-04-30,Postponed,Houston Astros,Baltimore Orioles,Peter Lambert,Chris Bassitt,0.5450765568292069,1
+824850,2026-04-30,Scheduled,Houston Astros,Baltimore Orioles,Lance McCullers Jr.,Brandon Young,0.5336034721943658,1
+824929,2026-04-30,Pre-Game,Detroit Tigers,Atlanta Braves,Framber Valdez,Bryce Elder,0.6154055009856918,1
+825016,2026-04-30,Scheduled,Kansas City Royals,Athletics,Noah Cameron,Jeffrey Springs,0.6599893986798767,1

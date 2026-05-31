@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822815,2026-05-13,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Griffin Jax,Dylan Cease,0.461049364859848,0
+822900,2026-05-13,Scheduled,Arizona Diamondbacks,Texas Rangers,Ryne Nelson,Kumar Rocker,0.49810959549353817,0
+823386,2026-05-13,Scheduled,Colorado Rockies,Pittsburgh Pirates,Jose Quintana,Mitch Keller,0.6857623877370261,1
+823631,2026-05-13,Scheduled,Detroit Tigers,New York Mets,Framber Valdez,Christian Scott,0.5309033277283235,1
+823710,2026-05-13,Scheduled,Miami Marlins,Minnesota Twins,Max Meyer,Simeon Woods Richardson,0.42024063530236994,0
+823791,2026-05-13,Scheduled,San Diego Padres,Milwaukee Brewers,Michael King,Jacob Misiorowski,0.4982131886657915,0
+823952,2026-05-13,Scheduled,San Francisco Giants,Los Angeles Dodgers,Robbie Ray,Shohei Ohtani,0.5086433384867347,1
+824195,2026-05-13,Scheduled,Seattle Mariners,Houston Astros,Bryce Miller,Lance McCullers Jr.,0.40705126611962117,0
+824438,2026-05-13,Pre-Game,Los Angeles Angels,Cleveland Guardians,Reid Detmers,Parker Messick,0.5953030743016017,1
+824519,2026-05-13,Scheduled,Washington Nationals,Cincinnati Reds,Jake Irvin,Nick Lodolo,0.45086148736567,0
+824603,2026-05-13,Scheduled,Kansas City Royals,Chicago White Sox,Seth Lugo,Noah Schultz,0.49779176932036934,0
+824763,2026-05-13,Scheduled,Philadelphia Phillies,Boston Red Sox,Andrew Painter,Sonny Gray,0.5477169156736624,1
+824841,2026-05-13,Pre-Game,New York Yankees,Baltimore Orioles,Max Fried,Kyle Bradish,0.4271170902595082,0
+824928,2026-05-13,Scheduled,Chicago Cubs,Atlanta Braves,Shota Imanaga,JR Ritchie,0.5640750652751992,1
+825010,2026-05-13,Scheduled,St. Louis Cardinals,Athletics,Matthew Liberatore,J.T. Ginn,0.5063837025593468,1

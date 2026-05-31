@@ -1,0 +1,7 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822896,2026-05-28,Scheduled,Houston Astros,Texas Rangers,Spencer Arrighetti,Nathan Eovaldi,0.5224175577298706,1
+823378,2026-05-28,Scheduled,Chicago Cubs,Pittsburgh Pirates,Colin Rea,Paul Skenes,0.6149230066085529,1
+824272,2026-05-28,Scheduled,Los Angeles Angels,Detroit Tigers,Grayson Rodriguez,Jack Flaherty,0.5040848935094058,1
+824595,2026-05-28,Scheduled,Minnesota Twins,Chicago White Sox,Kendry Rojas,Davis Martin,0.5952765906196225,1
+824757,2026-05-28,Scheduled,Atlanta Braves,Boston Red Sox,Chris Sale,Payton Tolle,0.4661927881610798,0
+824834,2026-05-28,Scheduled,Toronto Blue Jays,Baltimore Orioles,Patrick Corbin,Chris Bassitt,0.4758115051794844,0

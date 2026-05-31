@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822819,2026-05-10,Pre-Game,Los Angeles Angels,Toronto Blue Jays,José Soriano,Spencer Miles,0.5518245429997886,1
+822902,2026-05-10,Pre-Game,Chicago Cubs,Texas Rangers,Jameson Taillon,Jacob deGrom,0.5519911507289277,1
+823221,2026-05-10,Scheduled,Pittsburgh Pirates,San Francisco Giants,Bubba Chandler,Tyler Mahle,0.45766567398598645,0
+823305,2026-05-10,Scheduled,St. Louis Cardinals,San Diego Padres,Kyle Leahy,Walker Buehler,0.49078436578116685,0
+823463,2026-05-10,Pre-Game,Colorado Rockies,Philadelphia Phillies,Tomoyuki Sugano,Cristopher Sánchez,0.5904607917386542,1
+823793,2026-05-10,Pre-Game,New York Yankees,Milwaukee Brewers,Carlos Rodón,Logan Henderson,0.48304903524402737,0
+823868,2026-05-10,Pre-Game,Washington Nationals,Miami Marlins,Cade Cavalli,Sandy Alcantara,0.5207904378498696,1
+823954,2026-05-10,Scheduled,Atlanta Braves,Los Angeles Dodgers,Bryce Elder,Justin Wrobleski,0.5968916507954112,1
+824113,2026-05-10,Scheduled,Detroit Tigers,Kansas City Royals,Brenan Hanifee,Noah Cameron,0.42492110301111585,0
+824440,2026-05-10,Pre-Game,Minnesota Twins,Cleveland Guardians,Andrew Morris,Gavin Williams,0.6586056598015296,1
+824520,2026-05-10,Pre-Game,Houston Astros,Cincinnati Reds,Kai-Wei Teng,Andrew Abbott,0.552757001308822,1
+824605,2026-05-10,Pre-Game,Seattle Mariners,Chicago White Sox,Logan Gilbert,Davis Martin,0.5796082411455868,1
+824765,2026-05-10,Pre-Game,Tampa Bay Rays,Boston Red Sox,Nick Martinez,Payton Tolle,0.4326333412020559,0
+824845,2026-05-10,Pre-Game,Athletics,Baltimore Orioles,Luis Severino,Keegan Akin,0.44161606287338817,0
+825085,2026-05-10,Scheduled,New York Mets,Arizona Diamondbacks,Huascar Brazobán,Eduardo Rodriguez,0.5546845259150228,1

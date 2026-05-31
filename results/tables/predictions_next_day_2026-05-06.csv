@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822740,2026-05-06,Scheduled,Minnesota Twins,Washington Nationals,Bailey Ober,Miles Mikolas,0.497559752924404,0
+822985,2026-05-06,Pre-Game,Toronto Blue Jays,Tampa Bay Rays,Patrick Corbin,Shane McClanahan,0.5422844984202356,1
+823063,2026-05-06,Pre-Game,Milwaukee Brewers,St. Louis Cardinals,Brandon Sproat,Andre Pallante,0.513723062110268,1
+823141,2026-05-06,Scheduled,Atlanta Braves,Seattle Mariners,Martín Pérez,Bryan Woo,0.486084936107081,0
+823226,2026-05-06,Scheduled,San Diego Padres,San Francisco Giants,Matt Waldron,Adrian Houser,0.5536824506536518,1
+823470,2026-05-06,Scheduled,Athletics,Philadelphia Phillies,Jeffrey Springs,Zack Wheeler,0.5872073956980429,1
+823550,2026-05-06,Scheduled,Texas Rangers,New York Yankees,Nathan Eovaldi,Will Warren,0.696564199966432,1
+823872,2026-05-06,Scheduled,Baltimore Orioles,Miami Marlins,Brandon Young,Eury Pérez,0.5884910994868303,1
+824036,2026-05-06,Scheduled,Chicago White Sox,Los Angeles Angels,Noah Schultz,Walbert Ureña,0.48223716398296534,0
+824118,2026-05-06,Scheduled,Cleveland Guardians,Kansas City Royals,Joey Cantillo,Cole Ragans,0.5028472567910431,1
+824198,2026-05-06,Pre-Game,Los Angeles Dodgers,Houston Astros,Tyler Glasnow,Lance McCullers Jr.,0.5007294768302311,1
+824282,2026-05-06,Scheduled,Boston Red Sox,Detroit Tigers,Sonny Gray,Jack Flaherty,0.5199024384084883,1
+824361,2026-05-06,Scheduled,New York Mets,Colorado Rockies,Freddy Peralta,Michael Lorenzen,0.48413162867749837,0
+824683,2026-05-06,Scheduled,Cincinnati Reds,Chicago Cubs,Brady Singer,Colin Rea,0.5970686019944567,1
+825091,2026-05-06,Scheduled,Pittsburgh Pirates,Arizona Diamondbacks,Paul Skenes,Michael Soroka,0.5551924289949053,1

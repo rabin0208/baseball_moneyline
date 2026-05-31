@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822830,2026-04-11,Pre-Game,Minnesota Twins,Toronto Blue Jays,Joe Ryan,Eric Lauer,0.49885900784778126,0
+822996,2026-04-11,Scheduled,New York Yankees,Tampa Bay Rays,Max Fried,Nick Martinez,0.40957178583489345,0
+823074,2026-04-11,Scheduled,Boston Red Sox,St. Louis Cardinals,Ranger Suarez,Kyle Leahy,0.5942307058195381,1
+823155,2026-04-11,Scheduled,Houston Astros,Seattle Mariners,Lance McCullers Jr.,Luis Castillo,0.47811435649313694,0
+823316,2026-04-11,Scheduled,Colorado Rockies,San Diego Padres,Ryan Feltner,Germán Márquez,0.6586623691436118,1
+823480,2026-04-11,Pre-Game,Arizona Diamondbacks,Philadelphia Phillies,Brandon Pfaadt,Taijuan Walker,0.4727129485593067,0
+823644,2026-04-11,Scheduled,Athletics,New York Mets,Jacob Lopez,Kodai Senga,0.5068556822610816,1
+823805,2026-04-11,Scheduled,Washington Nationals,Milwaukee Brewers,Foster Griffin,Kyle Harrison,0.5558302486381653,1
+823967,2026-04-11,Scheduled,Texas Rangers,Los Angeles Dodgers,Jack Leiter,Emmet Sheehan,0.5974452079185893,1
+824129,2026-04-11,Pre-Game,Chicago White Sox,Kansas City Royals,Erick Fedde,Michael Wacha,0.5021421266212562,1
+824294,2026-04-11,Pre-Game,Miami Marlins,Detroit Tigers,Janson Junk,Casey Mize,0.41599069104710257,0
+824535,2026-04-11,Scheduled,Los Angeles Angels,Cincinnati Reds,George Klassen,Brandon Williamson,0.5506578914815368,1
+824697,2026-04-11,Scheduled,Pittsburgh Pirates,Chicago Cubs,Braxton Ashcraft,Edward Cabrera,0.5383538430766918,1
+824857,2026-04-11,Scheduled,San Francisco Giants,Baltimore Orioles,Logan Webb,Chris Bassitt,0.4650728590937943,0
+824939,2026-04-11,Scheduled,Cleveland Guardians,Atlanta Braves,Parker Messick,Martín Pérez,0.523840225869916,1

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823071,2026-04-15,Pre-Game,Cleveland Guardians,St. Louis Cardinals,Slade Cecconi,Dustin May,0.5770180090464184,1
+823314,2026-04-15,Scheduled,Seattle Mariners,San Diego Padres,Emerson Hancock,Randy Vásquez,0.620619768722498,1
+823399,2026-04-15,Scheduled,Washington Nationals,Pittsburgh Pirates,Jake Irvin,Mason Montgomery,0.6198024442310073,1
+823477,2026-04-15,Scheduled,Chicago Cubs,Philadelphia Phillies,Shota Imanaga,Jesús Luzardo,0.5600921799379349,1
+823561,2026-04-15,Scheduled,Los Angeles Angels,New York Yankees,Jack Kochanowicz,Luis Gil,0.49976720869748303,0
+823722,2026-04-15,Scheduled,Boston Red Sox,Minnesota Twins,Connelly Early,Simeon Woods Richardson,0.6015201319400832,1
+823803,2026-04-15,Scheduled,Toronto Blue Jays,Milwaukee Brewers,Dylan Cease,Chad Patrick,0.6119958463316701,1
+823963,2026-04-15,Scheduled,New York Mets,Los Angeles Dodgers,Clay Holmes,Shohei Ohtani,0.5527308073480645,1
+824209,2026-04-15,Scheduled,Colorado Rockies,Houston Astros,Jose Quintana,Spencer Arrighetti,0.4561723685282094,0
+824291,2026-04-15,Scheduled,Kansas City Royals,Detroit Tigers,Seth Lugo,Jack Flaherty,0.6051797392968172,1
+824532,2026-04-15,Scheduled,San Francisco Giants,Cincinnati Reds,Tyler Mahle,Rhett Lowder,0.657939070159305,1
+824615,2026-04-15,Scheduled,Tampa Bay Rays,Chicago White Sox,Jesse Scholtens,Sean Burke,0.487844483084264,0
+824855,2026-04-15,Scheduled,Arizona Diamondbacks,Baltimore Orioles,Eduardo Rodriguez,Kyle Bradish,0.5410602300478842,1
+824936,2026-04-15,Scheduled,Miami Marlins,Atlanta Braves,Chris Paddack,Bryce Elder,0.5853020382450443,1
+825021,2026-04-15,Scheduled,Texas Rangers,Athletics,Kumar Rocker,J.T. Ginn,0.43492108419006753,0

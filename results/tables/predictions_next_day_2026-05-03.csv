@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822742,2026-05-03,Scheduled,Milwaukee Brewers,Washington Nationals,,Zack Littell,0.4937402087852851,0
+822987,2026-05-03,Scheduled,San Francisco Giants,Tampa Bay Rays,Tyler Mahle,Steven Matz,0.6548749062377104,1
+823065,2026-05-03,Scheduled,Los Angeles Dodgers,St. Louis Cardinals,Justin Wrobleski,Dustin May,0.567213221484092,1
+823145,2026-05-03,Scheduled,Kansas City Royals,Seattle Mariners,Kris Bubic,Luis Castillo,0.5142722219481679,1
+823307,2026-05-03,Scheduled,Chicago White Sox,San Diego Padres,Anthony Kay,Griffin Canning,0.550854816633908,1
+823387,2026-05-03,Scheduled,Cincinnati Reds,Pittsburgh Pirates,Chase Burns,Braxton Ashcraft,0.5557106274391536,1
+823555,2026-05-03,Scheduled,Baltimore Orioles,New York Yankees,Trey Gibson,Max Fried,0.6904610011009585,1
+823711,2026-05-03,Scheduled,Toronto Blue Jays,Minnesota Twins,Trey Yesavage,Joe Ryan,0.4656535442603141,0
+823875,2026-05-03,Scheduled,Philadelphia Phillies,Miami Marlins,Jesús Luzardo,Chris Paddack,0.5086940186410435,1
+824043,2026-05-03,Scheduled,New York Mets,Los Angeles Angels,Clay Holmes,Jack Kochanowicz,0.4937480629442203,0
+824285,2026-05-03,Scheduled,Texas Rangers,Detroit Tigers,Jack Leiter,Tyler Holton,0.4930062700031801,0
+824364,2026-05-03,Scheduled,Atlanta Braves,Colorado Rockies,Spencer Strider,Kyle Freeland,0.5254775985707576,1
+824687,2026-05-03,Scheduled,Arizona Diamondbacks,Chicago Cubs,Merrill Kelly,Matthew Boyd,0.5839388558414143,1
+824769,2026-05-03,Scheduled,Houston Astros,Boston Red Sox,Cody Bolton,Ranger Suarez,0.5061833595015014,1
+825013,2026-05-03,Scheduled,Cleveland Guardians,Athletics,Parker Messick,Aaron Civale,0.4355809862258241,0

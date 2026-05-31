@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822822,2026-05-08,Scheduled,Los Angeles Angels,Toronto Blue Jays,Reid Detmers,Dylan Cease,0.6628161871291786,1
+822904,2026-05-08,Scheduled,Chicago Cubs,Texas Rangers,Ben Brown,Kumar Rocker,0.44681952674397685,0
+823225,2026-05-08,Scheduled,Pittsburgh Pirates,San Francisco Giants,Carmen Mlodzinski,,0.5060558444189415,1
+823303,2026-05-08,Scheduled,St. Louis Cardinals,San Diego Padres,Michael McGreevy,Griffin Canning,0.5068839789918993,1
+823466,2026-05-08,Scheduled,Colorado Rockies,Philadelphia Phillies,Chase Dollander,Jesús Luzardo,0.5693475061018777,1
+823794,2026-05-08,Scheduled,New York Yankees,Milwaukee Brewers,Max Fried,Jacob Misiorowski,0.44709595661018814,0
+823871,2026-05-08,Scheduled,Washington Nationals,Miami Marlins,Foster Griffin,Robby Snelling,0.5132953574330693,1
+823957,2026-05-08,Scheduled,Atlanta Braves,Los Angeles Dodgers,Chris Sale,Emmet Sheehan,0.5447152071218601,1
+824116,2026-05-08,Scheduled,Detroit Tigers,Kansas City Royals,Keider Montero,Kris Bubic,0.5530003503650559,1
+824443,2026-05-08,Scheduled,Minnesota Twins,Cleveland Guardians,Connor Prielipp,Parker Messick,0.5889626858598106,1
+824522,2026-05-08,Scheduled,Houston Astros,Cincinnati Reds,Mike Burrows,Nick Lodolo,0.543705271671075,1
+824607,2026-05-08,Scheduled,Seattle Mariners,Chicago White Sox,Emerson Hancock,Sean Burke,0.4958485820310653,0
+824768,2026-05-08,Scheduled,Tampa Bay Rays,Boston Red Sox,Jesse Scholtens,Connelly Early,0.5200755264827223,1
+824846,2026-05-08,Scheduled,Athletics,Baltimore Orioles,Jacob Lopez,Kyle Bradish,0.5038977643027884,1
+825088,2026-05-08,Scheduled,New York Mets,Arizona Diamondbacks,Nolan McLean,Ryne Nelson,0.5310481278180668,1

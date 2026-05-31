@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822746,2026-05-02,Scheduled,Milwaukee Brewers,Washington Nationals,Kyle Harrison,Foster Griffin,0.5429974305885668,1
+822988,2026-05-02,Scheduled,San Francisco Giants,Tampa Bay Rays,Landen Roupp,Griffin Jax,0.5265434844380698,1
+823067,2026-05-02,Scheduled,Los Angeles Dodgers,St. Louis Cardinals,Roki Sasaki,Michael McGreevy,0.6319581747661568,1
+823144,2026-05-02,Scheduled,Kansas City Royals,Seattle Mariners,Seth Lugo,Emerson Hancock,0.5315494918761784,1
+823308,2026-05-02,Scheduled,Chicago White Sox,San Diego Padres,Sean Burke,Michael King,0.6138144123416093,1
+823388,2026-05-02,Scheduled,Cincinnati Reds,Pittsburgh Pirates,Rhett Lowder,Carmen Mlodzinski,0.5642192863109382,1
+823554,2026-05-02,Scheduled,Baltimore Orioles,New York Yankees,Kyle Bradish,Ryan Weathers,0.5973745667156533,1
+823715,2026-05-02,Scheduled,Toronto Blue Jays,Minnesota Twins,Dylan Cease,Connor Prielipp,0.4943047612615184,0
+823876,2026-05-02,Scheduled,Philadelphia Phillies,Miami Marlins,Andrew Painter,Max Meyer,0.5312085769078926,1
+824042,2026-05-02,Scheduled,New York Mets,Los Angeles Angels,Nolan McLean,Reid Detmers,0.5032946001922424,1
+824284,2026-05-02,Scheduled,Texas Rangers,Detroit Tigers,Kumar Rocker,Keider Montero,0.5223873817367117,1
+824365,2026-05-02,Scheduled,Atlanta Braves,Colorado Rockies,Chris Sale,,0.5209618318851635,1
+824685,2026-05-02,Pre-Game,Arizona Diamondbacks,Chicago Cubs,Ryne Nelson,Shota Imanaga,0.5918640919222216,1
+824771,2026-05-02,Scheduled,Houston Astros,Boston Red Sox,Spencer Arrighetti,Connelly Early,0.5103863968357426,1
+825014,2026-05-02,Scheduled,Cleveland Guardians,Athletics,Slade Cecconi,Jacob Lopez,0.5733651925634384,1

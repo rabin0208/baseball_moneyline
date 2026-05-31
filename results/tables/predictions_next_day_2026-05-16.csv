@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822737,2026-05-16,Scheduled,Baltimore Orioles,Washington Nationals,Chris Bassitt,Cade Cavalli,0.5108579909311656,1
+822981,2026-05-16,Scheduled,Miami Marlins,Tampa Bay Rays,Sandy Alcantara,Nick Martinez,0.6452332185084286,1
+823060,2026-05-16,Scheduled,Kansas City Royals,St. Louis Cardinals,Noah Cameron,Kyle Leahy,0.5363627257404829,1
+823139,2026-05-16,Scheduled,San Diego Padres,Seattle Mariners,Walker Buehler,Logan Gilbert,0.5149245958723252,1
+823382,2026-05-16,Scheduled,Philadelphia Phillies,Pittsburgh Pirates,Cristopher Sánchez,Bubba Chandler,0.48701103603082346,0
+823627,2026-05-16,Scheduled,New York Yankees,New York Mets,Carlos Rodón,Huascar Brazobán,0.5363970535488726,1
+823706,2026-05-16,Scheduled,Milwaukee Brewers,Minnesota Twins,Logan Henderson,Connor Prielipp,0.4315868999608125,0
+824038,2026-05-16,Scheduled,Los Angeles Dodgers,Los Angeles Angels,Justin Wrobleski,José Soriano,0.5103412266172042,1
+824193,2026-05-16,Scheduled,Texas Rangers,Houston Astros,Jacob deGrom,Kai-Wei Teng,0.49571271553709495,0
+824278,2026-05-16,Pre-Game,Toronto Blue Jays,Detroit Tigers,Mason Fluharty,Casey Mize,0.48037321457854254,0
+824359,2026-05-16,Scheduled,Arizona Diamondbacks,Colorado Rockies,Eduardo Rodriguez,Tomoyuki Sugano,0.5028932665542079,1
+824435,2026-05-16,Scheduled,Cincinnati Reds,Cleveland Guardians,Chris Paddack,Joey Cantillo,0.626096770879628,1
+824600,2026-05-16,Scheduled,Chicago Cubs,Chicago White Sox,Jameson Taillon,Davis Martin,0.5883646635946382,1
+824924,2026-05-16,Scheduled,Boston Red Sox,Atlanta Braves,Payton Tolle,Bryce Elder,0.5866679284529782,1
+825007,2026-05-16,Scheduled,San Francisco Giants,Athletics,Trevor McDonald,Luis Severino,0.6016253223211043,1

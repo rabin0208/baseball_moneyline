@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822752,2026-04-17,Scheduled,San Francisco Giants,Washington Nationals,Logan Webb,Zack Littell,0.49520879487906955,0
+823152,2026-04-17,Scheduled,Texas Rangers,Seattle Mariners,Jacob deGrom,Logan Gilbert,0.4362026264609928,0
+823397,2026-04-17,Scheduled,Tampa Bay Rays,Pittsburgh Pirates,Nick Martinez,Bubba Chandler,0.5346907584997664,1
+823476,2026-04-17,Scheduled,Atlanta Braves,Philadelphia Phillies,Martín Pérez,Taijuan Walker,0.48500439107699445,0
+823559,2026-04-17,Scheduled,Kansas City Royals,New York Yankees,Michael Wacha,Cam Schlittler,0.6300326403709763,1
+823720,2026-04-17,Scheduled,Cincinnati Reds,Minnesota Twins,Brandon Williamson,Joe Ryan,0.5222103078675264,1
+823883,2026-04-17,Scheduled,Milwaukee Brewers,Miami Marlins,,Janson Junk,0.551957367579737,1
+824048,2026-04-17,Scheduled,San Diego Padres,Los Angeles Angels,Matt Waldron,José Soriano,0.5551139783348834,1
+824207,2026-04-17,Scheduled,St. Louis Cardinals,Houston Astros,Kyle Leahy,Peter Lambert,0.42705705495138574,0
+824373,2026-04-17,Scheduled,Los Angeles Dodgers,Colorado Rockies,Tyler Glasnow,Tomoyuki Sugano,0.41591474237589815,0
+824454,2026-04-17,Scheduled,Baltimore Orioles,Cleveland Guardians,Chris Bassitt,Tanner Bibee,0.5945806879604525,1
+824693,2026-04-17,Pre-Game,New York Mets,Chicago Cubs,Kodai Senga,Edward Cabrera,0.5422388186495145,1
+824778,2026-04-17,Scheduled,Detroit Tigers,Boston Red Sox,Casey Mize,Ranger Suarez,0.4691665558028045,0
+825019,2026-04-17,Scheduled,Chicago White Sox,Athletics,Davis Martin,Aaron Civale,0.5121041933498439,1
+825101,2026-04-17,Scheduled,Toronto Blue Jays,Arizona Diamondbacks,Eric Lauer,Michael Soroka,0.5382423730817735,1

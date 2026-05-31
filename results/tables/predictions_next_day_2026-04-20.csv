@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822749,2026-04-20,Scheduled,Atlanta Braves,Washington Nationals,Bryce Elder,Jake Irvin,0.4917637862214508,0
+822994,2026-04-20,Scheduled,Cincinnati Reds,Tampa Bay Rays,Rhett Lowder,,0.5010668611981137,1
+823149,2026-04-20,Scheduled,Athletics,Seattle Mariners,J.T. Ginn,Emerson Hancock,0.5660984863623291,1
+823879,2026-04-20,Scheduled,St. Louis Cardinals,Miami Marlins,Michael McGreevy,Max Meyer,0.490520262462783,0
+824046,2026-04-20,Scheduled,Toronto Blue Jays,Los Angeles Angels,Dylan Cease,Reid Detmers,0.524767900238454,1
+824125,2026-04-20,Scheduled,Baltimore Orioles,Kansas City Royals,Kyle Bradish,Seth Lugo,0.5141466626615275,1
+824370,2026-04-20,Scheduled,Los Angeles Dodgers,Colorado Rockies,Justin Wrobleski,Jose Quintana,0.4871506745399709,0
+824450,2026-04-20,Scheduled,Houston Astros,Cleveland Guardians,Spencer Arrighetti,Slade Cecconi,0.56659725783387,1
+824692,2026-04-20,Scheduled,Philadelphia Phillies,Chicago Cubs,Aaron Nola,Colin Rea,0.6713113552444505,1
+824776,2026-04-20,Pre-Game,Detroit Tigers,Boston Red Sox,Jack Flaherty,Sonny Gray,0.43521103525326094,0

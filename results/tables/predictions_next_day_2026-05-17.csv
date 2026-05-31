@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822738,2026-05-17,Pre-Game,Baltimore Orioles,Washington Nationals,Brandon Young,Richard Lovelady,0.5116822809644563,1
+822982,2026-05-17,Pre-Game,Miami Marlins,Tampa Bay Rays,Eury Pérez,Drew Rasmussen,0.5559833089513679,1
+823058,2026-05-17,Scheduled,Kansas City Royals,St. Louis Cardinals,Stephen Kolek,Andre Pallante,0.5472133395377016,1
+823138,2026-05-17,Scheduled,San Diego Padres,Seattle Mariners,Lucas Giolito,George Kirby,0.4812915324913349,0
+823381,2026-05-17,Pre-Game,Philadelphia Phillies,Pittsburgh Pirates,Zack Wheeler,Paul Skenes,0.5336977797624733,1
+823628,2026-05-17,Pre-Game,New York Yankees,New York Mets,Elmer Rodríguez,Freddy Peralta,0.5536544408745349,1
+823708,2026-05-17,Scheduled,Milwaukee Brewers,Minnesota Twins,Robert Gasser,Bailey Ober,0.45190581642197164,0
+824034,2026-05-17,Scheduled,Los Angeles Dodgers,Los Angeles Angels,Roki Sasaki,Grayson Rodriguez,0.5060230919829987,1
+824192,2026-05-17,Scheduled,Texas Rangers,Houston Astros,Nathan Eovaldi,Peter Lambert,0.4858337486403592,0
+824279,2026-05-17,Pre-Game,Toronto Blue Jays,Detroit Tigers,Kevin Gausman,Jack Flaherty,0.37483620211760904,0
+824358,2026-05-17,Scheduled,Arizona Diamondbacks,Colorado Rockies,Michael Soroka,Michael Lorenzen,0.5326493792504866,1
+824436,2026-05-17,Pre-Game,Cincinnati Reds,Cleveland Guardians,Brady Singer,Gavin Williams,0.6611020551415515,1
+824599,2026-05-17,Scheduled,Chicago Cubs,Chicago White Sox,Colin Rea,Erick Fedde,0.5218966476123749,1
+824923,2026-05-17,Pre-Game,Boston Red Sox,Atlanta Braves,Brayan Bello,Grant Holmes,0.5877793100539839,1
+825006,2026-05-17,Scheduled,San Francisco Giants,Athletics,Adrian Houser,Jeffrey Springs,0.5446306006673208,1

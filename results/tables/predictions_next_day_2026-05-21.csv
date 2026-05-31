@@ -1,0 +1,8 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822733,2026-05-21,Scheduled,New York Mets,Washington Nationals,David Peterson,Cade Cavalli,0.5232773236809553,1
+823056,2026-05-21,Pre-Game,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Dustin May,0.5790118304438101,1
+823545,2026-05-21,Scheduled,Toronto Blue Jays,New York Yankees,Braydon Fisher,Carlos Rodón,0.5862610654175343,1
+823864,2026-05-21,Scheduled,Atlanta Braves,Miami Marlins,Spencer Strider,Sandy Alcantara,0.5013602584532361,1
+824031,2026-05-21,Scheduled,Athletics,Los Angeles Angels,Luis Severino,José Soriano,0.4848187633444695,0
+824274,2026-05-21,Pre-Game,Cleveland Guardians,Detroit Tigers,Joey Cantillo,Casey Mize,0.4014540752258471,0
+825083,2026-05-21,Scheduled,Colorado Rockies,Arizona Diamondbacks,Zach Agnos,Eduardo Rodriguez,0.6402876449908389,1

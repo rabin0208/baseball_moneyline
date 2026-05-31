@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823313,2026-04-16,Scheduled,Seattle Mariners,San Diego Padres,Luis Castillo,Walker Buehler,0.6236057457869317,1
+823396,2026-04-16,Pre-Game,Washington Nationals,Pittsburgh Pirates,Foster Griffin,Braxton Ashcraft,0.6185074930277425,1
+823560,2026-04-16,Pre-Game,Los Angeles Angels,New York Yankees,,Max Fried,0.5665731153429198,1
+823801,2026-04-16,Scheduled,Toronto Blue Jays,Milwaukee Brewers,Patrick Corbin,Brandon Sproat,0.6124796544778534,1
+824208,2026-04-16,Scheduled,Colorado Rockies,Houston Astros,Juan Mejia,Ryan Weiss,0.42420267243413606,0
+824289,2026-04-16,Pre-Game,Kansas City Royals,Detroit Tigers,Kris Bubic,Keider Montero,0.5549791504728908,1
+824453,2026-04-16,Scheduled,Baltimore Orioles,Cleveland Guardians,Shane Baz,Parker Messick,0.6078072577315644,1
+824530,2026-04-16,Pre-Game,San Francisco Giants,Cincinnati Reds,Landen Roupp,Chase Burns,0.5274186659805674,1
+824614,2026-04-16,Pre-Game,Tampa Bay Rays,Chicago White Sox,Steven Matz,Jordan Leasure,0.5127459294535363,1
+825023,2026-04-16,Scheduled,Texas Rangers,Athletics,Jack Leiter,Jacob Lopez,0.4797008449993988,0

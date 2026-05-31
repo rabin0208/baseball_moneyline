@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822751,2026-04-18,Scheduled,San Francisco Giants,Washington Nationals,Adrian Houser,Cade Cavalli,0.4985883834031635,0
+823151,2026-04-18,Scheduled,Texas Rangers,Seattle Mariners,Nathan Eovaldi,George Kirby,0.5163094996957593,1
+823394,2026-04-18,Scheduled,Tampa Bay Rays,Pittsburgh Pirates,Drew Rasmussen,Paul Skenes,0.5924247144660728,1
+823474,2026-04-18,Scheduled,Atlanta Braves,Philadelphia Phillies,Chris Sale,Cristopher Sánchez,0.38188910049100416,0
+823558,2026-04-18,Pre-Game,Kansas City Royals,New York Yankees,Noah Cameron,Will Warren,0.6524360714125568,1
+823721,2026-04-18,Scheduled,Cincinnati Reds,Minnesota Twins,Andrew Abbott,Taj Bradley,0.6664358472151131,1
+823882,2026-04-18,Scheduled,Milwaukee Brewers,Miami Marlins,Brandon Woodruff,Sandy Alcantara,0.5398106401744305,1
+824049,2026-04-18,Scheduled,San Diego Padres,Los Angeles Angels,Germán Márquez,Yusei Kikuchi,0.5131559632608811,1
+824206,2026-04-18,Scheduled,St. Louis Cardinals,Houston Astros,Andre Pallante,Lance McCullers Jr.,0.512007873671721,1
+824372,2026-04-18,Scheduled,Los Angeles Dodgers,Colorado Rockies,Emmet Sheehan,Ryan Feltner,0.32661100328720216,0
+824451,2026-04-18,Scheduled,Baltimore Orioles,Cleveland Guardians,Dean Kremer,Gavin Williams,0.5710183213705262,1
+824694,2026-04-18,Scheduled,New York Mets,Chicago Cubs,Freddy Peralta,Jameson Taillon,0.581082833518351,1
+824775,2026-04-18,Scheduled,Detroit Tigers,Boston Red Sox,Tarik Skubal,Brayan Bello,0.483638805755589,0
+825020,2026-04-18,Scheduled,Chicago White Sox,Athletics,Erick Fedde,Luis Severino,0.6300519783182793,1
+825098,2026-04-18,Scheduled,Toronto Blue Jays,Arizona Diamondbacks,Max Scherzer,Zac Gallen,0.5761407289138172,1

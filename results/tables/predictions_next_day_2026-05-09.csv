@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822820,2026-05-09,Scheduled,Los Angeles Angels,Toronto Blue Jays,Jack Kochanowicz,Trey Yesavage,0.6270344907553034,1
+822905,2026-05-09,Scheduled,Chicago Cubs,Texas Rangers,Edward Cabrera,Jack Leiter,0.4737362215249,0
+823224,2026-05-09,Scheduled,Pittsburgh Pirates,San Francisco Giants,Braxton Ashcraft,Landen Roupp,0.5667894553514116,1
+823304,2026-05-09,Scheduled,St. Louis Cardinals,San Diego Padres,Dustin May,Randy Vásquez,0.5123117375573997,1
+823468,2026-05-09,Scheduled,Colorado Rockies,Philadelphia Phillies,Kyle Freeland,Aaron Nola,0.5892370442829555,1
+823792,2026-05-09,Scheduled,New York Yankees,Milwaukee Brewers,Cam Schlittler,Kyle Harrison,0.4687840635476861,0
+823869,2026-05-09,Scheduled,Washington Nationals,Miami Marlins,Zack Littell,Janson Junk,0.5636815522155363,1
+823955,2026-05-09,Scheduled,Atlanta Braves,Los Angeles Dodgers,Spencer Strider,Blake Snell,0.63626677231362,1
+824115,2026-05-09,Scheduled,Detroit Tigers,Kansas City Royals,Burch Smith,Michael Wacha,0.5260004574673035,1
+824444,2026-05-09,Scheduled,Minnesota Twins,Cleveland Guardians,Joe Ryan,Tanner Bibee,0.626588502181834,1
+824523,2026-05-09,Scheduled,Houston Astros,Cincinnati Reds,Spencer Arrighetti,Chase Burns,0.5155884108396347,1
+824606,2026-05-09,Scheduled,Seattle Mariners,Chicago White Sox,Luis Castillo,Anthony Kay,0.5322274144477993,1
+824766,2026-05-09,Scheduled,Tampa Bay Rays,Boston Red Sox,Nick Martinez,Payton Tolle,0.43249622668589993,0
+824847,2026-05-09,Scheduled,Athletics,Baltimore Orioles,Aaron Civale,Shane Baz,0.49177348603264087,0
+825089,2026-05-09,Scheduled,New York Mets,Arizona Diamondbacks,Clay Holmes,Merrill Kelly,0.4771130393083636,0

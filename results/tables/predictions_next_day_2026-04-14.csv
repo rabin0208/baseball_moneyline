@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823072,2026-04-14,Scheduled,Cleveland Guardians,St. Louis Cardinals,Joey Cantillo,Michael McGreevy,0.5541121385645252,1
+823315,2026-04-14,Scheduled,Seattle Mariners,San Diego Padres,Bryan Woo,Michael King,0.5956434060438323,1
+823398,2026-04-14,Scheduled,Washington Nationals,Pittsburgh Pirates,Miles Mikolas,Mitch Keller,0.6069436000871596,1
+823478,2026-04-14,Scheduled,Chicago Cubs,Philadelphia Phillies,Riley Martin,Aaron Nola,0.5409242884938158,1
+823562,2026-04-14,Scheduled,Los Angeles Angels,New York Yankees,Reid Detmers,Ryan Weathers,0.525510247096718,1
+823723,2026-04-14,Scheduled,Boston Red Sox,Minnesota Twins,Sonny Gray,Mick Abel,0.45620650229310505,0
+823802,2026-04-14,Scheduled,Toronto Blue Jays,Milwaukee Brewers,Kevin Gausman,Jacob Misiorowski,0.564650072340241,1
+823965,2026-04-14,Scheduled,New York Mets,Los Angeles Dodgers,Nolan McLean,Yoshinobu Yamamoto,0.6422135052530015,1
+824210,2026-04-14,Scheduled,Colorado Rockies,Houston Astros,,Colton Gordon,0.46617745602916744,0
+824292,2026-04-14,Scheduled,Kansas City Royals,Detroit Tigers,Cole Ragans,Framber Valdez,0.6330211154001721,1
+824531,2026-04-14,Scheduled,San Francisco Giants,Cincinnati Reds,Robbie Ray,Brady Singer,0.5654957540984019,1
+824616,2026-04-14,Scheduled,Tampa Bay Rays,Chicago White Sox,Shane McClanahan,Noah Schultz,0.5100058758608493,1
+824853,2026-04-14,Scheduled,Arizona Diamondbacks,Baltimore Orioles,Merrill Kelly,Trevor Rogers,0.5820203808744138,1
+824935,2026-04-14,Scheduled,Miami Marlins,Atlanta Braves,Max Meyer,Reynaldo López,0.6092014369244882,1
+825022,2026-04-14,Scheduled,Texas Rangers,Athletics,MacKenzie Gore,Jeffrey Springs,0.4167082671320143,0
