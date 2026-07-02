@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822885,2026-06-20,Scheduled,San Diego Padres,Texas Rangers,Walker Buehler,Nathan Eovaldi,0.5021531625554697,1
+822967,2026-06-20,Scheduled,Washington Nationals,Tampa Bay Rays,Cade Cavalli,Ian Seymour,0.6485344350731391,1
+823126,2026-06-20,Scheduled,Boston Red Sox,Seattle Mariners,Connelly Early,Emerson Hancock,0.520633430456986,1
+823447,2026-06-20,Scheduled,New York Mets,Philadelphia Phillies,Freddy Peralta,Cristopher Sánchez,0.5972493189127992,1
+823532,2026-06-20,Pre-Game,Cincinnati Reds,New York Yankees,Andrew Abbott,Will Warren,0.5988402864666518,1
+823854,2026-06-20,Scheduled,San Francisco Giants,Miami Marlins,Trevor McDonald,Max Meyer,0.6120208512846246,1
+823937,2026-06-20,Scheduled,Baltimore Orioles,Los Angeles Dodgers,Trevor Rogers,Yoshinobu Yamamoto,0.5873021937283364,1
+824180,2026-06-20,Scheduled,Cleveland Guardians,Houston Astros,Joey Cantillo,Spencer Arrighetti,0.5710996823916776,1
+824263,2026-06-20,Pre-Game,Chicago White Sox,Detroit Tigers,Sean Newcomb,Troy Melton,0.5587247988310736,1
+824342,2026-06-20,Scheduled,Pittsburgh Pirates,Colorado Rockies,Paul Skenes,Tomoyuki Sugano,0.5869429639128586,1
+824665,2026-06-20,Scheduled,Toronto Blue Jays,Chicago Cubs,Patrick Corbin,Colin Rea,0.552161295661227,1
+824909,2026-06-20,Scheduled,Milwaukee Brewers,Atlanta Braves,Kyle Harrison,Chris Sale,0.4861897143671353,0
+824988,2026-06-20,Scheduled,Los Angeles Angels,Athletics,Walbert Ureña,J.T. Ginn,0.4933310048747292,0
+825068,2026-06-20,Scheduled,Minnesota Twins,Arizona Diamondbacks,Taj Bradley,Zac Gallen,0.5044507587572457,1

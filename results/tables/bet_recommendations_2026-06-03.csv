@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822727,2026-06-03,Pre-Game,Miami Marlins,Washington Nationals,,,,,0.5158675881226621,,0.01586758812266209,-0.01586758812266209,-110.0,-110.0,7.0,Max Meyer,Andrew Alvarez
+822973,2026-06-03,Pre-Game,Detroit Tigers,Tampa Bay Rays,,,,,0.5700881960876303,,-0.004379889018752747,0.004379889018752636,-150.0,125.0,7.0,Troy Melton,Nick Martinez
+823051,2026-06-03,Scheduled,Texas Rangers,St. Louis Cardinals,home,St. Louis Cardinals,-115.0,-115,0.5661650935523262,0.055330857365977426,0.055330857365977426,-0.05533085736597737,-115.0,-105.0,7.0,MacKenzie Gore,Andre Pallante
+823130,2026-06-03,Scheduled,New York Mets,Seattle Mariners,,,,,0.6158860569099976,,0.04891550992542548,-0.04891550992542543,-147.0,120.0,7.0,Freddy Peralta,George Kirby
+823456,2026-06-03,Scheduled,San Diego Padres,Philadelphia Phillies,,,,,0.6122285162923615,,-0.04589114182729659,0.04589114182729659,-220.0,180.0,7.0,Walker Buehler,Cristopher Sánchez
+823540,2026-06-03,Scheduled,Cleveland Guardians,New York Yankees,,,,,0.6170255226582974,,0.031038261511800447,-0.031038261511800558,-160.0,130.0,7.0,Gavin Williams,Gerrit Cole
+823701,2026-06-03,Pre-Game,Chicago White Sox,Minnesota Twins,away,Chicago White Sox,125.0,+125,0.43520475367755224,0.13926333142883063,-0.1392633314288308,0.13926333142883063,-150.0,125.0,7.0,Erick Fedde,Taj Bradley
+823780,2026-06-03,Scheduled,San Francisco Giants,Milwaukee Brewers,,,,,0.5808624871001824,,0.00639440199379937,-0.006394401993799481,-150.0,125.0,7.0,Logan Webb,
+824024,2026-06-03,Scheduled,Colorado Rockies,Los Angeles Angels,,,,,0.6256144135462162,,0.04581709954769919,-0.04581709954769925,-155.0,127.0,7.0,Michael Lorenzen,Walbert Ureña
+824188,2026-06-03,Scheduled,Pittsburgh Pirates,Houston Astros,home,Houston Astros,130.0,+130,0.5450664098138821,0.1280590508604888,0.1280590508604888,-0.12805905086048874,130.0,-155.0,7.0,Paul Skenes,Spencer Arrighetti
+824509,2026-06-03,Scheduled,Kansas City Royals,Cincinnati Reds,away,Kansas City Royals,132.0,+132,0.5171792224260493,0.07090696261831064,-0.07090696261831075,0.07090696261831064,-160.0,132.0,7.0,Stephen Kolek,Chase Burns
+824755,2026-06-03,Scheduled,Baltimore Orioles,Boston Red Sox,away,Baltimore Orioles,125.0,+125,0.48421575791129523,0.09280339279644834,-0.09280339279644834,0.09280339279644834,-154.0,125.0,7.0,Chris Bassitt,Payton Tolle
+824917,2026-06-03,Scheduled,Toronto Blue Jays,Atlanta Braves,,,,,0.5801469404952866,,0.006334360264221184,-0.006334360264221073,-149.0,125.0,7.0,Patrick Corbin,Grant Holmes
+825077,2026-06-03,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,,,,,0.37086799958349825,,0.005014341046912896,-0.005014341046912785,160.0,-200.0,7.0,Shohei Ohtani,Zac Gallen

@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822794,2026-06-27,Scheduled,Texas Rangers,Toronto Blue Jays,,,,,0.621047319368016,,-0.01152467665978929,0.011524676659789346,-196.0,160.0,7.0,Cal Quantrill,Dylan Cease
+822960,2026-06-27,Scheduled,Arizona Diamondbacks,Tampa Bay Rays,,,,,0.5637170350617513,,-0.013922716491043818,0.013922716491043652,-155.0,125.0,7.0,Jose Cabrera,Cole Sulser
+823038,2026-06-27,Scheduled,Miami Marlins,St. Louis Cardinals,,,,,0.5876846322123533,,0.02432694196106122,-0.024326941961061277,-145.0,118.0,7.0,Ryan Gusto,Andre Pallante
+823207,2026-06-27,Scheduled,Atlanta Braves,San Francisco Giants,home,San Francisco Giants,-135.0,-135,0.6128887080614142,0.0661191805782897,0.0661191805782897,-0.06611918057828975,-135.0,110.0,7.0,Bryce Elder,Logan Webb
+823283,2026-06-27,Scheduled,Los Angeles Dodgers,San Diego Padres,home,San Diego Padres,165.0,+165,0.44540454430079796,0.08547084787645504,0.08547084787645504,-0.08547084787645509,165.0,-204.0,7.0,Yoshinobu Yamamoto,Randy Vásquez
+823364,2026-06-27,Scheduled,Cincinnati Reds,Pittsburgh Pirates,home,Pittsburgh Pirates,100.0,+100,0.6255887207321007,0.1473278511668833,0.1473278511668833,-0.1473278511668833,100.0,-120.0,7.0,Chase Burns,Jared Jones
+823609,2026-06-27,Scheduled,Philadelphia Phillies,New York Mets,away,Philadelphia Phillies,110.0,+110,0.4829557259047296,0.06142762052103623,-0.061427620521036286,0.06142762052103623,-132.0,110.0,7.0,Alan Rangel,Christian Scott
+823689,2026-06-27,Scheduled,Colorado Rockies,Minnesota Twins,,,,,0.5531251035831592,,-0.007699750476951817,0.00769975047695165,-143.0,117.0,7.0,Michael Lorenzen,Mike Paredes
+823770,2026-06-27,Scheduled,Chicago Cubs,Milwaukee Brewers,,,,,0.6306030804686996,,0.035485937394926004,-0.03548593739492606,-167.0,135.0,7.0,David Peterson,Kyle Harrison
+824257,2026-06-27,Pre-Game,Houston Astros,Detroit Tigers,,,,,0.5204661102725683,,-0.02748041276292279,0.027480412762922735,-135.0,111.0,7.0,Kai-Wei Teng,Framber Valdez
+824421,2026-06-27,Scheduled,Seattle Mariners,Cleveland Guardians,,,,,0.4748538404822166,,0.04842904015732152,-0.04842904015732152,123.0,-152.0,7.0,Logan Gilbert,Slade Cecconi
+824581,2026-06-27,Scheduled,Kansas City Royals,Chicago White Sox,home,Chicago White Sox,-135.0,-135,0.6305838416600363,0.07798983880425336,0.07798983880425336,-0.07798983880425336,-135.0,115.0,7.0,Michael Wacha,Davis Martin
+824745,2026-06-27,Pre-Game,New York Yankees,Boston Red Sox,,,,,0.4597508858514876,,-0.018509983713729805,0.018509983713729805,100.0,-120.0,7.0,Gerrit Cole,Jake Bennett
+824825,2026-06-27,Scheduled,Washington Nationals,Baltimore Orioles,home,Baltimore Orioles,-120.0,-120,0.6017863226560929,0.08250611700056587,0.08250611700056587,-0.08250611700056593,-120.0,-102.0,7.0,Foster Griffin,Brandon Young

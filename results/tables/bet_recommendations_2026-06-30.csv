@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822793,2026-06-30,Scheduled,New York Mets,Toronto Blue Jays,,,,,0.5396754623367984,,0.017936331902015823,-0.017936331902015823,-120.0,100.0,7.0,Nolan McLean,Kevin Gausman
+823122,2026-06-30,Scheduled,Los Angeles Angels,Seattle Mariners,away,Los Angeles Angels,154.0,+154,0.5091736408036445,0.11547041821784138,-0.11547041821784143,0.11547041821784138,-190.0,154.0,7.0,José Soriano,Bryan Woo
+823445,2026-06-30,Scheduled,Pittsburgh Pirates,Philadelphia Phillies,,,,,0.6250478983269517,,-0.03920591347036839,0.0392059134703685,-227.0,185.0,7.0,Bubba Chandler,Cristopher Sánchez
+823528,2026-06-30,Scheduled,Detroit Tigers,New York Yankees,,,,,0.5078006930574747,,-0.024666839410057873,0.024666839410057817,-125.0,105.0,7.0,Tarik Skubal,Cam Schlittler
+823768,2026-06-30,Scheduled,Cincinnati Reds,Milwaukee Brewers,,,,,0.6012145474205285,,-0.00508466517789663,0.005084665177896741,-175.0,142.0,7.0,Rhett Lowder,Brandon Sproat
+824096,2026-06-30,Scheduled,Tampa Bay Rays,Kansas City Royals,,,,,0.45994977350960214,,-0.016445076275805492,0.016445076275805715,100.0,-122.0,7.0,Griffin Jax,Noah Cameron
+824175,2026-06-30,Scheduled,Minnesota Twins,Houston Astros,,,,,0.4904007804807541,,0.0012350166671029617,-0.0012350166671029061,-105.0,-115.0,7.0,Joe Ryan,Mike Burrows
+824338,2026-06-30,Scheduled,Miami Marlins,Colorado Rockies,,,,,0.46459607115695545,,0.015255861844047813,-0.015255861844047924,112.0,-137.0,7.0,Eury Pérez,Tanner Gordon
+824418,2026-06-30,Scheduled,Texas Rangers,Cleveland Guardians,,,,,0.5029026517056902,,0.026507801920282514,-0.026507801920282348,100.0,-122.0,7.0,Jacob deGrom,Tanner Bibee
+824661,2026-06-30,Scheduled,San Diego Padres,Chicago Cubs,,,,,0.5896919260480079,,0.008211413361636,-0.008211413361635889,-156.0,128.0,7.0,JP Sears,Matthew Boyd
+824742,2026-06-30,Scheduled,Washington Nationals,Boston Red Sox,,,,,0.5546323307945891,,0.003972540107496592,-0.003972540107496703,-137.0,112.0,7.0,Cade Cavalli,Connelly Early
+824819,2026-06-30,Scheduled,Chicago White Sox,Baltimore Orioles,,,,,0.533901393754696,,-0.020232742262611847,0.020232742262611847,-137.0,115.0,7.0,Erick Fedde,Trey Gibson
+824907,2026-06-30,Scheduled,St. Louis Cardinals,Atlanta Braves,,,,,0.5448312334437794,,-0.027452769977948543,0.0274527699779486,-150.0,123.0,7.0,Matthew Liberatore,Martín Pérez
+825066,2026-06-30,Scheduled,San Francisco Giants,Arizona Diamondbacks,,,,,0.5326316220224658,,0.032631622022465834,-0.032631622022465834,-110.0,-110.0,7.0,Landen Roupp,

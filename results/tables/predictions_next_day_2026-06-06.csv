@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822808,2026-06-06,Scheduled,Baltimore Orioles,Toronto Blue Jays,Kyle Bradish,,0.48822440551756247,0
+822891,2026-06-06,Scheduled,Cleveland Guardians,Texas Rangers,Tanner Bibee,Jack Leiter,0.6112888883580347,1
+823048,2026-06-06,Scheduled,Cincinnati Reds,St. Louis Cardinals,Nick Lodolo,Matthew Liberatore,0.5485796774248077,1
+823292,2026-06-06,Scheduled,New York Mets,San Diego Padres,Nolan McLean,Griffin Canning,0.4599891286178515,0
+823454,2026-06-06,Scheduled,Chicago White Sox,Philadelphia Phillies,Brandon Eisert,Andrew Painter,0.5135191476830913,1
+823539,2026-06-06,Scheduled,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.624571444449922,1
+823697,2026-06-06,Scheduled,Kansas City Royals,Minnesota Twins,Luinder Avila,Joe Ryan,0.5504550598607739,1
+823859,2026-06-06,Scheduled,Tampa Bay Rays,Miami Marlins,Shane McClanahan,Lake Bachar,0.510606224723276,1
+823942,2026-06-06,Scheduled,Los Angeles Angels,Los Angeles Dodgers,Jack Kochanowicz,Yoshinobu Yamamoto,0.6314440426188739,1
+824184,2026-06-06,Scheduled,Athletics,Houston Astros,Kade Morris,Tatsuya Imai,0.5215598573742269,1
+824269,2026-06-06,Scheduled,Seattle Mariners,Detroit Tigers,Bryce Miller,Keider Montero,0.45504957158039006,0
+824351,2026-06-06,Scheduled,Milwaukee Brewers,Colorado Rockies,Jacob Misiorowski,,0.41652506067413564,0
+824669,2026-06-06,Scheduled,San Francisco Giants,Chicago Cubs,Landen Roupp,Ben Brown,0.49591914210763854,0
+824915,2026-06-06,Scheduled,Pittsburgh Pirates,Atlanta Braves,Braxton Ashcraft,Spencer Strider,0.5774911744678678,1
+825075,2026-06-06,Scheduled,Washington Nationals,Arizona Diamondbacks,Zack Littell,Eduardo Rodriguez,0.5078876431658988,1

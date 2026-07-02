@@ -129,17 +129,23 @@ def pick_bets(
     out["bet_side"] = bet_side
     out["bet_odds"] = bet_odds
     out["bet_edge"] = bet_edge
-    out["bet_won"] = [
-        (s == "home" and bool(w)) or (s == "away" and not bool(w))
-        if s is not None
-        else np.nan
-        for s, w in zip(out["bet_side"], out["home_win"])
-    ]
-    out["bet_profit"] = [
-        flat_bet_profit(o, bool(w)) if s is not None and pd.notna(o) else np.nan
-        for s, o, w in zip(out["bet_side"], out["bet_odds"], out["bet_won"])
-    ]
+    if "home_win" in out.columns:
+        out["bet_won"] = [
+            (s == "home" and bool(w)) or (s == "away" and not bool(w))
+            if s is not None
+            else np.nan
+            for s, w in zip(out["bet_side"], out["home_win"])
+        ]
+        out["bet_profit"] = [
+            flat_bet_profit(o, bool(w)) if s is not None and pd.notna(o) else np.nan
+            for s, o, w in zip(out["bet_side"], out["bet_odds"], out["bet_won"])
+        ]
     return out
+
+
+def format_american_odds(odds: float) -> str:
+    o = int(round(float(odds)))
+    return f"+{o}" if o > 0 else str(o)
 
 
 def log_loss(y_true: pd.Series, p: pd.Series, eps: float = 1e-15) -> float:

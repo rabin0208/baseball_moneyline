@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822723,2026-06-16,Scheduled,Kansas City Royals,Washington Nationals,,,,,0.5975673504091727,,0.04690755972208027,-0.04690755972208038,-137.0,112.0,7.0,Michael Wacha,Foster Griffin
+822888,2026-06-16,Scheduled,Minnesota Twins,Texas Rangers,,,,,0.5416434695273437,,-0.01689954073698552,0.016899540736985574,-143.0,115.0,7.0,Zebby Matthews,Kumar Rocker
+823045,2026-06-16,Scheduled,San Diego Padres,St. Louis Cardinals,home,St. Louis Cardinals,-118.0,-118,0.6015967985357015,0.08779051136492844,0.08779051136492844,-0.08779051136492827,-118.0,-105.0,7.0,Michael King,Andre Pallante
+823128,2026-06-16,Scheduled,Baltimore Orioles,Seattle Mariners,away,Baltimore Orioles,127.0,+127,0.5279009097459971,0.05250950132067822,-0.05250950132067833,0.05250950132067822,-156.0,127.0,7.0,Brandon Young,Logan Gilbert
+823451,2026-06-16,Scheduled,Miami Marlins,Philadelphia Phillies,,,,,0.5622953930299618,,-0.04888152843892535,0.04888152843892535,-179.0,145.0,7.0,Tyler Phillips,Jesús Luzardo
+823535,2026-06-16,Scheduled,Chicago White Sox,New York Yankees,,,,,0.5360401127488257,,-0.034037273321681605,0.03403727332168166,-150.0,121.0,7.0,Davis Martin,Gerrit Cole
+823775,2026-06-16,Scheduled,Cleveland Guardians,Milwaukee Brewers,away,Cleveland Guardians,127.0,+127,0.48040565186437595,0.10000475920229934,-0.10000475920229951,0.10000475920229934,-156.0,127.0,7.0,Slade Cecconi,Robert Gasser
+823939,2026-06-16,Scheduled,Tampa Bay Rays,Los Angeles Dodgers,,,,,0.586743539132189,,0.009724388424445451,-0.009724388424445451,-154.0,125.0,7.0,Drew Rasmussen,Justin Wrobleski
+824182,2026-06-16,Scheduled,Detroit Tigers,Houston Astros,away,Detroit Tigers,130.0,+130,0.4521772184676989,0.13381004267879792,-0.13381004267879798,0.13381004267879792,-160.0,130.0,7.0,Framber Valdez,Hunter Brown
+824504,2026-06-16,Scheduled,New York Mets,Cincinnati Reds,home,Cincinnati Reds,103.0,+103,0.5912497669469461,0.12127587660752054,0.12127587660752054,-0.12127587660752048,103.0,-125.0,7.0,Kodai Senga,Brady Singer
+824667,2026-06-16,Scheduled,Colorado Rockies,Chicago Cubs,away,Colorado Rockies,160.0,+160,0.565238202670593,0.0673337933572124,-0.06733379335721235,0.0673337933572124,-196.0,160.0,7.0,Ryan Feltner,Edward Cabrera
+824750,2026-06-16,Scheduled,Toronto Blue Jays,Boston Red Sox,,,,,0.5084966836266193,,0.032101833841211624,-0.03210183384121146,100.0,-122.0,7.0,,Payton Tolle
+824912,2026-06-16,Scheduled,San Francisco Giants,Atlanta Braves,away,San Francisco Giants,140.0,+140,0.5104155864783196,0.09135432502610513,-0.09135432502610519,0.09135432502610513,-170.0,140.0,7.0,Adrian Houser,Grant Holmes
+825070,2026-06-16,Scheduled,Los Angeles Angels,Arizona Diamondbacks,,,,,0.5140000472213486,,0.007680266307086958,-0.007680266307087014,-115.0,-109.0,7.0,Reid Detmers,Merrill Kelly

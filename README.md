@@ -105,6 +105,15 @@ Fetches **closing moneylines** from SportsBookReview (via `sbr-odds-scraper`) in
 
 Writes `results/tables/market_roi_<season>.csv` and optional per-game output via `-o`.
 
+### 10. Daily bet recommendations (optional)
+```bash
+python scripts/recommend_bets.py
+python scripts/recommend_bets.py --tomorrow --edge 0.05
+```
+Scores **today's** (or `--tomorrow` / `--date`) not-yet-final games with the saved model, fetches **current moneylines** from SportsBookReview, and prints (plus saves) any **flat 1-unit** bets where model probability beats the fair market line by at least `--edge` (default **5%**). Output: `results/tables/bet_recommendations_<date>.csv`.
+
+Requires network access, a fitted model, and `eda.py` history CSV. Run `data_load.py` / `eda.py` first so rolling features are up to date.
+
 ## Train / test / deploy
 
 | Phase | Seasons (with current pipeline) |

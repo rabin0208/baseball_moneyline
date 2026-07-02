@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822725,2026-06-13,Scheduled,Seattle Mariners,Washington Nationals,,,,,0.5410125157820436,,0.04101251578204357,-0.04101251578204357,-110.0,-110.0,6.0,Luis Castillo,Cade Cavalli
+822802,2026-06-13,Scheduled,New York Yankees,Toronto Blue Jays,,,,,0.5094498504010759,,0.04537040972826201,-0.04537040972826212,105.0,-129.0,6.0,Cam Schlittler,Kevin Gausman
+823213,2026-06-13,Scheduled,Chicago Cubs,San Francisco Giants,home,San Francisco Giants,105.0,+105,0.5824688945305241,0.11581599343616106,0.11581599343616106,-0.11581599343616111,105.0,-126.0,6.0,Ben Brown,Trevor McDonald
+823369,2026-06-13,Scheduled,Miami Marlins,Pittsburgh Pirates,away,Miami Marlins,110.0,+110,0.4357724484514408,0.10820470115951164,-0.10820470115951164,0.10820470115951164,-131.5,110.0,6.0,Lake Bachar,Bubba Chandler
+823616,2026-06-13,Scheduled,Atlanta Braves,New York Mets,away,Atlanta Braves,-1.0,-1,0.5406212702300124,0.4415505287975403,-0.4415505287975403,0.4415505287975403,-120.0,-1.0,6.0,Martín Pérez,
+823694,2026-06-13,Scheduled,St. Louis Cardinals,Minnesota Twins,away,St. Louis Cardinals,-110.0,-110,0.4277147691059022,0.07228523089409777,-0.07228523089409777,0.07228523089409777,-110.0,-110.0,6.0,Matthew Liberatore,Connor Prielipp
+823776,2026-06-13,Scheduled,Philadelphia Phillies,Milwaukee Brewers,,,,,0.5226326828804575,,-0.04050045749580877,0.04050045749580883,-141.5,120.0,6.0,Aaron Nola,Shane Drohan
+824019,2026-06-13,Scheduled,Tampa Bay Rays,Los Angeles Angels,,,,,0.4749562260488689,,-0.014209537764782232,0.014209537764782287,-105.0,-115.0,6.0,Griffin Jax,José Soriano
+824100,2026-06-13,Scheduled,Houston Astros,Kansas City Royals,,,,,0.5676169448602927,,0.03514941239276015,-0.035149412392760204,-125.0,105.0,6.0,Mike Burrows,Noah Cameron
+824426,2026-06-13,Scheduled,Detroit Tigers,Cleveland Guardians,home,Cleveland Guardians,127.0,+127,0.5290245817369528,0.10882189573546969,0.10882189573546969,-0.10882189573546974,127.0,-155.0,6.0,Tarik Skubal,Joey Cantillo
+824508,2026-06-13,Scheduled,Arizona Diamondbacks,Cincinnati Reds,home,Cincinnati Reds,115.0,+115,0.5893816661605676,0.145390379141983,0.145390379141983,-0.14539037914198305,115.0,-139.5,6.0,Michael Soroka,Rhett Lowder
+824587,2026-06-13,Scheduled,Los Angeles Dodgers,Chicago White Sox,,,,,0.40165187775685,,0.04546931673439658,-0.04546931673439658,168.5,-206.0,6.0,Yoshinobu Yamamoto,Sean Burke
+824749,2026-06-13,Scheduled,Texas Rangers,Boston Red Sox,,,,,0.47438469689750007,,-0.047354433537282525,0.047354433537282525,-120.0,100.0,6.0,Jacob deGrom,Ranger Suarez
+824828,2026-06-13,Scheduled,San Diego Padres,Baltimore Orioles,,,,,0.5587588172149096,,0.026291284747377075,-0.02629128474737713,-125.0,105.0,6.0,Randy Vásquez,Trey Gibson

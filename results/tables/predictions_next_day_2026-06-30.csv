@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822793,2026-06-30,Scheduled,New York Mets,Toronto Blue Jays,Nolan McLean,Kevin Gausman,0.5396754623367984,1
+823122,2026-06-30,Scheduled,Los Angeles Angels,Seattle Mariners,José Soriano,Bryan Woo,0.5091736408036445,1
+823445,2026-06-30,Scheduled,Pittsburgh Pirates,Philadelphia Phillies,Bubba Chandler,Cristopher Sánchez,0.6250478983269517,1
+823528,2026-06-30,Scheduled,Detroit Tigers,New York Yankees,Tarik Skubal,Cam Schlittler,0.5078006930574747,1
+823768,2026-06-30,Scheduled,Cincinnati Reds,Milwaukee Brewers,Rhett Lowder,Brandon Sproat,0.6012145474205285,1
+824096,2026-06-30,Scheduled,Tampa Bay Rays,Kansas City Royals,Griffin Jax,Noah Cameron,0.45994977350960214,0
+824175,2026-06-30,Scheduled,Minnesota Twins,Houston Astros,Joe Ryan,Mike Burrows,0.4904007804807541,0
+824338,2026-06-30,Scheduled,Miami Marlins,Colorado Rockies,Eury Pérez,Tanner Gordon,0.46459607115695545,0
+824418,2026-06-30,Scheduled,Texas Rangers,Cleveland Guardians,Jacob deGrom,Tanner Bibee,0.5029026517056902,1
+824661,2026-06-30,Scheduled,San Diego Padres,Chicago Cubs,JP Sears,Matthew Boyd,0.5896919260480079,1
+824742,2026-06-30,Scheduled,Washington Nationals,Boston Red Sox,Cade Cavalli,Connelly Early,0.5546323307945891,1
+824819,2026-06-30,Scheduled,Chicago White Sox,Baltimore Orioles,Erick Fedde,Trey Gibson,0.533901393754696,1
+824907,2026-06-30,Scheduled,St. Louis Cardinals,Atlanta Braves,Matthew Liberatore,Martín Pérez,0.5448312334437794,1
+824984,2026-06-30,Scheduled,Los Angeles Dodgers,Athletics,Justin Wrobleski,Jeffrey Springs,0.4662697109054749,0
+825066,2026-06-30,Scheduled,San Francisco Giants,Arizona Diamondbacks,Landen Roupp,,0.5326316220224658,1

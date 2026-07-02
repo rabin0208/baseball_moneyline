@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822728,2026-06-02,Scheduled,Miami Marlins,Washington Nationals,,,,,0.464201095510524,,,,-120.0,0.0,7.0,Lake Bachar,Miles Mikolas
+822971,2026-06-02,Scheduled,Detroit Tigers,Tampa Bay Rays,,,,,0.5617191620600048,,-0.00032463356043321845,0.0003246335604331074,-140.0,120.0,7.0,Jack Flaherty,Steven Matz
+823052,2026-06-02,Scheduled,Texas Rangers,St. Louis Cardinals,,,,,0.4895007366122718,,0.00033497279862065854,-0.00033497279862060303,-105.0,-115.0,7.0,Nathan Eovaldi,Dustin May
+823129,2026-06-02,Scheduled,New York Mets,Seattle Mariners,,,,,0.5982775471344698,,0.025993543712741873,-0.025993543712741818,-150.0,123.0,7.0,,Logan Gilbert
+823460,2026-06-02,Scheduled,San Diego Padres,Philadelphia Phillies,,,,,0.5495030729515669,,-0.003090929904216111,0.003090929904216111,-135.0,115.0,7.0,Randy Vásquez,Aaron Nola
+823541,2026-06-02,Scheduled,Cleveland Guardians,New York Yankees,away,Cleveland Guardians,200.0,+200,0.5832656615759061,0.09855252024227579,-0.09855252024227568,0.09855252024227579,-250.0,200.0,7.0,Joey Cantillo,Cam Schlittler
+823700,2026-06-02,Scheduled,Chicago White Sox,Minnesota Twins,away,Chicago White Sox,-120.0,-120,0.4243038459734221,0.05395702359179533,-0.05395702359179533,0.05395702359179533,100.0,-120.0,7.0,Davis Martin,Connor Prielipp
+823782,2026-06-02,Scheduled,San Francisco Giants,Milwaukee Brewers,away,San Francisco Giants,175.0,+175,0.5775719945512676,0.07313223080084502,-0.07313223080084508,0.07313223080084502,-210.0,175.0,7.0,Trevor McDonald,Kyle Harrison
+824026,2026-06-02,Scheduled,Colorado Rockies,Los Angeles Angels,,,,,0.5969449966980197,,0.005172102352199781,-0.005172102352199726,-161.0,135.0,7.0,Tomoyuki Sugano,Grayson Rodriguez
+824189,2026-06-02,Scheduled,Pittsburgh Pirates,Houston Astros,home,Houston Astros,-115.0,-115,0.5862396192549318,0.07540538306858302,0.07540538306858302,-0.07540538306858297,-115.0,-105.0,7.0,Bubba Chandler,Mike Burrows
+824511,2026-06-02,Scheduled,Kansas City Royals,Cincinnati Reds,,,,,0.5755907741959813,,0.043123241728448725,-0.04312324172844878,-125.0,105.0,7.0,Noah Cameron,Andrew Abbott
+824754,2026-06-02,Scheduled,Baltimore Orioles,Boston Red Sox,,,,,0.52981686521485,,-0.029977705584856462,0.029977705584856462,-140.0,118.0,7.0,Shane Baz,Connelly Early
+824918,2026-06-02,Scheduled,Toronto Blue Jays,Atlanta Braves,,,,,0.5401989301632805,,-0.002544608604115206,0.0025446086041151506,-130.0,110.0,7.0,Kevin Gausman,Bryce Elder
+825079,2026-06-02,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,,,,,0.5101542879211527,,0.03189341835593529,-0.03189341835593529,100.0,-120.0,7.0,Eric Lauer,Michael Soroka

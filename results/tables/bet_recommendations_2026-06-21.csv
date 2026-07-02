@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822883,2026-06-21,Scheduled,San Diego Padres,Texas Rangers,away,San Diego Padres,127.0,+127,0.5051018528520129,0.07530855821466242,-0.07530855821466254,0.07530855821466242,-156.0,127.0,7.0,Wandy Peralta,Nathan Eovaldi
+822968,2026-06-21,Pre-Game,Washington Nationals,Tampa Bay Rays,home,Tampa Bay Rays,-135.0,-135,0.6100542065478206,0.06328467906469615,0.06328467906469615,-0.0632846790646962,-135.0,110.0,7.0,Andrew Alvarez,Nick Martinez
+823123,2026-06-21,Scheduled,Boston Red Sox,Seattle Mariners,,,,,0.5544631627768076,,-0.0019139167056322348,0.0019139167056323458,-140.0,115.0,7.0,Payton Tolle,Logan Gilbert
+823449,2026-06-21,Scheduled,New York Mets,Philadelphia Phillies,,,,,0.6178938040463692,,-0.016252537417045354,0.016252537417045465,-200.0,160.0,7.0,David Peterson,Zack Wheeler
+823531,2026-06-21,Pre-Game,Cincinnati Reds,New York Yankees,,,,,0.513029622307104,,-0.006250583348422989,0.006250583348422933,-120.0,-102.0,7.0,Chase Burns,Elmer Rodríguez
+823852,2026-06-21,Pre-Game,San Francisco Giants,Miami Marlins,home,Miami Marlins,120.0,+120,0.5638044638862449,0.13077501087081717,0.13077501087081717,-0.1307750108708171,120.0,-147.0,7.0,Logan Webb,Ryan Gusto
+823934,2026-06-21,Scheduled,Baltimore Orioles,Los Angeles Dodgers,away,Baltimore Orioles,185.0,+185,0.5211618828675338,0.1448528606257714,-0.14485286062577152,0.1448528606257714,-233.0,185.0,7.0,Brandon Young,Emmet Sheehan
+824095,2026-06-21,Pre-Game,St. Louis Cardinals,Kansas City Royals,home,Kansas City Royals,104.0,+104,0.5546522797484567,0.0876509630927621,0.0876509630927621,-0.08765096309276221,104.0,-127.0,7.0,Dustin May,Stephen Kolek
+824177,2026-06-21,Scheduled,Cleveland Guardians,Houston Astros,away,Cleveland Guardians,115.0,+115,0.4916318938448924,0.06547552138987739,-0.06547552138987739,0.06547552138987739,-141.0,115.0,7.0,Slade Cecconi,Kai-Wei Teng
+824260,2026-06-21,Pre-Game,Chicago White Sox,Detroit Tigers,away,Chicago White Sox,100.0,+100,0.44969260317958787,0.07391254703500455,-0.07391254703500433,0.07391254703500455,-122.0,100.0,7.0,Davis Martin,Keider Montero
+824343,2026-06-21,Scheduled,Pittsburgh Pirates,Colorado Rockies,home,Colorado Rockies,120.0,+120,0.5033967047646495,0.0703672517492217,0.0703672517492217,-0.07036725174922165,120.0,-147.0,7.0,Jared Jones,Michael Lorenzen
+824664,2026-06-21,Scheduled,Toronto Blue Jays,Chicago Cubs,home,Chicago Cubs,-105.0,-105,0.5654629905673471,0.07629722675369593,0.07629722675369593,-0.07629722675369588,-105.0,-115.0,7.0,Dylan Cease,Shota Imanaga
+824908,2026-06-21,Pre-Game,Milwaukee Brewers,Atlanta Braves,,,,,0.5106699241008127,,-0.008610281554714327,0.008610281554714272,-120.0,-102.0,7.0,Robert Gasser,Bryce Elder
+825067,2026-06-21,Scheduled,Minnesota Twins,Arizona Diamondbacks,,,,,0.5339010997592155,,-0.016758690927876962,0.01675869092787685,-137.0,112.0,7.0,Mike Paredes,Jose Cabrera

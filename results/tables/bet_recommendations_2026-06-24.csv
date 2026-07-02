@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822719,2026-06-24,Scheduled,Philadelphia Phillies,Washington Nationals,,,,,0.43217034210312383,,-0.022641291705191635,0.02264129170519158,110.0,-133.0,7.0,Aaron Nola,Miles Mikolas
+822798,2026-06-24,Scheduled,Houston Astros,Toronto Blue Jays,away,Houston Astros,131.0,+131,0.5083356741709711,0.07928341859103288,-0.07928341859103294,0.07928341859103288,-161.0,131.0,7.0,Mike Burrows,Trey Yesavage
+822965,2026-06-24,Scheduled,Kansas City Royals,Tampa Bay Rays,,,,,0.5290393382933798,,-0.04671823746419601,0.0467182374641959,-152.0,125.0,7.0,Noah Cameron,Griffin Jax
+823041,2026-06-24,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,,,,,0.552348911109698,,0.033068705454170955,-0.03306870545417101,-120.0,-102.0,7.0,Mitch Bratt,Matthew Liberatore
+823284,2026-06-24,Scheduled,Atlanta Braves,San Diego Padres,home,San Diego Padres,100.0,+100,0.5858291085369068,0.11214489801059108,0.11214489801059108,-0.11214489801059102,100.0,-125.0,7.0,Martín Pérez,JP Sears
+823367,2026-06-24,Scheduled,Seattle Mariners,Pittsburgh Pirates,,,,,0.5333455305805862,,0.015268116714146518,-0.015268116714146407,-120.0,-103.0,7.0,Bryan Woo,Braxton Ashcraft
+823611,2026-06-24,Scheduled,Chicago Cubs,New York Mets,away,Chicago Cubs,-105.0,-105,0.38495411961920384,0.12588011656714498,-0.12588011656714498,0.12588011656714498,-115.0,-105.0,7.0,,Sean Manaea
+823613,2026-06-24,Postponed,Chicago Cubs,New York Mets,away,Chicago Cubs,-105.0,-105,0.39393927629170195,0.11689495989464688,-0.11689495989464688,0.11689495989464688,-115.0,-105.0,7.0,Shota Imanaga,Kodai Senga
+823613,2026-06-24,Pre-Game,Chicago Cubs,New York Mets,away,Chicago Cubs,-105.0,-105,0.40041182161455463,0.11042241457179419,-0.11042241457179419,0.11042241457179419,-115.0,-105.0,7.0,Javier Assad,Nolan McLean
+823691,2026-06-24,Scheduled,Los Angeles Dodgers,Minnesota Twins,home,Minnesota Twins,147.0,+147,0.5196375975953925,0.13414944930548356,0.13414944930548356,-0.13414944930548356,147.0,-182.0,7.0,Shohei Ohtani,Joe Ryan
+823850,2026-06-24,Pre-Game,Texas Rangers,Miami Marlins,home,Miami Marlins,100.0,+100,0.5820512418984821,0.10379037233326471,0.10379037233326471,-0.10379037233326471,100.0,-120.0,7.0,Jacob deGrom,Eury Pérez
+824018,2026-06-24,Scheduled,Baltimore Orioles,Los Angeles Angels,away,Baltimore Orioles,105.0,+105,0.4723671149341248,0.06010041753340761,-0.060100417533407724,0.06010041753340761,-125.0,105.0,7.0,Trey Gibson,José Soriano
+824259,2026-06-24,Scheduled,New York Yankees,Detroit Tigers,,,,,0.5465674439128408,,-0.0025499774225391514,0.0025499774225390404,-135.0,112.0,7.0,Ryan Weathers,Tarik Skubal
+824341,2026-06-24,Scheduled,Boston Red Sox,Colorado Rockies,home,Colorado Rockies,140.0,+140,0.5072031376732578,0.11000687599101477,0.11000687599101477,-0.11000687599101466,140.0,-172.0,7.0,Ranger Suarez,Kyle Freeland
+824500,2026-06-24,Scheduled,Milwaukee Brewers,Cincinnati Reds,,,,,0.4875898291010701,,0.04322801818724653,-0.04322801818724653,115.0,-139.0,7.0,Shane Drohan,Rhett Lowder
+824583,2026-06-24,Pre-Game,Cleveland Guardians,Chicago White Sox,,,,,0.4913680650169268,,0.0022023012032756917,-0.0022023012032755807,-105.0,-115.0,7.0,Tanner Bibee,Erick Fedde

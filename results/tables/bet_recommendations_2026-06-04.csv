@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+823457,2026-06-04,Pre-Game,San Diego Padres,Philadelphia Phillies,away,San Diego Padres,175.0,+175,0.5998005683365492,0.050903657015563486,-0.05090365701556354,0.050903657015563486,-210.0,175.0,7.0,Lucas Giolito,Zack Wheeler
+823542,2026-06-04,Pre-Game,Cleveland Guardians,New York Yankees,,,,,0.5696483363470963,,-0.023822559864791537,0.023822559864791593,-164.0,135.0,7.0,Slade Cecconi,Carlos Rodón
+823698,2026-06-04,Scheduled,Kansas City Royals,Minnesota Twins,home,Minnesota Twins,100.0,+100,0.580357420375534,0.10209655081031654,0.10209655081031654,-0.10209655081031654,100.0,-120.0,7.0,Seth Lugo,Andrew Morris
+823779,2026-06-04,Pre-Game,San Francisco Giants,Milwaukee Brewers,,,,,0.6515912504664306,,0.026026369898322188,-0.026026369898322188,-190.0,155.0,7.0,Adrian Houser,Coleman Crow
+824185,2026-06-04,Scheduled,Pittsburgh Pirates,Houston Astros,,,,,0.5361276386146009,,0.03290294173610753,-0.032902941736107416,-112.0,-109.0,7.0,Jared Jones,Kai-Wei Teng
+824753,2026-06-04,Pre-Game,Baltimore Orioles,Boston Red Sox,,,,,0.48515639036143554,,-0.02981879361939621,0.029818793619396267,-118.0,-104.0,7.0,Trevor Rogers,Brayan Bello
+824919,2026-06-04,Scheduled,Toronto Blue Jays,Atlanta Braves,away,Toronto Blue Jays,175.0,+175,0.5656052368453471,0.0850989885067655,-0.08509898850676556,0.0850989885067655,-210.0,175.0,7.0,,Chris Sale
+825076,2026-06-04,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,away,Los Angeles Dodgers,-135.0,-135,0.38352966310950704,0.06387633403470994,-0.06387633403470999,0.06387633403470994,115.0,-135.0,7.0,Justin Wrobleski,Ryne Nelson

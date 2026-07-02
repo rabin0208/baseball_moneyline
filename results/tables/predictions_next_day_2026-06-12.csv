@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822726,2026-06-12,Scheduled,Seattle Mariners,Washington Nationals,Bryce Miller,Zack Littell,0.574569167268608,1
+822803,2026-06-12,Scheduled,New York Yankees,Toronto Blue Jays,Ryan Weathers,,0.49919121738335975,0
+823211,2026-06-12,Scheduled,Chicago Cubs,San Francisco Giants,Javier Assad,Landen Roupp,0.5316398211369874,1
+823370,2026-06-12,Scheduled,Miami Marlins,Pittsburgh Pirates,Sandy Alcantara,Braxton Ashcraft,0.46477129483972623,0
+823617,2026-06-12,Scheduled,Atlanta Braves,New York Mets,Spencer Strider,Nolan McLean,0.44852945266320704,0
+823695,2026-06-12,Scheduled,St. Louis Cardinals,Minnesota Twins,Kyle Leahy,Joe Ryan,0.4250326864444653,0
+823778,2026-06-12,Scheduled,Philadelphia Phillies,Milwaukee Brewers,Andrew Painter,Jacob Misiorowski,0.6295209013715135,1
+824020,2026-06-12,Scheduled,Tampa Bay Rays,Los Angeles Angels,Shane McClanahan,Sam Aldegheri,0.5070558903280732,1
+824102,2026-06-12,Scheduled,Houston Astros,Kansas City Royals,Tatsuya Imai,Luinder Avila,0.5049857167424825,1
+824425,2026-06-12,Scheduled,Detroit Tigers,Cleveland Guardians,Jack Flaherty,Tanner Bibee,0.509943999062444,1
+824507,2026-06-12,Scheduled,Arizona Diamondbacks,Cincinnati Reds,Eduardo Rodriguez,Nick Lodolo,0.45557750888359494,0
+824588,2026-06-12,Scheduled,Los Angeles Dodgers,Chicago White Sox,Roki Sasaki,Anthony Kay,0.5354238853326772,1
+824752,2026-06-12,Scheduled,Texas Rangers,Boston Red Sox,Jack Leiter,Sonny Gray,0.5487617839230359,1
+824826,2026-06-12,Scheduled,San Diego Padres,Baltimore Orioles,Griffin Canning,Shane Baz,0.5472921217528754,1
+824997,2026-06-12,Scheduled,Colorado Rockies,Athletics,,Gage Jump,0.5515319496394503,1

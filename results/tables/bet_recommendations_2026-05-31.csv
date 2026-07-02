@@ -1,0 +1,2 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+823053,2026-05-31,In Progress,Chicago Cubs,St. Louis Cardinals,,,,,0.5403721684078904,,0.01863303797310778,-0.01863303797310778,-120.0,100.0,7,Jordan Wicks,Matthew Liberatore

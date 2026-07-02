@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822884,2026-07-02,Scheduled,Detroit Tigers,Texas Rangers,,,,,0.5373067041878338,,0.025468563852061088,-0.025468563852060977,-116.0,-105.0,7,Framber Valdez,Nathan Eovaldi
+823119,2026-07-02,Scheduled,Los Angeles Angels,Seattle Mariners,away,Los Angeles Angels,175.0,+175,0.5073882285528938,0.14568974682330316,-0.14568974682330327,0.14568974682330316,-217.0,175.0,7,Walbert Ureña,Bryce Miller
+823442,2026-07-02,Warmup,Pittsburgh Pirates,Philadelphia Phillies,away,Pittsburgh Pirates,110.0,+110,0.49299205202336827,0.05139129440239765,-0.05139129440239765,0.05139129440239765,-132.0,110.0,7,Jared Jones,Alan Rangel
+823765,2026-07-02,Pre-Game,Cincinnati Reds,Milwaukee Brewers,away,Cincinnati Reds,160.0,+160,0.581871229863115,0.05227511160029963,-0.05227511160029952,0.05227511160029963,-200.0,160.0,7,Chase Burns,Jacob Misiorowski
+823935,2026-07-02,Scheduled,San Diego Padres,Los Angeles Dodgers,,,,,0.6673100503326778,,0.03316370886926323,-0.03316370886926312,-200.0,160.0,7,Randy Vásquez,Roki Sasaki
+824093,2026-07-02,Scheduled,Tampa Bay Rays,Kansas City Royals,,,,,0.46206073893520416,,-0.005471728597263359,0.005471728597263303,105.0,-125.0,7,Ian Seymour,Stephen Kolek
+824335,2026-07-02,Pre-Game,Miami Marlins,Colorado Rockies,,,,,0.398480862331038,,-0.04285786514229778,0.04285786514229761,117.0,-140.0,7,Ryan Gusto,Michael Lorenzen
+824416,2026-07-02,Scheduled,Chicago White Sox,Cleveland Guardians,,,,,0.5313835808542772,,0.03138358085427717,-0.03138358085427717,-110.0,-110.0,7,Davis Martin,Slade Cecconi
+824906,2026-07-02,Scheduled,St. Louis Cardinals,Atlanta Braves,,,,,0.533418038363651,,0.02258380217730216,-0.022583802177302104,-115.0,-105.0,7,Dustin May,Hurston Waldrep

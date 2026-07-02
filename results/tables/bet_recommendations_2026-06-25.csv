@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822717,2026-06-25,Scheduled,Philadelphia Phillies,Washington Nationals,home,Washington Nationals,137.0,+137,0.46756877007424297,0.06632044194227688,0.06632044194227688,-0.06632044194227693,137.0,-170.0,7.0,Cristopher Sánchez,Cade Cavalli
+822797,2026-06-25,Scheduled,Texas Rangers,Toronto Blue Jays,,,,,0.6051144682161606,,0.028095317508416984,-0.028095317508416984,-154.0,125.0,7.0,MacKenzie Gore,Kevin Gausman
+822961,2026-06-25,Warmup,Kansas City Royals,Tampa Bay Rays,away,Kansas City Royals,120.0,+120,0.5121300574242782,0.054840489560294026,-0.05484048956029397,0.054840489560294026,-147.0,120.0,7.0,Seth Lugo,Casey Legumina
+823042,2026-06-25,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,away,Arizona Diamondbacks,112.0,+112,0.4938895849264723,0.056770205760620085,-0.056770205760620196,0.056770205760620085,-137.0,112.0,7.0,Zac Gallen,Michael McGreevy
+823366,2026-06-25,Warmup,Seattle Mariners,Pittsburgh Pirates,home,Pittsburgh Pirates,120.0,+120,0.5042107010874463,0.06981353796687889,0.06981353796687889,-0.06981353796687884,120.0,-145.0,7.0,Bryce Miller,Bubba Chandler
+823612,2026-06-25,Scheduled,Chicago Cubs,New York Mets,away,Chicago Cubs,-110.0,-110,0.3883183610953895,0.11168163890461047,-0.11168163890461053,0.11168163890461047,-110.0,-110.0,7.0,Matthew Boyd,Freddy Peralta
+824258,2026-06-25,Scheduled,Houston Astros,Detroit Tigers,home,Detroit Tigers,-115.0,-115,0.5767497379579111,0.06591550177156225,0.06591550177156225,-0.06591550177156219,-115.0,-105.0,7.0,Tatsuya Imai,Troy Melton
+824747,2026-06-25,Scheduled,New York Yankees,Boston Red Sox,,,,,0.39017507354257397,,-0.03535684135104311,0.035356841351043,125.0,-150.0,7.0,Cam Schlittler,Connelly Early

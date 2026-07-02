@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822804,2026-06-10,Scheduled,Philadelphia Phillies,Toronto Blue Jays,,,,,0.4559091542728106,,0.017952949893248527,-0.017952949893248693,120.0,-140.0,6.0,Jesús Luzardo,Max Scherzer
+822970,2026-06-10,Scheduled,Boston Red Sox,Tampa Bay Rays,,,,,0.5881518905665638,,0.013683805460180776,-0.013683805460180887,-150.0,125.0,7.0,Jake Bennett,Drew Rasmussen
+823215,2026-06-10,Scheduled,Washington Nationals,San Francisco Giants,away,Washington Nationals,-108.0,-108,0.4556504185360954,0.05075655224811776,-0.05075655224811776,0.05075655224811776,-114.0,-108.0,5.0,Foster Griffin,Robbie Ray
+823287,2026-06-10,Scheduled,Cincinnati Reds,San Diego Padres,,,,,0.5591178627454974,,-0.042652048758927474,0.04265204875892742,-170.0,140.0,5.0,Brady Singer,Michael King
+823372,2026-06-10,Scheduled,Los Angeles Dodgers,Pittsburgh Pirates,home,Pittsburgh Pirates,168.5,+168,0.47513530908825957,0.12003024280772656,0.12003024280772656,-0.12003024280772656,168.5,-209.0,6.0,Shohei Ohtani,Jared Jones
+823618,2026-06-10,Scheduled,St. Louis Cardinals,New York Mets,,,,,0.5072520828822986,,-0.0436103567947046,0.0436103567947046,-135.0,113.5,6.0,Andre Pallante,Austin Warren
+823856,2026-06-10,Scheduled,Arizona Diamondbacks,Miami Marlins,,,,,0.5369005885312885,,0.0477348247176374,-0.04773482471763735,-105.0,-115.0,6.0,Ryne Nelson,Ryan Gusto
+824022,2026-06-10,Scheduled,Houston Astros,Los Angeles Angels,,,,,0.5397355024678876,,0.017996372033105,-0.017996372033105,-120.0,100.0,6.0,Peter Lambert,Reid Detmers
+824103,2026-06-10,Scheduled,Texas Rangers,Kansas City Royals,,,,,0.4324421213876422,,-0.040271338283990765,0.040271338283990765,101.5,-124.0,6.0,MacKenzie Gore,Seth Lugo
+824266,2026-06-10,Scheduled,Minnesota Twins,Detroit Tigers,away,Minnesota Twins,145.0,+145,0.45830804189144164,0.14942198406760082,-0.1494219840676007,0.14942198406760082,-172.0,145.0,5.0,,Framber Valdez
+824348,2026-06-10,Scheduled,Chicago Cubs,Colorado Rockies,home,Colorado Rockies,142.5,+142,0.508313581778081,0.11256422303861596,0.11256422303861596,-0.11256422303861591,142.5,-170.0,6.0,Shota Imanaga,Michael Lorenzen
+824428,2026-06-10,Pre-Game,New York Yankees,Cleveland Guardians,,,,,0.57096352373468,,0.04922439329989736,-0.04922439329989736,-120.0,100.0,6.0,Carlos Rodón,Parker Messick
+824590,2026-06-10,Scheduled,Atlanta Braves,Chicago White Sox,home,Chicago White Sox,128.5,+128,0.5038507783374658,0.08555889901180802,0.08555889901180802,-0.08555889901180802,128.5,-155.5,6.0,Chris Sale,
+824831,2026-06-10,Scheduled,Seattle Mariners,Baltimore Orioles,home,Baltimore Orioles,105.0,+105,0.5318894957586673,0.06435702822619976,0.06435702822619976,-0.06435702822619982,105.0,-125.0,6.0,George Kirby,Brandon Young

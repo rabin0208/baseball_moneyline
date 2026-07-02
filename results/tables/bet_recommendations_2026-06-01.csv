@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822730,2026-06-01,Scheduled,Miami Marlins,Washington Nationals,away,Miami Marlins,120.0,+120,0.5016059998854374,0.06399683699399522,-0.06399683699399517,0.06399683699399522,-145.0,120.0,7,Sandy Alcantara,Cade Cavalli
+822974,2026-06-01,Scheduled,Detroit Tigers,Tampa Bay Rays,away,Detroit Tigers,145.0,+145,0.5566351904527606,0.0526010440054987,-0.05260104400549881,0.0526010440054987,-175.0,145.0,7,Ty Madden,Griffin Jax
+823050,2026-06-01,Scheduled,Texas Rangers,St. Louis Cardinals,home,St. Louis Cardinals,105.0,+105,0.5770192502195477,0.10948678268708018,0.10948678268708018,-0.10948678268708023,105.0,-125.0,7,Jacob deGrom,Michael McGreevy
+823131,2026-06-01,Scheduled,New York Mets,Seattle Mariners,,,,,0.5614525892907966,,-0.0005912063296414916,0.0005912063296413805,-140.0,120.0,7,Austin Warren,Emerson Hancock
+823702,2026-06-01,Scheduled,Chicago White Sox,Minnesota Twins,away,Chicago White Sox,135.0,+135,0.47055946249011255,0.12291143372177532,-0.12291143372177532,0.12291143372177532,-164.0,135.0,7,,Joe Ryan
+823781,2026-06-01,Scheduled,San Francisco Giants,Milwaukee Brewers,away,San Francisco Giants,125.0,+125,0.5083639703187389,0.066104114787644,-0.06610411478764411,0.066104114787644,-150.0,125.0,7,Landen Roupp,Shane Drohan
+824027,2026-06-01,Scheduled,Colorado Rockies,Los Angeles Angels,,,,,0.6262699191836186,,-0.03341594469072684,0.03341594469072695,-225.0,180.0,7,Kyle Freeland,José Soriano
+824510,2026-06-01,Scheduled,Kansas City Royals,Cincinnati Reds,away,Kansas City Royals,180.0,+180,0.5760601716837948,0.08205948643586336,-0.08205948643586336,0.08205948643586336,-220.0,180.0,7,Luinder Avila,Chase Burns
+825078,2026-06-01,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,,,,,0.43320157450229196,,0.024396543055751063,-0.02439654305575112,135.0,-160.0,7,Emmet Sheehan,Eduardo Rodriguez

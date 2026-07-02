@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822724,2026-06-15,Scheduled,Kansas City Royals,Washington Nationals,Mitch Spence,Andrew Alvarez,0.5900065866639853,1
+822887,2026-06-15,Scheduled,Minnesota Twins,Texas Rangers,,MacKenzie Gore,0.5441536701936253,1
+823046,2026-06-15,Scheduled,San Diego Padres,St. Louis Cardinals,,Dustin May,0.5551899110687089,1
+823452,2026-06-15,Scheduled,Miami Marlins,Philadelphia Phillies,Ryan Gusto,Zack Wheeler,0.5788725302607163,1
+823938,2026-06-15,Scheduled,Tampa Bay Rays,Los Angeles Dodgers,Nick Martinez,Eric Lauer,0.5221437882827972,1
+824181,2026-06-15,Scheduled,Detroit Tigers,Houston Astros,Troy Melton,Kai-Wei Teng,0.455518240384683,0
+824505,2026-06-15,Scheduled,New York Mets,Cincinnati Reds,Tobias Myers,Chase Burns,0.5128449922110827,1
+824666,2026-06-15,Scheduled,Colorado Rockies,Chicago Cubs,Michael Lorenzen,Shota Imanaga,0.5293548219436293,1
+824993,2026-06-15,Scheduled,Pittsburgh Pirates,Athletics,Jared Jones,J.T. Ginn,0.5449330577669341,1
+825071,2026-06-15,Scheduled,Los Angeles Angels,Arizona Diamondbacks,Walbert Ureña,Ryne Nelson,0.44694335977731126,0

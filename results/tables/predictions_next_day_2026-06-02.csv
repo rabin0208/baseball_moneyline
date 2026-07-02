@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822728,2026-06-02,Scheduled,Miami Marlins,Washington Nationals,Lake Bachar,Miles Mikolas,0.464201095510524,0
+822971,2026-06-02,Scheduled,Detroit Tigers,Tampa Bay Rays,Jack Flaherty,Steven Matz,0.5617191620600048,1
+823052,2026-06-02,Scheduled,Texas Rangers,St. Louis Cardinals,Nathan Eovaldi,Dustin May,0.4895007366122718,0
+823129,2026-06-02,Scheduled,New York Mets,Seattle Mariners,,Logan Gilbert,0.5982775471344698,1
+823460,2026-06-02,Scheduled,San Diego Padres,Philadelphia Phillies,Randy Vásquez,Aaron Nola,0.5495030729515669,1
+823541,2026-06-02,Scheduled,Cleveland Guardians,New York Yankees,Joey Cantillo,Cam Schlittler,0.5832656615759061,1
+823700,2026-06-02,Scheduled,Chicago White Sox,Minnesota Twins,Davis Martin,Connor Prielipp,0.4243038459734221,0
+823782,2026-06-02,Scheduled,San Francisco Giants,Milwaukee Brewers,Trevor McDonald,Kyle Harrison,0.5775719945512676,1
+824026,2026-06-02,Scheduled,Colorado Rockies,Los Angeles Angels,Tomoyuki Sugano,Grayson Rodriguez,0.5969449966980197,1
+824189,2026-06-02,Scheduled,Pittsburgh Pirates,Houston Astros,Bubba Chandler,Mike Burrows,0.5862396192549318,1
+824511,2026-06-02,Scheduled,Kansas City Royals,Cincinnati Reds,Noah Cameron,Andrew Abbott,0.5755907741959813,1
+824675,2026-06-02,Scheduled,Athletics,Chicago Cubs,Gage Jump,Jameson Taillon,0.5697221689062683,1
+824754,2026-06-02,Scheduled,Baltimore Orioles,Boston Red Sox,Shane Baz,Connelly Early,0.52981686521485,1
+824918,2026-06-02,Scheduled,Toronto Blue Jays,Atlanta Braves,Kevin Gausman,Bryce Elder,0.5401989301632805,1
+825079,2026-06-02,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,Eric Lauer,Michael Soroka,0.5101542879211527,1

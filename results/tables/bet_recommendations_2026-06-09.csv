@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822805,2026-06-09,Pre-Game,Philadelphia Phillies,Toronto Blue Jays,,,,,0.5248915677983201,,0.024891567798320136,-0.024891567798320136,-110.0,-110.0,6.0,Zack Wheeler,Dylan Cease
+822969,2026-06-09,Warmup,Boston Red Sox,Tampa Bay Rays,home,Tampa Bay Rays,100.0,+100,0.5472151831026669,0.06895431353744952,0.06895431353744952,-0.06895431353744952,100.0,-120.0,6.0,Payton Tolle,Nick Martinez
+823214,2026-06-09,Pre-Game,Washington Nationals,San Francisco Giants,,,,,0.5442409133370497,,0.044240913337049714,-0.044240913337049714,-110.0,-110.0,6.0,Andrew Alvarez,Adrian Houser
+823290,2026-06-09,Pre-Game,Cincinnati Reds,San Diego Padres,home,San Diego Padres,110.0,+110,0.592126061415611,0.1356945261459015,0.1356945261459015,-0.13569452614590138,110.0,-131.0,6.0,Chase Burns,Lucas Giolito
+823374,2026-06-09,Warmup,Los Angeles Dodgers,Pittsburgh Pirates,,,,,0.5010088278867528,,-0.020730302548029766,0.020730302548029766,-120.0,100.0,7.0,Eric Lauer,Paul Skenes
+823620,2026-06-09,Pre-Game,St. Louis Cardinals,New York Mets,,,,,0.49916764241491657,,-0.044400822315373845,0.04440082231537401,-131.0,110.0,6.0,Dustin May,Freddy Peralta
+823858,2026-06-09,Warmup,Arizona Diamondbacks,Miami Marlins,,,,,0.5622794551200824,,0.007013966331680832,-0.007013966331680888,-138.5,115.0,6.0,Zac Gallen,Max Meyer
+824023,2026-06-09,Pre-Game,Houston Astros,Los Angeles Angels,home,Los Angeles Angels,105.0,+105,0.5629715828528484,0.09543911532038091,0.09543911532038091,-0.09543911532038096,105.0,-125.0,6.0,Kai-Wei Teng,Walbert Ureña
+824105,2026-06-09,Pre-Game,Texas Rangers,Kansas City Royals,,,,,0.44841283443123137,,-0.019119633101236155,0.0191196331012361,105.0,-125.0,6.0,Nathan Eovaldi,Stephen Kolek
+824267,2026-06-09,Delayed Start,Minnesota Twins,Detroit Tigers,,,,,0.5374701505392425,,-0.006098314191047893,0.006098314191048004,-131.0,110.0,6.0,Taj Bradley,Troy Melton
+824347,2026-06-09,Pre-Game,Chicago Cubs,Colorado Rockies,home,Colorado Rockies,137.5,+138,0.49614276464940044,0.0924415340856305,0.0924415340856305,-0.0924415340856306,137.5,-164.5,6.0,Colin Rea,Tomoyuki Sugano
+824429,2026-06-09,Warmup,New York Yankees,Cleveland Guardians,,,,,0.4760207056850036,,-0.002240163880213808,0.0022401638802137525,100.0,-120.0,6.0,Gerrit Cole,Slade Cecconi
+824591,2026-06-09,Pre-Game,Atlanta Braves,Chicago White Sox,home,Chicago White Sox,130.0,+130,0.46776337227059994,0.05375063341709674,0.05375063341709674,-0.05375063341709685,130.0,-160.0,7.0,Grant Holmes,Brandon Eisert
+824830,2026-06-09,In Progress,Seattle Mariners,Baltimore Orioles,,,,,0.4689711076280739,,0.0014386400956064027,-0.0014386400956064582,105.0,-125.0,6.0,Logan Gilbert,Trevor Rogers

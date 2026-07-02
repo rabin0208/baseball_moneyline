@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822885,2026-06-20,Scheduled,San Diego Padres,Texas Rangers,,,,,0.5021531625554697,,-0.04579336048002136,0.045793360480021306,-135.0,111.0,7.0,Walker Buehler,Nathan Eovaldi
+822967,2026-06-20,Scheduled,Washington Nationals,Tampa Bay Rays,home,Tampa Bay Rays,-125.0,-125,0.6485344350731391,0.11728443507313913,0.11728443507313913,-0.11728443507313907,-125.0,104.0,7.0,Cade Cavalli,Ian Seymour
+823126,2026-06-20,Scheduled,Boston Red Sox,Seattle Mariners,,,,,0.520633430456986,,-0.013582225642326584,0.013582225642326695,-127.0,105.0,7.0,Connelly Early,Emerson Hancock
+823447,2026-06-20,Scheduled,New York Mets,Philadelphia Phillies,,,,,0.5972493189127992,,-0.029158050585665563,0.02915805058566545,-192.0,155.0,7.0,Freddy Peralta,Cristopher Sánchez
+823532,2026-06-20,Pre-Game,Cincinnati Reds,New York Yankees,,,,,0.5988402864666518,,-0.04122601710900542,0.04122601710900531,-204.0,165.0,7.0,Andrew Abbott,Will Warren
+823854,2026-06-20,Scheduled,San Francisco Giants,Miami Marlins,home,Miami Marlins,-141.0,-141,0.6120208512846246,0.05491343604985477,0.05491343604985477,-0.054913436049854714,-141.0,115.0,7.0,Trevor McDonald,Max Meyer
+823937,2026-06-20,Scheduled,Baltimore Orioles,Los Angeles Dodgers,away,Baltimore Orioles,205.0,+205,0.5873021937283364,0.10268523819457948,-0.10268523819457942,0.10268523819457948,-270.0,205.0,7.0,Trevor Rogers,Yoshinobu Yamamoto
+824180,2026-06-20,Scheduled,Cleveland Guardians,Houston Astros,,,,,0.5710996823916776,,0.005496845512245052,-0.005496845512244997,-145.0,120.0,7.0,Joey Cantillo,Spencer Arrighetti
+824263,2026-06-20,Pre-Game,Chicago White Sox,Detroit Tigers,,,,,0.5587247988310736,,0.023651389369409692,-0.023651389369409692,-128.0,105.0,7.0,Sean Newcomb,Troy Melton
+824342,2026-06-20,Scheduled,Pittsburgh Pirates,Colorado Rockies,home,Colorado Rockies,170.0,+170,0.5869429639128586,0.2351841699430094,0.2351841699430094,-0.23518416994300928,170.0,-215.0,7.0,Paul Skenes,Tomoyuki Sugano
+824665,2026-06-20,Scheduled,Toronto Blue Jays,Chicago Cubs,,,,,0.552161295661227,,0.0069729294695423105,-0.0069729294695424215,-133.0,110.0,7.0,Patrick Corbin,Colin Rea
+824909,2026-06-20,Scheduled,Milwaukee Brewers,Atlanta Braves,away,Milwaukee Brewers,110.0,+110,0.4861897143671353,0.05899865182454922,-0.05899865182454933,0.05899865182454922,-133.0,110.0,7.0,Kyle Harrison,Chris Sale
+825068,2026-06-20,Scheduled,Minnesota Twins,Arizona Diamondbacks,,,,,0.5044507587572457,,-0.039553781626729845,0.039553781626729956,-133.0,109.0,7.0,Taj Bradley,Zac Gallen

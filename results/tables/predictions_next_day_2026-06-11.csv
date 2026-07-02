@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823371,2026-06-11,Scheduled,Los Angeles Dodgers,Pittsburgh Pirates,Justin Wrobleski,Mitch Keller,0.521634171933577,1
+823619,2026-06-11,Pre-Game,St. Louis Cardinals,New York Mets,Hunter Dobbins,Christian Scott,0.5030932038281251,1
+823855,2026-06-11,Scheduled,Arizona Diamondbacks,Miami Marlins,Merrill Kelly,Tyler Phillips,0.5968866059390181,1
+824101,2026-06-11,Scheduled,Texas Rangers,Kansas City Royals,Kumar Rocker,Michael Wacha,0.44178948224112247,0
+824265,2026-06-11,Pre-Game,Minnesota Twins,Detroit Tigers,Zebby Matthews,Keider Montero,0.5876055231770879,1
+824346,2026-06-11,Scheduled,Chicago Cubs,Colorado Rockies,Edward Cabrera,Ryan Feltner,0.4745961654411484,0
+824589,2026-06-11,Scheduled,Atlanta Braves,Chicago White Sox,Martín Pérez,,0.5625733529878761,1
+824827,2026-06-11,Scheduled,Seattle Mariners,Baltimore Orioles,Bryan Woo,Kyle Bradish,0.5589707077070288,1

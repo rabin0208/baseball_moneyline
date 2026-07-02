@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822886,2026-06-19,Scheduled,San Diego Padres,Texas Rangers,Randy Vásquez,Jacob deGrom,0.47632888339435403,0
+822966,2026-06-19,Scheduled,Washington Nationals,Tampa Bay Rays,Cade Cavalli,Griffin Jax,0.567384452360866,1
+823124,2026-06-19,Scheduled,Boston Red Sox,Seattle Mariners,Ranger Suarez,Bryce Miller,0.57837520217523,1
+823534,2026-06-19,Scheduled,Cincinnati Reds,New York Yankees,Rhett Lowder,Cam Schlittler,0.5849686492759516,1
+823853,2026-06-19,Scheduled,San Francisco Giants,Miami Marlins,Landen Roupp,Lake Bachar,0.5293749756679849,1
+823936,2026-06-19,Scheduled,Baltimore Orioles,Los Angeles Dodgers,Trey Gibson,Roki Sasaki,0.5612628673039325,1
+824097,2026-06-19,Scheduled,St. Louis Cardinals,Kansas City Royals,Michael McGreevy,Seth Lugo,0.5146118570249053,1
+824179,2026-06-19,Scheduled,Cleveland Guardians,Houston Astros,Tanner Bibee,Tatsuya Imai,0.5689072673396401,1
+824264,2026-06-19,Scheduled,Chicago White Sox,Detroit Tigers,Erick Fedde,Tarik Skubal,0.5761023608811963,1
+824345,2026-06-19,Scheduled,Pittsburgh Pirates,Colorado Rockies,Bubba Chandler,Kyle Freeland,0.4762897967942485,0
+824663,2026-06-19,Pre-Game,Toronto Blue Jays,Chicago Cubs,Kevin Gausman,Ben Brown,0.5357802990683566,1
+824910,2026-06-19,Scheduled,Milwaukee Brewers,Atlanta Braves,Jacob Misiorowski,Martín Pérez,0.4767204331240674,0
+824990,2026-06-19,Scheduled,Los Angeles Angels,Athletics,José Soriano,Jeffrey Springs,0.47648421804184526,0
+825069,2026-06-19,Scheduled,Minnesota Twins,Arizona Diamondbacks,Connor Prielipp,Michael Soroka,0.5022985932910359,1

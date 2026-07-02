@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822889,2026-06-18,Scheduled,Minnesota Twins,Texas Rangers,home,Texas Rangers,105.0,+105,0.541383962244841,0.0764573717065049,0.0764573717065049,-0.0764573717065049,105.0,-128.0,7.0,Joe Ryan,Jack Leiter
+823125,2026-06-18,Scheduled,Baltimore Orioles,Seattle Mariners,away,Baltimore Orioles,123.0,+123,0.5127873015132658,0.060787898161839105,-0.06078789816183905,0.060787898161839105,-152.0,123.0,7.0,Shane Baz,Bryan Woo
+823448,2026-06-18,Scheduled,New York Mets,Philadelphia Phillies,home,Philadelphia Phillies,-122.0,-122,0.6279866375107068,0.10438148729611463,0.10438148729611463,-0.10438148729611446,-122.0,100.0,7.0,Sean Manaea,Aaron Nola
+823533,2026-06-18,Scheduled,Chicago White Sox,New York Yankees,home,New York Yankees,-160.0,-160,0.6704796851719148,0.0844924240254179,0.0844924240254179,-0.08449242402541801,-160.0,130.0,7.0,Sean Burke,Ryan Weathers
+823772,2026-06-18,Scheduled,Cleveland Guardians,Milwaukee Brewers,,,,,0.6031098272912718,,0.02609067658352826,-0.02609067658352826,-154.0,125.0,7.0,Parker Messick,Shane Drohan
+824098,2026-06-18,Scheduled,St. Louis Cardinals,Kansas City Royals,away,St. Louis Cardinals,-105.0,-105,0.4537596127846725,0.06004667438610073,-0.06004667438610056,0.06004667438610073,-118.0,-105.0,7.0,Matthew Liberatore,Noah Cameron
+824748,2026-06-18,Pre-Game,Toronto Blue Jays,Boston Red Sox,,,,,0.5267559520636904,,-0.00571158040384212,0.005711580403842065,-125.0,105.0,7.0,Trey Yesavage,Sonny Gray
+824911,2026-06-18,Scheduled,San Francisco Giants,Atlanta Braves,away,San Francisco Giants,119.0,+119,0.5003147546356499,0.06416840241705657,-0.06416840241705657,0.06416840241705657,-145.0,119.0,7.0,Landen Roupp,Martín Pérez

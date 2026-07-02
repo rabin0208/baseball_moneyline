@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822792,2026-06-29,Scheduled,New York Mets,Toronto Blue Jays,,,,,0.5597050093085527,,0.024631599846888785,-0.024631599846888785,-128.0,105.0,7.0,Sean Manaea,Trey Yesavage
+823121,2026-06-29,Scheduled,Los Angeles Angels,Seattle Mariners,away,Los Angeles Angels,170.0,+170,0.4484215698815619,0.19810066501011425,-0.19810066501011425,0.19810066501011425,-210.0,170.0,7.0,Ryan Johnson,George Kirby
+823444,2026-06-29,Scheduled,Pittsburgh Pirates,Philadelphia Phillies,home,Philadelphia Phillies,-112.0,-112,0.5862801169799465,0.08414518956747852,0.08414518956747852,-0.08414518956747857,-112.0,-110.0,7.0,Braxton Ashcraft,Aaron Nola
+823529,2026-06-29,Scheduled,Detroit Tigers,New York Yankees,away,Detroit Tigers,112.0,+112,0.4282822803441333,0.12237751034295907,-0.12237751034295918,0.12237751034295907,-137.0,112.0,7.0,Casey Mize,Ryan Weathers
+823771,2026-06-29,Scheduled,Cincinnati Reds,Milwaukee Brewers,,,,,0.5662356341544383,,0.0017524771017318752,-0.0017524771017318752,-145.0,119.0,7.0,Nick Lodolo,Robert Gasser
+824176,2026-06-29,Scheduled,Minnesota Twins,Houston Astros,,,,,0.5461522320974733,,-0.01022484738496654,0.010224847384966651,-140.0,115.0,7.0,Zebby Matthews,Peter Lambert
+824339,2026-06-29,Scheduled,Miami Marlins,Colorado Rockies,away,Miami Marlins,-143.0,-143,0.36849336145652445,0.07068178448336448,-0.07068178448336465,0.07068178448336448,117.0,-143.0,7.0,Sandy Alcantara,
+824420,2026-06-29,Scheduled,Texas Rangers,Cleveland Guardians,away,Texas Rangers,123.0,+123,0.44151405415356454,0.1307699492681635,-0.13076994926816338,0.1307699492681635,-150.0,123.0,7.0,Tyler Alexander,Parker Messick
+824662,2026-06-29,Scheduled,San Diego Padres,Chicago Cubs,,,,,0.5754404241045828,,-0.00496998696209261,0.004969986962092499,-156.0,127.0,7.0,,Shota Imanaga
+824741,2026-06-29,Scheduled,Washington Nationals,Boston Red Sox,away,Washington Nationals,143.0,+143,0.5440904590155514,0.06319265415831504,-0.0631926541583151,0.06319265415831504,-175.0,143.0,7.0,Miles Mikolas,Ranger Suarez
+824822,2026-06-29,Scheduled,Chicago White Sox,Baltimore Orioles,,,,,0.5248713869293863,,-0.02578840375770619,0.02578840375770608,-137.0,112.0,7.0,Sean Burke,Shane Baz
+825065,2026-06-29,Scheduled,San Francisco Giants,Arizona Diamondbacks,home,Arizona Diamondbacks,-140.0,-140,0.6623371658721534,0.10481504197834801,0.10481504197834801,-0.10481504197834812,-140.0,116.0,7.0,Tyler Mahle,Eduardo Rodriguez

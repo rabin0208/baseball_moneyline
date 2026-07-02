@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+823371,2026-06-11,Scheduled,Los Angeles Dodgers,Pittsburgh Pirates,home,Pittsburgh Pirates,140.0,+140,0.521634171933577,0.12287935426384672,0.12287935426384672,-0.12287935426384677,140.0,-169.0,7,Justin Wrobleski,Mitch Keller
+823619,2026-06-11,Pre-Game,St. Louis Cardinals,New York Mets,away,St. Louis Cardinals,118.0,+118,0.5030932038281251,0.0588637489785952,-0.05886374897859514,0.0588637489785952,-143.0,118.0,7,Hunter Dobbins,Christian Scott
+823855,2026-06-11,Scheduled,Arizona Diamondbacks,Miami Marlins,home,Miami Marlins,-117.0,-117,0.5968866059390181,0.08229800449960956,0.08229800449960956,-0.08229800449960939,-117.0,-103.5,6,Merrill Kelly,Tyler Phillips
+824101,2026-06-11,Scheduled,Texas Rangers,Kansas City Royals,away,Texas Rangers,100.0,+100,0.44178948224112247,0.07994964819366013,-0.07994964819366013,0.07994964819366013,-120.0,100.0,6,Kumar Rocker,Michael Wacha
+824265,2026-06-11,Pre-Game,Minnesota Twins,Detroit Tigers,,,,,0.5876055231770879,,0.04241715698540327,-0.04241715698540338,-133.0,110.0,6,Zebby Matthews,Keider Montero
+824346,2026-06-11,Scheduled,Chicago Cubs,Colorado Rockies,home,Colorado Rockies,125.5,+126,0.4745961654411484,0.052156995018542984,0.052156995018542984,-0.05215699501854276,125.5,-154.0,6,Edward Cabrera,Ryan Feltner
+824589,2026-06-11,Scheduled,Atlanta Braves,Chicago White Sox,home,Chicago White Sox,100.0,+100,0.5625733529878761,0.08383834753531344,0.08383834753531344,-0.0838383475353135,100.0,-119.5,6,Martín Pérez,
+824827,2026-06-11,Scheduled,Seattle Mariners,Baltimore Orioles,home,Baltimore Orioles,-105.0,-105,0.5589707077070288,0.07030857618775443,0.07030857618775443,-0.07030857618775455,-105.0,-115.5,6,Bryan Woo,Kyle Bradish

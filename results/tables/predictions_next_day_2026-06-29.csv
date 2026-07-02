@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822792,2026-06-29,Scheduled,New York Mets,Toronto Blue Jays,Sean Manaea,Trey Yesavage,0.5597050093085527,1
+823121,2026-06-29,Scheduled,Los Angeles Angels,Seattle Mariners,Ryan Johnson,George Kirby,0.4484215698815619,0
+823444,2026-06-29,Scheduled,Pittsburgh Pirates,Philadelphia Phillies,Braxton Ashcraft,Aaron Nola,0.5862801169799465,1
+823529,2026-06-29,Scheduled,Detroit Tigers,New York Yankees,Casey Mize,Ryan Weathers,0.4282822803441333,0
+823771,2026-06-29,Scheduled,Cincinnati Reds,Milwaukee Brewers,Nick Lodolo,Robert Gasser,0.5662356341544383,1
+824176,2026-06-29,Scheduled,Minnesota Twins,Houston Astros,Zebby Matthews,Peter Lambert,0.5461522320974733,1
+824339,2026-06-29,Scheduled,Miami Marlins,Colorado Rockies,Sandy Alcantara,,0.36849336145652445,0
+824420,2026-06-29,Scheduled,Texas Rangers,Cleveland Guardians,Tyler Alexander,Parker Messick,0.44151405415356454,0
+824662,2026-06-29,Scheduled,San Diego Padres,Chicago Cubs,,Shota Imanaga,0.5754404241045828,1
+824741,2026-06-29,Scheduled,Washington Nationals,Boston Red Sox,Miles Mikolas,Ranger Suarez,0.5440904590155514,1
+824822,2026-06-29,Scheduled,Chicago White Sox,Baltimore Orioles,Sean Burke,Shane Baz,0.5248713869293863,1
+824986,2026-06-29,Scheduled,Los Angeles Dodgers,Athletics,Eric Lauer,Gage Jump,0.5369913043101948,1
+825065,2026-06-29,Scheduled,San Francisco Giants,Arizona Diamondbacks,Tyler Mahle,Eduardo Rodriguez,0.6623371658721534,1

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822725,2026-06-13,Scheduled,Seattle Mariners,Washington Nationals,Luis Castillo,Cade Cavalli,0.5410125157820436,1
+822802,2026-06-13,Scheduled,New York Yankees,Toronto Blue Jays,Cam Schlittler,Kevin Gausman,0.5094498504010759,1
+823213,2026-06-13,Scheduled,Chicago Cubs,San Francisco Giants,Ben Brown,Trevor McDonald,0.5824688945305241,1
+823369,2026-06-13,Scheduled,Miami Marlins,Pittsburgh Pirates,Lake Bachar,Bubba Chandler,0.4357724484514408,0
+823616,2026-06-13,Scheduled,Atlanta Braves,New York Mets,Martín Pérez,,0.5406212702300124,1
+823694,2026-06-13,Scheduled,St. Louis Cardinals,Minnesota Twins,Matthew Liberatore,Connor Prielipp,0.4277147691059022,0
+823776,2026-06-13,Scheduled,Philadelphia Phillies,Milwaukee Brewers,Aaron Nola,Shane Drohan,0.5226326828804575,1
+824019,2026-06-13,Scheduled,Tampa Bay Rays,Los Angeles Angels,Griffin Jax,José Soriano,0.4749562260488689,0
+824100,2026-06-13,Scheduled,Houston Astros,Kansas City Royals,Mike Burrows,Noah Cameron,0.5676169448602927,1
+824426,2026-06-13,Scheduled,Detroit Tigers,Cleveland Guardians,Tarik Skubal,Joey Cantillo,0.5290245817369528,1
+824508,2026-06-13,Scheduled,Arizona Diamondbacks,Cincinnati Reds,Michael Soroka,Rhett Lowder,0.5893816661605676,1
+824587,2026-06-13,Scheduled,Los Angeles Dodgers,Chicago White Sox,Yoshinobu Yamamoto,Sean Burke,0.40165187775685,0
+824749,2026-06-13,Scheduled,Texas Rangers,Boston Red Sox,Jacob deGrom,Ranger Suarez,0.47438469689750007,0
+824828,2026-06-13,Scheduled,San Diego Padres,Baltimore Orioles,Randy Vásquez,Trey Gibson,0.5587588172149096,1
+824995,2026-06-13,Scheduled,Colorado Rockies,Athletics,Kyle Freeland,Joey Estes,0.6016566156928274,1
