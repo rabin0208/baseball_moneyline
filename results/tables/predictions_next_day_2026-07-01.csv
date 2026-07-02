@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822791,2026-07-01,Scheduled,New York Mets,Toronto Blue Jays,Freddy Peralta,Braydon Fisher,0.5941105186657333,1
+823446,2026-07-01,Scheduled,Pittsburgh Pirates,Philadelphia Phillies,Paul Skenes,Zack Wheeler,0.6249459803429732,1
+823530,2026-07-01,Pre-Game,Detroit Tigers,New York Yankees,Troy Melton,Will Warren,0.49346222245071636,0
+823767,2026-07-01,Scheduled,Cincinnati Reds,Milwaukee Brewers,Andrew Abbott,Shane Drohan,0.5510590361586728,1
+824094,2026-07-01,Scheduled,Tampa Bay Rays,Kansas City Royals,Shane McClanahan,Seth Lugo,0.4065984828376116,0
+824174,2026-07-01,Scheduled,Minnesota Twins,Houston Astros,Taj Bradley,Tatsuya Imai,0.5595798784405737,1
+824337,2026-07-01,Scheduled,Miami Marlins,Colorado Rockies,Max Meyer,Kyle Freeland,0.3269089197482109,0
+824419,2026-07-01,Pre-Game,Texas Rangers,Cleveland Guardians,MacKenzie Gore,Joey Cantillo,0.5777276126856059,1
+824660,2026-07-01,Pre-Game,San Diego Padres,Chicago Cubs,Walker Buehler,Colin Rea,0.45134979348259585,0
+824740,2026-07-01,Pre-Game,Washington Nationals,Boston Red Sox,Andrew Alvarez,Payton Tolle,0.5966880653437681,1
+824818,2026-07-01,Pre-Game,Chicago White Sox,Baltimore Orioles,Noah Schultz,Dean Kremer,0.5358801334290699,1
+824905,2026-07-01,Scheduled,St. Louis Cardinals,Atlanta Braves,Michael McGreevy,Reynaldo López,0.6372521968420299,1
+824985,2026-07-01,Scheduled,Los Angeles Dodgers,Athletics,,J.T. Ginn,0.47128316422629657,0
+825064,2026-07-01,Scheduled,San Francisco Giants,Arizona Diamondbacks,Trevor McDonald,Zac Gallen,0.5551442237501201,1

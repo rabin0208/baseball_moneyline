@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822804,2026-06-10,Scheduled,Philadelphia Phillies,Toronto Blue Jays,Jesús Luzardo,Max Scherzer,0.4559091542728106,0
+822970,2026-06-10,Scheduled,Boston Red Sox,Tampa Bay Rays,Jake Bennett,Drew Rasmussen,0.5881518905665638,1
+823215,2026-06-10,Scheduled,Washington Nationals,San Francisco Giants,Foster Griffin,Robbie Ray,0.4556504185360954,0
+823287,2026-06-10,Scheduled,Cincinnati Reds,San Diego Padres,Brady Singer,Michael King,0.5591178627454974,1
+823372,2026-06-10,Scheduled,Los Angeles Dodgers,Pittsburgh Pirates,Shohei Ohtani,Jared Jones,0.47513530908825957,0
+823618,2026-06-10,Scheduled,St. Louis Cardinals,New York Mets,Andre Pallante,Austin Warren,0.5072520828822986,1
+823856,2026-06-10,Scheduled,Arizona Diamondbacks,Miami Marlins,Ryne Nelson,Ryan Gusto,0.5369005885312885,1
+824022,2026-06-10,Scheduled,Houston Astros,Los Angeles Angels,Peter Lambert,Reid Detmers,0.5397355024678876,1
+824103,2026-06-10,Scheduled,Texas Rangers,Kansas City Royals,MacKenzie Gore,Seth Lugo,0.4324421213876422,0
+824266,2026-06-10,Scheduled,Minnesota Twins,Detroit Tigers,,Framber Valdez,0.45830804189144164,0
+824348,2026-06-10,Scheduled,Chicago Cubs,Colorado Rockies,Shota Imanaga,Michael Lorenzen,0.508313581778081,1
+824428,2026-06-10,Pre-Game,New York Yankees,Cleveland Guardians,Carlos Rodón,Parker Messick,0.57096352373468,1
+824590,2026-06-10,Scheduled,Atlanta Braves,Chicago White Sox,Chris Sale,,0.5038507783374658,1
+824831,2026-06-10,Scheduled,Seattle Mariners,Baltimore Orioles,George Kirby,Brandon Young,0.5318894957586673,1
+824996,2026-06-10,Scheduled,Milwaukee Brewers,Athletics,Brandon Sproat,Jack Perkins,0.5476285459890081,1

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822718,2026-06-23,Scheduled,Philadelphia Phillies,Washington Nationals,Jesús Luzardo,Zack Littell,0.49071540455807694,0
+822799,2026-06-23,Scheduled,Houston Astros,Toronto Blue Jays,Peter Lambert,Shane Bieber,0.5639803831339539,1
+822963,2026-06-23,Scheduled,Kansas City Royals,Tampa Bay Rays,Luinder Avila,Shane McClanahan,0.5446797894298243,1
+823043,2026-06-23,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,Eduardo Rodriguez,Kyle Leahy,0.48475216697228884,0
+823210,2026-06-23,Scheduled,Athletics,San Francisco Giants,Aaron Civale,Robbie Ray,0.6573065045231569,1
+823286,2026-06-23,Scheduled,Atlanta Braves,San Diego Padres,JR Ritchie,,0.6321020669597904,1
+823365,2026-06-23,Scheduled,Seattle Mariners,Pittsburgh Pirates,George Kirby,Mitch Keller,0.5530899538240585,1
+823614,2026-06-23,Scheduled,Chicago Cubs,New York Mets,Edward Cabrera,Kodai Senga,0.3914682491395023,0
+823690,2026-06-23,Scheduled,Los Angeles Dodgers,Minnesota Twins,Justin Wrobleski,Kendry Rojas,0.5205966945757652,1
+823849,2026-06-23,Scheduled,Texas Rangers,Miami Marlins,Cal Quantrill,Sandy Alcantara,0.5964369763247807,1
+824017,2026-06-23,Scheduled,Baltimore Orioles,Los Angeles Angels,Shane Baz,Ryan Johnson,0.5476327990082661,1
+824262,2026-06-23,Scheduled,New York Yankees,Detroit Tigers,Carlos Rodón,Casey Mize,0.4978212124224519,0
+824340,2026-06-23,Scheduled,Boston Red Sox,Colorado Rockies,Sonny Gray,Sean Sullivan,0.5807521096984395,1
+824501,2026-06-23,Scheduled,Milwaukee Brewers,Cincinnati Reds,Brandon Sproat,Nick Lodolo,0.4848873297204814,0
+824584,2026-06-23,Scheduled,Cleveland Guardians,Chicago White Sox,Parker Messick,Sean Burke,0.46814062859499167,0

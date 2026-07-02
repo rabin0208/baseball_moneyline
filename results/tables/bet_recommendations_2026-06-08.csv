@@ -1,0 +1,8 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822806,2026-06-08,Scheduled,Philadelphia Phillies,Toronto Blue Jays,home,Toronto Blue Jays,140.0,+140,0.5244506167691135,0.1262205282735383,0.1262205282735383,-0.12622052827353836,140.0,-170.0,6.0,Cristopher Sánchez,Patrick Corbin
+822972,2026-06-08,Scheduled,Boston Red Sox,Tampa Bay Rays,,,,,0.5098883549729605,,0.020722591159309356,-0.0207225911593093,-105.0,-115.0,6.0,Connelly Early,Ian Seymour
+823218,2026-06-08,Scheduled,Washington Nationals,San Francisco Giants,away,Washington Nationals,129.0,+129,0.5000481279635809,0.08219175300339893,-0.08219175300339887,0.08219175300339893,-155.5,129.0,6.0,Miles Mikolas,Logan Webb
+823289,2026-06-08,Scheduled,Cincinnati Reds,San Diego Padres,,,,,0.5391339150866009,,-0.014234745019379491,0.01423474501937938,-136.0,115.0,6.0,Andrew Abbott,Walker Buehler
+824025,2026-06-08,Scheduled,Houston Astros,Los Angeles Angels,,,,,0.47766165860261045,,0.021230123332900974,-0.021230123332900863,110.0,-131.0,6.0,Spencer Arrighetti,Grayson Rodriguez
+824427,2026-06-08,Scheduled,New York Yankees,Cleveland Guardians,,,,,0.4875180985418798,,-0.04712777207944474,0.047127772079444685,-127.5,105.0,6.0,Will Warren,Gavin Williams
+824829,2026-06-08,Scheduled,Seattle Mariners,Baltimore Orioles,home,Baltimore Orioles,110.0,+110,0.5194711223612661,0.06344827197221858,0.06344827197221858,-0.06344827197221858,110.0,-131.5,6.0,Emerson Hancock,

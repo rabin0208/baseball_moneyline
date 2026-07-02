@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823457,2026-06-04,Pre-Game,San Diego Padres,Philadelphia Phillies,Lucas Giolito,Zack Wheeler,0.5998005683365492,1
+823542,2026-06-04,Pre-Game,Cleveland Guardians,New York Yankees,Slade Cecconi,Carlos Rodón,0.5696483363470963,1
+823698,2026-06-04,Scheduled,Kansas City Royals,Minnesota Twins,Seth Lugo,Andrew Morris,0.580357420375534,1
+823779,2026-06-04,Pre-Game,San Francisco Giants,Milwaukee Brewers,Adrian Houser,Coleman Crow,0.6515912504664306,1
+824185,2026-06-04,Scheduled,Pittsburgh Pirates,Houston Astros,Jared Jones,Kai-Wei Teng,0.5361276386146009,1
+824672,2026-06-04,Scheduled,Athletics,Chicago Cubs,J.T. Ginn,Shota Imanaga,0.5556970096920164,1
+824753,2026-06-04,Pre-Game,Baltimore Orioles,Boston Red Sox,Trevor Rogers,Brayan Bello,0.48515639036143554,0
+824919,2026-06-04,Scheduled,Toronto Blue Jays,Atlanta Braves,,Chris Sale,0.5656052368453471,1
+825076,2026-06-04,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,Justin Wrobleski,Ryne Nelson,0.38352966310950704,0

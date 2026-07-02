@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822720,2026-06-22,Scheduled,Philadelphia Phillies,Washington Nationals,,Foster Griffin,0.5062122159018548,1
+822800,2026-06-22,Scheduled,Houston Astros,Toronto Blue Jays,Hunter Brown,Dylan Cease,0.5293132804300735,1
+822964,2026-06-22,Scheduled,Kansas City Royals,Tampa Bay Rays,Michael Wacha,Drew Rasmussen,0.5486647214611975,1
+823040,2026-06-22,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,Merrill Kelly,Andre Pallante,0.5433543444564095,1
+823288,2026-06-22,Scheduled,Atlanta Braves,San Diego Padres,Grant Holmes,Michael King,0.5525202276533917,1
+823613,2026-06-22,Scheduled,Chicago Cubs,New York Mets,Shota Imanaga,Kodai Senga,0.3990266715594973,0
+823692,2026-06-22,Scheduled,Los Angeles Dodgers,Minnesota Twins,Eric Lauer,Zebby Matthews,0.5725416561951066,1
+823851,2026-06-22,Scheduled,Texas Rangers,Miami Marlins,Tyler Alexander,Tyler Phillips,0.507953606449069,1
+824016,2026-06-22,Scheduled,Baltimore Orioles,Los Angeles Angels,Kyle Bradish,Sam Aldegheri,0.540833087346951,1
+824261,2026-06-22,Scheduled,New York Yankees,Detroit Tigers,Gerrit Cole,Framber Valdez,0.49614140279980673,0
+824344,2026-06-22,Scheduled,Boston Red Sox,Colorado Rockies,Jake Bennett,Ryan Feltner,0.5243954711405223,1
+824502,2026-06-22,Scheduled,Milwaukee Brewers,Cincinnati Reds,,Brady Singer,0.45140756954992245,0
+824585,2026-06-22,Scheduled,Cleveland Guardians,Chicago White Sox,Gavin Williams,Anthony Kay,0.49222812626109663,0

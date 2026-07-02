@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822807,2026-06-07,Pre-Game,Baltimore Orioles,Toronto Blue Jays,Shane Baz,Kevin Gausman,0.5093754185735206,1
+822890,2026-06-07,Scheduled,Cleveland Guardians,Texas Rangers,Joey Cantillo,Jacob deGrom,0.5435797934215555,1
+823047,2026-06-07,Pre-Game,Cincinnati Reds,St. Louis Cardinals,Rhett Lowder,Michael McGreevy,0.5858590721044479,1
+823291,2026-06-07,Scheduled,New York Mets,San Diego Padres,Huascar Brazobán,Randy Vásquez,0.4912326366169876,0
+823453,2026-06-07,Pre-Game,Chicago White Sox,Philadelphia Phillies,Tyler Gilbert,Aaron Nola,0.5194287066837175,1
+823537,2026-06-07,Pre-Game,Boston Red Sox,New York Yankees,Ranger Suarez,Cam Schlittler,0.6054862786536515,1
+823696,2026-06-07,Scheduled,Kansas City Royals,Minnesota Twins,Noah Cameron,Connor Prielipp,0.5759572448519114,1
+823857,2026-06-07,Pre-Game,Tampa Bay Rays,Miami Marlins,Griffin Jax,Sandy Alcantara,0.5835579709249024,1
+823941,2026-06-07,Scheduled,Los Angeles Angels,Los Angeles Dodgers,José Soriano,Emmet Sheehan,0.5876189089151787,1
+824183,2026-06-07,Pre-Game,Athletics,Houston Astros,Gage Jump,Mike Burrows,0.6034422916329746,1
+824268,2026-06-07,Pre-Game,Seattle Mariners,Detroit Tigers,Luis Castillo,Jack Flaherty,0.49617797615579146,0
+824349,2026-06-07,Scheduled,Milwaukee Brewers,Colorado Rockies,Shane Drohan,Kyle Freeland,0.4280327818867072,0
+824670,2026-06-07,Scheduled,San Francisco Giants,Chicago Cubs,Trevor McDonald,Jameson Taillon,0.4795807242181729,0
+824916,2026-06-07,Pre-Game,Pittsburgh Pirates,Atlanta Braves,Mason Montgomery,Bryce Elder,0.5811215406916619,1
+825074,2026-06-07,Scheduled,Washington Nationals,Arizona Diamondbacks,Cade Cavalli,Michael Soroka,0.46477658684677287,0

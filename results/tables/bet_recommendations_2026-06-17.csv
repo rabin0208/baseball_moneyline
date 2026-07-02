@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822721,2026-06-17,Pre-Game,Kansas City Royals,Washington Nationals,,,,,0.5237722230563248,,-0.030361912960983117,0.030361912960983117,-137.0,115.0,7.0,Luinder Avila,Zack Littell
+823044,2026-06-17,Scheduled,San Diego Padres,St. Louis Cardinals,,,,,0.5338032768781138,,-0.00041237922119874426,0.0004123792211988553,-127.0,105.0,6.0,,Kyle Leahy
+823127,2026-06-17,Scheduled,Baltimore Orioles,Seattle Mariners,,,,,0.5703432019354274,,0.0033726549508552583,-0.003372654950855203,-147.0,120.0,7.0,Kyle Bradish,George Kirby
+823450,2026-06-17,Scheduled,Miami Marlins,Philadelphia Phillies,away,Miami Marlins,-105.0,-105,0.44540051210518883,0.06543372408116005,-0.06543372408116,0.06543372408116005,-115.0,-105.0,7.0,Sandy Alcantara,Andrew Painter
+823536,2026-06-17,Scheduled,Chicago White Sox,New York Yankees,away,Chicago White Sox,155.0,+155,0.5724869673630105,0.053920402135454126,-0.05392040213545424,0.053920402135454126,-192.0,155.0,7.0,Anthony Kay,Carlos Rodón
+823774,2026-06-17,Scheduled,Cleveland Guardians,Milwaukee Brewers,,,,,0.5320705672198739,,-0.0003969652476586427,0.0003969652476585872,-125.0,105.0,7.0,Gavin Williams,Brandon Sproat
+823940,2026-06-17,Scheduled,Tampa Bay Rays,Los Angeles Dodgers,away,Tampa Bay Rays,150.0,+150,0.4753254528535185,0.1420422540664273,-0.14204225406642718,0.1420422540664273,-182.0,150.0,7.0,Shane McClanahan,Shohei Ohtani
+824178,2026-06-17,Scheduled,Detroit Tigers,Houston Astros,,,,,0.4869770600523582,,-0.01194813341281814,0.011948133412818085,-110.0,-111.0,7.0,Casey Mize,Peter Lambert
+824503,2026-06-17,Pre-Game,New York Mets,Cincinnati Reds,home,Cincinnati Reds,114.0,+114,0.6102508855904937,0.1632328917016258,0.1632328917016258,-0.1632328917016257,114.0,-137.0,7.0,Nolan McLean,Nick Lodolo
+824668,2026-06-17,Scheduled,Colorado Rockies,Chicago Cubs,away,Colorado Rockies,155.0,+155,0.5484766042057986,0.07793076529266607,-0.07793076529266618,0.07793076529266607,-192.0,155.0,7.0,Sean Sullivan,Javier Assad
+824746,2026-06-17,Scheduled,Toronto Blue Jays,Boston Red Sox,,,,,0.5593399843496843,,0.020169477437241956,-0.020169477437241956,-130.0,107.0,7.0,Max Scherzer,Jake Bennett
+824913,2026-06-17,Scheduled,San Francisco Giants,Atlanta Braves,away,San Francisco Giants,132.5,+132,0.4800700063358428,0.10968964292431543,-0.10968964292431532,0.10968964292431543,-162.0,132.5,7.0,,JR Ritchie
+825072,2026-06-17,Scheduled,Los Angeles Angels,Arizona Diamondbacks,away,Los Angeles Angels,142.0,+142,0.5556871011485871,0.050612111449838126,-0.050612111449838015,0.050612111449838126,-175.0,142.0,7.0,Sam Aldegheri,Eduardo Rodriguez

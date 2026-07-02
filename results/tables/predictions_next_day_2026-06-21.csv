@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822883,2026-06-21,Scheduled,San Diego Padres,Texas Rangers,Wandy Peralta,Nathan Eovaldi,0.5051018528520129,1
+822968,2026-06-21,Pre-Game,Washington Nationals,Tampa Bay Rays,Andrew Alvarez,Nick Martinez,0.6100542065478206,1
+823123,2026-06-21,Scheduled,Boston Red Sox,Seattle Mariners,Payton Tolle,Logan Gilbert,0.5544631627768076,1
+823449,2026-06-21,Scheduled,New York Mets,Philadelphia Phillies,David Peterson,Zack Wheeler,0.6178938040463692,1
+823531,2026-06-21,Pre-Game,Cincinnati Reds,New York Yankees,Chase Burns,Elmer Rodríguez,0.513029622307104,1
+823852,2026-06-21,Pre-Game,San Francisco Giants,Miami Marlins,Logan Webb,Ryan Gusto,0.5638044638862449,1
+823934,2026-06-21,Scheduled,Baltimore Orioles,Los Angeles Dodgers,Brandon Young,Emmet Sheehan,0.5211618828675338,1
+824095,2026-06-21,Pre-Game,St. Louis Cardinals,Kansas City Royals,Dustin May,Stephen Kolek,0.5546522797484567,1
+824177,2026-06-21,Scheduled,Cleveland Guardians,Houston Astros,Slade Cecconi,Kai-Wei Teng,0.4916318938448924,0
+824260,2026-06-21,Pre-Game,Chicago White Sox,Detroit Tigers,Davis Martin,Keider Montero,0.44969260317958787,0
+824343,2026-06-21,Scheduled,Pittsburgh Pirates,Colorado Rockies,Jared Jones,Michael Lorenzen,0.5033967047646495,1
+824664,2026-06-21,Scheduled,Toronto Blue Jays,Chicago Cubs,Dylan Cease,Shota Imanaga,0.5654629905673471,1
+824908,2026-06-21,Pre-Game,Milwaukee Brewers,Atlanta Braves,Robert Gasser,Bryce Elder,0.5106699241008127,1
+824987,2026-06-21,Scheduled,Los Angeles Angels,Athletics,Reid Detmers,Jack Perkins,0.5988717388648441,1
+825067,2026-06-21,Scheduled,Minnesota Twins,Arizona Diamondbacks,Mike Paredes,Jose Cabrera,0.5339010997592155,1

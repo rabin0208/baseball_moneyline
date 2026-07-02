@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822719,2026-06-24,Scheduled,Philadelphia Phillies,Washington Nationals,Aaron Nola,Miles Mikolas,0.43217034210312383,0
+822798,2026-06-24,Scheduled,Houston Astros,Toronto Blue Jays,Mike Burrows,Trey Yesavage,0.5083356741709711,1
+822965,2026-06-24,Scheduled,Kansas City Royals,Tampa Bay Rays,Noah Cameron,Griffin Jax,0.5290393382933798,1
+823041,2026-06-24,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,Mitch Bratt,Matthew Liberatore,0.552348911109698,1
+823208,2026-06-24,Scheduled,Athletics,San Francisco Giants,Gage Jump,Tyler Mahle,0.5723838912788216,1
+823284,2026-06-24,Scheduled,Atlanta Braves,San Diego Padres,Martín Pérez,JP Sears,0.5858291085369068,1
+823367,2026-06-24,Scheduled,Seattle Mariners,Pittsburgh Pirates,Bryan Woo,Braxton Ashcraft,0.5333455305805862,1
+823611,2026-06-24,Scheduled,Chicago Cubs,New York Mets,,Sean Manaea,0.38495411961920384,0
+823613,2026-06-24,Postponed,Chicago Cubs,New York Mets,Shota Imanaga,Kodai Senga,0.39393927629170195,0
+823613,2026-06-24,Pre-Game,Chicago Cubs,New York Mets,Javier Assad,Nolan McLean,0.40041182161455463,0
+823691,2026-06-24,Scheduled,Los Angeles Dodgers,Minnesota Twins,Shohei Ohtani,Joe Ryan,0.5196375975953925,1
+823850,2026-06-24,Pre-Game,Texas Rangers,Miami Marlins,Jacob deGrom,Eury Pérez,0.5820512418984821,1
+824018,2026-06-24,Scheduled,Baltimore Orioles,Los Angeles Angels,Trey Gibson,José Soriano,0.4723671149341248,0
+824259,2026-06-24,Scheduled,New York Yankees,Detroit Tigers,Ryan Weathers,Tarik Skubal,0.5465674439128408,1
+824341,2026-06-24,Scheduled,Boston Red Sox,Colorado Rockies,Ranger Suarez,Kyle Freeland,0.5072031376732578,1
+824500,2026-06-24,Scheduled,Milwaukee Brewers,Cincinnati Reds,Shane Drohan,Rhett Lowder,0.4875898291010701,0
+824583,2026-06-24,Pre-Game,Cleveland Guardians,Chicago White Sox,Tanner Bibee,Erick Fedde,0.4913680650169268,0

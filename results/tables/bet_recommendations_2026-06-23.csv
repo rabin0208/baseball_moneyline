@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822718,2026-06-23,Scheduled,Philadelphia Phillies,Washington Nationals,home,Washington Nationals,140.0,+140,0.49071540455807694,0.09503195132066683,0.09503195132066683,-0.09503195132066689,140.0,-175.0,7.0,Jesús Luzardo,Zack Littell
+822799,2026-06-23,Scheduled,Houston Astros,Toronto Blue Jays,,,,,0.5639803831339539,,0.019975842749978434,-0.019975842749978323,-133.0,109.0,7.0,Peter Lambert,Shane Bieber
+822963,2026-06-23,Scheduled,Kansas City Royals,Tampa Bay Rays,away,Kansas City Royals,155.0,+155,0.5446797894298243,0.08172758006864034,-0.08172758006864045,0.08172758006864034,-192.0,155.0,7.0,Luinder Avila,Shane McClanahan
+823043,2026-06-23,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,,,,,0.48475216697228884,,-0.02156761394197282,0.021567613941972763,-115.0,-109.0,7.0,Eduardo Rodriguez,Kyle Leahy
+823286,2026-06-23,Scheduled,Atlanta Braves,San Diego Padres,home,San Diego Padres,-106.0,-106,0.6321020669597904,0.14178365043655455,0.14178365043655455,-0.14178365043655472,-106.0,-115.0,7.0,JR Ritchie,
+823365,2026-06-23,Scheduled,Seattle Mariners,Pittsburgh Pirates,home,Pittsburgh Pirates,108.0,+108,0.5530899538240585,0.09509879779120939,0.09509879779120939,-0.09509879779120944,108.0,-132.0,7.0,George Kirby,Mitch Keller
+823614,2026-06-23,Scheduled,Chicago Cubs,New York Mets,away,Chicago Cubs,-101.0,-101,0.3914682491395023,0.12903239824936258,-0.12903239824936263,0.12903239824936258,-120.0,-101.0,7.0,Edward Cabrera,Kodai Senga
+823690,2026-06-23,Scheduled,Los Angeles Dodgers,Minnesota Twins,home,Minnesota Twins,150.0,+150,0.5205966945757652,0.13796440149571093,0.13796440149571093,-0.13796440149571088,150.0,-182.0,7.0,Justin Wrobleski,Kendry Rojas
+823849,2026-06-23,Scheduled,Texas Rangers,Miami Marlins,,,,,0.5964369763247807,,0.007771528427157226,-0.007771528427157226,-161.0,132.0,7.0,Cal Quantrill,Sandy Alcantara
+824017,2026-06-23,Scheduled,Baltimore Orioles,Los Angeles Angels,home,Los Angeles Angels,127.0,+127,0.5476327990082661,0.12984369378670885,0.12984369378670885,-0.1298436937867089,127.0,-159.0,7.0,Shane Baz,Ryan Johnson
+824262,2026-06-23,Scheduled,New York Yankees,Detroit Tigers,,,,,0.4978212124224519,,0.008655448608800798,-0.008655448608800742,-105.0,-115.0,7.0,Carlos Rodón,Casey Mize
+824340,2026-06-23,Scheduled,Boston Red Sox,Colorado Rockies,home,Colorado Rockies,136.0,+136,0.5807521096984395,0.1768919935319342,0.1768919935319342,-0.1768919935319342,136.0,-167.0,7.0,Sonny Gray,Sean Sullivan
+824501,2026-06-23,Scheduled,Milwaukee Brewers,Cincinnati Reds,,,,,0.4848873297204814,,-0.004278434093169747,0.004278434093169747,-105.0,-115.0,7.0,Brandon Sproat,Nick Lodolo
+824584,2026-06-23,Scheduled,Cleveland Guardians,Chicago White Sox,,,,,0.46814062859499167,,-0.021025135218659452,0.021025135218659563,-105.0,-115.0,7.0,Parker Messick,Sean Burke

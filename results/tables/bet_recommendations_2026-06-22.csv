@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822720,2026-06-22,Scheduled,Philadelphia Phillies,Washington Nationals,,,,,0.5062122159018548,,-0.017392934312737363,0.01739293431273753,-122.0,100.0,7,,Foster Griffin
+822800,2026-06-22,Scheduled,Houston Astros,Toronto Blue Jays,,,,,0.5293132804300735,,-0.0031542520374590044,0.003154252037458949,-125.0,105.0,7,Hunter Brown,Dylan Cease
+822964,2026-06-22,Scheduled,Kansas City Royals,Tampa Bay Rays,away,Kansas City Royals,155.0,+155,0.5486647214611975,0.07774264803726716,-0.07774264803726727,0.07774264803726716,-192.0,155.0,7,Michael Wacha,Drew Rasmussen
+823040,2026-06-22,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,,,,,0.5433543444564095,,-0.021128812596296953,0.021128812596296953,-145.0,119.0,7,Merrill Kelly,Andre Pallante
+823288,2026-06-22,Scheduled,Atlanta Braves,San Diego Padres,home,San Diego Padres,-110.0,-110,0.5525202276533917,0.052520227653391705,0.052520227653391705,-0.052520227653391705,-110.0,-110.0,7,Grant Holmes,Michael King
+823613,2026-06-22,Scheduled,Chicago Cubs,New York Mets,away,Chicago Cubs,-125.0,-125,0.3990266715594973,0.07217751692217811,-0.07217751692217811,0.07217751692217811,102.0,-125.0,7,Shota Imanaga,Kodai Senga
+823692,2026-06-22,Scheduled,Los Angeles Dodgers,Minnesota Twins,home,Minnesota Twins,125.0,+125,0.5725416561951066,0.14956080690285012,0.14956080690285012,-0.14956080690285012,125.0,-154.0,7,Eric Lauer,Zebby Matthews
+823851,2026-06-22,Scheduled,Texas Rangers,Miami Marlins,,,,,0.507953606449069,,-0.031216900463373443,0.031216900463373443,-130.0,107.0,7,Tyler Alexander,Tyler Phillips
+824016,2026-06-22,Scheduled,Baltimore Orioles,Los Angeles Angels,home,Los Angeles Angels,134.0,+134,0.540833087346951,0.1338295548634615,0.1338295548634615,-0.1338295548634616,134.0,-165.0,7,Kyle Bradish,Sam Aldegheri
+824261,2026-06-22,Scheduled,New York Yankees,Detroit Tigers,,,,,0.49614140279980673,,0.04132976899149127,-0.04132976899149143,110.0,-133.0,7,Gerrit Cole,Framber Valdez
+824344,2026-06-22,Scheduled,Boston Red Sox,Colorado Rockies,home,Colorado Rockies,105.0,+105,0.5243954711405223,0.06115277224827653,0.06115277224827653,-0.06115277224827664,105.0,-130.0,7,Jake Bennett,Ryan Feltner
+824502,2026-06-22,Scheduled,Milwaukee Brewers,Cincinnati Reds,,,,,0.45140756954992245,,0.037394830696419246,-0.03739483069641936,130.0,-160.0,7,,Brady Singer
+824585,2026-06-22,Scheduled,Cleveland Guardians,Chicago White Sox,,,,,0.49222812626109663,,0.0030623624474455102,-0.003062362447445399,-105.0,-115.0,7,Gavin Williams,Anthony Kay

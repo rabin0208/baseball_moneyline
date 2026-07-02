@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822806,2026-06-08,Scheduled,Philadelphia Phillies,Toronto Blue Jays,Cristopher Sánchez,Patrick Corbin,0.5244506167691135,1
+822972,2026-06-08,Scheduled,Boston Red Sox,Tampa Bay Rays,Connelly Early,Ian Seymour,0.5098883549729605,1
+823218,2026-06-08,Scheduled,Washington Nationals,San Francisco Giants,Miles Mikolas,Logan Webb,0.5000481279635809,1
+823289,2026-06-08,Scheduled,Cincinnati Reds,San Diego Padres,Andrew Abbott,Walker Buehler,0.5391339150866009,1
+824025,2026-06-08,Scheduled,Houston Astros,Los Angeles Angels,Spencer Arrighetti,Grayson Rodriguez,0.47766165860261045,0
+824427,2026-06-08,Scheduled,New York Yankees,Cleveland Guardians,Will Warren,Gavin Williams,0.4875180985418798,0
+824829,2026-06-08,Scheduled,Seattle Mariners,Baltimore Orioles,Emerson Hancock,,0.5194711223612661,1
+824998,2026-06-08,Scheduled,Milwaukee Brewers,Athletics,Kyle Harrison,Jeffrey Springs,0.3597955008986701,0

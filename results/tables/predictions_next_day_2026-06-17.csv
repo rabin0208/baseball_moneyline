@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822721,2026-06-17,Pre-Game,Kansas City Royals,Washington Nationals,Luinder Avila,Zack Littell,0.5237722230563248,1
+823044,2026-06-17,Scheduled,San Diego Padres,St. Louis Cardinals,,Kyle Leahy,0.5338032768781138,1
+823127,2026-06-17,Scheduled,Baltimore Orioles,Seattle Mariners,Kyle Bradish,George Kirby,0.5703432019354274,1
+823450,2026-06-17,Scheduled,Miami Marlins,Philadelphia Phillies,Sandy Alcantara,Andrew Painter,0.44540051210518883,0
+823536,2026-06-17,Scheduled,Chicago White Sox,New York Yankees,Anthony Kay,Carlos Rodón,0.5724869673630105,1
+823774,2026-06-17,Scheduled,Cleveland Guardians,Milwaukee Brewers,Gavin Williams,Brandon Sproat,0.5320705672198739,1
+823940,2026-06-17,Scheduled,Tampa Bay Rays,Los Angeles Dodgers,Shane McClanahan,Shohei Ohtani,0.4753254528535185,0
+824178,2026-06-17,Scheduled,Detroit Tigers,Houston Astros,Casey Mize,Peter Lambert,0.4869770600523582,0
+824503,2026-06-17,Pre-Game,New York Mets,Cincinnati Reds,Nolan McLean,Nick Lodolo,0.6102508855904937,1
+824668,2026-06-17,Scheduled,Colorado Rockies,Chicago Cubs,Sean Sullivan,Javier Assad,0.5484766042057986,1
+824746,2026-06-17,Scheduled,Toronto Blue Jays,Boston Red Sox,Max Scherzer,Jake Bennett,0.5593399843496843,1
+824913,2026-06-17,Scheduled,San Francisco Giants,Atlanta Braves,,JR Ritchie,0.4800700063358428,0
+824992,2026-06-17,Scheduled,Pittsburgh Pirates,Athletics,Braxton Ashcraft,Aaron Civale,0.6760459557784388,1
+825072,2026-06-17,Scheduled,Los Angeles Angels,Arizona Diamondbacks,Sam Aldegheri,Eduardo Rodriguez,0.5556871011485871,1

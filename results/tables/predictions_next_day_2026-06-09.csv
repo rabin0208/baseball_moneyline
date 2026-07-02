@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822805,2026-06-09,Scheduled,Philadelphia Phillies,Toronto Blue Jays,Zack Wheeler,Dylan Cease,0.5248915677983201,1
+822969,2026-06-09,Scheduled,Boston Red Sox,Tampa Bay Rays,Payton Tolle,Nick Martinez,0.5472151831026669,1
+823214,2026-06-09,Scheduled,Washington Nationals,San Francisco Giants,Andrew Alvarez,Adrian Houser,0.5442409133370497,1
+823290,2026-06-09,Scheduled,Cincinnati Reds,San Diego Padres,Chase Burns,Lucas Giolito,0.592126061415611,1
+823374,2026-06-09,Scheduled,Los Angeles Dodgers,Pittsburgh Pirates,Eric Lauer,Paul Skenes,0.5010088278867528,1
+823620,2026-06-09,Scheduled,St. Louis Cardinals,New York Mets,Dustin May,Freddy Peralta,0.49916764241491657,0
+823858,2026-06-09,Scheduled,Arizona Diamondbacks,Miami Marlins,Zac Gallen,Max Meyer,0.5622794551200824,1
+824023,2026-06-09,Scheduled,Houston Astros,Los Angeles Angels,Kai-Wei Teng,Walbert Ureña,0.5629715828528484,1
+824105,2026-06-09,Scheduled,Texas Rangers,Kansas City Royals,Nathan Eovaldi,Stephen Kolek,0.44841283443123137,0
+824267,2026-06-09,Scheduled,Minnesota Twins,Detroit Tigers,Taj Bradley,Troy Melton,0.5374701505392425,1
+824347,2026-06-09,Scheduled,Chicago Cubs,Colorado Rockies,Colin Rea,Tomoyuki Sugano,0.49614276464940044,0
+824429,2026-06-09,Scheduled,New York Yankees,Cleveland Guardians,Gerrit Cole,Slade Cecconi,0.4760207056850036,0
+824591,2026-06-09,Scheduled,Atlanta Braves,Chicago White Sox,Grant Holmes,Erick Fedde,0.4952050316988501,0
+824830,2026-06-09,Scheduled,Seattle Mariners,Baltimore Orioles,Logan Gilbert,Trevor Rogers,0.4689711076280739,0
+824999,2026-06-09,Scheduled,Milwaukee Brewers,Athletics,Robert Gasser,J.T. Ginn,0.42084621609383305,0

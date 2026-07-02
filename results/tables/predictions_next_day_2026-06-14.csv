@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822722,2026-06-14,Scheduled,Seattle Mariners,Washington Nationals,Emerson Hancock,Miles Mikolas,0.5720777882769368,1
+822801,2026-06-14,Scheduled,New York Yankees,Toronto Blue Jays,Will Warren,Patrick Corbin,0.5432702770818214,1
+823212,2026-06-14,Scheduled,Chicago Cubs,San Francisco Giants,Ryan Rolison,Logan Webb,0.5493693836923238,1
+823368,2026-06-14,Pre-Game,Miami Marlins,Pittsburgh Pirates,Max Meyer,Paul Skenes,0.40314489149032817,0
+823615,2026-06-14,Scheduled,Atlanta Braves,New York Mets,Bryce Elder,Freddy Peralta,0.5455427659502767,1
+823693,2026-06-14,Pre-Game,St. Louis Cardinals,Minnesota Twins,Michael McGreevy,Taj Bradley,0.43057928494767606,0
+823777,2026-06-14,Scheduled,Philadelphia Phillies,Milwaukee Brewers,Cristopher Sánchez,Kyle Harrison,0.587986505964411,1
+824021,2026-06-14,Scheduled,Tampa Bay Rays,Los Angeles Angels,Casey Legumina,Grayson Rodriguez,0.5985848579335662,1
+824099,2026-06-14,Scheduled,Houston Astros,Kansas City Royals,Spencer Arrighetti,Stephen Kolek,0.46922172807089846,0
+824424,2026-06-14,Pre-Game,Detroit Tigers,Cleveland Guardians,Casey Mize,Gavin Williams,0.5662314791395381,1
+824506,2026-06-14,Pre-Game,Arizona Diamondbacks,Cincinnati Reds,Zac Gallen,Andrew Abbott,0.6588218193004096,1
+824586,2026-06-14,Scheduled,Los Angeles Dodgers,Chicago White Sox,Emmet Sheehan,Erick Fedde,0.48791622293494497,0
+824751,2026-06-14,Scheduled,Texas Rangers,Boston Red Sox,Nathan Eovaldi,Connelly Early,0.5905974850679333,1
+824823,2026-06-14,Scheduled,San Diego Padres,Baltimore Orioles,Walker Buehler,Trevor Rogers,0.5255098421672229,1
+824994,2026-06-14,Scheduled,Colorado Rockies,Athletics,Tomoyuki Sugano,Jeffrey Springs,0.5299579429719246,1

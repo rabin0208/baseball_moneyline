@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822717,2026-06-25,Scheduled,Philadelphia Phillies,Washington Nationals,Cristopher Sánchez,Cade Cavalli,0.46756877007424297,0
+822797,2026-06-25,Scheduled,Texas Rangers,Toronto Blue Jays,MacKenzie Gore,Kevin Gausman,0.6051144682161606,1
+822961,2026-06-25,Warmup,Kansas City Royals,Tampa Bay Rays,Seth Lugo,Casey Legumina,0.5121300574242782,1
+823042,2026-06-25,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,Zac Gallen,Michael McGreevy,0.4938895849264723,0
+823209,2026-06-25,Scheduled,Athletics,San Francisco Giants,Jeffrey Springs,Landen Roupp,0.6129017047326222,1
+823366,2026-06-25,Warmup,Seattle Mariners,Pittsburgh Pirates,Bryce Miller,Bubba Chandler,0.5042107010874463,1
+823612,2026-06-25,Scheduled,Chicago Cubs,New York Mets,Matthew Boyd,Freddy Peralta,0.3883183610953895,0
+824258,2026-06-25,Scheduled,Houston Astros,Detroit Tigers,Tatsuya Imai,Troy Melton,0.5767497379579111,1
+824747,2026-06-25,Scheduled,New York Yankees,Boston Red Sox,Cam Schlittler,Connelly Early,0.39017507354257397,0

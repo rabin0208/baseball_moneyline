@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822730,2026-06-01,Scheduled,Miami Marlins,Washington Nationals,Sandy Alcantara,Cade Cavalli,0.5016059998854374,1
+822974,2026-06-01,Scheduled,Detroit Tigers,Tampa Bay Rays,Ty Madden,Griffin Jax,0.5566351904527606,1
+823050,2026-06-01,Scheduled,Texas Rangers,St. Louis Cardinals,Jacob deGrom,Michael McGreevy,0.5770192502195477,1
+823131,2026-06-01,Scheduled,New York Mets,Seattle Mariners,Austin Warren,Emerson Hancock,0.5614525892907966,1
+823702,2026-06-01,Scheduled,Chicago White Sox,Minnesota Twins,,Joe Ryan,0.47055946249011255,0
+823781,2026-06-01,Scheduled,San Francisco Giants,Milwaukee Brewers,Landen Roupp,Shane Drohan,0.5083639703187389,1
+824027,2026-06-01,Scheduled,Colorado Rockies,Los Angeles Angels,Kyle Freeland,José Soriano,0.6262699191836186,1
+824510,2026-06-01,Scheduled,Kansas City Royals,Cincinnati Reds,Luinder Avila,Chase Burns,0.5760601716837948,1
+825078,2026-06-01,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,Emmet Sheehan,Eduardo Rodriguez,0.43320157450229196,0

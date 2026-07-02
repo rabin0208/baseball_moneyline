@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822810,2026-06-05,Scheduled,Baltimore Orioles,Toronto Blue Jays,Brandon Young,Trey Yesavage,0.46185702550762775,0
+822892,2026-06-05,Scheduled,Cleveland Guardians,Texas Rangers,Parker Messick,Kumar Rocker,0.5132095062924764,1
+823049,2026-06-05,Scheduled,Cincinnati Reds,St. Louis Cardinals,Brady Singer,Kyle Leahy,0.5647476136536437,1
+823293,2026-06-05,Scheduled,New York Mets,San Diego Padres,Christian Scott,Michael King,0.5787923750498792,1
+823455,2026-06-05,Scheduled,Chicago White Sox,Philadelphia Phillies,Anthony Kay,Jesús Luzardo,0.47751944201171476,0
+823538,2026-06-05,Scheduled,Boston Red Sox,New York Yankees,Sonny Gray,Ryan Weathers,0.6330901520113462,1
+823699,2026-06-05,Scheduled,Kansas City Royals,Minnesota Twins,Michael Wacha,Zebby Matthews,0.5457329823126104,1
+823860,2026-06-05,Scheduled,Tampa Bay Rays,Miami Marlins,Drew Rasmussen,Ryan Gusto,0.5964139831312725,1
+823943,2026-06-05,Scheduled,Los Angeles Angels,Los Angeles Dodgers,,Roki Sasaki,0.5244753625893005,1
+824186,2026-06-05,Scheduled,Athletics,Houston Astros,Jack Perkins,Peter Lambert,0.48421800241855856,0
+824271,2026-06-05,Scheduled,Seattle Mariners,Detroit Tigers,Bryan Woo,Framber Valdez,0.40735055613137855,0
+824350,2026-06-05,Scheduled,Milwaukee Brewers,Colorado Rockies,Brandon Sproat,Ryan Feltner,0.4780836192277194,0
+824673,2026-06-05,Scheduled,San Francisco Giants,Chicago Cubs,Robbie Ray,Edward Cabrera,0.5115408999856729,1
+824914,2026-06-05,Scheduled,Pittsburgh Pirates,Atlanta Braves,Mitch Keller,Martín Pérez,0.5083151475934304,1
+825073,2026-06-05,Scheduled,Washington Nationals,Arizona Diamondbacks,Foster Griffin,Merrill Kelly,0.5021333692442262,1

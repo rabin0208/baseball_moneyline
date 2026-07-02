@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822796,2026-06-26,Scheduled,Texas Rangers,Toronto Blue Jays,Nathan Eovaldi,Patrick Corbin,0.5287398632079421,1
+822962,2026-06-26,Scheduled,Arizona Diamondbacks,Tampa Bay Rays,Zac Gallen,Nick Martinez,0.5475198538097255,1
+823039,2026-06-26,Scheduled,Miami Marlins,St. Louis Cardinals,Max Meyer,Michael McGreevy,0.4900485311303798,0
+823206,2026-06-26,Scheduled,Atlanta Braves,San Francisco Giants,Reynaldo López,,0.6163408941659402,1
+823285,2026-06-26,Scheduled,Los Angeles Dodgers,San Diego Padres,Roki Sasaki,Walker Buehler,0.45219506851217545,0
+823363,2026-06-26,Scheduled,Cincinnati Reds,Pittsburgh Pirates,Andrew Abbott,Paul Skenes,0.5639597545137259,1
+823610,2026-06-26,Scheduled,Philadelphia Phillies,New York Mets,Zack Wheeler,,0.42601921577047513,0
+823688,2026-06-26,Scheduled,Colorado Rockies,Minnesota Twins,Tomoyuki Sugano,Taj Bradley,0.5339628861760933,1
+823773,2026-06-26,Scheduled,Chicago Cubs,Milwaukee Brewers,Colin Rea,Jacob Misiorowski,0.5853794396570432,1
+824014,2026-06-26,Scheduled,Athletics,Los Angeles Angels,J.T. Ginn,Walbert Ureña,0.5418918358937937,1
+824255,2026-06-26,Scheduled,Houston Astros,Detroit Tigers,Spencer Arrighetti,Keider Montero,0.49610016867890905,0
+824423,2026-06-26,Scheduled,Seattle Mariners,Cleveland Guardians,Luis Castillo,Joey Cantillo,0.6318029540433439,1
+824582,2026-06-26,Scheduled,Kansas City Royals,Chicago White Sox,,,0.49943006033913073,0
+824743,2026-06-26,Scheduled,New York Yankees,Boston Red Sox,Will Warren,Payton Tolle,0.42779068669572184,0
+824824,2026-06-26,Scheduled,Washington Nationals,Baltimore Orioles,Andrew Alvarez,Trevor Rogers,0.5654010010482242,1

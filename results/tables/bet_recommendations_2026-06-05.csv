@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822810,2026-06-05,Scheduled,Baltimore Orioles,Toronto Blue Jays,away,Baltimore Orioles,125.0,+125,0.46185702550762775,0.11261105959875517,-0.11261105959875528,0.11261105959875517,-150.0,125.0,7.0,Brandon Young,Trey Yesavage
+822892,2026-06-05,Scheduled,Cleveland Guardians,Texas Rangers,home,Texas Rangers,115.0,+115,0.5132095062924764,0.06580350914825939,0.06580350914825939,-0.06580350914825939,115.0,-135.0,7.0,Parker Messick,Kumar Rocker
+823049,2026-06-05,Scheduled,Cincinnati Reds,St. Louis Cardinals,,,,,0.5647476136536437,,0.0027038180332056294,-0.0027038180332057404,-140.0,120.0,7.0,Brady Singer,Kyle Leahy
+823293,2026-06-05,Scheduled,New York Mets,San Diego Padres,,,,,0.5787923750498792,,0.036048836282483565,-0.03604883628248362,-130.0,110.0,7.0,Christian Scott,Michael King
+823455,2026-06-05,Scheduled,Chicago White Sox,Philadelphia Phillies,away,Chicago White Sox,155.0,+155,0.47751944201171476,0.14761837496733698,-0.14761837496733715,0.14761837496733698,-189.0,155.0,7.0,Anthony Kay,Jesús Luzardo
+823538,2026-06-05,Scheduled,Boston Red Sox,New York Yankees,home,New York Yankees,-145.0,-145,0.6330901520113462,0.06748731513191364,0.06748731513191364,-0.06748731513191358,-145.0,120.0,7.0,Sonny Gray,Ryan Weathers
+823699,2026-06-05,Scheduled,Kansas City Royals,Minnesota Twins,,,,,0.5457329823126104,,0.03489874612626154,-0.03489874612626148,-115.0,-105.0,6.0,Michael Wacha,Zebby Matthews
+823860,2026-06-05,Scheduled,Tampa Bay Rays,Miami Marlins,home,Miami Marlins,118.0,+118,0.5964139831312725,0.156208553930979,0.156208553930979,-0.156208553930979,118.0,-140.0,7.0,Drew Rasmussen,Ryan Gusto
+823943,2026-06-05,Scheduled,Los Angeles Angels,Los Angeles Dodgers,away,Los Angeles Angels,165.0,+165,0.5244753625893005,0.11407885427816933,-0.11407885427816933,0.11407885427816933,-200.0,165.0,6.0,,Roki Sasaki
+824271,2026-06-05,Scheduled,Seattle Mariners,Detroit Tigers,away,Seattle Mariners,-125.0,-125,0.40735055613137855,0.06385363235029673,-0.06385363235029684,0.06385363235029673,102.0,-125.0,7.0,Bryan Woo,Framber Valdez
+824350,2026-06-05,Scheduled,Milwaukee Brewers,Colorado Rockies,home,Colorado Rockies,128.0,+128,0.4780836192277194,0.05895146932633871,0.05895146932633871,-0.05895146932633866,128.0,-155.0,7.0,Brandon Sproat,Ryan Feltner
+824673,2026-06-05,Scheduled,San Francisco Giants,Chicago Cubs,away,San Francisco Giants,150.0,+150,0.5115408999856729,0.10489745617871071,-0.10489745617871071,0.10489745617871071,-180.0,150.0,7.0,Robbie Ray,Edward Cabrera
+824914,2026-06-05,Scheduled,Pittsburgh Pirates,Atlanta Braves,away,Pittsburgh Pirates,125.0,+125,0.5083151475934304,0.06416429853378719,-0.06416429853378725,0.06416429853378719,-147.0,125.0,7.0,Mitch Keller,Martín Pérez
+825073,2026-06-05,Scheduled,Washington Nationals,Arizona Diamondbacks,,,,,0.5021333692442262,,-0.048729070432776966,0.048729070432776966,-135.0,113.5,6.0,Foster Griffin,Merrill Kelly

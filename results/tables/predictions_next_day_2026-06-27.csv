@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822794,2026-06-27,Scheduled,Texas Rangers,Toronto Blue Jays,Cal Quantrill,Dylan Cease,0.621047319368016,1
+822960,2026-06-27,Scheduled,Arizona Diamondbacks,Tampa Bay Rays,Jose Cabrera,Cole Sulser,0.5637170350617513,1
+823038,2026-06-27,Scheduled,Miami Marlins,St. Louis Cardinals,Ryan Gusto,Andre Pallante,0.5876846322123533,1
+823207,2026-06-27,Scheduled,Atlanta Braves,San Francisco Giants,Bryce Elder,Logan Webb,0.6128887080614142,1
+823283,2026-06-27,Scheduled,Los Angeles Dodgers,San Diego Padres,Yoshinobu Yamamoto,Randy Vásquez,0.44540454430079796,0
+823364,2026-06-27,Scheduled,Cincinnati Reds,Pittsburgh Pirates,Chase Burns,Jared Jones,0.6255887207321007,1
+823609,2026-06-27,Scheduled,Philadelphia Phillies,New York Mets,Alan Rangel,Christian Scott,0.4829557259047296,0
+823689,2026-06-27,Scheduled,Colorado Rockies,Minnesota Twins,Michael Lorenzen,Mike Paredes,0.5531251035831592,1
+823770,2026-06-27,Scheduled,Chicago Cubs,Milwaukee Brewers,David Peterson,Kyle Harrison,0.6306030804686996,1
+824015,2026-06-27,Scheduled,Athletics,Los Angeles Angels,Jack Perkins,Reid Detmers,0.425852936328818,0
+824257,2026-06-27,Pre-Game,Houston Astros,Detroit Tigers,Kai-Wei Teng,Framber Valdez,0.5204661102725683,1
+824421,2026-06-27,Scheduled,Seattle Mariners,Cleveland Guardians,Logan Gilbert,Slade Cecconi,0.4748538404822166,0
+824581,2026-06-27,Scheduled,Kansas City Royals,Chicago White Sox,Michael Wacha,Davis Martin,0.6305838416600363,1
+824745,2026-06-27,Pre-Game,New York Yankees,Boston Red Sox,Gerrit Cole,Jake Bennett,0.4597508858514876,0
+824825,2026-06-27,Scheduled,Washington Nationals,Baltimore Orioles,Foster Griffin,Brandon Young,0.6017863226560929,1

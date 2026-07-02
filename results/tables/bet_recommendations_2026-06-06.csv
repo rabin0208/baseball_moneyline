@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822808,2026-06-06,In Progress,Baltimore Orioles,Toronto Blue Jays,,,,,0.5084114935943986,,-0.006563690386433119,0.006563690386433174,-118.0,-104.0,7.0,Kyle Bradish,Braydon Fisher
+822891,2026-06-06,Pre-Game,Cleveland Guardians,Texas Rangers,home,Texas Rangers,-120.0,-120,0.6112888883580347,0.08954975792325215,0.08954975792325215,-0.08954975792325215,-120.0,100.0,7.0,Tanner Bibee,Jack Leiter
+823048,2026-06-06,In Progress,Cincinnati Reds,St. Louis Cardinals,,,,,0.5485796774248077,,0.0161121449572752,-0.016112144957275254,-125.0,105.0,7.0,Nick Lodolo,Matthew Liberatore
+823292,2026-06-06,Scheduled,New York Mets,San Diego Padres,,,,,0.4599891286178515,,-0.007543338914616005,0.007543338914616005,105.0,-125.0,7.0,Nolan McLean,Griffin Canning
+823454,2026-06-06,Warmup,Chicago White Sox,Philadelphia Phillies,,,,,0.5135191476830913,,-0.039074855172691714,0.039074855172691714,-135.0,115.0,7.0,Brandon Eisert,Andrew Painter
+823539,2026-06-06,Scheduled,Boston Red Sox,New York Yankees,home,New York Yankees,-120.0,-120,0.624571444449922,0.10283231401513937,0.10283231401513937,-0.10283231401513937,-120.0,100.0,7.0,Ranger Suarez,Will Warren
+823697,2026-06-06,In Progress,Kansas City Royals,Minnesota Twins,,,,,0.5504550598607739,,-0.015147777018658659,0.015147777018658715,-145.0,120.0,7.0,Luinder Avila,Joe Ryan
+823859,2026-06-06,Warmup,Tampa Bay Rays,Miami Marlins,home,Miami Marlins,110.0,+110,0.510606224723276,0.05334976349067161,0.05334976349067161,-0.053349763490671664,110.0,-130.0,7.0,Shane McClanahan,Lake Bachar
+823942,2026-06-06,Scheduled,Los Angeles Angels,Los Angeles Dodgers,away,Los Angeles Angels,290.0,+290,0.6314440426188739,0.12286855539471733,-0.12286855539471742,0.12286855539471733,-370.0,290.0,7.0,Jack Kochanowicz,Yoshinobu Yamamoto
+824269,2026-06-06,Game Over,Seattle Mariners,Detroit Tigers,,,,,0.45504957158039006,,-0.009877018957946015,0.009877018957946015,105.0,-128.0,7.0,Bryce Miller,Keider Montero
+824351,2026-06-06,Pre-Game,Milwaukee Brewers,Colorado Rockies,home,Colorado Rockies,215.0,+215,0.3914324875026373,0.08827804260300598,0.08827804260300598,-0.0882780426030062,215.0,-270.0,7.0,Jacob Misiorowski,Zach Agnos
+824669,2026-06-06,In Progress,San Francisco Giants,Chicago Cubs,away,San Francisco Giants,125.0,+125,0.49591914210763854,0.08172060944515641,-0.08172060944515658,0.08172060944515641,-155.0,125.0,7.0,Landen Roupp,Ben Brown
+824915,2026-06-06,Warmup,Pittsburgh Pirates,Atlanta Braves,home,Atlanta Braves,-115.0,-115,0.5774911744678678,0.06665693828151897,0.06665693828151897,-0.06665693828151892,-115.0,-105.0,7.0,Braxton Ashcraft,Spencer Strider
+825075,2026-06-06,Warmup,Washington Nationals,Arizona Diamondbacks,away,Washington Nationals,127.0,+127,0.5078876431658988,0.07190967083261807,-0.07190967083261812,0.07190967083261807,-155.0,127.0,7.0,Zack Littell,Eduardo Rodriguez

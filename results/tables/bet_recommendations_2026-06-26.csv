@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822796,2026-06-26,Scheduled,Texas Rangers,Toronto Blue Jays,,,,,0.5287398632079421,,0.03404186524391084,-0.03404186524391084,-109.0,-114.0,7.0,Nathan Eovaldi,Patrick Corbin
+822962,2026-06-26,Scheduled,Arizona Diamondbacks,Tampa Bay Rays,,,,,0.5475198538097255,,-0.008857225672714408,0.00885722567271452,-140.0,115.0,7.0,Zac Gallen,Nick Martinez
+823039,2026-06-26,Scheduled,Miami Marlins,St. Louis Cardinals,,,,,0.4900485311303798,,-0.016271249783881836,0.01627124978388178,-115.0,-109.0,7.0,Max Meyer,Michael McGreevy
+823206,2026-06-26,Scheduled,Atlanta Braves,San Francisco Giants,home,San Francisco Giants,-101.0,-101,0.6163408941659402,0.13684154155480505,0.13684154155480505,-0.1368415415548051,-101.0,-120.0,7.0,Reynaldo López,
+823285,2026-06-26,Scheduled,Los Angeles Dodgers,San Diego Padres,,,,,0.45219506851217545,,0.022272454582682788,-0.022272454582682677,121.0,-150.0,7.0,Roki Sasaki,Walker Buehler
+823363,2026-06-26,Scheduled,Cincinnati Reds,Pittsburgh Pirates,away,Cincinnati Reds,155.0,+155,0.5639597545137259,0.06244761498473872,-0.06244761498473883,0.06244761498473872,-192.0,155.0,7.0,Andrew Abbott,Paul Skenes
+823610,2026-06-26,Scheduled,Philadelphia Phillies,New York Mets,,,,,0.42601921577047513,,0.018460860824198733,-0.018460860824198844,134.0,-164.0,7.0,Zack Wheeler,
+823688,2026-06-26,Scheduled,Colorado Rockies,Minnesota Twins,away,Colorado Rockies,141.0,+141,0.5339628861760933,0.0713474833969242,-0.07134748339692432,0.0713474833969242,-175.0,141.0,7.0,Tomoyuki Sugano,Taj Bradley
+823773,2026-06-26,Scheduled,Chicago Cubs,Milwaukee Brewers,away,Chicago Cubs,200.0,+200,0.5853794396570432,0.09643874216113868,-0.09643874216113857,0.09643874216113868,-250.0,200.0,7.0,Colin Rea,Jacob Misiorowski
+824255,2026-06-26,Scheduled,Houston Astros,Detroit Tigers,,,,,0.49610016867890905,,-0.014734067507439774,0.01473406750743983,-115.0,-105.0,7.0,Spencer Arrighetti,Keider Montero
+824423,2026-06-26,Scheduled,Seattle Mariners,Cleveland Guardians,home,Cleveland Guardians,-111.0,-111,0.6318029540433439,0.13072814750852013,0.13072814750852013,-0.1307281475085202,-111.0,-110.0,7.0,Luis Castillo,Joey Cantillo
+824582,2026-06-26,Scheduled,Kansas City Royals,Chicago White Sox,away,Kansas City Royals,114.0,+114,0.49943006033913073,0.0535519457720014,-0.053551945772001286,0.0535519457720014,-137.0,114.0,7.0,,
+824743,2026-06-26,Scheduled,New York Yankees,Boston Red Sox,away,New York Yankees,-115.0,-115,0.42779068669572184,0.06137507711792933,-0.06137507711792928,0.06137507711792933,-105.0,-115.0,7.0,Will Warren,Payton Tolle
+824824,2026-06-26,Scheduled,Washington Nationals,Baltimore Orioles,,,,,0.5654010010482242,,0.00457614698811315,-0.0045761469881133165,-143.0,117.0,7.0,Andrew Alvarez,Trevor Rogers

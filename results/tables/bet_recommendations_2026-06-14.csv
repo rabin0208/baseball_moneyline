@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822722,2026-06-14,Scheduled,Seattle Mariners,Washington Nationals,home,Washington Nationals,115.0,+115,0.5720777882769368,0.12467179113271976,0.12467179113271976,-0.12467179113271976,115.0,-135.0,6.0,Emerson Hancock,Miles Mikolas
+822801,2026-06-14,Scheduled,New York Yankees,Toronto Blue Jays,home,Toronto Blue Jays,109.0,+109,0.5432702770818214,0.0848289775003982,0.0848289775003982,-0.0848289775003983,109.0,-130.0,6.0,Will Warren,Patrick Corbin
+823212,2026-06-14,Scheduled,Chicago Cubs,San Francisco Giants,,,,,0.5493693836923238,,-0.003999276413656605,0.003999276413656494,-136.0,115.0,6.0,Ryan Rolison,Logan Webb
+823368,2026-06-14,Pre-Game,Miami Marlins,Pittsburgh Pirates,away,Miami Marlins,135.0,+135,0.40314489149032817,0.18919990390410157,-0.18919990390410157,0.18919990390410157,-162.0,135.0,6.0,Max Meyer,Paul Skenes
+823615,2026-06-14,Scheduled,Atlanta Braves,New York Mets,,,,,0.5455427659502767,,0.013075233482744197,-0.013075233482744253,-125.0,105.0,7.0,Bryce Elder,Freddy Peralta
+823693,2026-06-14,Pre-Game,St. Louis Cardinals,Minnesota Twins,away,St. Louis Cardinals,-105.0,-105,0.43057928494767606,0.08025495123867282,-0.08025495123867277,0.08025495123867282,-115.0,-105.0,6.0,Michael McGreevy,Taj Bradley
+823777,2026-06-14,Scheduled,Philadelphia Phillies,Milwaukee Brewers,home,Milwaukee Brewers,100.0,+100,0.587986505964411,0.10972563639919364,0.10972563639919364,-0.10972563639919364,100.0,-120.0,6.0,Cristopher Sánchez,Kyle Harrison
+824021,2026-06-14,Scheduled,Tampa Bay Rays,Los Angeles Angels,home,Los Angeles Angels,100.0,+100,0.5985848579335662,0.12032398836834879,0.12032398836834879,-0.12032398836834879,100.0,-120.0,6.0,Casey Legumina,Grayson Rodriguez
+824099,2026-06-14,Scheduled,Houston Astros,Kansas City Royals,away,Houston Astros,100.0,+100,0.46922172807089846,0.052517402363884136,-0.052517402363884136,0.052517402363884136,-120.0,100.0,6.0,Spencer Arrighetti,Stephen Kolek
+824424,2026-06-14,Pre-Game,Detroit Tigers,Cleveland Guardians,home,Cleveland Guardians,-111.0,-111,0.5662314791395381,0.06461367029983056,0.06461367029983056,-0.06461367029983062,-111.0,-109.5,6.0,Casey Mize,Gavin Williams
+824506,2026-06-14,Pre-Game,Arizona Diamondbacks,Cincinnati Reds,home,Cincinnati Reds,-110.0,-110,0.6588218193004096,0.15882181930040962,0.15882181930040962,-0.15882181930040962,-110.0,-110.0,7.0,Zac Gallen,Andrew Abbott
+824586,2026-06-14,Scheduled,Los Angeles Dodgers,Chicago White Sox,home,Chicago White Sox,162.5,+162,0.48791622293494497,0.12427985929858126,0.12427985929858126,-0.12427985929858143,162.5,-200.0,6.0,Emmet Sheehan,Erick Fedde
+824751,2026-06-14,Scheduled,Texas Rangers,Boston Red Sox,home,Boston Red Sox,-115.0,-115,0.5905974850679333,0.07976324888158448,0.07976324888158448,-0.07976324888158443,-115.0,-105.0,6.0,Nathan Eovaldi,Connelly Early
+824823,2026-06-14,Scheduled,San Diego Padres,Baltimore Orioles,,,,,0.5255098421672229,,-0.029380750688584145,0.0293807506885842,-138.0,115.0,6.0,Walker Buehler,Trevor Rogers

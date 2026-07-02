@@ -16,3 +16,4 @@ dependencies:
   - pip:
     - pybaseball
     - MLB-StatsAPI
+    - sbr-odds-scraper

@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822884,2026-07-02,Scheduled,Detroit Tigers,Texas Rangers,Framber Valdez,Nathan Eovaldi,0.5373067041878338,1
+823119,2026-07-02,Scheduled,Los Angeles Angels,Seattle Mariners,Walbert Ureña,Bryce Miller,0.5073882285528938,1
+823442,2026-07-02,Warmup,Pittsburgh Pirates,Philadelphia Phillies,Jared Jones,Alan Rangel,0.49299205202336827,0
+823765,2026-07-02,Pre-Game,Cincinnati Reds,Milwaukee Brewers,Chase Burns,Jacob Misiorowski,0.581871229863115,1
+823935,2026-07-02,Scheduled,San Diego Padres,Los Angeles Dodgers,Randy Vásquez,Roki Sasaki,0.6673100503326778,1
+824093,2026-07-02,Scheduled,Tampa Bay Rays,Kansas City Royals,Ian Seymour,Stephen Kolek,0.46206073893520416,0
+824335,2026-07-02,Pre-Game,Miami Marlins,Colorado Rockies,Ryan Gusto,Michael Lorenzen,0.398480862331038,0
+824416,2026-07-02,Scheduled,Chicago White Sox,Cleveland Guardians,Davis Martin,Slade Cecconi,0.5313835808542772,1
+824906,2026-07-02,Scheduled,St. Louis Cardinals,Atlanta Braves,Dustin May,Hurston Waldrep,0.533418038363651,1

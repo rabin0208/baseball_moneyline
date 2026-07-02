@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822889,2026-06-18,Scheduled,Minnesota Twins,Texas Rangers,Joe Ryan,Jack Leiter,0.541383962244841,1
+823125,2026-06-18,Scheduled,Baltimore Orioles,Seattle Mariners,Shane Baz,Bryan Woo,0.5127873015132658,1
+823448,2026-06-18,Scheduled,New York Mets,Philadelphia Phillies,Sean Manaea,Aaron Nola,0.6279866375107068,1
+823533,2026-06-18,Scheduled,Chicago White Sox,New York Yankees,Sean Burke,Ryan Weathers,0.6704796851719148,1
+823772,2026-06-18,Scheduled,Cleveland Guardians,Milwaukee Brewers,Parker Messick,Shane Drohan,0.6031098272912718,1
+824098,2026-06-18,Scheduled,St. Louis Cardinals,Kansas City Royals,Matthew Liberatore,Noah Cameron,0.4537596127846725,0
+824748,2026-06-18,Pre-Game,Toronto Blue Jays,Boston Red Sox,Trey Yesavage,Sonny Gray,0.5267559520636904,1
+824911,2026-06-18,Scheduled,San Francisco Giants,Atlanta Braves,Landen Roupp,Martín Pérez,0.5003147546356499,1
+824989,2026-06-18,Scheduled,Los Angeles Angels,Athletics,,Gage Jump,0.5166876139105137,1

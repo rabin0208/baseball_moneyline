@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822886,2026-06-19,Scheduled,San Diego Padres,Texas Rangers,away,San Diego Padres,133.0,+133,0.47632888339435403,0.11507828555259092,-0.11507828555259075,0.11507828555259092,-164.0,133.0,7.0,Randy Vásquez,Jacob deGrom
+822966,2026-06-19,Scheduled,Washington Nationals,Tampa Bay Rays,,,,,0.567384452360866,,0.030627151253111662,-0.030627151253111773,-130.0,105.0,7.0,Cade Cavalli,Griffin Jax
+823124,2026-06-19,Scheduled,Boston Red Sox,Seattle Mariners,home,Seattle Mariners,-116.0,-116,0.57837520217523,0.06653706183945729,0.06653706183945729,-0.06653706183945718,-116.0,-105.0,7.0,Ranger Suarez,Bryce Miller
+823534,2026-06-19,Scheduled,Cincinnati Reds,New York Yankees,away,Cincinnati Reds,218.0,+218,0.5849686492759516,0.11387556364932921,-0.11387556364932916,0.11387556364932921,-270.0,218.0,7.0,Rhett Lowder,Cam Schlittler
+823853,2026-06-19,Scheduled,San Francisco Giants,Miami Marlins,,,,,0.5293749756679849,,0.011172716446399167,-0.011172716446399111,-119.5,-102.5,6.0,Landen Roupp,Lake Bachar
+823936,2026-06-19,Scheduled,Baltimore Orioles,Los Angeles Dodgers,away,Baltimore Orioles,170.0,+170,0.5612628673039325,0.08629934415874063,-0.08629934415874063,0.08629934415874063,-213.0,170.0,7.0,Trey Gibson,Roki Sasaki
+824097,2026-06-19,Scheduled,St. Louis Cardinals,Kansas City Royals,,,,,0.5146118570249053,,0.03821700723949767,-0.0382170072394975,100.0,-122.0,7.0,Michael McGreevy,Seth Lugo
+824179,2026-06-19,Scheduled,Cleveland Guardians,Houston Astros,,,,,0.5689072673396401,,0.04011145582131548,-0.040111455821315534,-125.0,102.0,7.0,Tanner Bibee,Tatsuya Imai
+824264,2026-06-19,Scheduled,Chicago White Sox,Detroit Tigers,away,Chicago White Sox,165.0,+165,0.5761023608811963,0.06396394269446082,-0.06396394269446093,0.06396394269446082,-204.0,165.0,7.0,Erick Fedde,Tarik Skubal
+824345,2026-06-19,Scheduled,Pittsburgh Pirates,Colorado Rockies,,,,,0.4762897967942485,,0.03711465085435939,-0.03711465085435961,117.0,-143.0,7.0,Bubba Chandler,Kyle Freeland
+824663,2026-06-19,Pre-Game,Toronto Blue Jays,Chicago Cubs,,,,,0.5357802990683566,,0.00822124395024626,-0.008221243950246315,-125.0,101.0,7.0,Kevin Gausman,Ben Brown
+824910,2026-06-19,Scheduled,Milwaukee Brewers,Atlanta Braves,home,Atlanta Braves,140.0,+140,0.4767204331240674,0.07849034462849219,0.07849034462849219,-0.07849034462849225,140.0,-170.0,7.0,Jacob Misiorowski,Martín Pérez
+825069,2026-06-19,Scheduled,Minnesota Twins,Arizona Diamondbacks,away,Minnesota Twins,141.0,+141,0.5022985932910359,0.10301177628198166,-0.10301177628198177,0.10301177628198166,-175.0,141.0,7.0,Connor Prielipp,Michael Soroka
