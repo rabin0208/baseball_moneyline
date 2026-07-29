@@ -114,6 +114,20 @@ Scores **today's** (or `--tomorrow` / `--date`) not-yet-final games with the sav
 
 Requires network access, a fitted model, and `eda.py` history CSV. Run `data_load.py` / `eda.py` first so rolling features are up to date.
 
+### 11. Probability dashboard
+```bash
+streamlit run app.py
+```
+
+Opens a dark-themed daily slate interface that compares the logistic regression
+win probability for each team with the vig-free sportsbook consensus. Use the
+sidebar to select today or a future date, change the minimum model edge, show
+only recommended bets, or refresh the five-minute model and odds cache.
+
+The dashboard uses the same prediction, consensus-moneyline, and bet-selection
+functions as `scripts/recommend_bets.py`. It requires the saved logistic model,
+scaler, current history CSV, and network access.
+
 ## Train / test / deploy
 
 | Phase | Seasons (with current pipeline) |
