@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822788,2026-07-20,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Nick Martinez,Dylan Cease,0.42448790747059373,0
+822874,2026-07-20,Scheduled,Chicago White Sox,Texas Rangers,Erick Fedde,Jacob deGrom,0.5371901804140183,1
+823112,2026-07-20,Scheduled,Cincinnati Reds,Seattle Mariners,Andrew Abbott,George Kirby,0.5268921481167218,1
+823436,2026-07-20,Scheduled,Los Angeles Dodgers,Philadelphia Phillies,Emmet Sheehan,Cristopher Sánchez,0.5447128906556488,1
+823522,2026-07-20,Scheduled,Pittsburgh Pirates,New York Yankees,Braxton Ashcraft,Ryan Weathers,0.4904329089372847,0
+823762,2026-07-20,Scheduled,New York Mets,Milwaukee Brewers,Freddy Peralta,Jacob Misiorowski,0.5468859057519492,1
+824006,2026-07-20,Scheduled,St. Louis Cardinals,Los Angeles Angels,Kyle Leahy,José Soriano,0.5252138418652393,1
+824087,2026-07-20,Scheduled,San Francisco Giants,Kansas City Royals,Trevor McDonald,Michael Wacha,0.4438125773467735,0
+824167,2026-07-20,Scheduled,Miami Marlins,Houston Astros,Janson Junk,Ronel Blanco,0.5347745491336783,1
+824328,2026-07-20,Scheduled,Washington Nationals,Colorado Rockies,Andrew Alvarez,Kyle Freeland,0.56459190998432,1
+824410,2026-07-20,Scheduled,Minnesota Twins,Cleveland Guardians,Joe Ryan,Tanner Bibee,0.514458075834389,1
+824654,2026-07-20,Scheduled,Detroit Tigers,Chicago Cubs,Jack Flaherty,Jameson Taillon,0.5243874292307803,1
+824736,2026-07-20,Scheduled,Baltimore Orioles,Boston Red Sox,Shane Baz,Payton Tolle,0.571911260335984,1
+824898,2026-07-20,Scheduled,San Diego Padres,Atlanta Braves,JP Sears,Bryce Elder,0.4712446656249829,0
+825058,2026-07-20,Scheduled,Athletics,Arizona Diamondbacks,Jeffrey Springs,Mitch Bratt,0.6654756726550309,1

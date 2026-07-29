@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822787,2026-07-21,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Drew Rasmussen,Kevin Gausman,0.47516039632356033,0
+822871,2026-07-21,Scheduled,Chicago White Sox,Texas Rangers,Noah Schultz,Kumar Rocker,0.48352457817248096,0
+823114,2026-07-21,Scheduled,Cincinnati Reds,Seattle Mariners,Chase Burns,Luis Castillo,0.49662309519891606,0
+823437,2026-07-21,Scheduled,Los Angeles Dodgers,Philadelphia Phillies,Justin Wrobleski,Zack Wheeler,0.5335082059439914,1
+823519,2026-07-21,Scheduled,Pittsburgh Pirates,New York Yankees,Bubba Chandler,Will Warren,0.49884461417728043,0
+823760,2026-07-21,Scheduled,New York Mets,Milwaukee Brewers,Zac Thornton,Brandon Sproat,0.6144990987334211,1
+824005,2026-07-21,Scheduled,St. Louis Cardinals,Los Angeles Angels,Matthew Liberatore,Walbert Ureña,0.5242140161657329,1
+824085,2026-07-21,Scheduled,San Francisco Giants,Kansas City Royals,Tyler Mahle,Luinder Avila,0.5691075450202928,1
+824165,2026-07-21,Scheduled,Miami Marlins,Houston Astros,Tyler Phillips,Tatsuya Imai,0.559954096637128,1
+824329,2026-07-21,Scheduled,Washington Nationals,Colorado Rockies,Miles Mikolas,Michael Lorenzen,0.5919660488487821,1
+824409,2026-07-21,Scheduled,Minnesota Twins,Cleveland Guardians,Kendry Rojas,Parker Messick,0.5262992619103838,1
+824652,2026-07-21,Scheduled,Detroit Tigers,Chicago Cubs,Framber Valdez,David Peterson,0.478607017262176,0
+824735,2026-07-21,Scheduled,Baltimore Orioles,Boston Red Sox,Kyle Bradish,Ranger Suarez,0.5404350630987861,1
+824895,2026-07-21,Scheduled,San Diego Padres,Atlanta Braves,Walker Buehler,Reynaldo López,0.5642859724489153,1
+825056,2026-07-21,Scheduled,Athletics,Arizona Diamondbacks,Jack Perkins,Kohl Drake,0.5932992059927581,1

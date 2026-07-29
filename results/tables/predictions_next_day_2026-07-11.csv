@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822711,2026-07-11,Scheduled,New York Yankees,Washington Nationals,Cam Schlittler,PJ Poulin,0.5739221295832686,1
+822875,2026-07-11,Scheduled,Houston Astros,Texas Rangers,Peter Lambert,Kumar Rocker,0.5544446845536412,1
+822953,2026-07-11,Scheduled,Seattle Mariners,Tampa Bay Rays,Logan Gilbert,Griffin Jax,0.5513128202863468,1
+823030,2026-07-11,Scheduled,Atlanta Braves,St. Louis Cardinals,Reynaldo López,Matthew Liberatore,0.4777689800432499,0
+823198,2026-07-11,Scheduled,Colorado Rockies,San Francisco Giants,Kyle Freeland,Tyler Mahle,0.4936493681543065,0
+823276,2026-07-11,Scheduled,Toronto Blue Jays,San Diego Padres,Trey Yesavage,Walker Buehler,0.4796450703113298,0
+823356,2026-07-11,Scheduled,Milwaukee Brewers,Pittsburgh Pirates,Shane Drohan,Bubba Chandler,0.5055292775621381,1
+823357,2026-07-11,Postponed,Milwaukee Brewers,Pittsburgh Pirates,Brandon Sproat,Braxton Ashcraft,0.5289382447186054,1
+823357,2026-07-11,Warmup,Milwaukee Brewers,Pittsburgh Pirates,Brandon Sproat,Braxton Ashcraft,0.5289382447186054,1
+823603,2026-07-11,Scheduled,Boston Red Sox,New York Mets,Eduardo Rivera,Freddy Peralta,0.495985605086058,0
+823682,2026-07-11,Pre-Game,Los Angeles Angels,Minnesota Twins,Ryan Johnson,Joe Ryan,0.628128494445515,1
+823844,2026-07-11,Scheduled,Cleveland Guardians,Miami Marlins,Tanner Bibee,Eury Pérez,0.49967337734593176,0
+823926,2026-07-11,Scheduled,Arizona Diamondbacks,Los Angeles Dodgers,Brandon Pfaadt,Yoshinobu Yamamoto,0.5659042832987811,1
+824249,2026-07-11,Scheduled,Philadelphia Phillies,Detroit Tigers,Cristopher Sánchez,Casey Mize,0.5623560437639213,1
+824492,2026-07-11,Scheduled,Chicago Cubs,Cincinnati Reds,Javier Assad,Nick Lodolo,0.47939422013262023,0
+824576,2026-07-11,Pre-Game,Athletics,Chicago White Sox,Gage Jump,Bryan Hudson,0.5888483601538571,1
+824813,2026-07-11,Scheduled,Kansas City Royals,Baltimore Orioles,Noah Cameron,Kyle Bradish,0.5967917659069889,1

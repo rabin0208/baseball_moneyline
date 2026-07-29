@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822705,2026-07-27,Scheduled,Toronto Blue Jays,Washington Nationals,Max Scherzer,Andrew Alvarez,0.5523827236071787,1
+822868,2026-07-27,Scheduled,Seattle Mariners,Texas Rangers,George Kirby,Kumar Rocker,0.5184901894937795,1
+823025,2026-07-27,Scheduled,Chicago Cubs,St. Louis Cardinals,David Peterson,,0.5247724613871376,1
+823195,2026-07-27,Scheduled,Milwaukee Brewers,San Francisco Giants,Brandon Sproat,Tyler Mahle,0.5349533664393412,1
+823353,2026-07-27,Scheduled,Arizona Diamondbacks,Pittsburgh Pirates,Merrill Kelly,Mitch Keller,0.5436034735834263,1
+823597,2026-07-27,Scheduled,Atlanta Braves,New York Mets,Martín Pérez,Zac Thornton,0.5148627304723059,1
+823839,2026-07-27,Scheduled,Philadelphia Phillies,Miami Marlins,Zack Wheeler,Tyler Phillips,0.4685259530437236,0
+824001,2026-07-27,Scheduled,Houston Astros,Los Angeles Angels,Tatsuya Imai,Walbert Ureña,0.5207174928673384,1
+824245,2026-07-27,Scheduled,Baltimore Orioles,Detroit Tigers,Kyle Bradish,Keider Montero,0.4713892284363407,0
+824490,2026-07-27,Scheduled,Cleveland Guardians,Cincinnati Reds,Slade Cecconi,Chase Burns,0.5428301384533243,1
+824570,2026-07-27,Scheduled,New York Yankees,Chicago White Sox,Max Fried,Noah Schultz,0.5003816492581891,1
+824977,2026-07-27,Scheduled,Boston Red Sox,Athletics,Payton Tolle,Jack Perkins,0.36352977550826304,0

@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822712,2026-07-06,Scheduled,Houston Astros,Washington Nationals,Mike Burrows,Miles Mikolas,0.5243270294080871,1
+822958,2026-07-06,Scheduled,New York Yankees,Tampa Bay Rays,Cam Schlittler,Griffin Jax,0.6309923894339221,1
+823036,2026-07-06,Scheduled,Milwaukee Brewers,St. Louis Cardinals,Shane Drohan,Dustin May,0.5172715890158366,1
+823205,2026-07-06,Scheduled,Toronto Blue Jays,San Francisco Giants,Kevin Gausman,Landen Roupp,0.4130669467856863,0
+823282,2026-07-06,Scheduled,Arizona Diamondbacks,San Diego Padres,Brandon Pfaadt,Walker Buehler,0.5070886815083459,1
+823930,2026-07-06,Scheduled,Colorado Rockies,Los Angeles Dodgers,Kyle Freeland,Eric Lauer,0.5947544432406935,1
+824089,2026-07-06,Pre-Game,Philadelphia Phillies,Kansas City Royals,Cristopher Sánchez,Noah Cameron,0.3535754379873054,0
+824900,2026-07-06,Scheduled,New York Mets,Atlanta Braves,Freddy Peralta,Reynaldo López,0.5954156468000589,1

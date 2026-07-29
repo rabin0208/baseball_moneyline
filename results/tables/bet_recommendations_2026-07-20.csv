@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822788,2026-07-20,Scheduled,Tampa Bay Rays,Toronto Blue Jays,away,Tampa Bay Rays,135.0,+135,0.42448790747059373,0.16953737020079657,-0.1695373702007965,0.16953737020079657,-165.0,135.0,7.0,Nick Martinez,Dylan Cease
+822874,2026-07-20,Scheduled,Chicago White Sox,Texas Rangers,away,Chicago White Sox,140.0,+140,0.5371901804140183,0.06561355790373868,-0.06561355790373857,0.06561355790373868,-172.0,140.0,7.0,Erick Fedde,Jacob deGrom
+823112,2026-07-20,Scheduled,Cincinnati Reds,Seattle Mariners,,,,,0.5268921481167218,,-0.038710688762710777,0.03871068876271083,-145.0,120.0,7.0,Andrew Abbott,George Kirby
+823436,2026-07-20,Scheduled,Los Angeles Dodgers,Philadelphia Phillies,,,,,0.5447128906556488,,-0.014973997798362948,0.014973997798362948,-143.0,116.0,7.0,Emmet Sheehan,Cristopher Sánchez
+823522,2026-07-20,Scheduled,Pittsburgh Pirates,New York Yankees,,,,,0.4904329089372847,,-0.0313062214974979,0.031306221497497844,-120.0,100.0,7.0,Braxton Ashcraft,Ryan Weathers
+823762,2026-07-20,Scheduled,New York Mets,Milwaukee Brewers,away,New York Mets,180.0,+180,0.5468859057519492,0.11186780344686387,-0.11186780344686387,0.11186780344686387,-222.0,180.0,7.0,Freddy Peralta,Jacob Misiorowski
+824006,2026-07-20,Scheduled,St. Louis Cardinals,Los Angeles Angels,,,,,0.5252138418652393,,0.014379605678890517,-0.014379605678890461,-115.0,-105.0,7.0,Kyle Leahy,José Soriano
+824087,2026-07-20,Scheduled,San Francisco Giants,Kansas City Royals,away,San Francisco Giants,-103.0,-103,0.4438125773467735,0.07331290965926318,-0.07331290965926329,0.07331290965926318,-119.0,-103.0,7.0,Trevor McDonald,Michael Wacha
+824167,2026-07-20,Scheduled,Miami Marlins,Houston Astros,,,,,0.5347745491336783,,0.0005588930343657372,-0.0005588930343656262,-127.0,105.0,7.0,Janson Junk,Ronel Blanco
+824328,2026-07-20,Scheduled,Washington Nationals,Colorado Rockies,home,Colorado Rockies,105.0,+105,0.56459190998432,0.09705944245185244,0.09705944245185244,-0.0970594424518525,105.0,-125.0,7.0,Andrew Alvarez,Kyle Freeland
+824410,2026-07-20,Scheduled,Minnesota Twins,Cleveland Guardians,,,,,0.514458075834389,,0.036197206269171556,-0.036197206269171556,100.0,-120.0,7.0,Joe Ryan,Tanner Bibee
+824654,2026-07-20,Scheduled,Detroit Tigers,Chicago Cubs,,,,,0.5243874292307803,,0.013553193044431477,-0.013553193044431422,-115.0,-105.0,7.0,Jack Flaherty,Jameson Taillon
+824736,2026-07-20,Scheduled,Baltimore Orioles,Boston Red Sox,,,,,0.571911260335984,,-0.014076000810512856,0.014076000810512745,-160.0,130.0,7.0,Shane Baz,Payton Tolle
+824898,2026-07-20,Scheduled,San Diego Padres,Atlanta Braves,away,San Diego Padres,110.0,+110,0.4712446656249829,0.0755248618581415,-0.07552486185814156,0.0755248618581415,-135.0,110.0,7.0,JP Sears,Bryce Elder

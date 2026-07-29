@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822716,2026-07-04,In Progress,Pittsburgh Pirates,Washington Nationals,Braxton Ashcraft,Carson Palmquist,0.5012263610091924,1
+822882,2026-07-04,Scheduled,Detroit Tigers,Texas Rangers,Jack Flaherty,Kumar Rocker,0.5844719374289893,1
+823118,2026-07-04,Scheduled,Toronto Blue Jays,Seattle Mariners,Shane Bieber,Logan Gilbert,0.5427158552554245,1
+823526,2026-07-04,Pre-Game,Minnesota Twins,New York Yankees,Zebby Matthews,Brendan Beck,0.5412205016893246,1
+823932,2026-07-04,Scheduled,San Diego Padres,Los Angeles Dodgers,Wandy Peralta,Yoshinobu Yamamoto,0.6632440851007201,1
+824012,2026-07-04,Scheduled,Boston Red Sox,Los Angeles Angels,Sonny Gray,Sam Aldegheri,0.5196500322354102,1
+824092,2026-07-04,Scheduled,Philadelphia Phillies,Kansas City Royals,Jesús Luzardo,Michael Wacha,0.3443236677574222,0
+824171,2026-07-04,Scheduled,Tampa Bay Rays,Houston Astros,Drew Rasmussen,Hunter Brown,0.4910115463625578,0
+824334,2026-07-04,Scheduled,San Francisco Giants,Colorado Rockies,Robbie Ray,Sean Sullivan,0.5780114701315135,1
+824415,2026-07-04,Scheduled,Chicago White Sox,Cleveland Guardians,Sean Burke,Parker Messick,0.5031391810170085,1
+824499,2026-07-04,Scheduled,Baltimore Orioles,Cincinnati Reds,Brandon Young,Hunter Greene,0.4812722857190652,0
+824658,2026-07-04,Scheduled,St. Louis Cardinals,Chicago Cubs,Kyle Leahy,Shota Imanaga,0.6399437809729417,1
+824903,2026-07-04,Scheduled,New York Mets,Atlanta Braves,Sean Manaea,Chris Sale,0.5611863468865738,1
+824983,2026-07-04,Scheduled,Miami Marlins,Athletics,Sandy Alcantara,Aaron Civale,0.42983184083031895,0
+825063,2026-07-04,Scheduled,Milwaukee Brewers,Arizona Diamondbacks,Brandon Woodruff,Merrill Kelly,0.490927021672619,0

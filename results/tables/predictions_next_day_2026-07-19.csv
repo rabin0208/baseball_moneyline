@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822786,2026-07-19,Pre-Game,Chicago White Sox,Toronto Blue Jays,Sean Burke,Trey Yesavage,0.44525647389857004,0
+823113,2026-07-19,Scheduled,San Francisco Giants,Seattle Mariners,Robbie Ray,Logan Gilbert,0.5424656664461097,1
+823439,2026-07-19,Pre-Game,New York Mets,Philadelphia Phillies,Nolan McLean,Alan Rangel,0.4705346536131733,0
+823521,2026-07-19,Scheduled,Los Angeles Dodgers,New York Yankees,,,0.5015157513141661,1
+823523,2026-07-19,Postponed,Los Angeles Dodgers,New York Yankees,Emmet Sheehan,Ryan Weathers,0.4954243215747082,0
+823523,2026-07-19,Pre-Game,Los Angeles Dodgers,New York Yankees,Yoshinobu Yamamoto,Cam Schlittler,0.47013011668043075,0
+823764,2026-07-19,Scheduled,Miami Marlins,Milwaukee Brewers,Eury Pérez,Robert Gasser,0.5601229282856593,1
+824007,2026-07-19,Scheduled,Detroit Tigers,Los Angeles Angels,Casey Mize,Ryan Johnson,0.4370326927412631,0
+824086,2026-07-19,Pre-Game,San Diego Padres,Kansas City Royals,Germán Márquez,Noah Cameron,0.5019797831387476,1
+824168,2026-07-19,Scheduled,Baltimore Orioles,Houston Astros,Brandon Young,Hunter Brown,0.4823925210715617,0
+824330,2026-07-19,Scheduled,Cincinnati Reds,Colorado Rockies,Hunter Greene,Ryan Feltner,0.493078805726107,0
+824411,2026-07-19,Pre-Game,Pittsburgh Pirates,Cleveland Guardians,Paul Skenes,Joey Cantillo,0.5703262008813565,1
+824653,2026-07-19,Scheduled,Minnesota Twins,Chicago Cubs,Zebby Matthews,Shota Imanaga,0.48267399284710066,0
+824739,2026-07-19,Pre-Game,Tampa Bay Rays,Boston Red Sox,Shane McClanahan,Sonny Gray,0.6128824373313664,1
+824897,2026-07-19,Pre-Game,Texas Rangers,Atlanta Braves,Nathan Eovaldi,Grant Holmes,0.5470577287977759,1
+824978,2026-07-19,Scheduled,Washington Nationals,Athletics,Foster Griffin,Jacob Lopez,0.44885432396539926,0
+825057,2026-07-19,Scheduled,St. Louis Cardinals,Arizona Diamondbacks,Andre Pallante,Eduardo Rodriguez,0.6348484368924038,1

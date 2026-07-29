@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822704,2026-07-25,Scheduled,Arizona Diamondbacks,Washington Nationals,,,,,0.5199036078679227,,-0.0409212461921884,0.04092124619218823,-143.0,117.0,7.0,Mitch Bratt,Foster Griffin
+822869,2026-07-25,Scheduled,Seattle Mariners,Texas Rangers,home,Texas Rangers,-105.0,-105,0.6268987374668947,0.1377329736532436,0.1377329736532436,-0.13773297365324355,-105.0,-115.0,7.0,Bryan Woo,Nathan Eovaldi
+822948,2026-07-25,Scheduled,Cleveland Guardians,Tampa Bay Rays,home,Tampa Bay Rays,-122.0,-122,0.5798652231443353,0.05626007292974311,0.05626007292974311,-0.056260072929742944,-122.0,100.0,7.0,Tanner Bibee,Nick Martinez
+823027,2026-07-25,Scheduled,Cincinnati Reds,St. Louis Cardinals,home,St. Louis Cardinals,-115.0,-115,0.5948798238420653,0.08404558765571646,0.08404558765571646,-0.0840455876557164,-115.0,-105.0,7.0,Hunter Greene,Andre Pallante
+823197,2026-07-25,Scheduled,Los Angeles Angels,San Francisco Giants,,,,,0.58087884683121,,0.04580543736954612,-0.04580543736954612,-128.0,105.0,7.0,Ryan Johnson,Robbie Ray
+823355,2026-07-25,Scheduled,Chicago Cubs,Pittsburgh Pirates,,,,,0.5466221767979209,,0.024883046363138317,-0.024883046363138317,-120.0,100.0,7.0,Shota Imanaga,Paul Skenes
+823435,2026-07-25,Scheduled,New York Yankees,Philadelphia Phillies,,,,,0.49657867938775724,,0.03333598049551145,-0.033335980495511564,105.0,-130.0,7.0,Ryan Weathers,
+823600,2026-07-25,Scheduled,Los Angeles Dodgers,New York Mets,home,New York Mets,128.0,+128,0.48387324420311684,0.06535375688948886,0.06535375688948886,-0.06535375688948875,128.0,-156.0,7.0,Yoshinobu Yamamoto,Nolan McLean
+823758,2026-07-25,Scheduled,Colorado Rockies,Milwaukee Brewers,away,Colorado Rockies,185.0,+185,0.6113793511882012,0.0552043761071459,-0.0552043761071459,0.0552043761071459,-235.0,185.0,7.0,Ryan Feltner,Robert Gasser
+823841,2026-07-25,Scheduled,San Diego Padres,Miami Marlins,,,,,0.5516147421116302,,-0.005492673123139613,0.005492673123139669,-141.0,115.0,7.0,Randy Vásquez,Eury Pérez
+824244,2026-07-25,Pre-Game,Kansas City Royals,Detroit Tigers,,,,,0.5905654819054893,,-0.0045516611682843156,0.00455166116828426,-167.0,135.0,7.0,Michael Wacha,Casey Mize
+824571,2026-07-25,Scheduled,Houston Astros,Chicago White Sox,,,,,0.5633194354724161,,0.033293325811841745,-0.03329332581184169,-125.0,103.0,7.0,Hunter Brown,Sean Burke
+824734,2026-07-25,Scheduled,Toronto Blue Jays,Boston Red Sox,home,Boston Red Sox,-110.0,-110,0.5917507059159013,0.09175070591590129,0.09175070591590129,-0.09175070591590129,-110.0,-110.0,7.0,Dylan Cease,Sonny Gray
+824811,2026-07-25,Scheduled,Atlanta Braves,Baltimore Orioles,home,Baltimore Orioles,-115.0,-115,0.5773844364374134,0.06655020025106462,0.06655020025106462,-0.06655020025106456,-115.0,-105.0,7.0,Bryce Elder,Brandon Young

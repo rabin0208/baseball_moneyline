@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822706,2026-07-26,Pre-Game,Arizona Diamondbacks,Washington Nationals,home,Washington Nationals,-105.0,-105,0.6151435358969087,0.12894982306768193,0.12894982306768193,-0.12894982306768177,-105.0,-118.0,7.0,Kohl Drake,Miles Mikolas
+822870,2026-07-26,Scheduled,Seattle Mariners,Texas Rangers,,,,,0.49149819552740664,,-0.008501804472593355,0.0085018044725933,-110.0,-110.0,7.0,Logan Gilbert,Jacob deGrom
+822950,2026-07-26,Pre-Game,Cleveland Guardians,Tampa Bay Rays,home,Tampa Bay Rays,-127.0,-127,0.6454009636767242,0.11118530757741163,0.11118530757741163,-0.11118530757741152,-127.0,105.0,7.0,Parker Messick,Drew Rasmussen
+823028,2026-07-26,Pre-Game,Cincinnati Reds,St. Louis Cardinals,home,St. Louis Cardinals,-135.0,-135,0.6102217820311443,0.06227525899565323,0.06227525899565323,-0.06227525899565328,-135.0,111.0,7.0,Andrew Abbott,Kyle Leahy
+823194,2026-07-26,Scheduled,Los Angeles Angels,San Francisco Giants,home,San Francisco Giants,-110.0,-110,0.5971726927078219,0.09930762012028987,0.09930762012028987,-0.09930762012028993,-110.0,-112.0,7.0,José Soriano,Carson Whisenhunt
+823354,2026-07-26,Scheduled,Chicago Cubs,Pittsburgh Pirates,,,,,0.5347485355390202,,-0.00963481088674567,0.00963481088674567,-132.0,110.0,7.0,Jameson Taillon,Braxton Ashcraft
+823433,2026-07-26,Scheduled,New York Yankees,Philadelphia Phillies,away,New York Yankees,155.0,+155,0.46818683611178985,0.15822053338667486,-0.1582205333866749,0.15822053338667486,-192.0,155.0,7.0,Will Warren,Cristopher Sánchez
+823599,2026-07-26,Pre-Game,Los Angeles Dodgers,New York Mets,home,New York Mets,125.0,+125,0.48549322201976997,0.06313297357256492,0.06313297357256492,-0.06313297357256509,125.0,-155.0,7.0,Emmet Sheehan,Freddy Peralta
+823755,2026-07-26,Pre-Game,Colorado Rockies,Milwaukee Brewers,away,Colorado Rockies,275.0,+275,0.5829738515563517,0.16253638093703543,-0.16253638093703549,0.16253638093703543,-357.0,275.0,7.0,Kyle Freeland,Jacob Misiorowski
+823840,2026-07-26,Pre-Game,San Diego Padres,Miami Marlins,away,San Diego Padres,110.0,+110,0.42199945099756253,0.123188915194122,-0.12318891519412212,0.123188915194122,-133.0,110.0,7.0,Walker Buehler,Janson Junk
+824246,2026-07-26,Pre-Game,Kansas City Royals,Detroit Tigers,away,Kansas City Royals,155.0,+155,0.5600207177486914,0.0663866517497732,-0.06638665174977332,0.0663866517497732,-192.0,155.0,7.0,Luinder Avila,Framber Valdez
+824572,2026-07-26,Scheduled,Houston Astros,Chicago White Sox,home,Chicago White Sox,-110.0,-110,0.551958905096307,0.05195890509630696,0.05195890509630696,-0.05195890509630696,-110.0,-110.0,7.0,Ronel Blanco,Erick Fedde
+824730,2026-07-26,Pre-Game,Toronto Blue Jays,Boston Red Sox,home,Boston Red Sox,-135.0,-135,0.6209560551687856,0.07067378552951653,0.07067378552951653,-0.07067378552951664,-135.0,113.0,7.0,Kevin Gausman,Ranger Suarez
+824810,2026-07-26,Pre-Game,Atlanta Braves,Baltimore Orioles,,,,,0.5083139375956135,,0.008313937595613496,-0.008313937595613496,-110.0,-110.0,7.0,Reynaldo López,Shane Baz

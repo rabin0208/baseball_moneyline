@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822703,2026-07-28,Scheduled,Toronto Blue Jays,Washington Nationals,,,,,0.5214851490682496,,-0.03933970499186146,0.03933970499186129,-143.0,117.0,7.0,Shane Bieber,Cade Cavalli
+822949,2026-07-28,Scheduled,Texas Rangers,Tampa Bay Rays,away,Texas Rangers,150.0,+150,0.5611098530749455,0.057619243915021046,-0.057619243915020935,0.057619243915021046,-185.0,150.0,7.0,,Griffin Jax
+823026,2026-07-28,Scheduled,Chicago Cubs,St. Louis Cardinals,,,,,0.5269840529326001,,0.03781828911894897,-0.03781828911894891,-105.0,-115.0,7.0,Colin Rea,
+823193,2026-07-28,Scheduled,Milwaukee Brewers,San Francisco Giants,,,,,0.44930712367851655,,0.026946875231311507,-0.026946875231311673,125.0,-155.0,7.0,Logan Henderson,Landen Roupp
+823275,2026-07-28,Scheduled,Colorado Rockies,San Diego Padres,,,,,0.6179518647256411,,-0.029610346737032,0.029610346737032,-213.0,170.0,7.0,Michael Lorenzen,Michael King
+823350,2026-07-28,Scheduled,Arizona Diamondbacks,Pittsburgh Pirates,,,,,0.505096296618978,,-0.005737939567370787,0.005737939567370842,-115.0,-105.0,7.0,Brandon Pfaadt,Bubba Chandler
+823598,2026-07-28,Scheduled,Atlanta Braves,New York Mets,home,New York Mets,135.0,+135,0.5697271085014793,0.16375238617286964,0.16375238617286964,-0.16375238617286958,135.0,-165.0,7.0,Chris Sale,Christian Scott
+823676,2026-07-28,Scheduled,Kansas City Royals,Minnesota Twins,away,Kansas City Royals,140.0,+140,0.5508278390848338,0.05094207241959098,-0.050942072419591033,0.05094207241959098,-170.0,140.0,7.0,Seth Lugo,Taj Bradley
+823838,2026-07-28,Scheduled,Philadelphia Phillies,Miami Marlins,,,,,0.49377347172846253,,-0.01706076445788629,0.017060764457886346,-115.0,-105.0,7.0,Aaron Nola,Sandy Alcantara
+823923,2026-07-28,Scheduled,Seattle Mariners,Los Angeles Dodgers,,,,,0.5932213282676393,,-0.03318604123082547,0.03318604123082536,-192.0,155.0,7.0,Luis Castillo,
+824003,2026-07-28,Scheduled,Houston Astros,Los Angeles Angels,away,Houston Astros,-110.0,-110,0.42950673849021076,0.0704932615097893,-0.07049326150978924,0.0704932615097893,-110.0,-110.0,7.0,Peter Lambert,Reid Detmers
+824243,2026-07-28,Scheduled,Baltimore Orioles,Detroit Tigers,,,,,0.5649493482011271,,-0.0006534886783055027,0.0006534886783055582,-145.0,120.0,7.0,Dean Kremer,Troy Melton
+824489,2026-07-28,Scheduled,Cleveland Guardians,Cincinnati Reds,away,Cleveland Guardians,135.5,+136,0.4939370566810456,0.09920447194435394,-0.09920447194435411,0.09920447194435394,-162.5,135.5,7.0,Gavin Williams,
+824490,2026-07-28,Postponed,Cleveland Guardians,Cincinnati Reds,away,Cleveland Guardians,135.5,+136,0.5429660492225519,0.05017547940284767,-0.050175479402847833,0.05017547940284767,-162.5,135.5,7.0,Slade Cecconi,Chase Burns
+824490,2026-07-28,Pre-Game,Cleveland Guardians,Cincinnati Reds,away,Cleveland Guardians,135.5,+136,0.5429660492225519,0.05017547940284767,-0.050175479402847833,0.05017547940284767,-162.5,135.5,7.0,Slade Cecconi,Chase Burns
+824569,2026-07-28,Scheduled,New York Yankees,Chicago White Sox,,,,,0.4919462359299274,,0.0244137683974599,-0.0244137683974599,105.0,-125.0,7.0,Gerrit Cole,Anthony Kay

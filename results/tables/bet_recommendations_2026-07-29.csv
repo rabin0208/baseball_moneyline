@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822702,2026-07-29,In Progress,Toronto Blue Jays,Washington Nationals,home,Washington Nationals,100.0,+100,0.5695880728672209,0.0913272033020035,0.0913272033020035,-0.0913272033020035,100.0,-120.0,7.0,Trey Yesavage,Zack Littell
+822947,2026-07-29,Scheduled,Texas Rangers,Tampa Bay Rays,away,Texas Rangers,120.0,+120,0.5021940342719635,0.06200969600063333,-0.06200969600063333,0.06200969600063333,-143.0,120.0,7.0,MacKenzie Gore,Casey Legumina
+823022,2026-07-29,Scheduled,Chicago Cubs,St. Louis Cardinals,away,Chicago Cubs,-111.0,-111,0.4160891193248074,0.08283607414036886,-0.08283607414036892,0.08283607414036886,-110.0,-111.0,7.0,Matthew Boyd,Dustin May
+823192,2026-07-29,Pre-Game,Milwaukee Brewers,San Francisco Giants,,,,,0.5033897697514669,,0.005524697163934833,-0.0055246971639348885,-110.0,-112.0,7.0,Thomas Pannone,Logan Webb
+823273,2026-07-29,Pre-Game,Colorado Rockies,San Diego Padres,,,,,0.6396353672526366,,0.04992886072095293,-0.04992886072095276,-161.0,133.0,7.0,Gabriel Hughes,Kyle Hart
+823351,2026-07-29,Manager challenge,Arizona Diamondbacks,Pittsburgh Pirates,,,,,0.5470822072197881,,-0.012308618602469124,0.012308618602469068,-141.0,117.0,7.0,Eduardo Rodriguez,Jared Jones
+823596,2026-07-29,In Progress,Atlanta Braves,New York Mets,away,Atlanta Braves,-137.5,-138,0.5410760915769202,0.06663220843907214,-0.06663220843907225,0.06663220843907214,11.5,-137.5,7.0,AJ Smith-Shawver,Sean Manaea
+823598,2026-07-29,Postponed,Atlanta Braves,New York Mets,,,,,0.569861359275491,,-0.037846940740501434,0.03784694074050132,11.5,-137.5,7.0,Chris Sale,Christian Scott
+823598,2026-07-29,Scheduled,Atlanta Braves,New York Mets,,,,,0.569861359275491,,-0.037846940740501434,0.03784694074050132,11.5,-137.5,7.0,Chris Sale,Christian Scott
+823677,2026-07-29,Scheduled,Kansas City Royals,Minnesota Twins,away,Kansas City Royals,160.0,+160,0.4964599358661558,0.13768640559725887,-0.13768640559725875,0.13768640559725887,-200.0,160.0,7.0,Randy Dobnak,Joe Ryan
+823837,2026-07-29,In Progress,Philadelphia Phillies,Miami Marlins,home,Miami Marlins,145.0,+145,0.46635801736258486,0.077534938831472,0.077534938831472,-0.077534938831472,145.0,-179.0,7.0,Jesús Luzardo,Ryan Gusto
+823924,2026-07-29,Scheduled,Seattle Mariners,Los Angeles Dodgers,,,,,0.6028737287808965,,0.005138329496033545,-0.0051383294960336,-170.0,136.0,7.0,Emerson Hancock,Eric Lauer
+824002,2026-07-29,Scheduled,Houston Astros,Los Angeles Angels,home,Los Angeles Angels,110.0,+110,0.5182721770601271,0.06504170454325148,0.06504170454325148,-0.06504170454325153,110.0,-135.0,7.0,Hayden Wesneski,Grayson Rodriguez
+824242,2026-07-29,In Progress,Baltimore Orioles,Detroit Tigers,away,Baltimore Orioles,155.0,+155,0.4929091497930034,0.13265573077510506,-0.13265573077510506,0.13265573077510506,-190.0,155.0,7.0,Trevor Rogers,Tarik Skubal
+824487,2026-07-29,Scheduled,Cleveland Guardians,Cincinnati Reds,,,,,0.46976672392158125,,0.026143803404021226,-0.026143803404021115,115.0,-140.0,7.0,Joey Cantillo,Brady Singer
+824567,2026-07-29,Scheduled,New York Yankees,Chicago White Sox,home,Chicago White Sox,122.0,+122,0.5036139707446747,0.07479750419235909,0.07479750419235909,-0.07479750419235909,122.0,-150.0,7.0,Cam Schlittler,Davis Martin

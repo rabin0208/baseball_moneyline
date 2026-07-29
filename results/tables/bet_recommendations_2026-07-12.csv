@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822708,2026-07-12,Pre-Game,New York Yankees,Washington Nationals,home,Washington Nationals,-115.0,-115,0.5796761245583668,0.06884188837201799,0.06884188837201799,-0.06884188837201793,-115.0,-105.0,7.0,Will Warren,Cade Cavalli
+822876,2026-07-12,Scheduled,Houston Astros,Texas Rangers,away,Houston Astros,112.0,+112,0.47471444664470513,0.07594534404238729,-0.07594534404238734,0.07594534404238729,-137.0,112.0,7.0,Cristian Javier,MacKenzie Gore
+822951,2026-07-12,Pre-Game,Seattle Mariners,Tampa Bay Rays,,,,,0.5442009404593258,,-0.015485947994685945,0.015485947994685945,-143.0,116.0,7.0,Emerson Hancock,Ian Seymour
+823029,2026-07-12,Scheduled,Atlanta Braves,St. Louis Cardinals,home,St. Louis Cardinals,-128.0,-128,0.5868953168339998,0.05182190737233583,0.05182190737233583,-0.05182190737233583,-128.0,105.0,7.0,JR Ritchie,Dustin May
+823199,2026-07-12,Scheduled,Colorado Rockies,San Francisco Giants,away,Colorado Rockies,118.0,+118,0.4428923751107475,0.11906457769597273,-0.11906457769597267,0.11906457769597273,-143.0,118.0,7.0,Michael Lorenzen,Trevor McDonald
+823274,2026-07-12,Scheduled,Toronto Blue Jays,San Diego Padres,home,San Diego Padres,108.0,+108,0.5317930211203492,0.07380186508750014,0.07380186508750014,-0.0738018650875002,108.0,-132.0,7.0,Kevin Gausman,Germán Márquez
+823358,2026-07-12,Pre-Game,Milwaukee Brewers,Pittsburgh Pirates,away,Milwaukee Brewers,105.0,+105,0.46496635215887905,0.06750118030865343,-0.06750118030865349,0.06750118030865343,-125.0,105.0,7.0,Robert Gasser,Paul Skenes
+823602,2026-07-12,Pre-Game,Boston Red Sox,New York Mets,,,,,0.4689272661471706,,-0.028937806440361424,0.02893780644036137,-110.0,-112.0,7.0,Payton Tolle,Zach Thornton
+823681,2026-07-12,Pre-Game,Los Angeles Angels,Minnesota Twins,home,Minnesota Twins,-137.0,-137,0.6532516334838485,0.10259184279675604,0.10259184279675604,-0.10259184279675615,-137.0,112.0,7.0,José Soriano,Taj Bradley
+823842,2026-07-12,Pre-Game,Cleveland Guardians,Miami Marlins,,,,,0.4652923235140646,,-0.04213236889153571,0.04213236889153571,-115.0,-108.0,7.0,Joey Cantillo,Tyler Phillips
+823925,2026-07-12,Scheduled,Arizona Diamondbacks,Los Angeles Dodgers,away,Arizona Diamondbacks,185.0,+185,0.5178553145031043,0.14639849729421595,-0.14639849729421583,0.14639849729421595,-227.0,185.0,7.0,Mitch Bratt,Emmet Sheehan
+824250,2026-07-12,Pre-Game,Philadelphia Phillies,Detroit Tigers,home,Detroit Tigers,-130.0,-130,0.6146597376066296,0.07669268256444406,0.07669268256444406,-0.076692682564444,-130.0,106.0,7.0,Zack Wheeler,Tarik Skubal
+824491,2026-07-12,Pre-Game,Chicago Cubs,Cincinnati Reds,home,Cincinnati Reds,108.0,+108,0.5657615680467991,0.10612927388213078,0.10612927388213078,-0.10612927388213089,108.0,-130.0,7.0,Matthew Boyd,Andrew Abbott
+824814,2026-07-12,Pre-Game,Kansas City Royals,Baltimore Orioles,,,,,0.5475360961658868,,-0.024747907255841084,0.02474790725584114,-150.0,123.0,7.0,Seth Lugo,Shane Baz

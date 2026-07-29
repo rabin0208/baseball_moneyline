@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822709,2026-07-10,Scheduled,New York Yankees,Washington Nationals,home,Washington Nationals,134.0,+134,0.5415357808600699,0.13397742591379352,0.13397742591379352,-0.13397742591379358,134.0,-164.0,7.0,Ryan Weathers,Carson Palmquist
+822878,2026-07-10,Scheduled,Houston Astros,Texas Rangers,home,Texas Rangers,117.0,+117,0.5260235686974407,0.08684842275755161,0.08684842275755161,-0.08684842275755178,117.0,-143.0,7.0,Hunter Brown,Cal Quantrill
+822955,2026-07-10,Scheduled,Seattle Mariners,Tampa Bay Rays,,,,,0.5053701987291855,,-0.019150057134353915,0.019150057134353915,-123.0,100.0,7.0,Luis Castillo,Nick Martinez
+823033,2026-07-10,Scheduled,Atlanta Braves,St. Louis Cardinals,home,St. Louis Cardinals,137.0,+137,0.5118246665304297,0.11057633839846359,0.11057633839846359,-0.11057633839846359,137.0,-170.0,7.0,Chris Sale,Kyle Leahy
+823200,2026-07-10,Scheduled,Colorado Rockies,San Francisco Giants,away,Colorado Rockies,137.0,+137,0.5141974852881113,0.08402813566987422,-0.0840281356698741,0.08402813566987422,-169.0,137.0,7.0,Tanner Gordon,Robbie Ray
+823278,2026-07-10,Scheduled,Toronto Blue Jays,San Diego Padres,,,,,0.4746353033755649,,-0.044644902279962095,0.04464490227996204,-120.0,-102.0,7.0,Shane Bieber,JP Sears
+823357,2026-07-10,Scheduled,Milwaukee Brewers,Pittsburgh Pirates,,,,,0.5288017825677852,,-0.006271626893878723,0.006271626893878723,-128.0,105.0,7.0,Brandon Sproat,Braxton Ashcraft
+823604,2026-07-10,Scheduled,Boston Red Sox,New York Mets,away,Boston Red Sox,112.0,+112,0.46390218395873956,0.08521523737664027,-0.08521523737664044,0.08521523737664027,-135.0,112.0,7.0,Sonny Gray,Nolan McLean
+823685,2026-07-10,Scheduled,Los Angeles Angels,Minnesota Twins,home,Minnesota Twins,-132.0,-132,0.6076062147646729,0.06559737079752193,0.06559737079752193,-0.06559737079752198,-132.0,108.0,7.0,Grayson Rodriguez,Zebby Matthews
+823845,2026-07-10,Scheduled,Cleveland Guardians,Miami Marlins,home,Miami Marlins,-122.0,-122,0.5883162353674697,0.06471108515287749,0.06471108515287749,-0.06471108515287732,-122.0,100.0,7.0,Parker Messick,Sandy Alcantara
+823927,2026-07-10,Scheduled,Arizona Diamondbacks,Los Angeles Dodgers,away,Arizona Diamondbacks,200.0,+200,0.5675222945195977,0.11737353881373569,-0.11737353881373558,0.11737353881373569,-263.0,200.0,7.0,Eduardo Rodriguez,Shohei Ohtani
+824252,2026-07-10,Scheduled,Philadelphia Phillies,Detroit Tigers,,,,,0.5786945161138632,,0.04989870459553858,-0.049898704595538634,-125.0,102.0,7.0,Aaron Nola,Jack Flaherty
+824493,2026-07-10,Scheduled,Chicago Cubs,Cincinnati Reds,,,,,0.44003933040694765,,-0.049126433406703474,0.04912643340670353,-105.0,-115.0,7.0,Shota Imanaga,Hunter Greene
+824817,2026-07-10,Scheduled,Kansas City Royals,Baltimore Orioles,,,,,0.5954040208026501,,0.014993609735974633,-0.014993609735974744,-156.0,127.0,7.0,Luinder Avila,Brandon Young

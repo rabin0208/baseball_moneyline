@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822705,2026-07-27,Pre-Game,Toronto Blue Jays,Washington Nationals,,,,,0.5685042635324776,,0.03603673106494509,-0.03603673106494515,-125.0,105.0,7.0,Max Scherzer,Eddy Yean
+823025,2026-07-27,Pre-Game,Chicago Cubs,St. Louis Cardinals,home,St. Louis Cardinals,102.0,+102,0.5348963024722172,0.06369211399054181,0.06369211399054181,-0.06369211399054187,102.0,-125.0,7.0,David Peterson,Matthew Liberatore
+823195,2026-07-27,Pre-Game,Milwaukee Brewers,San Francisco Giants,home,San Francisco Giants,115.0,+115,0.5349533664393412,0.09133044592178119,0.09133044592178119,-0.09133044592178108,115.0,-140.0,7.0,Brandon Sproat,Tyler Mahle
+823353,2026-07-27,Pre-Game,Arizona Diamondbacks,Pittsburgh Pirates,,,,,0.5436034735834263,,0.024323267927899295,-0.02432326792789935,-120.0,-102.0,7.0,Merrill Kelly,Mitch Keller
+823597,2026-07-27,Pre-Game,Atlanta Braves,New York Mets,,,,,0.5148627304723059,,0.013787923937482183,-0.013787923937482238,-111.0,-110.0,7.0,Martín Pérez,Zac Thornton
+823839,2026-07-27,Pre-Game,Philadelphia Phillies,Miami Marlins,home,Miami Marlins,160.0,+160,0.4685259530437236,0.0994662968253211,0.0994662968253211,-0.09946629682532115,160.0,-192.0,7.0,Zack Wheeler,Tyler Phillips
+824001,2026-07-27,Pre-Game,Houston Astros,Los Angeles Angels,,,,,0.5207174928673384,,0.02285242027980633,-0.022852420279806385,-110.0,-112.0,7.0,Tatsuya Imai,Walbert Ureña
+824245,2026-07-27,Pre-Game,Baltimore Orioles,Detroit Tigers,away,Baltimore Orioles,105.0,+105,0.4713892284363407,0.0610783040311918,-0.061078304031191855,0.0610783040311918,-125.0,105.0,7.0,Kyle Bradish,Keider Montero
+824490,2026-07-27,Pre-Game,Cleveland Guardians,Cincinnati Reds,away,Cleveland Guardians,135.0,+135,0.5428301384533243,0.05119513921806601,-0.051195139218065955,0.05119513921806601,-165.0,135.0,7.0,Slade Cecconi,Chase Burns
+824570,2026-07-27,Pre-Game,New York Yankees,Chicago White Sox,home,Chicago White Sox,120.0,+120,0.5003816492581891,0.06735219624276129,0.06735219624276129,-0.06735219624276123,120.0,-147.0,7.0,Max Fried,Noah Schultz

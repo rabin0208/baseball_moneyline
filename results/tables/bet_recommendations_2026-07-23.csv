@@ -1,0 +1,7 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822785,2026-07-23,Scheduled,Tampa Bay Rays,Toronto Blue Jays,away,Tampa Bay Rays,-110.0,-110,0.4025691364937469,0.09743086350625307,-0.09743086350625307,0.09743086350625307,-110.0,-110.0,7,Ian Seymour,Shane Bieber
+823042,2026-07-23,Postponed,Arizona Diamondbacks,St. Louis Cardinals,away,Arizona Diamondbacks,101.0,+101,0.4220725669353602,0.10548648818275003,-0.10548648818275008,0.10548648818275003,-125.0,101.0,7,Zac Gallen,Michael McGreevy
+823042,2026-07-23,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,away,Arizona Diamondbacks,101.0,+101,0.38547311704133486,0.14208593807677544,-0.14208593807677544,0.14208593807677544,-125.0,101.0,7,Brandon Pfaadt,Michael McGreevy
+824247,2026-07-23,Scheduled,Kansas City Royals,Detroit Tigers,,,,,0.6288334204771691,,-0.029920288721643984,0.029920288721643984,-222.0,180.0,7,Randy Dobnak,Troy Melton
+824406,2026-07-23,Pre-Game,Minnesota Twins,Cleveland Guardians,,,,,0.562158699606707,,0.00020174679998674616,-0.00020174679998669065,-143.0,118.0,7,Taj Bradley,Gavin Williams
+824893,2026-07-23,Pre-Game,San Diego Padres,Atlanta Braves,away,San Diego Padres,210.0,+210,0.5424708449366461,0.14878129914568666,-0.1487812991456866,0.14878129914568666,-260.0,210.0,7,Kyle Hart,Chris Sale

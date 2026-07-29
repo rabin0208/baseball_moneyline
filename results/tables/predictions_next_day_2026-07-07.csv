@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822713,2026-07-07,Scheduled,Houston Astros,Washington Nationals,Tatsuya Imai,Andrew Alvarez,0.5787550454884273,1
+822881,2026-07-07,Scheduled,Los Angeles Angels,Texas Rangers,José Soriano,Jacob deGrom,0.5587264395192946,1
+822956,2026-07-07,Scheduled,New York Yankees,Tampa Bay Rays,Will Warren,Ian Seymour,0.6437933720117874,1
+823035,2026-07-07,Scheduled,Milwaukee Brewers,St. Louis Cardinals,Robert Gasser,,0.47671540511640254,0
+823062,2026-07-07,Postponed,Milwaukee Brewers,St. Louis Cardinals,Brandon Sproat,Andre Pallante,0.5085802309692,1
+823062,2026-07-07,Pre-Game,Milwaukee Brewers,St. Louis Cardinals,Jacob Misiorowski,Matt Svanson,0.48100241975629576,0
+823203,2026-07-07,Scheduled,Toronto Blue Jays,San Francisco Giants,Spencer Miles,Trevor McDonald,0.5415908838222917,1
+823280,2026-07-07,Scheduled,Arizona Diamondbacks,San Diego Padres,Zac Gallen,Germán Márquez,0.49020386898622775,0
+823361,2026-07-07,Scheduled,Atlanta Braves,Pittsburgh Pirates,Hurston Waldrep,Paul Skenes,0.363327422010208,0
+823607,2026-07-07,Scheduled,Kansas City Royals,New York Mets,Seth Lugo,,0.5544408005394027,1
+823687,2026-07-07,Scheduled,Cleveland Guardians,Minnesota Twins,Joey Cantillo,Taj Bradley,0.5669300141716607,1
+823847,2026-07-07,Scheduled,Seattle Mariners,Miami Marlins,,Max Meyer,0.5774727845568736,1
+823929,2026-07-07,Scheduled,Colorado Rockies,Los Angeles Dodgers,Michael Lorenzen,Justin Wrobleski,0.6195996648846834,1
+824254,2026-07-07,Scheduled,Athletics,Detroit Tigers,J.T. Ginn,Tarik Skubal,0.5896972823862344,1
+824495,2026-07-07,Scheduled,Philadelphia Phillies,Cincinnati Reds,Zack Wheeler,Andrew Abbott,0.5627976719483707,1
+824579,2026-07-07,Scheduled,Boston Red Sox,Chicago White Sox,Payton Tolle,Noah Schultz,0.45374252070971655,0
+824820,2026-07-07,Scheduled,Chicago Cubs,Baltimore Orioles,Matthew Boyd,Shane Baz,0.4558624661869975,0

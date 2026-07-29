@@ -1,0 +1,7 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822785,2026-07-23,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Ian Seymour,Shane Bieber,0.4025691364937469,0
+823042,2026-07-23,Postponed,Arizona Diamondbacks,St. Louis Cardinals,Zac Gallen,Michael McGreevy,0.4220725669353602,0
+823042,2026-07-23,Scheduled,Arizona Diamondbacks,St. Louis Cardinals,Brandon Pfaadt,Michael McGreevy,0.38547311704133486,0
+824247,2026-07-23,Scheduled,Kansas City Royals,Detroit Tigers,Randy Dobnak,Troy Melton,0.6288334204771691,1
+824406,2026-07-23,Pre-Game,Minnesota Twins,Cleveland Guardians,Taj Bradley,Gavin Williams,0.562158699606707,1
+824893,2026-07-23,Pre-Game,San Diego Padres,Atlanta Braves,Kyle Hart,Chris Sale,0.5424708449366461,1

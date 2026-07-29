@@ -21841,10 +21841,556 @@ game_id,game_date,game_datetime,status,away_id,away_name,away_score,home_id,home
 822729,2026-05-31,2026-05-31T17:35:00Z,Final,135,San Diego Padres,2.0,120,Washington Nationals,4.0,3309,Nationals Park,R,N,Zack Littell,Griffin Canning,Zack Littell,Griffin Canning,1,6.0,2.0,Sunday
 822895,2026-05-31,2026-05-31T18:35:00Z,Final,118,Kansas City Royals,3.0,140,Texas Rangers,6.0,5325,Globe Life Field,R,N,Jack Leiter,Michael Wacha,Jack Leiter,Michael Wacha,1,9.0,3.0,Sunday
 822976,2026-05-31,2026-05-31T17:40:00Z,Final,108,Los Angeles Angels,2.0,139,Tampa Bay Rays,5.0,12,Tropicana Field,R,N,Shane McClanahan,Jack Kochanowicz,Shane McClanahan,Jack Kochanowicz,1,7.0,3.0,Sunday
+823053,2026-05-31,2026-05-31T23:20:00Z,Final,112,Chicago Cubs,1.0,138,St. Louis Cardinals,5.0,2889,Busch Stadium,R,N,Matthew Liberatore,Jordan Wicks,Matthew Liberatore,Jordan Wicks,1,6.0,4.0,Sunday
+823133,2026-05-31,2026-05-31T20:10:00Z,Final,109,Arizona Diamondbacks,2.0,136,Seattle Mariners,3.0,680,T-Mobile Park,R,N,Luis Castillo,Jonathan Loáisiga,Bryce Miller,Merrill Kelly,1,5.0,1.0,Sunday
 823373,2026-05-31,2026-05-31T17:35:00Z,Final,142,Minnesota Twins,3.0,134,Pittsburgh Pirates,9.0,31,PNC Park,R,N,Braxton Ashcraft,Zebby Matthews,Braxton Ashcraft,Zebby Matthews,1,12.0,6.0,Sunday
 823621,2026-05-31,2026-05-31T17:40:00Z,Final,146,Miami Marlins,1.0,121,New York Mets,10.0,3289,Citi Field,R,N,Nolan McLean,John King,Nolan McLean,John King,1,11.0,9.0,Sunday
+823944,2026-05-31,2026-05-31T20:10:00Z,Final,143,Philadelphia Phillies,1.0,119,Los Angeles Dodgers,9.0,22,UNIQLO Field at Dodger Stadium,R,N,Yoshinobu Yamamoto,Andrew Painter,Yoshinobu Yamamoto,Andrew Painter,1,10.0,8.0,Sunday
 824187,2026-05-31,2026-05-31T18:10:00Z,Final,158,Milwaukee Brewers,2.0,117,Houston Astros,0.0,2392,Daikin Park,R,N,Jacob Misiorowski,Tatsuya Imai,Tatsuya Imai,Jacob Misiorowski,0,2.0,-2.0,Sunday
+824354,2026-05-31,2026-05-31T19:10:00Z,Final,137,San Francisco Giants,19.0,115,Colorado Rockies,6.0,19,Coors Field,R,N,Caleb Kilian,Tanner Gordon,Tanner Gordon,Robbie Ray,0,25.0,-13.0,Sunday
 824430,2026-05-31,2026-05-31T17:40:00Z,Final,111,Boston Red Sox,9.0,114,Cleveland Guardians,4.0,5,Progressive Field,R,N,Jovani Morán,Colin Holderman,Tanner Bibee,Ranger Suarez,0,13.0,-5.0,Sunday
 824512,2026-05-31,2026-05-31T17:40:00Z,Final,144,Atlanta Braves,4.0,113,Cincinnati Reds,6.0,2602,Great American Ball Park,R,N,Nick Lodolo,Spencer Strider,Nick Lodolo,Spencer Strider,1,10.0,2.0,Sunday
 824592,2026-05-31,2026-05-31T18:10:00Z,Final,116,Detroit Tigers,1.0,145,Chicago White Sox,2.0,4,Rate Field,R,N,Brandon Eisert,Drew Anderson,Sean Burke,Keider Montero,1,3.0,1.0,Sunday
 824832,2026-05-31,2026-05-31T16:15:00Z,Final,141,Toronto Blue Jays,5.0,110,Baltimore Orioles,9.0,2,Oriole Park at Camden Yards,R,N,Kyle Bradish,Spencer Miles,Kyle Bradish,Spencer Miles,1,14.0,4.0,Sunday
+825001,2026-05-31,2026-05-31T20:05:00Z,Final,147,New York Yankees,13.0,133,Athletics,8.0,2529,Sutter Health Park,R,N,Will Warren,Jacob Lopez,Jacob Lopez,Will Warren,0,21.0,-5.0,Sunday
+822730,2026-06-01,2026-06-01T22:45:00Z,Final,146,Miami Marlins,7.0,120,Washington Nationals,3.0,3309,Nationals Park,R,N,Sandy Alcantara,Richard Lovelady,Cade Cavalli,Sandy Alcantara,0,10.0,-4.0,Monday
+822974,2026-06-01,2026-06-01T22:40:00Z,Final,116,Detroit Tigers,10.0,139,Tampa Bay Rays,9.0,12,Tropicana Field,R,N,Tyler Holton,Griffin Jax,Griffin Jax,Ty Madden,0,19.0,-1.0,Monday
+823050,2026-06-01,2026-06-01T23:45:00Z,Final,140,Texas Rangers,2.0,138,St. Louis Cardinals,1.0,2889,Busch Stadium,R,N,Jacob deGrom,Michael McGreevy,Michael McGreevy,Jacob deGrom,0,3.0,-1.0,Monday
+823131,2026-06-01,2026-06-02T01:40:00Z,Final,121,New York Mets,2.0,136,Seattle Mariners,3.0,680,T-Mobile Park,R,N,Gabe Speier,A.J. Minter,Emerson Hancock,Austin Warren,1,5.0,1.0,Monday
+823702,2026-06-01,2026-06-01T23:40:00Z,Final,145,Chicago White Sox,6.0,142,Minnesota Twins,9.0,3312,Target Field,R,N,Joe Ryan,David Sandlin,Joe Ryan,David Sandlin,1,15.0,3.0,Monday
+823781,2026-06-01,2026-06-01T23:40:00Z,Final,137,San Francisco Giants,2.0,158,Milwaukee Brewers,16.0,32,American Family Field,R,N,Chad Patrick,Landen Roupp,Shane Drohan,Landen Roupp,1,18.0,14.0,Monday
+824027,2026-06-01,2026-06-02T01:38:00Z,Final,115,Colorado Rockies,9.0,108,Los Angeles Angels,8.0,1,Angel Stadium,R,N,Antonio Senzatela,Kirby Yates,José Soriano,Kyle Freeland,0,17.0,-1.0,Monday
+824510,2026-06-01,2026-06-01T23:10:00Z,Final,118,Kansas City Royals,9.0,113,Cincinnati Reds,2.0,2602,Great American Ball Park,R,N,Luinder Avila,Lyon Richardson,Lyon Richardson,Luinder Avila,0,11.0,-7.0,Monday
+825078,2026-06-01,2026-06-02T01:40:00Z,Final,119,Los Angeles Dodgers,1.0,109,Arizona Diamondbacks,4.0,15,Chase Field,R,N,Taylor Clarke,Emmet Sheehan,Eduardo Rodriguez,Emmet Sheehan,1,5.0,3.0,Monday
+822728,2026-06-02,2026-06-02T22:45:00Z,Final,146,Miami Marlins,7.0,120,Washington Nationals,3.0,3309,Nationals Park,R,N,John King,Miles Mikolas,Richard Lovelady,Lake Bachar,0,10.0,-4.0,Tuesday
+822971,2026-06-02,2026-06-02T22:40:00Z,Final,116,Detroit Tigers,8.0,139,Tampa Bay Rays,0.0,12,Tropicana Field,R,N,Jack Flaherty,Steven Matz,Steven Matz,Jack Flaherty,0,8.0,-8.0,Tuesday
+823052,2026-06-02,2026-06-02T23:45:00Z,Final,140,Texas Rangers,7.0,138,St. Louis Cardinals,4.0,2889,Busch Stadium,R,N,Cal Quantrill,Riley O'Brien,Dustin May,Nathan Eovaldi,0,11.0,-3.0,Tuesday
+823129,2026-06-02,2026-06-03T01:40:00Z,Final,121,New York Mets,3.0,136,Seattle Mariners,8.0,680,T-Mobile Park,R,N,Logan Gilbert,Jonah Tong,Logan Gilbert,Huascar Brazobán,1,11.0,5.0,Tuesday
+823460,2026-06-02,2026-06-02T22:40:00Z,Final,135,San Diego Padres,2.0,143,Philadelphia Phillies,3.0,2681,Citizens Bank Park,R,N,José Alvarado,Jeremiah Estrada,Aaron Nola,Randy Vásquez,1,5.0,1.0,Tuesday
+823541,2026-06-02,2026-06-02T23:05:00Z,Final,114,Cleveland Guardians,9.0,147,New York Yankees,4.0,3313,Yankee Stadium,R,N,Colin Holderman,Cam Schlittler,Cam Schlittler,Joey Cantillo,0,13.0,-5.0,Tuesday
+823700,2026-06-02,2026-06-02T23:40:00Z,Final,145,Chicago White Sox,4.0,142,Minnesota Twins,6.0,3312,Target Field,R,N,Connor Prielipp,Davis Martin,Connor Prielipp,Davis Martin,1,10.0,2.0,Tuesday
+823782,2026-06-02,2026-06-02T23:40:00Z,Final,137,San Francisco Giants,3.0,158,Milwaukee Brewers,8.0,32,American Family Field,R,N,Kyle Harrison,Trevor McDonald,Kyle Harrison,Trevor McDonald,1,11.0,5.0,Tuesday
+824026,2026-06-02,2026-06-03T01:38:00Z,Final,115,Colorado Rockies,8.0,108,Los Angeles Angels,2.0,1,Angel Stadium,R,N,Tomoyuki Sugano,Grayson Rodriguez,Grayson Rodriguez,Tomoyuki Sugano,0,10.0,-6.0,Tuesday
+824189,2026-06-02,2026-06-03T00:10:00Z,Final,134,Pittsburgh Pirates,10.0,117,Houston Astros,6.0,2392,Daikin Park,R,N,Bubba Chandler,Mike Burrows,Mike Burrows,Bubba Chandler,0,16.0,-4.0,Tuesday
+824511,2026-06-02,2026-06-02T23:10:00Z,Final,118,Kansas City Royals,3.0,113,Cincinnati Reds,4.0,2602,Great American Ball Park,R,N,Brock Burke,John Schreiber,Andrew Abbott,Noah Cameron,1,7.0,1.0,Tuesday
+824675,2026-06-02,2026-06-03T00:05:00Z,Final,133,Athletics,2.0,112,Chicago Cubs,1.0,17,Wrigley Field,R,N,Gage Jump,Jameson Taillon,Jameson Taillon,Gage Jump,0,3.0,-1.0,Tuesday
+824754,2026-06-02,2026-06-02T22:45:00Z,Final,110,Baltimore Orioles,4.0,111,Boston Red Sox,2.0,3,Fenway Park,R,N,Shane Baz,Connelly Early,Connelly Early,Shane Baz,0,6.0,-2.0,Tuesday
+824918,2026-06-02,2026-06-02T23:15:00Z,Final,141,Toronto Blue Jays,3.0,144,Atlanta Braves,4.0,4705,Truist Park,R,N,Bryce Elder,Kevin Gausman,Bryce Elder,Kevin Gausman,1,7.0,1.0,Tuesday
+825079,2026-06-02,2026-06-03T01:40:00Z,Final,119,Los Angeles Dodgers,6.0,109,Arizona Diamondbacks,5.0,15,Chase Field,R,N,Blake Treinen,Michael Soroka,Michael Soroka,Eric Lauer,0,11.0,-1.0,Tuesday
+822727,2026-06-03,2026-06-03T17:05:00Z,Final,146,Miami Marlins,4.0,120,Washington Nationals,1.0,3309,Nationals Park,R,N,Max Meyer,Clayton Beeter,Andrew Alvarez,Max Meyer,0,5.0,-3.0,Wednesday
+822973,2026-06-03,2026-06-03T17:10:00Z,Final,116,Detroit Tigers,7.0,139,Tampa Bay Rays,2.0,12,Tropicana Field,R,N,Troy Melton,Nick Martinez,Nick Martinez,Troy Melton,0,9.0,-5.0,Wednesday
+823051,2026-06-03,2026-06-03T23:45:00Z,Final,140,Texas Rangers,3.0,138,St. Louis Cardinals,5.0,2889,Busch Stadium,R,N,Andre Pallante,MacKenzie Gore,Andre Pallante,MacKenzie Gore,1,8.0,2.0,Wednesday
+823130,2026-06-03,2026-06-03T19:40:00Z,Final,121,New York Mets,7.0,136,Seattle Mariners,1.0,680,T-Mobile Park,R,N,Freddy Peralta,George Kirby,George Kirby,Freddy Peralta,0,8.0,-6.0,Wednesday
+823456,2026-06-03,2026-06-03T22:40:00Z,Final,135,San Diego Padres,2.0,143,Philadelphia Phillies,3.0,2681,Citizens Bank Park,R,N,Cristopher Sánchez,Jason Adam,Cristopher Sánchez,Walker Buehler,1,5.0,1.0,Wednesday
+823540,2026-06-03,2026-06-03T23:05:00Z,Final,114,Cleveland Guardians,5.0,147,New York Yankees,4.0,3313,Yankee Stadium,R,N,Gavin Williams,Gerrit Cole,Gerrit Cole,Gavin Williams,0,9.0,-1.0,Wednesday
+823701,2026-06-03,2026-06-03T17:40:00Z,Final,145,Chicago White Sox,8.0,142,Minnesota Twins,0.0,3312,Target Field,R,N,Erick Fedde,Taj Bradley,Taj Bradley,Erick Fedde,0,8.0,-8.0,Wednesday
+823780,2026-06-03,2026-06-03T23:40:00Z,Final,137,San Francisco Giants,1.0,158,Milwaukee Brewers,0.0,32,American Family Field,R,N,Logan Webb,Robert Gasser,Robert Gasser,Logan Webb,0,1.0,-1.0,Wednesday
+824024,2026-06-03,2026-06-04T01:38:00Z,Final,115,Colorado Rockies,4.0,108,Los Angeles Angels,11.0,1,Angel Stadium,R,N,Walbert Ureña,Michael Lorenzen,Walbert Ureña,Michael Lorenzen,1,15.0,7.0,Wednesday
+824188,2026-06-03,2026-06-04T00:10:00Z,Final,134,Pittsburgh Pirates,9.0,117,Houston Astros,11.0,2392,Daikin Park,R,N,AJ Blubaugh,Gregory Soto,Spencer Arrighetti,Paul Skenes,1,20.0,2.0,Wednesday
+824509,2026-06-03,2026-06-03T23:10:00Z,Final,118,Kansas City Royals,5.0,113,Cincinnati Reds,2.0,2602,Great American Ball Park,R,N,Daniel Lynch IV,Tony Santillan,Chase Burns,Stephen Kolek,0,7.0,-3.0,Wednesday
+824671,2026-06-03,2026-06-04T00:05:00Z,Final,133,Athletics,5.0,112,Chicago Cubs,4.0,17,Wrigley Field,R,N,Hogan Harris,Ethan Roberts,Colin Rea,Jeffrey Springs,0,9.0,-1.0,Wednesday
+824755,2026-06-03,2026-06-03T22:45:00Z,Final,110,Baltimore Orioles,1.0,111,Boston Red Sox,8.0,3,Fenway Park,R,N,Payton Tolle,Chris Bassitt,Payton Tolle,Chris Bassitt,1,9.0,7.0,Wednesday
+824917,2026-06-03,2026-06-03T23:15:00Z,Final,141,Toronto Blue Jays,3.0,144,Atlanta Braves,7.0,4705,Truist Park,R,N,Grant Holmes,Patrick Corbin,Grant Holmes,Patrick Corbin,1,10.0,4.0,Wednesday
+825077,2026-06-03,2026-06-04T01:40:00Z,Final,119,Los Angeles Dodgers,7.0,109,Arizona Diamondbacks,0.0,15,Chase Field,R,N,Shohei Ohtani,Zac Gallen,Zac Gallen,Shohei Ohtani,0,7.0,-7.0,Wednesday
+823457,2026-06-04,2026-06-04T17:05:00Z,Final,135,San Diego Padres,4.0,143,Philadelphia Phillies,6.0,2681,Citizens Bank Park,R,N,Zack Wheeler,Lucas Giolito,Zack Wheeler,Lucas Giolito,1,10.0,2.0,Thursday
+823542,2026-06-04,2026-06-04T17:35:00Z,Final,114,Cleveland Guardians,1.0,147,New York Yankees,2.0,3313,Yankee Stadium,R,N,Brent Headrick,Codi Heuer,Carlos Rodón,Slade Cecconi,1,3.0,1.0,Thursday
+823698,2026-06-04,2026-06-04T23:40:00Z,Final,118,Kansas City Royals,8.0,142,Minnesota Twins,6.0,3312,Target Field,R,N,Matt Strahm,Taylor Rogers,Andrew Morris,Seth Lugo,0,14.0,-2.0,Thursday
+823779,2026-06-04,2026-06-04T18:10:00Z,Final,137,San Francisco Giants,12.0,158,Milwaukee Brewers,9.0,32,American Family Field,R,N,Sam Hentges,Coleman Crow,Coleman Crow,Adrian Houser,0,21.0,-3.0,Thursday
+824185,2026-06-04,2026-06-05T00:10:00Z,Final,134,Pittsburgh Pirates,5.0,117,Houston Astros,1.0,2392,Daikin Park,R,N,Jared Jones,Kai-Wei Teng,Kai-Wei Teng,Jared Jones,0,6.0,-4.0,Thursday
+824672,2026-06-04,2026-06-05T00:05:00Z,Final,133,Athletics,6.0,112,Chicago Cubs,7.0,17,Wrigley Field,R,N,Ryan Rolison,Joel Kuhnel,Shota Imanaga,J.T. Ginn,1,13.0,1.0,Thursday
+824753,2026-06-04,2026-06-04T17:35:00Z,Final,110,Baltimore Orioles,8.0,111,Boston Red Sox,2.0,3,Fenway Park,R,N,Trevor Rogers,Brayan Bello,Brayan Bello,Trevor Rogers,0,10.0,-6.0,Thursday
+824919,2026-06-04,2026-06-04T23:15:00Z,Final,141,Toronto Blue Jays,7.0,144,Atlanta Braves,2.0,4705,Truist Park,R,N,Chad Dallas,Chris Sale,Chris Sale,Mason Fluharty,0,9.0,-5.0,Thursday
+825076,2026-06-04,2026-06-05T01:40:00Z,Final,119,Los Angeles Dodgers,2.0,109,Arizona Diamondbacks,3.0,15,Chase Field,R,N,Paul Sewald,Tanner Scott,Ryne Nelson,Justin Wrobleski,1,5.0,1.0,Thursday
+822810,2026-06-05,2026-06-05T23:07:00Z,Final,110,Baltimore Orioles,13.0,141,Toronto Blue Jays,3.0,14,Rogers Centre,R,N,Brandon Young,Trey Yesavage,Trey Yesavage,Brandon Young,0,16.0,-10.0,Friday
+822892,2026-06-05,2026-06-06T00:15:00Z,Final,114,Cleveland Guardians,2.0,140,Texas Rangers,3.0,5325,Globe Life Field,R,N,Peyton Gray,Parker Messick,Kumar Rocker,Parker Messick,1,5.0,1.0,Friday
+823049,2026-06-05,2026-06-06T00:15:00Z,Final,113,Cincinnati Reds,3.0,138,St. Louis Cardinals,10.0,2889,Busch Stadium,R,N,Hunter Dobbins,Brady Singer,Kyle Leahy,Brady Singer,1,13.0,7.0,Friday
+823293,2026-06-05,2026-06-06T01:40:00Z,Final,121,New York Mets,5.0,135,San Diego Padres,0.0,2680,Petco Park,R,N,Christian Scott,Michael King,Michael King,Christian Scott,0,5.0,-5.0,Friday
+823455,2026-06-05,2026-06-05T22:40:00Z,Final,145,Chicago White Sox,6.0,143,Philadelphia Phillies,8.0,2681,Citizens Bank Park,R,N,Jonathan Bowlan,Bryan Hudson,Jesús Luzardo,Anthony Kay,1,14.0,2.0,Friday
+823538,2026-06-05,2026-06-05T23:05:00Z,Final,111,Boston Red Sox,5.0,147,New York Yankees,3.0,3313,Yankee Stadium,R,N,Sonny Gray,Ryan Weathers,Ryan Weathers,Sonny Gray,0,8.0,-2.0,Friday
+823699,2026-06-05,2026-06-06T00:15:00Z,Final,118,Kansas City Royals,3.0,142,Minnesota Twins,5.0,3312,Target Field,R,N,Zebby Matthews,Michael Wacha,Zebby Matthews,Michael Wacha,1,8.0,2.0,Friday
+823860,2026-06-05,2026-06-05T23:10:00Z,Final,139,Tampa Bay Rays,6.0,146,Miami Marlins,0.0,4169,loanDepot park,R,N,Drew Rasmussen,Ryan Gusto,Ryan Gusto,Drew Rasmussen,0,6.0,-6.0,Friday
+823943,2026-06-05,2026-06-06T02:10:00Z,Final,108,Los Angeles Angels,0.0,119,Los Angeles Dodgers,1.0,22,UNIQLO Field at Dodger Stadium,R,N,Blake Treinen,Kirby Yates,Roki Sasaki,Reid Detmers,1,1.0,1.0,Friday
+824186,2026-06-05,2026-06-06T00:10:00Z,Final,133,Athletics,1.0,117,Houston Astros,5.0,2392,Daikin Park,R,N,Peter Lambert,Jack Perkins,Peter Lambert,Jack Perkins,1,6.0,4.0,Friday
+824271,2026-06-05,2026-06-05T22:40:00Z,Final,136,Seattle Mariners,3.0,116,Detroit Tigers,7.0,2394,Comerica Park,R,N,Framber Valdez,Bryan Woo,Framber Valdez,Bryan Woo,1,10.0,4.0,Friday
+824350,2026-06-05,2026-06-06T00:40:00Z,Final,158,Milwaukee Brewers,9.0,115,Colorado Rockies,7.0,19,Coors Field,R,N,Trevor Megill,Juan Mejia,Ryan Feltner,Brandon Sproat,0,16.0,-2.0,Friday
+824673,2026-06-05,2026-06-05T18:20:00Z,Final,137,San Francisco Giants,18.0,112,Chicago Cubs,3.0,17,Wrigley Field,R,N,Robbie Ray,Edward Cabrera,Edward Cabrera,Robbie Ray,0,21.0,-15.0,Friday
+824914,2026-06-05,2026-06-05T23:15:00Z,Final,134,Pittsburgh Pirates,3.0,144,Atlanta Braves,6.0,4705,Truist Park,R,N,Martín Pérez,Mitch Keller,Martín Pérez,Mitch Keller,1,9.0,3.0,Friday
+825073,2026-06-05,2026-06-06T01:40:00Z,Final,120,Washington Nationals,14.0,109,Arizona Diamondbacks,1.0,15,Chase Field,R,N,Foster Griffin,Merrill Kelly,Merrill Kelly,Foster Griffin,0,15.0,-13.0,Friday
+822808,2026-06-06,2026-06-06T19:07:00Z,Final,110,Baltimore Orioles,4.0,141,Toronto Blue Jays,6.0,14,Rogers Centre,R,N,Spencer Miles,Kyle Bradish,Braydon Fisher,Kyle Bradish,1,10.0,2.0,Saturday
+822891,2026-06-06,2026-06-06T23:35:00Z,Final,114,Cleveland Guardians,6.0,140,Texas Rangers,0.0,5325,Globe Life Field,R,N,Tanner Bibee,Jack Leiter,Jack Leiter,Tanner Bibee,0,6.0,-6.0,Saturday
+823048,2026-06-06,2026-06-06T18:15:00Z,Final,113,Cincinnati Reds,5.0,138,St. Louis Cardinals,6.0,2889,Busch Stadium,R,N,George Soriano,Sam Moll,Matthew Liberatore,Nick Lodolo,1,11.0,1.0,Saturday
+823292,2026-06-06,2026-06-07T02:10:00Z,Final,121,New York Mets,2.0,135,San Diego Padres,3.0,2680,Petco Park,R,N,Bradgley Rodriguez,Austin Warren,Griffin Canning,Nolan McLean,1,5.0,1.0,Saturday
+823454,2026-06-06,2026-06-06T20:05:00Z,Final,145,Chicago White Sox,6.0,143,Philadelphia Phillies,3.0,2681,Citizens Bank Park,R,N,Sean Burke,Andrew Painter,Andrew Painter,Brandon Eisert,0,9.0,-3.0,Saturday
+823697,2026-06-06,2026-06-06T18:10:00Z,Final,118,Kansas City Royals,3.0,142,Minnesota Twins,2.0,3312,Target Field,R,N,Matt Strahm,Eric Orze,Joe Ryan,Luinder Avila,0,5.0,-1.0,Saturday
+823859,2026-06-06,2026-06-06T20:10:00Z,Final,139,Tampa Bay Rays,3.0,146,Miami Marlins,4.0,4169,loanDepot park,R,N,John King,Shane McClanahan,Lake Bachar,Shane McClanahan,1,7.0,1.0,Saturday
+823942,2026-06-06,2026-06-07T02:10:00Z,Final,108,Los Angeles Angels,2.0,119,Los Angeles Dodgers,9.0,22,UNIQLO Field at Dodger Stadium,R,N,Yoshinobu Yamamoto,Jack Kochanowicz,Yoshinobu Yamamoto,Jack Kochanowicz,1,11.0,7.0,Saturday
+824184,2026-06-06,2026-06-06T20:10:00Z,Final,133,Athletics,2.0,117,Houston Astros,13.0,2392,Daikin Park,R,N,Tatsuya Imai,Kade Morris,Tatsuya Imai,Kade Morris,1,15.0,11.0,Saturday
+824269,2026-06-06,2026-06-06T17:10:00Z,Final,136,Seattle Mariners,4.0,116,Detroit Tigers,0.0,2394,Comerica Park,R,N,Bryce Miller,Keider Montero,Keider Montero,Bryce Miller,0,4.0,-4.0,Saturday
+824351,2026-06-06,2026-06-07T01:10:00Z,Final,158,Milwaukee Brewers,7.0,115,Colorado Rockies,1.0,19,Coors Field,R,N,Jacob Misiorowski,Zach Agnos,Zach Agnos,Jacob Misiorowski,0,8.0,-6.0,Saturday
+824669,2026-06-06,2026-06-06T18:20:00Z,Final,137,San Francisco Giants,2.0,112,Chicago Cubs,3.0,17,Wrigley Field,R,N,Ryan Rolison,Sam Hentges,Ben Brown,Landen Roupp,1,5.0,1.0,Saturday
+824915,2026-06-06,2026-06-06T20:10:00Z,Final,134,Pittsburgh Pirates,3.0,144,Atlanta Braves,6.0,4705,Truist Park,R,N,Spencer Strider,Braxton Ashcraft,Spencer Strider,Braxton Ashcraft,1,9.0,3.0,Saturday
+825075,2026-06-06,2026-06-06T20:10:00Z,Final,120,Washington Nationals,6.0,109,Arizona Diamondbacks,1.0,15,Chase Field,R,N,Zack Littell,Eduardo Rodriguez,Eduardo Rodriguez,Zack Littell,0,7.0,-5.0,Saturday
+822807,2026-06-07,2026-06-07T17:37:00Z,Final,110,Baltimore Orioles,4.0,141,Toronto Blue Jays,6.0,14,Rogers Centre,R,N,Adam Macko,Shane Baz,Kevin Gausman,Shane Baz,1,10.0,2.0,Sunday
+822890,2026-06-07,2026-06-07T18:35:00Z,Final,114,Cleveland Guardians,0.0,140,Texas Rangers,10.0,5325,Globe Life Field,R,N,Jacob deGrom,Joey Cantillo,Jacob deGrom,Joey Cantillo,1,10.0,10.0,Sunday
+823047,2026-06-07,2026-06-07T18:15:00Z,Final,113,Cincinnati Reds,3.0,138,St. Louis Cardinals,5.0,2889,Busch Stadium,R,N,Ryne Stanek,Sam Moll,Michael McGreevy,Rhett Lowder,1,8.0,2.0,Sunday
+823291,2026-06-07,2026-06-07T20:10:00Z,Final,121,New York Mets,7.0,135,San Diego Padres,3.0,2680,Petco Park,R,N,Sean Manaea,Randy Vásquez,Randy Vásquez,Huascar Brazobán,0,10.0,-4.0,Sunday
+823453,2026-06-07,2026-06-07T17:35:00Z,Final,145,Chicago White Sox,5.0,143,Philadelphia Phillies,9.0,2681,Citizens Bank Park,R,N,José Alvarado,Tyler Davis,Aaron Nola,Tyler Gilbert,1,14.0,4.0,Sunday
+823537,2026-06-07,2026-06-07T17:35:00Z,Final,111,Boston Red Sox,1.0,147,New York Yankees,6.0,3313,Yankee Stadium,R,N,Tim Hill,Justin Slaten,Cam Schlittler,Ranger Suarez,1,7.0,5.0,Sunday
+823696,2026-06-07,2026-06-07T18:10:00Z,Final,118,Kansas City Royals,6.0,142,Minnesota Twins,5.0,3312,Target Field,R,N,Noah Cameron,Connor Prielipp,Connor Prielipp,Noah Cameron,0,11.0,-1.0,Sunday
+823857,2026-06-07,2026-06-07T17:40:00Z,Final,139,Tampa Bay Rays,1.0,146,Miami Marlins,4.0,4169,loanDepot park,R,N,Sandy Alcantara,Garrett Cleavinger,Sandy Alcantara,Griffin Jax,1,5.0,3.0,Sunday
+823941,2026-06-07,2026-06-07T20:10:00Z,Final,108,Los Angeles Angels,13.0,119,Los Angeles Dodgers,5.0,22,UNIQLO Field at Dodger Stadium,R,N,José Soriano,Emmet Sheehan,Emmet Sheehan,José Soriano,0,18.0,-8.0,Sunday
+824183,2026-06-07,2026-06-07T18:10:00Z,Final,133,Athletics,5.0,117,Houston Astros,0.0,2392,Daikin Park,R,N,Gage Jump,Mike Burrows,Mike Burrows,Gage Jump,0,5.0,-5.0,Sunday
+824268,2026-06-07,2026-06-07T17:40:00Z,Final,136,Seattle Mariners,4.0,116,Detroit Tigers,5.0,2394,Comerica Park,R,N,Will Vest,Andrés Muñoz,Jack Flaherty,Luis Castillo,1,9.0,1.0,Sunday
+824349,2026-06-07,2026-06-07T19:10:00Z,Final,158,Milwaukee Brewers,12.0,115,Colorado Rockies,4.0,19,Coors Field,R,N,Shane Drohan,Jaden Hill,Kyle Freeland,Shane Drohan,0,16.0,-8.0,Sunday
+824670,2026-06-07,2026-06-08T00:30:00Z,Final,137,San Francisco Giants,2.0,112,Chicago Cubs,1.0,17,Wrigley Field,R,N,Keaton Winn,Trent Thornton,Jameson Taillon,Trevor McDonald,0,3.0,-1.0,Sunday
+824916,2026-06-07,2026-06-07T17:35:00Z,Final,134,Pittsburgh Pirates,2.0,144,Atlanta Braves,3.0,4705,Truist Park,R,N,Reynaldo López,Bubba Chandler,Bryce Elder,Mason Montgomery,1,5.0,1.0,Sunday
+825074,2026-06-07,2026-06-07T19:15:00Z,Final,120,Washington Nationals,1.0,109,Arizona Diamondbacks,5.0,15,Chase Field,R,N,Michael Soroka,Cade Cavalli,Michael Soroka,Cade Cavalli,1,6.0,4.0,Sunday
+822806,2026-06-08,2026-06-08T23:07:00Z,Final,143,Philadelphia Phillies,5.0,141,Toronto Blue Jays,2.0,14,Rogers Centre,R,N,Cristopher Sánchez,Patrick Corbin,Patrick Corbin,Cristopher Sánchez,0,7.0,-3.0,Monday
+822972,2026-06-08,2026-06-08T22:40:00Z,Final,111,Boston Red Sox,1.0,139,Tampa Bay Rays,3.0,12,Tropicana Field,R,N,Casey Legumina,Connelly Early,Ian Seymour,Connelly Early,1,4.0,2.0,Monday
+823218,2026-06-08,2026-06-09T01:45:00Z,Final,120,Washington Nationals,4.0,137,San Francisco Giants,3.0,2395,Oracle Park,R,N,Clayton Beeter,Keaton Winn,Logan Webb,Richard Lovelady,0,7.0,-1.0,Monday
+823289,2026-06-08,2026-06-09T01:40:00Z,Final,113,Cincinnati Reds,2.0,135,San Diego Padres,6.0,2680,Petco Park,R,N,Adrian Morejon,Andrew Abbott,Walker Buehler,Andrew Abbott,1,8.0,4.0,Monday
+824025,2026-06-08,2026-06-09T01:38:00Z,Final,117,Houston Astros,5.0,108,Los Angeles Angels,4.0,1,Angel Stadium,R,N,Josh Hader,Sam Aldegheri,Grayson Rodriguez,Spencer Arrighetti,0,9.0,-1.0,Monday
+824427,2026-06-08,2026-06-08T22:40:00Z,Final,147,New York Yankees,7.0,114,Cleveland Guardians,5.0,5,Progressive Field,R,N,David Bednar,Shawn Armstrong,Gavin Williams,Will Warren,0,12.0,-2.0,Monday
+824829,2026-06-08,2026-06-08T22:35:00Z,Final,136,Seattle Mariners,6.0,110,Baltimore Orioles,3.0,2,Oriole Park at Camden Yards,R,N,Emerson Hancock,Trey Gibson,Trey Gibson,Emerson Hancock,0,9.0,-3.0,Monday
+824998,2026-06-08,2026-06-09T02:05:00Z,Final,158,Milwaukee Brewers,15.0,133,Athletics,14.0,5355,Las Vegas Ballpark,R,N,Abner Uribe,José Suarez,Jeffrey Springs,Kyle Harrison,0,29.0,-1.0,Monday
+822805,2026-06-09,2026-06-09T23:07:00Z,Final,143,Philadelphia Phillies,2.0,141,Toronto Blue Jays,3.0,14,Rogers Centre,R,N,Louis Varland,Jhoan Duran,Dylan Cease,Zack Wheeler,1,5.0,1.0,Tuesday
+822969,2026-06-09,2026-06-09T22:40:00Z,Final,111,Boston Red Sox,3.0,139,Tampa Bay Rays,4.0,12,Tropicana Field,R,N,Nick Martinez,Payton Tolle,Nick Martinez,Payton Tolle,1,7.0,1.0,Tuesday
+823214,2026-06-09,2026-06-10T01:45:00Z,Final,120,Washington Nationals,6.0,137,San Francisco Giants,3.0,2395,Oracle Park,R,N,Brad Lord,Adrian Houser,Adrian Houser,Andrew Alvarez,0,9.0,-3.0,Tuesday
+823290,2026-06-09,2026-06-10T01:40:00Z,Final,113,Cincinnati Reds,5.0,135,San Diego Padres,3.0,2680,Petco Park,R,N,Tejay Antone,Yuki Matsui,Lucas Giolito,Chase Burns,0,8.0,-2.0,Tuesday
+823374,2026-06-09,2026-06-09T22:40:00Z,Final,119,Los Angeles Dodgers,12.0,134,Pittsburgh Pirates,3.0,31,PNC Park,R,N,Will Klein,Wilber Dotel,Paul Skenes,Eric Lauer,0,15.0,-9.0,Tuesday
+823620,2026-06-09,2026-06-09T23:10:00Z,Final,138,St. Louis Cardinals,7.0,121,New York Mets,0.0,3289,Citi Field,R,N,Dustin May,Freddy Peralta,Freddy Peralta,Dustin May,0,7.0,-7.0,Tuesday
+823858,2026-06-09,2026-06-09T22:40:00Z,Final,109,Arizona Diamondbacks,6.0,146,Miami Marlins,10.0,4169,loanDepot park,R,N,Pete Fairbanks,Brandyn Garcia,Max Meyer,Zac Gallen,1,16.0,4.0,Tuesday
+824023,2026-06-09,2026-06-10T01:38:00Z,Final,117,Houston Astros,1.0,108,Los Angeles Angels,10.0,1,Angel Stadium,R,N,Walbert Ureña,Kai-Wei Teng,Walbert Ureña,Kai-Wei Teng,1,11.0,9.0,Tuesday
+824105,2026-06-09,2026-06-09T23:40:00Z,Final,140,Texas Rangers,3.0,118,Kansas City Royals,5.0,7,Kauffman Stadium,R,N,Steven Cruz,Nathan Eovaldi,Stephen Kolek,Nathan Eovaldi,1,8.0,2.0,Tuesday
+824267,2026-06-09,2026-06-09T22:40:00Z,Final,142,Minnesota Twins,4.0,116,Detroit Tigers,10.0,2394,Comerica Park,R,N,Troy Melton,Taj Bradley,Troy Melton,Taj Bradley,1,14.0,6.0,Tuesday
+824347,2026-06-09,2026-06-10T00:40:00Z,Final,112,Chicago Cubs,3.0,115,Colorado Rockies,7.0,19,Coors Field,R,N,Tomoyuki Sugano,Colin Rea,Tomoyuki Sugano,Colin Rea,1,10.0,4.0,Tuesday
+824429,2026-06-09,2026-06-09T22:40:00Z,Final,147,New York Yankees,3.0,114,Cleveland Guardians,2.0,5,Progressive Field,R,N,Camilo Doval,Tim Herrin,Slade Cecconi,Gerrit Cole,0,5.0,-1.0,Tuesday
+824591,2026-06-09,2026-06-09T23:40:00Z,Final,144,Atlanta Braves,5.0,145,Chicago White Sox,6.0,4,Rate Field,R,N,Grant Taylor,Raisel Iglesias,Brandon Eisert,Grant Holmes,1,11.0,1.0,Tuesday
+824830,2026-06-09,2026-06-09T22:35:00Z,Final,136,Seattle Mariners,6.0,110,Baltimore Orioles,5.0,2,Oriole Park at Camden Yards,R,N,José A. Ferrer,Rico Garcia,Trevor Rogers,Logan Gilbert,0,11.0,-1.0,Tuesday
+824999,2026-06-09,2026-06-10T02:05:00Z,Final,158,Milwaukee Brewers,5.0,133,Athletics,7.0,5355,Las Vegas Ballpark,R,N,J.T. Ginn,Robert Gasser,J.T. Ginn,Robert Gasser,1,12.0,2.0,Tuesday
+822804,2026-06-10,2026-06-10T23:07:00Z,Final,143,Philadelphia Phillies,7.0,141,Toronto Blue Jays,4.0,14,Rogers Centre,R,N,Jesús Luzardo,Max Scherzer,Max Scherzer,Jesús Luzardo,0,11.0,-3.0,Wednesday
+822970,2026-06-10,2026-06-10T17:10:00Z,Final,111,Boston Red Sox,5.0,139,Tampa Bay Rays,7.0,12,Tropicana Field,R,N,Drew Rasmussen,Jake Bennett,Drew Rasmussen,Jake Bennett,1,12.0,2.0,Wednesday
+823215,2026-06-10,2026-06-10T19:45:00Z,Final,120,Washington Nationals,10.0,137,San Francisco Giants,11.0,2395,Oracle Park,R,N,Reiver Sanmartin,Mitchell Parker,Robbie Ray,Foster Griffin,1,21.0,1.0,Wednesday
+823287,2026-06-10,2026-06-10T20:10:00Z,Final,113,Cincinnati Reds,4.0,135,San Diego Padres,5.0,2680,Petco Park,R,N,Wandy Peralta,Chase Petty,Michael King,Brady Singer,1,9.0,1.0,Wednesday
+823372,2026-06-10,2026-06-10T22:40:00Z,Final,119,Los Angeles Dodgers,8.0,134,Pittsburgh Pirates,9.0,31,PNC Park,R,N,Evan Sisk,Kyle Hurt,Jared Jones,Shohei Ohtani,1,17.0,1.0,Wednesday
+823618,2026-06-10,2026-06-10T23:10:00Z,Final,138,St. Louis Cardinals,9.0,121,New York Mets,2.0,3289,Citi Field,R,N,Andre Pallante,Austin Warren,Austin Warren,Andre Pallante,0,11.0,-7.0,Wednesday
+823856,2026-06-10,2026-06-10T22:40:00Z,Final,109,Arizona Diamondbacks,0.0,146,Miami Marlins,8.0,4169,loanDepot park,R,N,William Kempner,Ryne Nelson,Ryan Gusto,Ryne Nelson,1,8.0,8.0,Wednesday
+824022,2026-06-10,2026-06-11T01:38:00Z,Final,117,Houston Astros,2.0,108,Los Angeles Angels,3.0,1,Angel Stadium,R,N,Ryan Zeferjahn,Bryan Abreu,Reid Detmers,Peter Lambert,1,5.0,1.0,Wednesday
+824103,2026-06-10,2026-06-10T23:40:00Z,Final,140,Texas Rangers,6.0,118,Kansas City Royals,4.0,7,Kauffman Stadium,R,N,Jakob Junis,Alex Lange,Seth Lugo,MacKenzie Gore,0,10.0,-2.0,Wednesday
+824266,2026-06-10,2026-06-10T22:40:00Z,Final,142,Minnesota Twins,6.0,116,Detroit Tigers,4.0,2394,Comerica Park,R,N,Taylor Rogers,Framber Valdez,Framber Valdez,Mike Paredes,0,10.0,-2.0,Wednesday
+824348,2026-06-10,2026-06-11T00:40:00Z,Final,112,Chicago Cubs,2.0,115,Colorado Rockies,3.0,19,Coors Field,R,N,Antonio Senzatela,Daniel Palencia,Michael Lorenzen,Shota Imanaga,1,5.0,1.0,Wednesday
+824428,2026-06-10,2026-06-10T17:10:00Z,Final,147,New York Yankees,8.0,114,Cleveland Guardians,4.0,5,Progressive Field,R,N,Carlos Rodón,Parker Messick,Parker Messick,Carlos Rodón,0,12.0,-4.0,Wednesday
+824590,2026-06-10,2026-06-10T23:40:00Z,Final,144,Atlanta Braves,1.0,145,Chicago White Sox,2.0,4,Rate Field,R,N,Davis Martin,Chris Sale,Davis Martin,Chris Sale,1,3.0,1.0,Wednesday
+824831,2026-06-10,2026-06-10T22:35:00Z,Final,136,Seattle Mariners,2.0,110,Baltimore Orioles,7.0,2,Oriole Park at Camden Yards,R,N,Brandon Young,George Kirby,Brandon Young,George Kirby,1,9.0,5.0,Wednesday
+824996,2026-06-10,2026-06-11T01:05:00Z,Final,158,Milwaukee Brewers,3.0,133,Athletics,4.0,5355,Las Vegas Ballpark,R,N,Scott Barlow,Chad Patrick,Jack Perkins,Brandon Sproat,1,7.0,1.0,Wednesday
+823371,2026-06-11,2026-06-11T22:40:00Z,Final,119,Los Angeles Dodgers,8.0,134,Pittsburgh Pirates,6.0,31,PNC Park,R,N,Jack Dreyer,Mitch Keller,Mitch Keller,Justin Wrobleski,0,14.0,-2.0,Thursday
+823619,2026-06-11,2026-06-11T17:10:00Z,Final,138,St. Louis Cardinals,4.0,121,New York Mets,5.0,3289,Citi Field,R,N,Brooks Raley,JoJo Romero,Christian Scott,Hunter Dobbins,1,9.0,1.0,Thursday
+823855,2026-06-11,2026-06-11T17:10:00Z,Final,109,Arizona Diamondbacks,0.0,146,Miami Marlins,2.0,4169,loanDepot park,R,N,Tyler Phillips,Merrill Kelly,Tyler Phillips,Merrill Kelly,1,2.0,2.0,Thursday
+824101,2026-06-11,2026-06-11T18:10:00Z,Final,140,Texas Rangers,4.0,118,Kansas City Royals,2.0,7,Kauffman Stadium,R,N,Robby Ahlstrom,Michael Wacha,Michael Wacha,Kumar Rocker,0,6.0,-2.0,Thursday
+824265,2026-06-11,2026-06-11T17:10:00Z,Final,142,Minnesota Twins,0.0,116,Detroit Tigers,11.0,2394,Comerica Park,R,N,Keider Montero,Zebby Matthews,Keider Montero,Zebby Matthews,1,11.0,11.0,Thursday
+824346,2026-06-11,2026-06-11T19:10:00Z,Final,112,Chicago Cubs,9.0,115,Colorado Rockies,3.0,19,Coors Field,R,N,Edward Cabrera,Ryan Feltner,Ryan Feltner,Edward Cabrera,0,12.0,-6.0,Thursday
+824827,2026-06-11,2026-06-11T23:05:00Z,Final,136,Seattle Mariners,5.0,110,Baltimore Orioles,7.0,2,Oriole Park at Camden Yards,R,N,Tyler Wells,Bryan Woo,Kyle Bradish,Bryan Woo,1,12.0,2.0,Thursday
+822726,2026-06-12,2026-06-12T22:45:00Z,Final,136,Seattle Mariners,10.0,120,Washington Nationals,2.0,3309,Nationals Park,R,N,Bryce Miller,Zack Littell,Zack Littell,Bryce Miller,0,12.0,-8.0,Friday
+822803,2026-06-12,2026-06-12T23:37:00Z,Final,147,New York Yankees,5.0,141,Toronto Blue Jays,8.0,14,Rogers Centre,R,N,Trey Yesavage,Ryan Weathers,Trey Yesavage,Ryan Weathers,1,13.0,3.0,Friday
+823211,2026-06-12,2026-06-13T02:15:00Z,Final,112,Chicago Cubs,5.0,137,San Francisco Giants,1.0,2395,Oracle Park,R,N,Javier Assad,Landen Roupp,Landen Roupp,Javier Assad,0,6.0,-4.0,Friday
+823370,2026-06-12,2026-06-12T22:40:00Z,Final,146,Miami Marlins,8.0,134,Pittsburgh Pirates,3.0,31,PNC Park,R,N,Sandy Alcantara,Wilber Dotel,Braxton Ashcraft,Sandy Alcantara,0,11.0,-5.0,Friday
+823617,2026-06-12,2026-06-12T23:15:00Z,Final,144,Atlanta Braves,5.0,121,New York Mets,7.0,3289,Citi Field,R,N,Cionel Pérez,Spencer Strider,Nolan McLean,Spencer Strider,1,12.0,2.0,Friday
+823695,2026-06-12,2026-06-13T00:10:00Z,Final,138,St. Louis Cardinals,8.0,142,Minnesota Twins,9.0,3312,Target Field,R,N,Anthony Banda,Ryne Stanek,Joe Ryan,Kyle Leahy,1,17.0,1.0,Friday
+823778,2026-06-12,2026-06-12T23:40:00Z,Final,143,Philadelphia Phillies,0.0,158,Milwaukee Brewers,6.0,32,American Family Field,R,N,Jacob Misiorowski,Tanner Banks,Jacob Misiorowski,Tanner Banks,1,6.0,6.0,Friday
+824020,2026-06-12,2026-06-13T01:38:00Z,Final,139,Tampa Bay Rays,3.0,108,Los Angeles Angels,4.0,1,Angel Stadium,R,N,Sam Aldegheri,Shane McClanahan,Sam Aldegheri,Shane McClanahan,1,7.0,1.0,Friday
+824102,2026-06-12,2026-06-13T00:10:00Z,Final,117,Houston Astros,10.0,118,Kansas City Royals,8.0,7,Kauffman Stadium,R,N,Nate Pearson,Luinder Avila,Luinder Avila,Tatsuya Imai,0,18.0,-2.0,Friday
+824425,2026-06-12,2026-06-12T23:10:00Z,Final,116,Detroit Tigers,2.0,114,Cleveland Guardians,3.0,5,Progressive Field,R,N,Tanner Bibee,Jack Flaherty,Tanner Bibee,Jack Flaherty,1,5.0,1.0,Friday
+824507,2026-06-12,2026-06-12T23:15:00Z,Final,109,Arizona Diamondbacks,5.0,113,Cincinnati Reds,2.0,2602,Great American Ball Park,R,N,Kevin Ginkel,Brock Burke,Nick Lodolo,Eduardo Rodriguez,0,7.0,-3.0,Friday
+824588,2026-06-12,2026-06-12T23:40:00Z,Final,119,Los Angeles Dodgers,2.0,145,Chicago White Sox,8.0,4,Rate Field,R,N,Anthony Kay,Roki Sasaki,Anthony Kay,Roki Sasaki,1,10.0,6.0,Friday
+824752,2026-06-12,2026-06-12T23:10:00Z,Final,140,Texas Rangers,1.0,111,Boston Red Sox,10.0,3,Fenway Park,R,N,Sonny Gray,Jack Leiter,Sonny Gray,Jack Leiter,1,11.0,9.0,Friday
+824826,2026-06-12,2026-06-12T23:05:00Z,Final,135,San Diego Padres,3.0,110,Baltimore Orioles,7.0,2,Oriole Park at Camden Yards,R,N,Shane Baz,Griffin Canning,Shane Baz,Griffin Canning,1,10.0,4.0,Friday
+824997,2026-06-12,2026-06-13T02:05:00Z,Final,115,Colorado Rockies,4.0,133,Athletics,6.0,5355,Las Vegas Ballpark,R,N,Mason Barnett,Zach Agnos,Gage Jump,Sean Sullivan,1,10.0,2.0,Friday
+822725,2026-06-13,2026-06-13T20:05:00Z,Final,136,Seattle Mariners,3.0,120,Washington Nationals,8.0,3309,Nationals Park,R,N,Cade Cavalli,Luis Castillo,Cade Cavalli,Luis Castillo,1,11.0,5.0,Saturday
+822802,2026-06-13,2026-06-13T19:07:00Z,Final,147,New York Yankees,3.0,141,Toronto Blue Jays,1.0,14,Rogers Centre,R,N,Fernando Cruz,Louis Varland,Kevin Gausman,Cam Schlittler,0,4.0,-2.0,Saturday
+823213,2026-06-13,2026-06-14T02:05:00Z,Final,112,Chicago Cubs,6.0,137,San Francisco Giants,1.0,2395,Oracle Park,R,N,Ben Brown,Trevor McDonald,Trevor McDonald,Ben Brown,0,7.0,-5.0,Saturday
+823369,2026-06-13,2026-06-13T20:05:00Z,Final,146,Miami Marlins,2.0,134,Pittsburgh Pirates,3.0,31,PNC Park,R,N,Yohan Ramírez,Anthony Bender,Bubba Chandler,Lake Bachar,1,5.0,1.0,Saturday
+823616,2026-06-13,2026-06-13T20:10:00Z,Final,144,Atlanta Braves,3.0,121,New York Mets,1.0,3289,Citi Field,R,N,Martín Pérez,Sean Manaea,Sean Manaea,Martín Pérez,0,4.0,-2.0,Saturday
+823694,2026-06-13,2026-06-13T18:10:00Z,Final,138,St. Louis Cardinals,9.0,142,Minnesota Twins,6.0,3312,Target Field,R,N,Matt Svanson,Justin Lawrence,Connor Prielipp,Matthew Liberatore,0,15.0,-3.0,Saturday
+823776,2026-06-13,2026-06-13T23:10:00Z,Final,143,Philadelphia Phillies,9.0,158,Milwaukee Brewers,8.0,32,American Family Field,R,N,Tim Mayza,Shane Drohan,Shane Drohan,Aaron Nola,0,17.0,-1.0,Saturday
+824019,2026-06-13,2026-06-14T02:07:00Z,Final,139,Tampa Bay Rays,0.0,108,Los Angeles Angels,8.0,1,Angel Stadium,R,N,José Soriano,Griffin Jax,José Soriano,Griffin Jax,1,8.0,8.0,Saturday
+824100,2026-06-13,2026-06-13T23:10:00Z,Final,117,Houston Astros,8.0,118,Kansas City Royals,7.0,7,Kauffman Stadium,R,N,Bryan King,Alex Lange,Noah Cameron,Mike Burrows,0,15.0,-1.0,Saturday
+824426,2026-06-13,2026-06-13T20:10:00Z,Final,116,Detroit Tigers,1.0,114,Cleveland Guardians,3.0,5,Progressive Field,R,N,Joey Cantillo,Tarik Skubal,Joey Cantillo,Tarik Skubal,1,4.0,2.0,Saturday
+824508,2026-06-13,2026-06-13T20:10:00Z,Final,109,Arizona Diamondbacks,1.0,113,Cincinnati Reds,2.0,2602,Great American Ball Park,R,N,Chase Petty,Juan Morillo,Rhett Lowder,Michael Soroka,1,3.0,1.0,Saturday
+824587,2026-06-13,2026-06-13T20:10:00Z,Final,119,Los Angeles Dodgers,7.0,145,Chicago White Sox,1.0,4,Rate Field,R,N,Yoshinobu Yamamoto,Sean Burke,Sean Burke,Yoshinobu Yamamoto,0,8.0,-6.0,Saturday
+824749,2026-06-13,2026-06-13T20:10:00Z,Final,140,Texas Rangers,3.0,111,Boston Red Sox,6.0,3,Fenway Park,R,N,Garrett Whitlock,Cole Winn,Ranger Suarez,Jacob deGrom,1,9.0,3.0,Saturday
+824828,2026-06-13,2026-06-13T20:05:00Z,Final,135,San Diego Padres,9.0,110,Baltimore Orioles,3.0,2,Oriole Park at Camden Yards,R,N,Randy Vásquez,Trey Gibson,Trey Gibson,Randy Vásquez,0,12.0,-6.0,Saturday
+824995,2026-06-13,2026-06-14T02:05:00Z,Final,115,Colorado Rockies,5.0,133,Athletics,7.0,5355,Las Vegas Ballpark,R,N,José Suarez,Kyle Freeland,Joey Estes,Kyle Freeland,1,12.0,2.0,Saturday
+822722,2026-06-14,2026-06-14T17:35:00Z,Final,136,Seattle Mariners,1.0,120,Washington Nationals,10.0,3309,Nationals Park,R,N,Miles Mikolas,Emerson Hancock,PJ Poulin,Emerson Hancock,1,11.0,9.0,Sunday
+822801,2026-06-14,2026-06-14T17:37:00Z,Final,147,New York Yankees,8.0,141,Toronto Blue Jays,3.0,14,Rogers Centre,R,N,Camilo Doval,Braydon Fisher,Patrick Corbin,Will Warren,0,11.0,-5.0,Sunday
+823212,2026-06-14,2026-06-14T19:10:00Z,Final,112,Chicago Cubs,1.0,137,San Francisco Giants,5.0,2395,Oracle Park,R,N,Logan Webb,Colin Rea,Logan Webb,Ryan Rolison,1,6.0,4.0,Sunday
+823368,2026-06-14,2026-06-14T16:15:00Z,Final,146,Miami Marlins,4.0,134,Pittsburgh Pirates,2.0,31,PNC Park,R,N,Max Meyer,Paul Skenes,Paul Skenes,Max Meyer,0,6.0,-2.0,Sunday
+823615,2026-06-14,2026-06-14T17:40:00Z,Final,144,Atlanta Braves,1.0,121,New York Mets,8.0,3289,Citi Field,R,N,Freddy Peralta,Bryce Elder,Freddy Peralta,Bryce Elder,1,9.0,7.0,Sunday
+823693,2026-06-14,2026-06-14T18:10:00Z,Final,138,St. Louis Cardinals,4.0,142,Minnesota Twins,5.0,3312,Target Field,R,N,Andrew Morris,George Soriano,Taj Bradley,Michael McGreevy,1,9.0,1.0,Sunday
+823777,2026-06-14,2026-06-14T18:10:00Z,Final,143,Philadelphia Phillies,0.0,158,Milwaukee Brewers,4.0,32,American Family Field,R,N,Kyle Harrison,Cristopher Sánchez,Kyle Harrison,Cristopher Sánchez,1,4.0,4.0,Sunday
+824021,2026-06-14,2026-06-14T20:07:00Z,Final,139,Tampa Bay Rays,8.0,108,Los Angeles Angels,3.0,1,Angel Stadium,R,N,Kevin Kelly,Sam Bachman,Grayson Rodriguez,Casey Legumina,0,11.0,-5.0,Sunday
+824099,2026-06-14,2026-06-14T18:10:00Z,Final,117,Houston Astros,0.0,118,Kansas City Royals,4.0,7,Kauffman Stadium,R,N,Stephen Kolek,Spencer Arrighetti,Stephen Kolek,Spencer Arrighetti,1,4.0,4.0,Sunday
+824506,2026-06-14,2026-06-14T17:40:00Z,Final,109,Arizona Diamondbacks,5.0,113,Cincinnati Reds,3.0,2602,Great American Ball Park,R,N,Juan Morillo,Zach Maxwell,Andrew Abbott,Zac Gallen,0,8.0,-2.0,Sunday
+824586,2026-06-14,2026-06-14T18:10:00Z,Final,119,Los Angeles Dodgers,4.0,145,Chicago White Sox,6.0,4,Rate Field,R,N,Erick Fedde,Emmet Sheehan,Bryan Hudson,Emmet Sheehan,1,10.0,2.0,Sunday
+824751,2026-06-14,2026-06-14T23:20:00Z,Final,140,Texas Rangers,6.0,111,Boston Red Sox,4.0,3,Fenway Park,R,N,Nathan Eovaldi,Connelly Early,Connelly Early,Nathan Eovaldi,0,10.0,-2.0,Sunday
+824823,2026-06-14,2026-06-14T17:35:00Z,Final,135,San Diego Padres,5.0,110,Baltimore Orioles,2.0,2,Oriole Park at Camden Yards,R,N,Walker Buehler,Trevor Rogers,Trevor Rogers,Walker Buehler,0,7.0,-3.0,Sunday
+824994,2026-06-14,2026-06-14T19:05:00Z,Final,115,Colorado Rockies,23.0,133,Athletics,9.0,5355,Las Vegas Ballpark,R,N,Tomoyuki Sugano,Jeffrey Springs,Jeffrey Springs,Tomoyuki Sugano,0,32.0,-14.0,Sunday
+822724,2026-06-15,2026-06-15T22:45:00Z,Final,118,Kansas City Royals,3.0,120,Washington Nationals,7.0,3309,Nationals Park,R,N,Brad Lord,Mitch Spence,Andrew Alvarez,Mitch Spence,1,10.0,4.0,Monday
+822887,2026-06-15,2026-06-16T00:05:00Z,Final,142,Minnesota Twins,4.0,140,Texas Rangers,2.0,5325,Globe Life Field,R,N,Taylor Rogers,MacKenzie Gore,MacKenzie Gore,Mike Paredes,0,6.0,-2.0,Monday
+823046,2026-06-15,2026-06-15T23:45:00Z,Final,135,San Diego Padres,0.0,138,St. Louis Cardinals,3.0,2889,Busch Stadium,R,N,Dustin May,Lucas Giolito,Dustin May,Wandy Peralta,1,3.0,3.0,Monday
+823452,2026-06-15,2026-06-15T22:40:00Z,Final,146,Miami Marlins,0.0,143,Philadelphia Phillies,7.0,2681,Citizens Bank Park,R,N,Zack Wheeler,Ryan Gusto,Zack Wheeler,Ryan Gusto,1,7.0,7.0,Monday
+823938,2026-06-15,2026-06-16T02:10:00Z,Final,139,Tampa Bay Rays,3.0,119,Los Angeles Dodgers,4.0,22,UNIQLO Field at Dodger Stadium,R,N,Kyle Hurt,Steven Matz,Eric Lauer,Nick Martinez,1,7.0,1.0,Monday
+824181,2026-06-15,2026-06-16T00:10:00Z,Final,116,Detroit Tigers,9.0,117,Houston Astros,3.0,2392,Daikin Park,R,N,Kyle Finnegan,Kai-Wei Teng,Kai-Wei Teng,Drew Anderson,0,12.0,-6.0,Monday
+824505,2026-06-15,2026-06-15T23:10:00Z,Final,121,New York Mets,0.0,113,Cincinnati Reds,12.0,2602,Great American Ball Park,R,N,Chase Burns,Tobias Myers,Chase Burns,Tobias Myers,1,12.0,12.0,Monday
+824666,2026-06-15,2026-06-16T00:05:00Z,Final,115,Colorado Rockies,4.0,112,Chicago Cubs,5.0,17,Wrigley Field,R,N,Daniel Palencia,Juan Mejia,Shota Imanaga,Michael Lorenzen,1,9.0,1.0,Monday
+824993,2026-06-15,2026-06-16T01:40:00Z,Final,134,Pittsburgh Pirates,2.0,133,Athletics,11.0,2529,Sutter Health Park,R,N,J.T. Ginn,Jared Jones,J.T. Ginn,Jared Jones,1,13.0,9.0,Monday
+825071,2026-06-15,2026-06-16T01:40:00Z,Final,108,Los Angeles Angels,3.0,109,Arizona Diamondbacks,4.0,15,Chase Field,R,N,Ryne Nelson,Walbert Ureña,Ryne Nelson,Walbert Ureña,1,7.0,1.0,Monday
+822723,2026-06-16,2026-06-16T22:45:00Z,Final,118,Kansas City Royals,4.0,120,Washington Nationals,6.0,3309,Nationals Park,R,N,Paxton Schultz,Daniel Lynch IV,Foster Griffin,Michael Wacha,1,10.0,2.0,Tuesday
+822888,2026-06-16,2026-06-17T00:05:00Z,Final,142,Minnesota Twins,12.0,140,Texas Rangers,2.0,5325,Globe Life Field,R,N,Zebby Matthews,Kumar Rocker,Kumar Rocker,Zebby Matthews,0,14.0,-10.0,Tuesday
+823045,2026-06-16,2026-06-16T23:45:00Z,Final,135,San Diego Padres,2.0,138,St. Louis Cardinals,3.0,2889,Busch Stadium,R,N,Andre Pallante,Michael King,Andre Pallante,Michael King,1,5.0,1.0,Tuesday
+823128,2026-06-16,2026-06-17T01:40:00Z,Final,110,Baltimore Orioles,1.0,136,Seattle Mariners,3.0,680,T-Mobile Park,R,N,Logan Gilbert,Brandon Young,Logan Gilbert,Brandon Young,1,4.0,2.0,Tuesday
+823451,2026-06-16,2026-06-16T22:40:00Z,Final,146,Miami Marlins,2.0,143,Philadelphia Phillies,8.0,2681,Citizens Bank Park,R,N,Jesús Luzardo,Tyler Phillips,Jesús Luzardo,Tyler Phillips,1,10.0,6.0,Tuesday
+823535,2026-06-16,2026-06-16T23:05:00Z,Final,145,Chicago White Sox,2.0,147,New York Yankees,12.0,3313,Yankee Stadium,R,N,Gerrit Cole,Davis Martin,Gerrit Cole,Davis Martin,1,14.0,10.0,Tuesday
+823775,2026-06-16,2026-06-16T23:40:00Z,Final,114,Cleveland Guardians,1.0,158,Milwaukee Brewers,2.0,32,American Family Field,R,N,Aaron Ashby,Hunter Gaddis,Robert Gasser,Slade Cecconi,1,3.0,1.0,Tuesday
+823939,2026-06-16,2026-06-17T02:10:00Z,Final,139,Tampa Bay Rays,0.0,119,Los Angeles Dodgers,1.0,22,UNIQLO Field at Dodger Stadium,R,N,Justin Wrobleski,Drew Rasmussen,Justin Wrobleski,Drew Rasmussen,1,1.0,1.0,Tuesday
+824182,2026-06-16,2026-06-17T00:10:00Z,Final,116,Detroit Tigers,2.0,117,Houston Astros,4.0,2392,Daikin Park,R,N,Bryan King,Keider Montero,Hunter Brown,Framber Valdez,1,6.0,2.0,Tuesday
+824504,2026-06-16,2026-06-16T23:10:00Z,Final,121,New York Mets,3.0,113,Cincinnati Reds,5.0,2602,Great American Ball Park,R,N,Brady Singer,Kodai Senga,Brady Singer,Kodai Senga,1,8.0,2.0,Tuesday
+824667,2026-06-16,2026-06-17T00:05:00Z,Final,115,Colorado Rockies,5.0,112,Chicago Cubs,2.0,17,Wrigley Field,R,N,Blas Castaño,Edward Cabrera,Edward Cabrera,Ryan Feltner,0,7.0,-3.0,Tuesday
+824750,2026-06-16,2026-06-16T22:45:00Z,Final,141,Toronto Blue Jays,6.0,111,Boston Red Sox,1.0,3,Fenway Park,R,N,Dylan Cease,Payton Tolle,Payton Tolle,Dylan Cease,0,7.0,-5.0,Tuesday
+824912,2026-06-16,2026-06-17T18:00:00Z,Final,137,San Francisco Giants,7.0,144,Atlanta Braves,2.0,4705,Truist Park,R,N,Robbie Ray,Grant Holmes,Grant Holmes,Adrian Houser,0,9.0,-5.0,Tuesday
+824991,2026-06-16,2026-06-17T01:40:00Z,Final,134,Pittsburgh Pirates,6.0,133,Athletics,5.0,2529,Sutter Health Park,R,N,Mason Montgomery,Elvis Alvarado,Jack Perkins,Mitch Keller,0,11.0,-1.0,Tuesday
+825070,2026-06-16,2026-06-17T01:40:00Z,Final,108,Los Angeles Angels,7.0,109,Arizona Diamondbacks,0.0,15,Chase Field,R,N,Reid Detmers,Merrill Kelly,Merrill Kelly,Reid Detmers,0,7.0,-7.0,Tuesday
+822721,2026-06-17,2026-06-17T17:05:00Z,Final,118,Kansas City Royals,6.0,120,Washington Nationals,2.0,3309,Nationals Park,R,N,Luinder Avila,Zack Littell,Zack Littell,Luinder Avila,0,8.0,-4.0,Wednesday
+823044,2026-06-17,2026-06-17T18:15:00Z,Final,135,San Diego Padres,6.0,138,St. Louis Cardinals,1.0,2889,Busch Stadium,R,N,Griffin Canning,Kyle Leahy,Kyle Leahy,Bradgley Rodriguez,0,7.0,-5.0,Wednesday
+823127,2026-06-17,2026-06-18T01:40:00Z,Final,110,Baltimore Orioles,5.0,136,Seattle Mariners,3.0,680,T-Mobile Park,R,N,Kyle Bradish,George Kirby,George Kirby,Kyle Bradish,0,8.0,-2.0,Wednesday
+823450,2026-06-17,2026-06-17T17:05:00Z,Final,146,Miami Marlins,12.0,143,Philadelphia Phillies,4.0,2681,Citizens Bank Park,R,N,Sandy Alcantara,Andrew Painter,Andrew Painter,Sandy Alcantara,0,16.0,-8.0,Wednesday
+823536,2026-06-17,2026-06-17T23:05:00Z,Final,145,Chicago White Sox,5.0,147,New York Yankees,10.0,3313,Yankee Stadium,R,N,Carlos Rodón,Anthony Kay,Carlos Rodón,Anthony Kay,1,15.0,5.0,Wednesday
+823774,2026-06-17,2026-06-17T23:40:00Z,Final,114,Cleveland Guardians,4.0,158,Milwaukee Brewers,9.0,32,American Family Field,R,N,Chad Patrick,Gavin Williams,Brandon Sproat,Gavin Williams,1,13.0,5.0,Wednesday
+823940,2026-06-17,2026-06-17T19:10:00Z,Final,139,Tampa Bay Rays,4.0,119,Los Angeles Dodgers,5.0,22,UNIQLO Field at Dodger Stadium,R,N,Shohei Ohtani,Kevin Kelly,Shohei Ohtani,Shane McClanahan,1,9.0,1.0,Wednesday
+824178,2026-06-17,2026-06-17T18:10:00Z,Final,116,Detroit Tigers,2.0,117,Houston Astros,4.0,2392,Daikin Park,R,N,Peter Lambert,Casey Mize,Peter Lambert,Casey Mize,1,6.0,2.0,Wednesday
+824503,2026-06-17,2026-06-17T16:40:00Z,Final,121,New York Mets,9.0,113,Cincinnati Reds,1.0,2602,Great American Ball Park,R,N,Nolan McLean,Nick Lodolo,Nick Lodolo,Nolan McLean,0,10.0,-8.0,Wednesday
+824668,2026-06-17,2026-06-18T00:05:00Z,Final,115,Colorado Rockies,6.0,112,Chicago Cubs,8.0,17,Wrigley Field,R,N,Javier Assad,Sean Sullivan,Javier Assad,Sean Sullivan,1,14.0,2.0,Wednesday
+824746,2026-06-17,2026-06-17T22:45:00Z,Final,141,Toronto Blue Jays,3.0,111,Boston Red Sox,0.0,3,Fenway Park,R,N,Simeon Woods Richardson,Jake Bennett,Jake Bennett,Braydon Fisher,0,3.0,-3.0,Wednesday
+824913,2026-06-17,2026-06-17T23:15:00Z,Final,137,San Francisco Giants,7.0,144,Atlanta Braves,5.0,4705,Truist Park,R,N,Carson Whisenhunt,JR Ritchie,JR Ritchie,Carson Whisenhunt,0,12.0,-2.0,Wednesday
+824992,2026-06-17,2026-06-18T01:40:00Z,Final,134,Pittsburgh Pirates,12.0,133,Athletics,4.0,2529,Sutter Health Park,R,N,Braxton Ashcraft,Aaron Civale,Aaron Civale,Braxton Ashcraft,0,16.0,-8.0,Wednesday
+825072,2026-06-17,2026-06-17T19:40:00Z,Final,108,Los Angeles Angels,1.0,109,Arizona Diamondbacks,8.0,15,Chase Field,R,N,Eduardo Rodriguez,Sam Aldegheri,Eduardo Rodriguez,Sam Aldegheri,1,9.0,7.0,Wednesday
+822889,2026-06-18,2026-06-18T18:35:00Z,Final,142,Minnesota Twins,9.0,140,Texas Rangers,3.0,5325,Globe Life Field,R,N,Joe Ryan,Jack Leiter,Jack Leiter,Joe Ryan,0,12.0,-6.0,Thursday
+823125,2026-06-18,2026-06-18T20:10:00Z,Final,110,Baltimore Orioles,0.0,136,Seattle Mariners,3.0,680,T-Mobile Park,R,N,Bryan Woo,Shane Baz,Bryan Woo,Shane Baz,1,3.0,3.0,Thursday
+823448,2026-06-18,2026-06-18T22:40:00Z,Final,121,New York Mets,6.0,143,Philadelphia Phillies,4.0,2681,Citizens Bank Park,R,N,Huascar Brazobán,José Alvarado,Aaron Nola,Sean Manaea,0,10.0,-2.0,Thursday
+823533,2026-06-18,2026-06-18T23:05:00Z,Final,145,Chicago White Sox,5.0,147,New York Yankees,1.0,3313,Yankee Stadium,R,N,Sean Burke,Fernando Cruz,Ryan Weathers,Bryan Hudson,0,6.0,-4.0,Thursday
+823772,2026-06-18,2026-06-18T18:10:00Z,Final,114,Cleveland Guardians,4.0,158,Milwaukee Brewers,2.0,32,American Family Field,R,N,Parker Messick,Grant Anderson,Shane Drohan,Parker Messick,0,6.0,-2.0,Thursday
+824098,2026-06-18,2026-06-18T23:40:00Z,Final,138,St. Louis Cardinals,6.0,118,Kansas City Royals,14.0,7,Kauffman Stadium,R,N,Noah Cameron,Matthew Liberatore,Noah Cameron,Matthew Liberatore,1,20.0,8.0,Thursday
+824748,2026-06-18,2026-06-18T17:35:00Z,Final,141,Toronto Blue Jays,4.0,111,Boston Red Sox,3.0,3,Fenway Park,R,N,Tommy Nance,Aroldis Chapman,Sonny Gray,Trey Yesavage,0,7.0,-1.0,Thursday
+824989,2026-06-18,2026-06-19T01:40:00Z,Final,108,Los Angeles Angels,0.0,133,Athletics,5.0,2529,Sutter Health Park,R,N,Gage Jump,Ryan Johnson,Gage Jump,Ryan Johnson,1,5.0,5.0,Thursday
+822886,2026-06-19,2026-06-20T00:05:00Z,Final,135,San Diego Padres,7.0,140,Texas Rangers,9.0,5325,Globe Life Field,R,N,Jacob deGrom,Randy Vásquez,Jacob deGrom,Randy Vásquez,1,16.0,2.0,Friday
+822966,2026-06-19,2026-06-19T23:10:00Z,Final,120,Washington Nationals,2.0,139,Tampa Bay Rays,5.0,12,Tropicana Field,R,N,Griffin Jax,Miles Mikolas,Griffin Jax,PJ Poulin,1,7.0,3.0,Friday
+823124,2026-06-19,2026-06-20T02:10:00Z,Final,111,Boston Red Sox,6.0,136,Seattle Mariners,2.0,680,T-Mobile Park,R,N,Ranger Suarez,Bryce Miller,Bryce Miller,Ranger Suarez,0,8.0,-4.0,Friday
+823534,2026-06-19,2026-06-19T23:05:00Z,Final,113,Cincinnati Reds,0.0,147,New York Yankees,5.0,3313,Yankee Stadium,R,N,Cam Schlittler,Rhett Lowder,Cam Schlittler,Rhett Lowder,1,5.0,5.0,Friday
+823853,2026-06-19,2026-06-19T23:10:00Z,Final,137,San Francisco Giants,3.0,146,Miami Marlins,4.0,4169,loanDepot park,R,N,Cade Gibson,Sam Hentges,Lake Bachar,Landen Roupp,1,7.0,1.0,Friday
+823936,2026-06-19,2026-06-20T02:10:00Z,Final,110,Baltimore Orioles,5.0,119,Los Angeles Dodgers,6.0,22,UNIQLO Field at Dodger Stadium,R,N,Blake Treinen,Ryan Helsley,Roki Sasaki,Trey Gibson,1,11.0,1.0,Friday
+824097,2026-06-19,2026-06-20T00:15:00Z,Final,138,St. Louis Cardinals,5.0,118,Kansas City Royals,6.0,7,Kauffman Stadium,R,N,Seth Lugo,Michael McGreevy,Seth Lugo,Michael McGreevy,1,11.0,1.0,Friday
+824179,2026-06-19,2026-06-20T00:10:00Z,Final,114,Cleveland Guardians,3.0,117,Houston Astros,9.0,2392,Daikin Park,R,N,Tatsuya Imai,Tanner Bibee,Tatsuya Imai,Tanner Bibee,1,12.0,6.0,Friday
+824264,2026-06-19,2026-06-19T22:40:00Z,Final,145,Chicago White Sox,3.0,116,Detroit Tigers,4.0,2394,Comerica Park,R,N,Drew Anderson,Erick Fedde,Tarik Skubal,Brandon Eisert,1,7.0,1.0,Friday
+824345,2026-06-19,2026-06-20T00:40:00Z,Final,134,Pittsburgh Pirates,3.0,115,Colorado Rockies,4.0,19,Coors Field,R,N,Antonio Senzatela,Mason Montgomery,Kyle Freeland,Bubba Chandler,1,7.0,1.0,Friday
+824663,2026-06-19,2026-06-19T18:20:00Z,Final,141,Toronto Blue Jays,2.0,112,Chicago Cubs,16.0,17,Wrigley Field,R,N,Ben Brown,Kevin Gausman,Ben Brown,Kevin Gausman,1,18.0,14.0,Friday
+824910,2026-06-19,2026-06-19T23:15:00Z,Final,158,Milwaukee Brewers,2.0,144,Atlanta Braves,3.0,4705,Truist Park,R,N,Martín Pérez,Jacob Misiorowski,Martín Pérez,Jacob Misiorowski,1,5.0,1.0,Friday
+824990,2026-06-19,2026-06-20T01:40:00Z,Final,108,Los Angeles Angels,11.0,133,Athletics,12.0,2529,Sutter Health Park,R,N,Elvis Alvarado,Kirby Yates,Jeffrey Springs,José Soriano,1,23.0,1.0,Friday
+825069,2026-06-19,2026-06-20T01:45:00Z,Final,142,Minnesota Twins,5.0,109,Arizona Diamondbacks,9.0,15,Chase Field,R,N,Jonathan Loáisiga,Connor Prielipp,Michael Soroka,Connor Prielipp,1,14.0,4.0,Friday
+822885,2026-06-20,2026-06-20T20:05:00Z,Final,135,San Diego Padres,6.0,140,Texas Rangers,4.0,5325,Globe Life Field,R,N,Adrian Morejon,Joe Ross,MacKenzie Gore,Walker Buehler,0,10.0,-2.0,Saturday
+822967,2026-06-20,2026-06-20T20:10:00Z,Final,120,Washington Nationals,4.0,139,Tampa Bay Rays,3.0,12,Tropicana Field,R,N,Mitchell Parker,Ian Seymour,Ian Seymour,Cade Cavalli,0,7.0,-1.0,Saturday
+823126,2026-06-20,2026-06-21T02:10:00Z,Final,111,Boston Red Sox,5.0,136,Seattle Mariners,1.0,680,T-Mobile Park,R,N,Connelly Early,Emerson Hancock,Emerson Hancock,Connelly Early,0,6.0,-4.0,Saturday
+823447,2026-06-20,2026-06-20T23:15:00Z,Final,121,New York Mets,3.0,143,Philadelphia Phillies,15.0,2681,Citizens Bank Park,R,N,Cristopher Sánchez,Freddy Peralta,Cristopher Sánchez,Freddy Peralta,1,18.0,12.0,Saturday
+823532,2026-06-20,2026-06-20T17:35:00Z,Final,113,Cincinnati Reds,10.0,147,New York Yankees,2.0,3313,Yankee Stadium,R,N,Andrew Abbott,Will Warren,Will Warren,Andrew Abbott,0,12.0,-8.0,Saturday
+823854,2026-06-20,2026-06-20T20:10:00Z,Final,137,San Francisco Giants,3.0,146,Miami Marlins,6.0,4169,loanDepot park,R,N,Max Meyer,Trevor McDonald,Max Meyer,Trevor McDonald,1,9.0,3.0,Saturday
+823937,2026-06-20,2026-06-21T02:10:00Z,Final,110,Baltimore Orioles,3.0,119,Los Angeles Dodgers,2.0,22,UNIQLO Field at Dodger Stadium,R,N,Trevor Rogers,Yoshinobu Yamamoto,Yoshinobu Yamamoto,Trevor Rogers,0,5.0,-1.0,Saturday
+824180,2026-06-20,2026-06-20T23:15:00Z,Final,114,Cleveland Guardians,8.0,117,Houston Astros,1.0,2392,Daikin Park,R,N,Joey Cantillo,Spencer Arrighetti,Spencer Arrighetti,Joey Cantillo,0,9.0,-7.0,Saturday
+824263,2026-06-20,2026-06-20T17:10:00Z,Final,145,Chicago White Sox,1.0,116,Detroit Tigers,4.0,2394,Comerica Park,R,N,Troy Melton,Joe Rock,Troy Melton,Sean Newcomb,1,5.0,3.0,Saturday
+824342,2026-06-20,2026-06-21T01:10:00Z,Final,134,Pittsburgh Pirates,1.0,115,Colorado Rockies,2.0,19,Coors Field,R,N,Tomoyuki Sugano,Paul Skenes,Tomoyuki Sugano,Paul Skenes,1,3.0,1.0,Saturday
+824665,2026-06-20,2026-06-20T18:20:00Z,Final,141,Toronto Blue Jays,8.0,112,Chicago Cubs,6.0,17,Wrigley Field,R,N,Jeff Hoffman,Jacob Webb,Colin Rea,Patrick Corbin,0,14.0,-2.0,Saturday
+824909,2026-06-20,2026-06-20T20:10:00Z,Final,158,Milwaukee Brewers,3.0,144,Atlanta Braves,4.0,4705,Truist Park,R,N,Dylan Lee,Aaron Ashby,Chris Sale,Kyle Harrison,1,7.0,1.0,Saturday
+824988,2026-06-20,2026-06-21T02:05:00Z,Final,108,Los Angeles Angels,7.0,133,Athletics,0.0,2529,Sutter Health Park,R,N,Walbert Ureña,J.T. Ginn,J.T. Ginn,Walbert Ureña,0,7.0,-7.0,Saturday
+825068,2026-06-20,2026-06-21T02:10:00Z,Final,142,Minnesota Twins,16.0,109,Arizona Diamondbacks,8.0,15,Chase Field,R,N,Taj Bradley,Zac Gallen,Zac Gallen,Taj Bradley,0,24.0,-8.0,Saturday
+822883,2026-06-21,2026-06-21T18:35:00Z,Final,135,San Diego Padres,3.0,140,Texas Rangers,4.0,5325,Globe Life Field,R,N,Nathan Eovaldi,Lucas Giolito,Nathan Eovaldi,Wandy Peralta,1,7.0,1.0,Sunday
+822968,2026-06-21,2026-06-21T17:40:00Z,Final,120,Washington Nationals,3.0,139,Tampa Bay Rays,4.0,12,Tropicana Field,R,N,Garrett Cleavinger,Orlando Ribalta,Nick Martinez,Andrew Alvarez,1,7.0,1.0,Sunday
+823123,2026-06-21,2026-06-21T20:10:00Z,Final,111,Boston Red Sox,1.0,136,Seattle Mariners,3.0,680,T-Mobile Park,R,N,Logan Gilbert,Payton Tolle,Logan Gilbert,Payton Tolle,1,4.0,2.0,Sunday
+823449,2026-06-21,2026-06-21T23:20:00Z,Final,121,New York Mets,2.0,143,Philadelphia Phillies,6.0,2681,Citizens Bank Park,R,N,Zack Wheeler,David Peterson,Zack Wheeler,David Peterson,1,8.0,4.0,Sunday
+823531,2026-06-21,2026-06-21T17:35:00Z,Final,113,Cincinnati Reds,4.0,147,New York Yankees,1.0,3313,Yankee Stadium,R,N,Chase Burns,Elmer Rodríguez,Elmer Rodríguez,Chase Burns,0,5.0,-3.0,Sunday
+823852,2026-06-21,2026-06-21T17:40:00Z,Final,137,San Francisco Giants,1.0,146,Miami Marlins,2.0,4169,loanDepot park,R,N,John King,Logan Webb,Ryan Gusto,Logan Webb,1,3.0,1.0,Sunday
+823934,2026-06-21,2026-06-21T20:10:00Z,Final,110,Baltimore Orioles,12.0,119,Los Angeles Dodgers,1.0,22,UNIQLO Field at Dodger Stadium,R,N,Brandon Young,Emmet Sheehan,Emmet Sheehan,Brandon Young,0,13.0,-11.0,Sunday
+824095,2026-06-21,2026-06-21T18:10:00Z,Final,138,St. Louis Cardinals,12.0,118,Kansas City Royals,10.0,7,Kauffman Stadium,R,N,Gordon Graceffo,Stephen Kolek,Stephen Kolek,Dustin May,0,22.0,-2.0,Sunday
+824177,2026-06-21,2026-06-21T18:10:00Z,Final,114,Cleveland Guardians,1.0,117,Houston Astros,2.0,2392,Daikin Park,R,N,Kai-Wei Teng,Slade Cecconi,Kai-Wei Teng,Slade Cecconi,1,3.0,1.0,Sunday
+824260,2026-06-21,2026-06-21T17:40:00Z,Final,145,Chicago White Sox,4.0,116,Detroit Tigers,5.0,2394,Comerica Park,R,N,Will Vest,Brandon Eisert,Keider Montero,Davis Martin,1,9.0,1.0,Sunday
+824343,2026-06-21,2026-06-21T19:10:00Z,Final,134,Pittsburgh Pirates,8.0,115,Colorado Rockies,6.0,19,Coors Field,R,N,Yohan Ramírez,Michael Lorenzen,Michael Lorenzen,Jared Jones,0,14.0,-2.0,Sunday
+824908,2026-06-21,2026-06-21T17:35:00Z,Final,158,Milwaukee Brewers,9.0,144,Atlanta Braves,4.0,4705,Truist Park,R,N,Robert Gasser,Bryce Elder,Bryce Elder,Robert Gasser,0,13.0,-5.0,Sunday
+824987,2026-06-21,2026-06-21T20:05:00Z,Final,108,Los Angeles Angels,9.0,133,Athletics,7.0,2529,Sutter Health Park,R,N,Chase Silseth,Elvis Alvarado,Jack Perkins,Reid Detmers,0,16.0,-2.0,Sunday
+825067,2026-06-21,2026-06-21T19:15:00Z,Final,142,Minnesota Twins,4.0,109,Arizona Diamondbacks,2.0,15,Chase Field,R,N,Cody Laweryson,Juan Morillo,Jose Cabrera,Mike Paredes,0,6.0,-2.0,Sunday
+822720,2026-06-22,2026-06-22T22:45:00Z,Final,143,Philadelphia Phillies,1.0,120,Washington Nationals,4.0,3309,Nationals Park,R,N,Foster Griffin,Tim Mayza,Foster Griffin,Tim Mayza,1,5.0,3.0,Monday
+822800,2026-06-22,2026-06-22T23:07:00Z,Final,117,Houston Astros,2.0,141,Toronto Blue Jays,4.0,14,Rogers Centre,R,N,Braydon Fisher,Enyel De Los Santos,Dylan Cease,Hunter Brown,1,6.0,2.0,Monday
+822964,2026-06-22,2026-06-22T22:40:00Z,Final,118,Kansas City Royals,2.0,139,Tampa Bay Rays,1.0,12,Tropicana Field,R,N,Michael Wacha,Drew Rasmussen,Drew Rasmussen,Michael Wacha,0,3.0,-1.0,Monday
+823040,2026-06-22,2026-06-22T23:45:00Z,Final,109,Arizona Diamondbacks,2.0,138,St. Louis Cardinals,3.0,2889,Busch Stadium,R,N,Andre Pallante,Merrill Kelly,Andre Pallante,Merrill Kelly,1,5.0,1.0,Monday
+823288,2026-06-22,2026-06-23T02:10:00Z,Final,144,Atlanta Braves,0.0,135,San Diego Padres,1.0,2680,Petco Park,R,N,Michael King,Grant Holmes,Michael King,Grant Holmes,1,1.0,1.0,Monday
+823692,2026-06-22,2026-06-22T23:40:00Z,Final,119,Los Angeles Dodgers,2.0,142,Minnesota Twins,1.0,3312,Target Field,R,N,Eric Lauer,Zebby Matthews,Zebby Matthews,Will Klein,0,3.0,-1.0,Monday
+823851,2026-06-22,2026-06-22T22:40:00Z,Final,140,Texas Rangers,4.0,146,Miami Marlins,3.0,4169,loanDepot park,R,N,Robby Ahlstrom,Calvin Faucher,Tyler Phillips,Tyler Alexander,0,7.0,-1.0,Monday
+824016,2026-06-22,2026-06-23T01:38:00Z,Final,110,Baltimore Orioles,6.0,108,Los Angeles Angels,1.0,1,Angel Stadium,R,N,Kyle Bradish,Sam Aldegheri,Sam Aldegheri,Kyle Bradish,0,7.0,-5.0,Monday
+824261,2026-06-22,2026-06-22T22:10:00Z,Final,147,New York Yankees,3.0,116,Detroit Tigers,5.0,2394,Comerica Park,R,N,Framber Valdez,Gerrit Cole,Framber Valdez,Gerrit Cole,1,8.0,2.0,Monday
+824344,2026-06-22,2026-06-23T00:40:00Z,Final,111,Boston Red Sox,2.0,115,Colorado Rockies,3.0,19,Coors Field,R,N,Victor Vodnik,Aroldis Chapman,Ryan Feltner,Jake Bennett,1,5.0,1.0,Monday
+824502,2026-06-22,2026-06-22T23:10:00Z,Final,158,Milwaukee Brewers,2.0,113,Cincinnati Reds,1.0,2602,Great American Ball Park,R,N,Trevor Megill,Tony Santillan,Brady Singer,Brandon Woodruff,0,3.0,-1.0,Monday
+824585,2026-06-22,2026-06-22T23:40:00Z,Final,114,Cleveland Guardians,5.0,145,Chicago White Sox,6.0,4,Rate Field,R,N,Chris Murphy,Cade Smith,Anthony Kay,Gavin Williams,1,11.0,1.0,Monday
+822718,2026-06-23,2026-06-23T22:45:00Z,Final,143,Philadelphia Phillies,14.0,120,Washington Nationals,9.0,3309,Nationals Park,R,N,Orion Kerkering,Brad Lord,PJ Poulin,Jesús Luzardo,0,23.0,-5.0,Tuesday
+822799,2026-06-23,2026-06-23T20:07:00Z,Final,117,Houston Astros,9.0,141,Toronto Blue Jays,7.0,14,Rogers Centre,R,N,Logan VanWey,Braydon Fisher,Shane Bieber,Peter Lambert,0,16.0,-2.0,Tuesday
+822963,2026-06-23,2026-06-23T22:40:00Z,Final,118,Kansas City Royals,12.0,139,Tampa Bay Rays,5.0,12,Tropicana Field,R,N,Luinder Avila,Shane McClanahan,Shane McClanahan,Luinder Avila,0,17.0,-7.0,Tuesday
+823043,2026-06-23,2026-06-23T23:45:00Z,Final,109,Arizona Diamondbacks,4.0,138,St. Louis Cardinals,3.0,2889,Busch Stadium,R,N,Kevin Ginkel,Matt Svanson,Kyle Leahy,Eduardo Rodriguez,0,7.0,-1.0,Tuesday
+823210,2026-06-23,2026-06-24T01:45:00Z,Final,133,Athletics,1.0,137,San Francisco Giants,3.0,2395,Oracle Park,R,N,Robbie Ray,Aaron Civale,Robbie Ray,Aaron Civale,1,4.0,2.0,Tuesday
+823286,2026-06-23,2026-06-24T01:40:00Z,Final,144,Atlanta Braves,6.0,135,San Diego Padres,7.0,2680,Petco Park,R,N,Mason Miller,Raisel Iglesias,Wandy Peralta,JR Ritchie,1,13.0,1.0,Tuesday
+823365,2026-06-23,2026-06-23T22:40:00Z,Final,136,Seattle Mariners,3.0,134,Pittsburgh Pirates,2.0,31,PNC Park,R,N,George Kirby,Mitch Keller,Mitch Keller,George Kirby,0,5.0,-1.0,Tuesday
+823614,2026-06-23,2026-06-23T23:10:00Z,Final,112,Chicago Cubs,9.0,121,New York Mets,6.0,3289,Citi Field,R,N,Edward Cabrera,Kodai Senga,Kodai Senga,Edward Cabrera,0,15.0,-3.0,Tuesday
+823690,2026-06-23,2026-06-23T23:40:00Z,Final,119,Los Angeles Dodgers,12.0,142,Minnesota Twins,3.0,3312,Target Field,R,N,Justin Wrobleski,Austin Voth,Kendry Rojas,Justin Wrobleski,0,15.0,-9.0,Tuesday
+823849,2026-06-23,2026-06-23T22:40:00Z,Final,140,Texas Rangers,4.0,146,Miami Marlins,6.0,4169,loanDepot park,R,N,Sandy Alcantara,Jose Corniell,Sandy Alcantara,Cal Quantrill,1,10.0,2.0,Tuesday
+824017,2026-06-23,2026-06-24T01:38:00Z,Final,110,Baltimore Orioles,1.0,108,Los Angeles Angels,5.0,1,Angel Stadium,R,N,Ryan Johnson,Shane Baz,Ryan Johnson,Shane Baz,1,6.0,4.0,Tuesday
+824262,2026-06-23,2026-06-23T22:40:00Z,Final,147,New York Yankees,4.0,116,Detroit Tigers,3.0,2394,Comerica Park,R,N,Carlos Rodón,Casey Mize,Casey Mize,Carlos Rodón,0,7.0,-1.0,Tuesday
+824340,2026-06-23,2026-06-24T00:40:00Z,Final,111,Boston Red Sox,5.0,115,Colorado Rockies,2.0,19,Coors Field,R,N,Sonny Gray,Sean Sullivan,Sean Sullivan,Sonny Gray,0,7.0,-3.0,Tuesday
+824501,2026-06-23,2026-06-23T23:10:00Z,Final,158,Milwaukee Brewers,2.0,113,Cincinnati Reds,0.0,2602,Great American Ball Park,R,N,Brandon Sproat,Julian Garcia,Nick Lodolo,Brandon Sproat,0,2.0,-2.0,Tuesday
+824584,2026-06-23,2026-06-23T23:40:00Z,Final,114,Cleveland Guardians,1.0,145,Chicago White Sox,2.0,4,Rate Field,R,N,Sean Burke,Parker Messick,Sean Burke,Parker Messick,1,3.0,1.0,Tuesday
+822719,2026-06-24,2026-06-24T22:45:00Z,Final,143,Philadelphia Phillies,5.0,120,Washington Nationals,4.0,3309,Nationals Park,R,N,Seth Johnson,Richard Lovelady,Carson Palmquist,Aaron Nola,0,9.0,-1.0,Wednesday
+822798,2026-06-24,2026-06-24T23:07:00Z,Final,117,Houston Astros,3.0,141,Toronto Blue Jays,1.0,14,Rogers Centre,R,N,Steven Okert,Jeff Hoffman,Trey Yesavage,Mike Burrows,0,4.0,-2.0,Wednesday
+822965,2026-06-24,2026-06-24T22:40:00Z,Final,118,Kansas City Royals,3.0,139,Tampa Bay Rays,5.0,12,Tropicana Field,R,N,Griffin Jax,Noah Cameron,Griffin Jax,Noah Cameron,1,8.0,2.0,Wednesday
+823041,2026-06-24,2026-06-24T23:45:00Z,Final,109,Arizona Diamondbacks,9.0,138,St. Louis Cardinals,4.0,2889,Busch Stadium,R,N,Ryan Thompson,Matthew Liberatore,Matthew Liberatore,Mitch Bratt,0,13.0,-5.0,Wednesday
+823208,2026-06-24,2026-06-25T01:45:00Z,Final,133,Athletics,1.0,137,San Francisco Giants,2.0,2395,Oracle Park,R,N,Erik Miller,Elvis Alvarado,Tyler Mahle,Gage Jump,1,3.0,1.0,Wednesday
+823284,2026-06-24,2026-06-25T00:40:00Z,Final,144,Atlanta Braves,2.0,135,San Diego Padres,5.0,2680,Petco Park,R,N,JP Sears,Martín Pérez,JP Sears,Martín Pérez,1,7.0,3.0,Wednesday
+823367,2026-06-24,2026-06-24T22:40:00Z,Final,136,Seattle Mariners,1.0,134,Pittsburgh Pirates,11.0,31,PNC Park,R,N,Braxton Ashcraft,Bryan Woo,Braxton Ashcraft,Bryan Woo,1,12.0,10.0,Wednesday
+823611,2026-06-24,2026-06-24T23:10:00Z,Final,112,Chicago Cubs,10.0,121,New York Mets,5.0,3289,Citi Field,R,S,Shota Imanaga,Brooks Raley,Sean Manaea,Shota Imanaga,0,15.0,-5.0,Wednesday
+823613,2026-06-24,2026-06-24T17:10:00Z,Final,112,Chicago Cubs,10.0,121,New York Mets,3.0,3289,Citi Field,R,S,Javier Assad,Nolan McLean,Nolan McLean,Javier Assad,0,13.0,-7.0,Wednesday
+823691,2026-06-24,2026-06-24T23:40:00Z,Final,119,Los Angeles Dodgers,4.0,142,Minnesota Twins,3.0,3312,Target Field,R,N,Shohei Ohtani,Joe Ryan,Joe Ryan,Shohei Ohtani,0,7.0,-1.0,Wednesday
+823850,2026-06-24,2026-06-24T16:10:00Z,Final,140,Texas Rangers,2.0,146,Miami Marlins,4.0,4169,loanDepot park,R,N,John King,Jacob deGrom,Eury Pérez,Jacob deGrom,1,6.0,2.0,Wednesday
+824018,2026-06-24,2026-06-24T20:07:00Z,Final,110,Baltimore Orioles,6.0,108,Los Angeles Angels,7.0,1,Angel Stadium,R,N,Chase Silseth,Keegan Akin,José Soriano,Trey Gibson,1,13.0,1.0,Wednesday
+824259,2026-06-24,2026-06-24T22:40:00Z,Final,147,New York Yankees,4.0,116,Detroit Tigers,2.0,2394,Comerica Park,R,N,Ryan Weathers,Tarik Skubal,Tarik Skubal,Ryan Weathers,0,6.0,-2.0,Wednesday
+824341,2026-06-24,2026-06-24T19:10:00Z,Final,111,Boston Red Sox,6.0,115,Colorado Rockies,8.0,19,Coors Field,R,N,Antonio Senzatela,Justin Slaten,Kyle Freeland,Ranger Suarez,1,14.0,2.0,Wednesday
+824500,2026-06-24,2026-06-24T23:10:00Z,Final,158,Milwaukee Brewers,6.0,113,Cincinnati Reds,5.0,2602,Great American Ball Park,R,N,Chad Patrick,Rhett Lowder,Rhett Lowder,Shane Drohan,0,11.0,-1.0,Wednesday
+824583,2026-06-24,2026-06-24T18:10:00Z,Final,114,Cleveland Guardians,4.0,145,Chicago White Sox,3.0,4,Rate Field,R,N,Shawn Armstrong,Grant Taylor,Erick Fedde,Tanner Bibee,0,7.0,-1.0,Wednesday
+822717,2026-06-25,2026-06-25T22:45:00Z,Final,143,Philadelphia Phillies,10.0,120,Washington Nationals,5.0,3309,Nationals Park,R,N,Orion Kerkering,Gus Varland,Cade Cavalli,Cristopher Sánchez,0,15.0,-5.0,Thursday
+822797,2026-06-25,2026-06-25T23:07:00Z,Final,140,Texas Rangers,6.0,141,Toronto Blue Jays,5.0,14,Rogers Centre,R,N,MacKenzie Gore,Kevin Gausman,Kevin Gausman,MacKenzie Gore,0,11.0,-1.0,Thursday
+822961,2026-06-25,2026-06-25T16:10:00Z,Final,118,Kansas City Royals,2.0,139,Tampa Bay Rays,13.0,12,Tropicana Field,R,N,Ian Seymour,Seth Lugo,Casey Legumina,Seth Lugo,1,15.0,11.0,Thursday
+823209,2026-06-25,2026-06-25T19:45:00Z,Final,133,Athletics,9.0,137,San Francisco Giants,6.0,2395,Oracle Park,R,N,Geoff Hartlieb,Caleb Kilian,Landen Roupp,Jeffrey Springs,0,15.0,-3.0,Thursday
+823366,2026-06-25,2026-06-25T16:35:00Z,Final,136,Seattle Mariners,1.0,134,Pittsburgh Pirates,5.0,31,PNC Park,R,N,Bubba Chandler,Bryce Miller,Bubba Chandler,Bryce Miller,1,6.0,4.0,Thursday
+823612,2026-06-25,2026-06-25T23:10:00Z,Final,112,Chicago Cubs,4.0,121,New York Mets,3.0,3289,Citi Field,R,N,Jacob Webb,Brooks Raley,Freddy Peralta,Matthew Boyd,0,7.0,-1.0,Thursday
+824258,2026-06-25,2026-06-25T22:40:00Z,Final,117,Houston Astros,2.0,116,Detroit Tigers,1.0,2394,Comerica Park,R,N,Tatsuya Imai,Troy Melton,Troy Melton,Tatsuya Imai,0,3.0,-1.0,Thursday
+824747,2026-06-25,2026-06-25T23:10:00Z,Final,147,New York Yankees,3.0,111,Boston Red Sox,6.0,3,Fenway Park,R,N,Connelly Early,Cam Schlittler,Connelly Early,Cam Schlittler,1,9.0,3.0,Thursday
+822796,2026-06-26,2026-06-26T23:07:00Z,Final,140,Texas Rangers,5.0,141,Toronto Blue Jays,4.0,14,Rogers Centre,R,N,Nathan Eovaldi,Patrick Corbin,Patrick Corbin,Nathan Eovaldi,0,9.0,-1.0,Friday
+822962,2026-06-26,2026-06-26T23:10:00Z,Final,109,Arizona Diamondbacks,1.0,139,Tampa Bay Rays,6.0,12,Tropicana Field,R,N,Nick Martinez,Zac Gallen,Nick Martinez,Zac Gallen,1,7.0,5.0,Friday
+823039,2026-06-26,2026-06-27T00:15:00Z,Final,146,Miami Marlins,4.0,138,St. Louis Cardinals,0.0,2889,Busch Stadium,R,N,Max Meyer,George Soriano,Michael McGreevy,Max Meyer,0,4.0,-4.0,Friday
+823206,2026-06-26,2026-06-27T02:15:00Z,Final,144,Atlanta Braves,3.0,137,San Francisco Giants,1.0,2395,Oracle Park,R,N,Dylan Lee,Trevor McDonald,Trevor McDonald,Reynaldo López,0,4.0,-2.0,Friday
+823285,2026-06-26,2026-06-27T01:45:00Z,Final,119,Los Angeles Dodgers,1.0,135,San Diego Padres,7.0,2680,Petco Park,R,N,Walker Buehler,Roki Sasaki,Walker Buehler,Roki Sasaki,1,8.0,6.0,Friday
+823363,2026-06-26,2026-06-26T22:40:00Z,Final,113,Cincinnati Reds,6.0,134,Pittsburgh Pirates,4.0,31,PNC Park,R,N,Brock Burke,Mason Montgomery,Paul Skenes,Andrew Abbott,0,10.0,-2.0,Friday
+823610,2026-06-26,2026-06-26T23:10:00Z,Final,143,Philadelphia Phillies,2.0,121,New York Mets,1.0,3289,Citi Field,R,N,Zack Wheeler,Huascar Brazobán,Zach Thornton,Zack Wheeler,0,3.0,-1.0,Friday
+823688,2026-06-26,2026-06-27T00:10:00Z,Final,115,Colorado Rockies,8.0,142,Minnesota Twins,9.0,3312,Target Field,R,N,Andrew Morris,Jimmy Herget,Taj Bradley,Tomoyuki Sugano,1,17.0,1.0,Friday
+823773,2026-06-26,2026-06-26T23:45:00Z,Final,112,Chicago Cubs,2.0,158,Milwaukee Brewers,6.0,32,American Family Field,R,N,Jacob Misiorowski,Ethan Roberts,Jacob Misiorowski,Colin Rea,1,8.0,4.0,Friday
+824014,2026-06-26,2026-06-27T01:38:00Z,Final,133,Athletics,9.0,108,Los Angeles Angels,3.0,1,Angel Stadium,R,N,J.T. Ginn,Walbert Ureña,Walbert Ureña,J.T. Ginn,0,12.0,-6.0,Friday
+824255,2026-06-26,2026-06-26T22:40:00Z,Final,117,Houston Astros,0.0,116,Detroit Tigers,8.0,2394,Comerica Park,R,N,Keider Montero,Spencer Arrighetti,Keider Montero,Spencer Arrighetti,1,8.0,8.0,Friday
+824423,2026-06-26,2026-06-26T23:10:00Z,Final,136,Seattle Mariners,3.0,114,Cleveland Guardians,1.0,5,Progressive Field,R,N,Luis Castillo,Tim Herrin,Joey Cantillo,Luis Castillo,0,4.0,-2.0,Friday
+824582,2026-06-26,2026-06-26T23:40:00Z,Final,118,Kansas City Royals,1.0,145,Chicago White Sox,22.0,4,Rate Field,R,N,David Sandlin,Mitch Spence,David Sandlin,Steven Cruz,1,23.0,21.0,Friday
+824743,2026-06-26,2026-06-26T23:10:00Z,Final,147,New York Yankees,1.0,111,Boston Red Sox,6.0,3,Fenway Park,R,N,Payton Tolle,Will Warren,Payton Tolle,Will Warren,1,7.0,5.0,Friday
+824824,2026-06-26,2026-06-26T23:05:00Z,Final,120,Washington Nationals,1.0,110,Baltimore Orioles,3.0,2,Oriole Park at Camden Yards,R,N,Trevor Rogers,Andrew Alvarez,Trevor Rogers,Andrew Alvarez,1,4.0,2.0,Friday
+822794,2026-06-27,2026-06-27T19:07:00Z,Final,140,Texas Rangers,7.0,141,Toronto Blue Jays,4.0,14,Rogers Centre,R,N,Peyton Gray,Dylan Cease,Dylan Cease,Cal Quantrill,0,11.0,-3.0,Saturday
+822960,2026-06-27,2026-06-27T22:10:00Z,Final,109,Arizona Diamondbacks,2.0,139,Tampa Bay Rays,4.0,12,Tropicana Field,R,N,Michael Grove,Jose Cabrera,Cole Sulser,Jose Cabrera,1,6.0,2.0,Saturday
+823038,2026-06-27,2026-06-27T23:15:00Z,Final,146,Miami Marlins,5.0,138,St. Louis Cardinals,1.0,2889,Busch Stadium,R,N,John King,Andre Pallante,Andre Pallante,Ryan Gusto,0,6.0,-4.0,Saturday
+823207,2026-06-27,2026-06-28T01:05:00Z,Final,144,Atlanta Braves,0.0,137,San Francisco Giants,5.0,2395,Oracle Park,R,N,Logan Webb,Bryce Elder,Logan Webb,Bryce Elder,1,5.0,5.0,Saturday
+823283,2026-06-27,2026-06-28T00:40:00Z,Final,119,Los Angeles Dodgers,15.0,135,San Diego Padres,3.0,2680,Petco Park,R,N,Yoshinobu Yamamoto,Randy Vásquez,Kyle Hart,Yoshinobu Yamamoto,0,18.0,-12.0,Saturday
+823364,2026-06-27,2026-06-27T20:05:00Z,Final,113,Cincinnati Reds,9.0,134,Pittsburgh Pirates,7.0,31,PNC Park,R,N,Caleb Ferguson,Gregory Soto,Jared Jones,Chase Burns,0,16.0,-2.0,Saturday
+823609,2026-06-27,2026-06-27T20:10:00Z,Final,143,Philadelphia Phillies,2.0,121,New York Mets,6.0,3289,Citi Field,R,N,A.J. Minter,Alan Rangel,Christian Scott,Tim Mayza,1,8.0,4.0,Saturday
+823689,2026-06-27,2026-06-27T23:10:00Z,Final,115,Colorado Rockies,8.0,142,Minnesota Twins,5.0,3312,Target Field,R,N,Michael Lorenzen,Mike Paredes,Mike Paredes,Michael Lorenzen,0,13.0,-3.0,Saturday
+823770,2026-06-27,2026-06-27T23:10:00Z,Final,112,Chicago Cubs,8.0,158,Milwaukee Brewers,2.0,32,American Family Field,R,N,David Peterson,Chad Patrick,Kyle Harrison,David Peterson,0,10.0,-6.0,Saturday
+824015,2026-06-27,2026-06-28T01:38:00Z,Final,133,Athletics,2.0,108,Los Angeles Angels,5.0,1,Angel Stadium,R,N,Ryan Zeferjahn,Geoff Hartlieb,Reid Detmers,Jack Perkins,1,7.0,3.0,Saturday
+824257,2026-06-27,2026-06-27T17:10:00Z,Final,117,Houston Astros,8.0,116,Detroit Tigers,6.0,2394,Comerica Park,R,N,AJ Blubaugh,Will Vest,Framber Valdez,Kai-Wei Teng,0,14.0,-2.0,Saturday
+824421,2026-06-27,2026-06-27T23:10:00Z,Final,136,Seattle Mariners,3.0,114,Cleveland Guardians,4.0,5,Progressive Field,R,N,Slade Cecconi,Logan Gilbert,Slade Cecconi,Logan Gilbert,1,7.0,1.0,Saturday
+824581,2026-06-27,2026-06-27T20:10:00Z,Final,118,Kansas City Royals,1.0,145,Chicago White Sox,2.0,4,Rate Field,R,N,Grant Taylor,Daniel Lynch IV,Davis Martin,Michael Wacha,1,3.0,1.0,Saturday
+824745,2026-06-27,2026-06-27T17:10:00Z,Final,147,New York Yankees,1.0,111,Boston Red Sox,4.0,3,Fenway Park,R,N,Jake Bennett,Gerrit Cole,Jake Bennett,Gerrit Cole,1,5.0,3.0,Saturday
+824825,2026-06-27,2026-06-27T23:05:00Z,Final,120,Washington Nationals,4.0,110,Baltimore Orioles,3.0,2,Oriole Park at Camden Yards,R,N,Clayton Beeter,Ryan Helsley,Brandon Young,Foster Griffin,0,7.0,-1.0,Saturday
+822795,2026-06-28,2026-06-28T17:37:00Z,Final,140,Texas Rangers,3.0,141,Toronto Blue Jays,2.0,14,Rogers Centre,R,N,Cole Winn,Louis Varland,Shane Bieber,Kumar Rocker,0,5.0,-1.0,Sunday
+822959,2026-06-28,2026-06-28T17:40:00Z,Final,109,Arizona Diamondbacks,1.0,139,Tampa Bay Rays,5.0,12,Tropicana Field,R,N,Drew Rasmussen,Merrill Kelly,Drew Rasmussen,Merrill Kelly,1,6.0,4.0,Sunday
+823037,2026-06-28,2026-06-28T18:15:00Z,Final,146,Miami Marlins,1.0,138,St. Louis Cardinals,2.0,2889,Busch Stadium,R,N,Kyle Leahy,Tyler Phillips,Kyle Leahy,Tyler Phillips,1,3.0,1.0,Sunday
+823204,2026-06-28,2026-06-28T20:05:00Z,Final,144,Atlanta Braves,2.0,137,San Francisco Giants,3.0,2395,Oracle Park,R,N,Robbie Ray,Chris Sale,Robbie Ray,Chris Sale,1,5.0,1.0,Sunday
+823281,2026-06-28,2026-06-28T20:10:00Z,Final,119,Los Angeles Dodgers,4.0,135,San Diego Padres,2.0,2680,Petco Park,R,N,Emmet Sheehan,Michael King,Michael King,Emmet Sheehan,0,6.0,-2.0,Sunday
+823362,2026-06-28,2026-06-28T17:35:00Z,Final,113,Cincinnati Reds,4.0,134,Pittsburgh Pirates,9.0,31,PNC Park,R,N,Mitch Keller,Brady Singer,Mitch Keller,Brady Singer,1,13.0,5.0,Sunday
+823608,2026-06-28,2026-06-28T17:40:00Z,Final,143,Philadelphia Phillies,5.0,121,New York Mets,4.0,3289,Citi Field,R,N,Kyle Backhus,Kodai Senga,Cionel Pérez,Jesús Luzardo,0,9.0,-1.0,Sunday
+823686,2026-06-28,2026-06-28T18:10:00Z,Final,115,Colorado Rockies,2.0,142,Minnesota Twins,3.0,3312,Target Field,R,N,Andrew Morris,Seth Halvorsen,Connor Prielipp,Ryan Feltner,1,5.0,1.0,Sunday
+823769,2026-06-28,2026-06-28T18:10:00Z,Final,112,Chicago Cubs,4.0,158,Milwaukee Brewers,3.0,32,American Family Field,R,N,Jacob Webb,Joel Kuhnel,Brandon Woodruff,Ryan Rolison,0,7.0,-1.0,Sunday
+824011,2026-06-28,2026-06-28T19:15:00Z,Final,133,Athletics,1.0,108,Los Angeles Angels,4.0,1,Angel Stadium,R,N,Sam Aldegheri,Aaron Civale,Sam Aldegheri,Aaron Civale,1,5.0,3.0,Sunday
+824256,2026-06-28,2026-06-28T17:40:00Z,Final,117,Houston Astros,7.0,116,Detroit Tigers,5.0,2394,Comerica Park,R,N,Josh Hader,Kenley Jansen,Jack Flaherty,Hunter Brown,0,12.0,-2.0,Sunday
+824422,2026-06-28,2026-06-28T17:40:00Z,Final,136,Seattle Mariners,5.0,114,Cleveland Guardians,6.0,5,Progressive Field,R,N,Matt Festa,Michael Rucker,Gavin Williams,Emerson Hancock,1,11.0,1.0,Sunday
+824580,2026-06-28,2026-06-28T18:10:00Z,Final,118,Kansas City Royals,5.0,145,Chicago White Sox,4.0,4,Rate Field,R,N,Steven Cruz,Anthony Kay,Anthony Kay,Luinder Avila,0,9.0,-1.0,Sunday
+824744,2026-06-28,2026-06-28T23:20:00Z,Final,147,New York Yankees,4.0,111,Boston Red Sox,5.0,3,Fenway Park,R,N,Justin Slaten,Fernando Cruz,Sonny Gray,Carlos Rodón,1,9.0,1.0,Sunday
+824821,2026-06-28,2026-06-28T17:35:00Z,Final,120,Washington Nationals,6.0,110,Baltimore Orioles,4.0,2,Oriole Park at Camden Yards,R,N,Zack Littell,Kyle Bradish,Kyle Bradish,Zack Littell,0,10.0,-2.0,Sunday
+822792,2026-06-29,2026-06-29T23:07:00Z,Final,121,New York Mets,1.0,141,Toronto Blue Jays,2.0,14,Rogers Centre,R,N,Trey Yesavage,Sean Manaea,Trey Yesavage,Sean Manaea,1,3.0,1.0,Monday
+823121,2026-06-29,2026-06-30T01:40:00Z,Final,108,Los Angeles Angels,2.0,136,Seattle Mariners,6.0,680,T-Mobile Park,R,N,George Kirby,Ryan Johnson,George Kirby,Ryan Johnson,1,8.0,4.0,Monday
+823444,2026-06-29,2026-06-29T22:40:00Z,Final,134,Pittsburgh Pirates,11.0,143,Philadelphia Phillies,7.0,2681,Citizens Bank Park,R,N,Braxton Ashcraft,Aaron Nola,Aaron Nola,Braxton Ashcraft,0,18.0,-4.0,Monday
+823529,2026-06-29,2026-06-29T23:05:00Z,Final,116,Detroit Tigers,7.0,147,New York Yankees,3.0,3313,Yankee Stadium,R,N,Casey Mize,Ryan Weathers,Ryan Weathers,Casey Mize,0,10.0,-4.0,Monday
+823771,2026-06-29,2026-06-29T23:40:00Z,Final,113,Cincinnati Reds,3.0,158,Milwaukee Brewers,5.0,32,American Family Field,R,N,Aaron Ashby,Sam Moll,Robert Gasser,Nick Lodolo,1,8.0,2.0,Monday
+824176,2026-06-29,2026-06-30T00:10:00Z,Final,142,Minnesota Twins,5.0,117,Houston Astros,4.0,2392,Daikin Park,R,N,Zebby Matthews,Peter Lambert,Peter Lambert,Zebby Matthews,0,9.0,-1.0,Monday
+824339,2026-06-29,2026-06-30T00:40:00Z,Final,146,Miami Marlins,10.0,115,Colorado Rockies,7.0,19,Coors Field,R,N,Sandy Alcantara,Victor Vodnik,Sean Sullivan,Sandy Alcantara,0,17.0,-3.0,Monday
+824420,2026-06-29,2026-06-29T23:10:00Z,Final,140,Texas Rangers,6.0,114,Cleveland Guardians,3.0,5,Progressive Field,R,N,Robby Ahlstrom,Parker Messick,Parker Messick,Tyler Alexander,0,9.0,-3.0,Monday
+824662,2026-06-29,2026-06-30T00:05:00Z,Final,135,San Diego Padres,2.0,112,Chicago Cubs,3.0,17,Wrigley Field,R,N,Trent Thornton,Jason Adam,Shota Imanaga,Griffin Canning,1,5.0,1.0,Monday
+824741,2026-06-29,2026-06-29T23:10:00Z,Final,120,Washington Nationals,3.0,111,Boston Red Sox,6.0,3,Fenway Park,R,N,Ranger Suarez,Miles Mikolas,Ranger Suarez,Miles Mikolas,1,9.0,3.0,Monday
+824822,2026-06-29,2026-06-29T22:35:00Z,Final,145,Chicago White Sox,8.0,110,Baltimore Orioles,2.0,2,Oriole Park at Camden Yards,R,N,Grant Taylor,Grant Wolfram,Shane Baz,Sean Burke,0,10.0,-6.0,Monday
+824986,2026-06-29,2026-06-30T01:40:00Z,Final,119,Los Angeles Dodgers,9.0,133,Athletics,4.0,2529,Sutter Health Park,R,N,Eric Lauer,Gage Jump,Gage Jump,Eric Lauer,0,13.0,-5.0,Monday
+825065,2026-06-29,2026-06-30T01:40:00Z,Final,137,San Francisco Giants,4.0,109,Arizona Diamondbacks,5.0,15,Chase Field,R,N,Eduardo Rodriguez,Tyler Mahle,Eduardo Rodriguez,Tyler Mahle,1,9.0,1.0,Monday
+822793,2026-06-30,2026-06-30T23:07:00Z,Final,121,New York Mets,3.0,141,Toronto Blue Jays,0.0,14,Rogers Centre,R,N,Nolan McLean,Kevin Gausman,Kevin Gausman,Nolan McLean,0,3.0,-3.0,Tuesday
+823122,2026-06-30,2026-07-01T01:40:00Z,Final,108,Los Angeles Angels,3.0,136,Seattle Mariners,8.0,680,T-Mobile Park,R,N,Bryan Woo,José Soriano,Bryan Woo,José Soriano,1,11.0,5.0,Tuesday
+823445,2026-06-30,2026-06-30T22:40:00Z,Final,134,Pittsburgh Pirates,0.0,143,Philadelphia Phillies,8.0,2681,Citizens Bank Park,R,N,Cristopher Sánchez,Bubba Chandler,Cristopher Sánchez,Bubba Chandler,1,8.0,8.0,Tuesday
+823528,2026-06-30,2026-06-30T23:05:00Z,Final,116,Detroit Tigers,9.0,147,New York Yankees,3.0,3313,Yankee Stadium,R,N,Tarik Skubal,Cam Schlittler,Cam Schlittler,Tarik Skubal,0,12.0,-6.0,Tuesday
+823768,2026-06-30,2026-06-30T23:40:00Z,Final,113,Cincinnati Reds,2.0,158,Milwaukee Brewers,7.0,32,American Family Field,R,N,Brandon Sproat,Rhett Lowder,Brandon Sproat,Rhett Lowder,1,9.0,5.0,Tuesday
+824096,2026-06-30,2026-06-30T23:40:00Z,Final,139,Tampa Bay Rays,10.0,118,Kansas City Royals,4.0,7,Kauffman Stadium,R,N,Griffin Jax,Noah Cameron,Noah Cameron,Griffin Jax,0,14.0,-6.0,Tuesday
+824175,2026-06-30,2026-07-01T00:10:00Z,Final,142,Minnesota Twins,4.0,117,Houston Astros,6.0,2392,Daikin Park,R,N,Mike Burrows,Joe Ryan,Mike Burrows,Joe Ryan,1,10.0,2.0,Tuesday
+824338,2026-06-30,2026-07-01T00:40:00Z,Final,146,Miami Marlins,14.0,115,Colorado Rockies,3.0,19,Coors Field,R,N,Eury Pérez,Tanner Gordon,Tanner Gordon,Eury Pérez,0,17.0,-11.0,Tuesday
+824418,2026-06-30,2026-06-30T22:40:00Z,Final,140,Texas Rangers,4.0,114,Cleveland Guardians,2.0,5,Progressive Field,R,N,Jacob deGrom,Tanner Bibee,Tanner Bibee,Jacob deGrom,0,6.0,-2.0,Tuesday
+824661,2026-06-30,2026-07-01T00:05:00Z,Final,135,San Diego Padres,7.0,112,Chicago Cubs,9.0,17,Wrigley Field,R,N,Matthew Boyd,JP Sears,Matthew Boyd,JP Sears,1,16.0,2.0,Tuesday
+824742,2026-06-30,2026-06-30T23:10:00Z,Final,120,Washington Nationals,8.0,111,Boston Red Sox,1.0,3,Fenway Park,R,N,Cade Cavalli,Greg Weissert,Connelly Early,Cade Cavalli,0,9.0,-7.0,Tuesday
+824819,2026-06-30,2026-06-30T22:35:00Z,Final,145,Chicago White Sox,9.0,110,Baltimore Orioles,3.0,2,Oriole Park at Camden Yards,R,N,Erick Fedde,Trey Gibson,Trey Gibson,Erick Fedde,0,12.0,-6.0,Tuesday
+824907,2026-06-30,2026-06-30T23:15:00Z,Final,138,St. Louis Cardinals,5.0,144,Atlanta Braves,3.0,4705,Truist Park,R,N,Matthew Liberatore,Martín Pérez,Martín Pérez,Matthew Liberatore,0,8.0,-2.0,Tuesday
+824984,2026-06-30,2026-07-01T01:40:00Z,Final,119,Los Angeles Dodgers,9.0,133,Athletics,3.0,2529,Sutter Health Park,R,N,Justin Wrobleski,Jeffrey Springs,Jeffrey Springs,Justin Wrobleski,0,12.0,-6.0,Tuesday
+825066,2026-06-30,2026-07-01T01:40:00Z,Final,137,San Francisco Giants,2.0,109,Arizona Diamondbacks,8.0,15,Chase Field,R,N,Brandon Pfaadt,Landen Roupp,Brandon Pfaadt,Landen Roupp,1,10.0,6.0,Tuesday
+822791,2026-07-01,2026-07-01T19:07:00Z,Final,121,New York Mets,3.0,141,Toronto Blue Jays,9.0,14,Rogers Centre,R,N,Spencer Miles,Freddy Peralta,Braydon Fisher,Freddy Peralta,1,12.0,6.0,Wednesday
+823446,2026-07-01,2026-07-01T22:40:00Z,Final,134,Pittsburgh Pirates,6.0,143,Philadelphia Phillies,10.0,2681,Citizens Bank Park,R,N,Orion Kerkering,Paul Skenes,Zack Wheeler,Paul Skenes,1,16.0,4.0,Wednesday
+823530,2026-07-01,2026-07-01T17:35:00Z,Final,116,Detroit Tigers,6.0,147,New York Yankees,2.0,3313,Yankee Stadium,R,N,Keider Montero,Camilo Doval,Will Warren,Troy Melton,0,8.0,-4.0,Wednesday
+823767,2026-07-01,2026-07-02T00:10:00Z,Final,113,Cincinnati Reds,2.0,158,Milwaukee Brewers,4.0,32,American Family Field,R,N,Aaron Ashby,Brock Burke,Shane Drohan,Andrew Abbott,1,6.0,2.0,Wednesday
+824094,2026-07-01,2026-07-01T23:40:00Z,Final,139,Tampa Bay Rays,4.0,118,Kansas City Royals,0.0,7,Kauffman Stadium,R,N,Shane McClanahan,Seth Lugo,Seth Lugo,Shane McClanahan,0,4.0,-4.0,Wednesday
+824174,2026-07-01,2026-07-02T00:10:00Z,Final,142,Minnesota Twins,8.0,117,Houston Astros,3.0,2392,Daikin Park,R,N,Taj Bradley,Tatsuya Imai,Tatsuya Imai,Taj Bradley,0,11.0,-5.0,Wednesday
+824337,2026-07-01,2026-07-02T00:40:00Z,Final,146,Miami Marlins,3.0,115,Colorado Rockies,6.0,19,Coors Field,R,N,Kyle Freeland,Max Meyer,Kyle Freeland,Max Meyer,1,9.0,3.0,Wednesday
+824419,2026-07-01,2026-07-01T17:10:00Z,Final,140,Texas Rangers,4.0,114,Cleveland Guardians,9.0,5,Progressive Field,R,N,Joey Cantillo,MacKenzie Gore,Joey Cantillo,MacKenzie Gore,1,13.0,5.0,Wednesday
+824660,2026-07-01,2026-07-01T18:20:00Z,Final,135,San Diego Padres,3.0,112,Chicago Cubs,23.0,17,Wrigley Field,R,N,Colin Rea,Walker Buehler,Colin Rea,Walker Buehler,1,26.0,20.0,Wednesday
+824740,2026-07-01,2026-07-01T17:35:00Z,Final,120,Washington Nationals,10.0,111,Boston Red Sox,2.0,3,Fenway Park,R,N,Andrew Alvarez,Payton Tolle,Payton Tolle,Brad Lord,0,12.0,-8.0,Wednesday
+824818,2026-07-01,2026-07-01T16:35:00Z,Final,145,Chicago White Sox,1.0,110,Baltimore Orioles,6.0,2,Oriole Park at Camden Yards,R,N,Dean Kremer,Noah Schultz,Dean Kremer,Noah Schultz,1,7.0,5.0,Wednesday
+824905,2026-07-01,2026-07-01T23:15:00Z,Final,138,St. Louis Cardinals,1.0,144,Atlanta Braves,5.0,4705,Truist Park,R,N,Reynaldo López,Michael McGreevy,Reynaldo López,Michael McGreevy,1,6.0,4.0,Wednesday
+825064,2026-07-01,2026-07-02T01:40:00Z,Final,137,San Francisco Giants,6.0,109,Arizona Diamondbacks,4.0,15,Chase Field,R,N,Trevor McDonald,Zac Gallen,Zac Gallen,Trevor McDonald,0,10.0,-2.0,Wednesday
+822884,2026-07-02,2026-07-03T00:05:00Z,Final,116,Detroit Tigers,4.0,140,Texas Rangers,10.0,5325,Globe Life Field,R,N,Nathan Eovaldi,Framber Valdez,Nathan Eovaldi,Framber Valdez,1,14.0,6.0,Thursday
+823119,2026-07-02,2026-07-03T01:40:00Z,Final,108,Los Angeles Angels,0.0,136,Seattle Mariners,1.0,680,T-Mobile Park,R,N,Bryce Miller,Walbert Ureña,Bryce Miller,Walbert Ureña,1,1.0,1.0,Thursday
+823442,2026-07-02,2026-07-02T16:35:00Z,Final,134,Pittsburgh Pirates,6.0,143,Philadelphia Phillies,1.0,2681,Citizens Bank Park,R,N,Carmen Mlodzinski,José Alvarado,Alan Rangel,Jared Jones,0,7.0,-5.0,Thursday
+823765,2026-07-02,2026-07-02T18:10:00Z,Final,113,Cincinnati Reds,7.0,158,Milwaukee Brewers,2.0,32,American Family Field,R,N,Chase Burns,Jacob Misiorowski,Jacob Misiorowski,Chase Burns,0,9.0,-5.0,Thursday
+823935,2026-07-02,2026-07-03T02:10:00Z,Final,135,San Diego Padres,7.0,119,Los Angeles Dodgers,12.0,22,UNIQLO Field at Dodger Stadium,R,N,Will Klein,Wandy Peralta,Roki Sasaki,Randy Vásquez,1,19.0,5.0,Thursday
+824093,2026-07-02,2026-07-02T23:40:00Z,Final,139,Tampa Bay Rays,5.0,118,Kansas City Royals,2.0,7,Kauffman Stadium,R,N,Ian Seymour,Stephen Kolek,Stephen Kolek,Ian Seymour,0,7.0,-3.0,Thursday
+824335,2026-07-02,2026-07-02T19:10:00Z,Final,146,Miami Marlins,4.0,115,Colorado Rockies,14.0,19,Coors Field,R,N,Brennan Bernardino,John King,Michael Lorenzen,Ryan Gusto,1,18.0,10.0,Thursday
+824416,2026-07-02,2026-07-02T22:40:00Z,Final,145,Chicago White Sox,5.0,114,Cleveland Guardians,6.0,5,Progressive Field,R,N,Tim Herrin,Grant Taylor,Slade Cecconi,Davis Martin,1,11.0,1.0,Thursday
+824906,2026-07-02,2026-07-02T23:15:00Z,Final,138,St. Louis Cardinals,11.0,144,Atlanta Braves,5.0,4705,Truist Park,R,N,Gordon Graceffo,Tyler Kinley,Hurston Waldrep,Dustin May,0,16.0,-6.0,Thursday
+822714,2026-07-03,2026-07-03T22:45:00Z,Final,134,Pittsburgh Pirates,5.0,120,Washington Nationals,9.0,3309,Nationals Park,R,N,Foster Griffin,Mitch Keller,Foster Griffin,Mitch Keller,1,14.0,4.0,Friday
+823120,2026-07-03,2026-07-04T02:10:00Z,Final,141,Toronto Blue Jays,2.0,136,Seattle Mariners,0.0,680,T-Mobile Park,R,N,Dylan Cease,Luis Castillo,Luis Castillo,Dylan Cease,0,2.0,-2.0,Friday
+823527,2026-07-03,2026-07-03T23:05:00Z,Final,142,Minnesota Twins,2.0,147,New York Yankees,5.0,3313,Yankee Stadium,R,N,Gerrit Cole,Mike Paredes,Gerrit Cole,Mike Paredes,1,7.0,3.0,Friday
+823933,2026-07-03,2026-07-04T02:10:00Z,Final,135,San Diego Padres,3.0,119,Los Angeles Dodgers,4.0,22,UNIQLO Field at Dodger Stadium,R,N,Kyle Hurt,Adrian Morejon,Shohei Ohtani,Michael King,1,7.0,1.0,Friday
+824013,2026-07-03,2026-07-04T01:38:00Z,Final,111,Boston Red Sox,5.0,108,Los Angeles Angels,2.0,1,Angel Stadium,R,N,Jake Bennett,Reid Detmers,Reid Detmers,Jake Bennett,0,7.0,-3.0,Friday
+824173,2026-07-03,2026-07-04T00:15:00Z,Final,139,Tampa Bay Rays,3.0,117,Houston Astros,1.0,2392,Daikin Park,R,N,Kevin Kelly,Steven Okert,Spencer Arrighetti,Nick Martinez,0,4.0,-2.0,Friday
+824336,2026-07-03,2026-07-04T00:10:00Z,Final,137,San Francisco Giants,3.0,115,Colorado Rockies,15.0,19,Coors Field,R,N,Ryan Feltner,Logan Webb,Ryan Feltner,Logan Webb,1,18.0,12.0,Friday
+824417,2026-07-03,2026-07-03T23:10:00Z,Final,145,Chicago White Sox,3.0,114,Cleveland Guardians,4.0,5,Progressive Field,R,N,Erik Sabrowski,Sean Newcomb,Gavin Williams,Anthony Kay,1,7.0,1.0,Friday
+824498,2026-07-03,2026-07-03T23:10:00Z,Final,110,Baltimore Orioles,3.0,113,Cincinnati Reds,0.0,2602,Great American Ball Park,R,N,Trevor Rogers,Brady Singer,Brady Singer,Trevor Rogers,0,3.0,-3.0,Friday
+824659,2026-07-03,2026-07-03T20:05:00Z,Final,138,St. Louis Cardinals,17.0,112,Chicago Cubs,1.0,17,Wrigley Field,R,N,Andre Pallante,David Peterson,David Peterson,Andre Pallante,0,18.0,-16.0,Friday
+824904,2026-07-03,2026-07-03T23:15:00Z,Final,121,New York Mets,3.0,144,Atlanta Braves,5.0,4705,Truist Park,R,N,Grant Holmes,Christian Scott,Grant Holmes,Christian Scott,1,8.0,2.0,Friday
+824982,2026-07-03,2026-07-04T01:40:00Z,Final,146,Miami Marlins,12.0,133,Athletics,5.0,2529,Sutter Health Park,R,N,Lake Bachar,Jack Perkins,Jack Perkins,Tyler Phillips,0,17.0,-7.0,Friday
+825062,2026-07-03,2026-07-04T01:45:00Z,Final,158,Milwaukee Brewers,7.0,109,Arizona Diamondbacks,4.0,15,Chase Field,R,N,Grant Anderson,Ryan Thompson,Jose Cabrera,Kyle Harrison,0,11.0,-3.0,Friday
+822716,2026-07-04,2026-07-04T15:05:00Z,Final,134,Pittsburgh Pirates,7.0,120,Washington Nationals,1.0,3309,Nationals Park,R,N,Braxton Ashcraft,Carson Palmquist,Carson Palmquist,Braxton Ashcraft,0,8.0,-6.0,Saturday
+822882,2026-07-04,2026-07-04T20:05:00Z,Final,116,Detroit Tigers,3.0,140,Texas Rangers,0.0,5325,Globe Life Field,R,N,Jack Flaherty,Cal Quantrill,Cal Quantrill,Jack Flaherty,0,3.0,-3.0,Saturday
+823118,2026-07-04,2026-07-04T20:10:00Z,Final,141,Toronto Blue Jays,0.0,136,Seattle Mariners,11.0,680,T-Mobile Park,R,N,Logan Gilbert,Shane Bieber,Logan Gilbert,Shane Bieber,1,11.0,11.0,Saturday
+823526,2026-07-04,2026-07-04T17:35:00Z,Final,142,Minnesota Twins,11.0,147,New York Yankees,4.0,3313,Yankee Stadium,R,N,Taylor Rogers,Brendan Beck,Brendan Beck,Zebby Matthews,0,15.0,-7.0,Saturday
+823932,2026-07-04,2026-07-05T02:10:00Z,Final,135,San Diego Padres,0.0,119,Los Angeles Dodgers,3.0,22,UNIQLO Field at Dodger Stadium,R,N,Yoshinobu Yamamoto,Griffin Canning,Yoshinobu Yamamoto,Wandy Peralta,1,3.0,3.0,Saturday
+824012,2026-07-04,2026-07-05T01:38:00Z,Final,111,Boston Red Sox,8.0,108,Los Angeles Angels,1.0,1,Angel Stadium,R,N,Sonny Gray,Sam Aldegheri,Sam Aldegheri,Sonny Gray,0,9.0,-7.0,Saturday
+824092,2026-07-04,2026-07-05T00:10:00Z,Final,143,Philadelphia Phillies,6.0,118,Kansas City Royals,1.0,7,Kauffman Stadium,R,N,Jesús Luzardo,Michael Wacha,Michael Wacha,Jesús Luzardo,0,7.0,-5.0,Saturday
+824171,2026-07-04,2026-07-04T23:10:00Z,Final,139,Tampa Bay Rays,8.0,117,Houston Astros,10.0,2392,Daikin Park,R,N,Josh Hader,Casey Legumina,Hunter Brown,Drew Rasmussen,1,18.0,2.0,Saturday
+824334,2026-07-04,2026-07-05T00:10:00Z,Final,137,San Francisco Giants,6.0,115,Colorado Rockies,4.0,19,Coors Field,R,N,Robbie Ray,Sean Sullivan,Sean Sullivan,Robbie Ray,0,10.0,-2.0,Saturday
+824415,2026-07-04,2026-07-04T23:10:00Z,Final,145,Chicago White Sox,3.0,114,Cleveland Guardians,1.0,5,Progressive Field,R,N,Brandon Eisert,Tim Herrin,Parker Messick,Sean Burke,0,4.0,-2.0,Saturday
+824499,2026-07-04,2026-07-04T23:10:00Z,Final,110,Baltimore Orioles,8.0,113,Cincinnati Reds,5.0,2602,Great American Ball Park,R,N,Brandon Young,Hunter Greene,Hunter Greene,Brandon Young,0,13.0,-3.0,Saturday
+824658,2026-07-04,2026-07-05T00:08:00Z,Final,138,St. Louis Cardinals,3.0,112,Chicago Cubs,0.0,17,Wrigley Field,R,N,Kyle Leahy,Shota Imanaga,Shota Imanaga,Kyle Leahy,0,3.0,-3.0,Saturday
+824903,2026-07-04,2026-07-05T00:08:00Z,Final,121,New York Mets,3.0,144,Atlanta Braves,14.0,4705,Truist Park,R,N,Chris Sale,Sean Manaea,Chris Sale,Sean Manaea,1,17.0,11.0,Saturday
+824983,2026-07-04,2026-07-05T01:40:00Z,Final,146,Miami Marlins,7.0,133,Athletics,2.0,2529,Sutter Health Park,R,N,Sandy Alcantara,Aaron Civale,Aaron Civale,Sandy Alcantara,0,9.0,-5.0,Saturday
+825063,2026-07-04,2026-07-05T01:40:00Z,Final,158,Milwaukee Brewers,3.0,109,Arizona Diamondbacks,4.0,15,Chase Field,R,N,Merrill Kelly,Brandon Woodruff,Merrill Kelly,Brandon Woodruff,1,7.0,1.0,Saturday
+822715,2026-07-05,2026-07-05T17:00:00Z,Final,134,Pittsburgh Pirates,11.0,120,Washington Nationals,5.0,3309,Nationals Park,R,N,Gregory Soto,Brad Lord,Cade Cavalli,Bubba Chandler,0,16.0,-6.0,Sunday
+822879,2026-07-05,2026-07-05T19:30:00Z,Final,116,Detroit Tigers,6.0,140,Texas Rangers,3.0,5325,Globe Life Field,R,N,Casey Mize,Kumar Rocker,Kumar Rocker,Casey Mize,0,9.0,-3.0,Sunday
+823117,2026-07-05,2026-07-05T21:00:00Z,Final,141,Toronto Blue Jays,0.0,136,Seattle Mariners,4.0,680,T-Mobile Park,R,N,Emerson Hancock,Trey Yesavage,Emerson Hancock,Trey Yesavage,1,4.0,4.0,Sunday
+823525,2026-07-05,2026-07-05T17:35:00Z,Final,142,Minnesota Twins,6.0,147,New York Yankees,1.0,3313,Yankee Stadium,R,N,Joe Ryan,Ryan Weathers,Ryan Weathers,Joe Ryan,0,7.0,-5.0,Sunday
+823931,2026-07-05,2026-07-05T23:20:00Z,Final,135,San Diego Padres,5.0,119,Los Angeles Dodgers,2.0,22,UNIQLO Field at Dodger Stadium,R,N,JP Sears,Emmet Sheehan,Emmet Sheehan,JP Sears,0,7.0,-3.0,Sunday
+824010,2026-07-05,2026-07-06T01:30:00Z,Final,111,Boston Red Sox,7.0,108,Los Angeles Angels,5.0,1,Angel Stadium,R,N,Greg Weissert,Ryan Johnson,Ryan Johnson,Ranger Suarez,0,12.0,-2.0,Sunday
+824091,2026-07-05,2026-07-05T19:00:00Z,Final,143,Philadelphia Phillies,2.0,118,Kansas City Royals,5.0,7,Kauffman Stadium,R,N,Luinder Avila,Aaron Nola,Luinder Avila,Aaron Nola,1,7.0,3.0,Sunday
+824172,2026-07-05,2026-07-05T19:30:00Z,Final,139,Tampa Bay Rays,0.0,117,Houston Astros,2.0,2392,Daikin Park,R,N,Peter Lambert,Mason Englert,Peter Lambert,Mason Englert,1,2.0,2.0,Sunday
+824333,2026-07-05,2026-07-05T20:00:00Z,Final,137,San Francisco Giants,6.0,115,Colorado Rockies,7.0,19,Coors Field,R,N,Victor Vodnik,Dylan Smith,Tanner Gordon,Tyler Mahle,1,13.0,1.0,Sunday
+824413,2026-07-05,2026-07-05T18:00:00Z,Final,145,Chicago White Sox,7.0,114,Cleveland Guardians,6.0,5,Progressive Field,R,N,Erick Fedde,Colin Holderman,Tanner Bibee,Chris Murphy,0,13.0,-1.0,Sunday
+824497,2026-07-05,2026-07-05T17:05:00Z,Final,110,Baltimore Orioles,2.0,113,Cincinnati Reds,3.0,2602,Great American Ball Park,R,N,Nick Lodolo,Kyle Bradish,Nick Lodolo,Kyle Bradish,1,5.0,1.0,Sunday
+824656,2026-07-05,2026-07-05T18:30:00Z,Final,138,St. Louis Cardinals,4.0,112,Chicago Cubs,6.0,17,Wrigley Field,R,N,Drew Pomeranz,Matthew Liberatore,Javier Assad,Matthew Liberatore,1,10.0,2.0,Sunday
+824902,2026-07-05,2026-07-05T16:30:00Z,Final,121,New York Mets,10.0,144,Atlanta Braves,9.0,4705,Truist Park,R,N,Nolan McLean,Martín Pérez,Martín Pérez,Nolan McLean,0,19.0,-1.0,Sunday
+824980,2026-07-05,2026-07-05T20:30:00Z,Final,146,Miami Marlins,9.0,133,Athletics,8.0,2529,Sutter Health Park,R,N,Eury Pérez,Gage Jump,Gage Jump,Eury Pérez,0,17.0,-1.0,Sunday
+825061,2026-07-05,2026-07-05T20:00:00Z,Final,158,Milwaukee Brewers,3.0,109,Arizona Diamondbacks,2.0,15,Chase Field,R,N,Drew Rom,Eduardo Rodriguez,Eduardo Rodriguez,Brandon Sproat,0,5.0,-1.0,Sunday
+822712,2026-07-06,2026-07-06T22:45:00Z,Final,117,Houston Astros,11.0,120,Washington Nationals,12.0,3309,Nationals Park,R,N,Miles Mikolas,Mike Burrows,Miles Mikolas,Mike Burrows,1,23.0,1.0,Monday
+822958,2026-07-06,2026-07-06T22:40:00Z,Final,147,New York Yankees,5.0,139,Tampa Bay Rays,1.0,12,Tropicana Field,R,N,Cam Schlittler,Griffin Jax,Griffin Jax,Cam Schlittler,0,6.0,-4.0,Monday
+823036,2026-07-06,2026-07-06T23:45:00Z,Final,158,Milwaukee Brewers,4.0,138,St. Louis Cardinals,3.0,2889,Busch Stadium,R,N,Shane Drohan,Ryan Fernandez,Dustin May,Shane Drohan,0,7.0,-1.0,Monday
+823205,2026-07-06,2026-07-07T01:45:00Z,Final,141,Toronto Blue Jays,1.0,137,San Francisco Giants,10.0,2395,Oracle Park,R,N,Landen Roupp,Kevin Gausman,Landen Roupp,Kevin Gausman,1,11.0,9.0,Monday
+823282,2026-07-06,2026-07-07T01:40:00Z,Final,109,Arizona Diamondbacks,8.0,135,San Diego Padres,0.0,2680,Petco Park,R,N,Brandon Pfaadt,Walker Buehler,Walker Buehler,Brandon Pfaadt,0,8.0,-8.0,Monday
+823930,2026-07-06,2026-07-07T02:10:00Z,Final,115,Colorado Rockies,7.0,119,Los Angeles Dodgers,8.0,22,UNIQLO Field at Dodger Stadium,R,N,Edgardo Henriquez,Jimmy Herget,Eric Lauer,Kyle Freeland,1,15.0,1.0,Monday
+824089,2026-07-06,2026-07-06T18:10:00Z,Final,143,Philadelphia Phillies,1.0,118,Kansas City Royals,15.0,7,Kauffman Stadium,R,N,Noah Cameron,Cristopher Sánchez,Noah Cameron,Cristopher Sánchez,1,16.0,14.0,Monday
+824900,2026-07-06,2026-07-06T23:15:00Z,Final,121,New York Mets,7.0,144,Atlanta Braves,6.0,4705,Truist Park,R,N,Brooks Raley,Owen Murphy,Reynaldo López,Freddy Peralta,0,13.0,-1.0,Monday
+822713,2026-07-07,2026-07-07T22:45:00Z,Final,117,Houston Astros,6.0,120,Washington Nationals,3.0,3309,Nationals Park,R,N,Steven Okert,Andrew Alvarez,Andrew Alvarez,Tatsuya Imai,0,9.0,-3.0,Tuesday
+822881,2026-07-07,2026-07-08T00:05:00Z,Final,108,Los Angeles Angels,3.0,140,Texas Rangers,8.0,5325,Globe Life Field,R,N,Peyton Gray,Sam Bachman,Jacob deGrom,José Soriano,1,11.0,5.0,Tuesday
+822956,2026-07-07,2026-07-07T22:40:00Z,Final,147,New York Yankees,4.0,139,Tampa Bay Rays,6.0,12,Tropicana Field,R,N,Ian Seymour,Will Warren,Ian Seymour,Will Warren,1,10.0,2.0,Tuesday
+823035,2026-07-07,2026-07-07T23:45:00Z,Final,158,Milwaukee Brewers,10.0,138,St. Louis Cardinals,2.0,2889,Busch Stadium,R,S,Robert Gasser,Hunter Dobbins,Hunter Dobbins,Robert Gasser,0,12.0,-8.0,Tuesday
+823062,2026-07-07,2026-07-07T18:15:00Z,Final,158,Milwaukee Brewers,4.0,138,St. Louis Cardinals,3.0,2889,Busch Stadium,R,S,Jacob Misiorowski,Ryne Stanek,Matt Svanson,Jacob Misiorowski,0,7.0,-1.0,Tuesday
+823203,2026-07-07,2026-07-08T01:45:00Z,Final,141,Toronto Blue Jays,9.0,137,San Francisco Giants,3.0,2395,Oracle Park,R,N,Patrick Corbin,Trevor McDonald,Trevor McDonald,Spencer Miles,0,12.0,-6.0,Tuesday
+823280,2026-07-07,2026-07-08T01:40:00Z,Final,109,Arizona Diamondbacks,1.0,135,San Diego Padres,4.0,2680,Petco Park,R,N,Germán Márquez,Zac Gallen,Germán Márquez,Zac Gallen,1,5.0,3.0,Tuesday
+823361,2026-07-07,2026-07-07T22:40:00Z,Final,144,Atlanta Braves,4.0,134,Pittsburgh Pirates,12.0,31,PNC Park,R,N,Paul Skenes,Hurston Waldrep,Paul Skenes,Hurston Waldrep,1,16.0,8.0,Tuesday
+823607,2026-07-07,2026-07-07T23:10:00Z,Final,118,Kansas City Royals,16.0,121,New York Mets,12.0,3289,Citi Field,R,N,Beck Way,Matt Seelinger,Cionel Pérez,Seth Lugo,0,28.0,-4.0,Tuesday
+823687,2026-07-07,2026-07-07T23:40:00Z,Final,114,Cleveland Guardians,1.0,142,Minnesota Twins,3.0,3312,Target Field,R,N,Taj Bradley,Joey Cantillo,Taj Bradley,Joey Cantillo,1,4.0,2.0,Tuesday
+823847,2026-07-07,2026-07-07T22:40:00Z,Final,136,Seattle Mariners,5.0,146,Miami Marlins,6.0,4169,loanDepot park,R,N,Cade Gibson,Michael Rucker,Max Meyer,Bryan Woo,1,11.0,1.0,Tuesday
+823929,2026-07-07,2026-07-08T02:10:00Z,Final,115,Colorado Rockies,4.0,119,Los Angeles Dodgers,3.0,22,UNIQLO Field at Dodger Stadium,R,N,Juan Mejia,Will Klein,Justin Wrobleski,Michael Lorenzen,0,7.0,-1.0,Tuesday
+824254,2026-07-07,2026-07-07T22:40:00Z,Final,133,Athletics,2.0,116,Detroit Tigers,6.0,2394,Comerica Park,R,N,Tarik Skubal,J.T. Ginn,Tarik Skubal,J.T. Ginn,1,8.0,4.0,Tuesday
+824495,2026-07-07,2026-07-07T23:10:00Z,Final,143,Philadelphia Phillies,4.0,113,Cincinnati Reds,1.0,2602,Great American Ball Park,R,N,Zack Wheeler,Andrew Abbott,Andrew Abbott,Zack Wheeler,0,5.0,-3.0,Tuesday
+824579,2026-07-07,2026-07-07T23:40:00Z,Final,111,Boston Red Sox,8.0,145,Chicago White Sox,1.0,4,Rate Field,R,N,Payton Tolle,Noah Schultz,Noah Schultz,Payton Tolle,0,9.0,-7.0,Tuesday
+824820,2026-07-07,2026-07-07T22:35:00Z,Final,112,Chicago Cubs,5.0,110,Baltimore Orioles,2.0,2,Oriole Park at Camden Yards,R,N,Matthew Boyd,Shane Baz,Shane Baz,Matthew Boyd,0,7.0,-3.0,Tuesday
+822710,2026-07-08,2026-07-08T22:45:00Z,Final,117,Houston Astros,2.0,120,Washington Nationals,8.0,3309,Nationals Park,R,N,Foster Griffin,Spencer Arrighetti,Foster Griffin,Spencer Arrighetti,1,10.0,6.0,Wednesday
+822880,2026-07-08,2026-07-09T00:05:00Z,Final,108,Los Angeles Angels,13.0,140,Texas Rangers,1.0,5325,Globe Life Field,R,N,Samy Natera Jr.,MacKenzie Gore,MacKenzie Gore,Walbert Ureña,0,14.0,-12.0,Wednesday
+822957,2026-07-08,2026-07-08T22:40:00Z,Final,147,New York Yankees,0.0,139,Tampa Bay Rays,3.0,12,Tropicana Field,R,N,Shane McClanahan,Gerrit Cole,Shane McClanahan,Gerrit Cole,1,3.0,3.0,Wednesday
+823032,2026-07-08,2026-07-08T23:45:00Z,Final,158,Milwaukee Brewers,1.0,138,St. Louis Cardinals,5.0,2889,Busch Stadium,R,N,Michael McGreevy,Kyle Harrison,Michael McGreevy,Kyle Harrison,1,6.0,4.0,Wednesday
+823202,2026-07-08,2026-07-08T19:45:00Z,Final,141,Toronto Blue Jays,10.0,137,San Francisco Giants,0.0,2395,Oracle Park,R,N,Dylan Cease,Logan Webb,Logan Webb,Dylan Cease,0,10.0,-10.0,Wednesday
+823279,2026-07-08,2026-07-09T02:10:00Z,Final,109,Arizona Diamondbacks,4.0,135,San Diego Padres,10.0,2680,Petco Park,R,N,Michael King,Jose Cabrera,Michael King,Jose Cabrera,1,14.0,6.0,Wednesday
+823360,2026-07-08,2026-07-08T22:40:00Z,Final,144,Atlanta Braves,3.0,134,Pittsburgh Pirates,0.0,31,PNC Park,R,N,Dylan Dodd,Dennis Santana,Jared Jones,Grant Holmes,0,3.0,-3.0,Wednesday
+823605,2026-07-08,2026-07-08T23:10:00Z,Final,118,Kansas City Royals,2.0,121,New York Mets,6.0,3289,Citi Field,R,N,Brooks Raley,Alex Lange,Christian Scott,Steven Cruz,1,8.0,4.0,Wednesday
+823684,2026-07-08,2026-07-08T23:40:00Z,Final,114,Cleveland Guardians,5.0,142,Minnesota Twins,6.0,3312,Target Field,R,N,Yoendrys Gómez,Matt Festa,Connor Prielipp,Slade Cecconi,1,11.0,1.0,Wednesday
+823848,2026-07-08,2026-07-08T22:40:00Z,Final,136,Seattle Mariners,0.0,146,Miami Marlins,2.0,4169,loanDepot park,R,N,Tyler Phillips,George Kirby,Tyler Phillips,George Kirby,1,2.0,2.0,Wednesday
+823928,2026-07-08,2026-07-09T02:10:00Z,Final,115,Colorado Rockies,3.0,119,Los Angeles Dodgers,4.0,22,UNIQLO Field at Dodger Stadium,R,N,Edgardo Henriquez,Antonio Senzatela,Roki Sasaki,Gabriel Hughes,1,7.0,1.0,Wednesday
+824253,2026-07-08,2026-07-08T22:40:00Z,Final,133,Athletics,1.0,116,Detroit Tigers,6.0,2394,Comerica Park,R,N,Troy Melton,Jeffrey Springs,Troy Melton,Jeffrey Springs,1,7.0,5.0,Wednesday
+824496,2026-07-08,2026-07-08T23:10:00Z,Final,143,Philadelphia Phillies,5.0,113,Cincinnati Reds,11.0,2602,Great American Ball Park,R,N,Chase Burns,Alan Rangel,Chase Burns,Alan Rangel,1,16.0,6.0,Wednesday
+824578,2026-07-08,2026-07-08T23:40:00Z,Final,111,Boston Red Sox,5.0,145,Chicago White Sox,0.0,4,Rate Field,R,N,Jake Bennett,Davis Martin,Davis Martin,Jake Bennett,0,5.0,-5.0,Wednesday
+824815,2026-07-08,2026-07-08T22:35:00Z,Final,112,Chicago Cubs,9.0,110,Baltimore Orioles,7.0,2,Oriole Park at Camden Yards,R,N,Colin Rea,Dean Kremer,Dean Kremer,Colin Rea,0,16.0,-2.0,Wednesday
+822877,2026-07-09,2026-07-10T00:05:00Z,Final,108,Los Angeles Angels,6.0,140,Texas Rangers,7.0,5325,Globe Life Field,R,N,Cole Winn,Kirby Yates,Nathan Eovaldi,Reid Detmers,1,13.0,1.0,Thursday
+822954,2026-07-09,2026-07-09T17:10:00Z,Final,147,New York Yankees,12.0,139,Tampa Bay Rays,4.0,12,Tropicana Field,R,N,Ryan Yarbrough,Drew Rasmussen,Drew Rasmussen,Paul Blackburn,0,16.0,-8.0,Thursday
+823034,2026-07-09,2026-07-09T23:45:00Z,Final,158,Milwaukee Brewers,8.0,138,St. Louis Cardinals,4.0,2889,Busch Stadium,R,N,Logan Henderson,Andre Pallante,Andre Pallante,Logan Henderson,0,12.0,-4.0,Thursday
+823201,2026-07-09,2026-07-10T01:45:00Z,Final,115,Colorado Rockies,2.0,137,San Francisco Giants,8.0,2395,Oracle Park,R,N,Carson Whisenhunt,Ryan Feltner,Carson Whisenhunt,Ryan Feltner,1,10.0,6.0,Thursday
+823277,2026-07-09,2026-07-10T01:40:00Z,Final,109,Arizona Diamondbacks,3.0,135,San Diego Padres,1.0,2680,Petco Park,R,N,Merrill Kelly,Griffin Canning,Griffin Canning,Merrill Kelly,0,4.0,-2.0,Thursday
+823359,2026-07-09,2026-07-09T16:35:00Z,Final,144,Atlanta Braves,10.0,134,Pittsburgh Pirates,5.0,31,PNC Park,R,N,Dylan Dodd,Mitch Keller,Mitch Keller,Bryce Elder,0,15.0,-5.0,Thursday
+823606,2026-07-09,2026-07-09T17:10:00Z,Final,118,Kansas City Royals,3.0,121,New York Mets,7.0,3289,Citi Field,R,N,Sean Manaea,Michael Wacha,Sean Manaea,Michael Wacha,1,10.0,4.0,Thursday
+823683,2026-07-09,2026-07-09T17:40:00Z,Final,114,Cleveland Guardians,5.0,142,Minnesota Twins,2.0,3312,Target Field,R,N,Gavin Williams,Kendry Rojas,Bailey Ober,Gavin Williams,0,7.0,-3.0,Thursday
+823846,2026-07-09,2026-07-09T22:40:00Z,Final,136,Seattle Mariners,4.0,146,Miami Marlins,8.0,4169,loanDepot park,R,N,Janson Junk,Bryce Miller,Janson Junk,Bryce Miller,1,12.0,4.0,Thursday
+824251,2026-07-09,2026-07-09T22:40:00Z,Final,133,Athletics,1.0,116,Detroit Tigers,4.0,2394,Comerica Park,R,N,Framber Valdez,Jack Perkins,Framber Valdez,José Suarez,1,5.0,3.0,Thursday
+824494,2026-07-09,2026-07-09T23:10:00Z,Final,143,Philadelphia Phillies,1.0,113,Cincinnati Reds,0.0,2602,Great American Ball Park,R,N,Jesús Luzardo,Brady Singer,Brady Singer,Jesús Luzardo,0,1.0,-1.0,Thursday
+824577,2026-07-09,2026-07-09T18:10:00Z,Final,111,Boston Red Sox,2.0,145,Chicago White Sox,1.0,4,Rate Field,R,N,Tyron Guerrero,Anthony Kay,Anthony Kay,Patrick Sandoval,0,3.0,-1.0,Thursday
+824816,2026-07-09,2026-07-09T17:35:00Z,Final,112,Chicago Cubs,2.0,110,Baltimore Orioles,3.0,2,Oriole Park at Camden Yards,R,N,Tyler Wells,Tyler Ferguson,Trevor Rogers,David Peterson,1,5.0,1.0,Thursday
+822709,2026-07-10,2026-07-10T22:45:00Z,Final,147,New York Yankees,5.0,120,Washington Nationals,3.0,3309,Nationals Park,R,N,David Bednar,Matt Krook,Carson Palmquist,Ryan Weathers,0,8.0,-2.0,Friday
+822878,2026-07-10,2026-07-11T00:05:00Z,Final,117,Houston Astros,3.0,140,Texas Rangers,7.0,5325,Globe Life Field,R,N,Cole Winn,Bryan King,Cal Quantrill,Hunter Brown,1,10.0,4.0,Friday
+822955,2026-07-10,2026-07-10T23:10:00Z,Final,136,Seattle Mariners,2.0,139,Tampa Bay Rays,7.0,12,Tropicana Field,R,N,Nick Martinez,Luis Castillo,Nick Martinez,Luis Castillo,1,9.0,5.0,Friday
+823033,2026-07-10,2026-07-11T00:15:00Z,Final,144,Atlanta Braves,1.0,138,St. Louis Cardinals,2.0,2889,Busch Stadium,R,N,JoJo Romero,Danny Young,Kyle Leahy,Chris Sale,1,3.0,1.0,Friday
+823200,2026-07-10,2026-07-11T02:15:00Z,Final,115,Colorado Rockies,4.0,137,San Francisco Giants,3.0,2395,Oracle Park,R,N,Antonio Senzatela,Caleb Kilian,Robbie Ray,Tanner Gordon,0,7.0,-1.0,Friday
+823278,2026-07-10,2026-07-11T01:40:00Z,Final,141,Toronto Blue Jays,5.0,135,San Diego Padres,3.0,2680,Petco Park,R,N,Mason Fluharty,JP Sears,JP Sears,Shane Bieber,0,8.0,-2.0,Friday
+823604,2026-07-10,2026-07-10T23:15:00Z,Final,111,Boston Red Sox,6.0,121,New York Mets,2.0,3289,Citi Field,R,N,Sonny Gray,Nolan McLean,Nolan McLean,Sonny Gray,0,8.0,-4.0,Friday
+823685,2026-07-10,2026-07-11T00:10:00Z,Final,108,Los Angeles Angels,4.0,142,Minnesota Twins,3.0,3312,Target Field,R,N,Grayson Rodriguez,Zebby Matthews,Zebby Matthews,Grayson Rodriguez,0,7.0,-1.0,Friday
+823845,2026-07-10,2026-07-10T23:10:00Z,Final,114,Cleveland Guardians,3.0,146,Miami Marlins,2.0,4169,loanDepot park,R,N,Parker Messick,Sandy Alcantara,Sandy Alcantara,Parker Messick,0,5.0,-1.0,Friday
+823927,2026-07-10,2026-07-11T02:10:00Z,Final,109,Arizona Diamondbacks,9.0,119,Los Angeles Dodgers,3.0,22,UNIQLO Field at Dodger Stadium,R,N,Eduardo Rodriguez,Will Klein,Kyle Hurt,Eduardo Rodriguez,0,12.0,-6.0,Friday
+824252,2026-07-10,2026-07-10T22:40:00Z,Final,143,Philadelphia Phillies,2.0,116,Detroit Tigers,10.0,2394,Comerica Park,R,N,Jack Flaherty,Tim Mayza,Jack Flaherty,Aaron Nola,1,12.0,8.0,Friday
+824493,2026-07-10,2026-07-10T23:10:00Z,Final,112,Chicago Cubs,0.0,113,Cincinnati Reds,4.0,2602,Great American Ball Park,R,N,Hunter Greene,Shota Imanaga,Hunter Greene,Shota Imanaga,1,4.0,4.0,Friday
+824575,2026-07-10,2026-07-10T23:40:00Z,Final,133,Athletics,1.0,145,Chicago White Sox,14.0,4,Rate Field,R,N,Sean Burke,Aaron Civale,Sean Burke,Jacob Lopez,1,15.0,13.0,Friday
+824817,2026-07-10,2026-07-10T23:05:00Z,Final,118,Kansas City Royals,3.0,110,Baltimore Orioles,5.0,2,Oriole Park at Camden Yards,R,N,Rico Garcia,Matt Strahm,Brandon Young,Luinder Avila,1,8.0,2.0,Friday
+822711,2026-07-11,2026-07-11T20:05:00Z,Final,147,New York Yankees,4.0,120,Washington Nationals,2.0,3309,Nationals Park,R,N,Brent Headrick,Clayton Beeter,PJ Poulin,Cam Schlittler,0,6.0,-2.0,Saturday
+822875,2026-07-11,2026-07-11T23:05:00Z,Final,117,Houston Astros,9.0,140,Texas Rangers,3.0,5325,Globe Life Field,R,N,Peter Lambert,Kumar Rocker,Kumar Rocker,Peter Lambert,0,12.0,-6.0,Saturday
+822953,2026-07-11,2026-07-11T20:10:00Z,Final,136,Seattle Mariners,1.0,139,Tampa Bay Rays,6.0,12,Tropicana Field,R,N,Griffin Jax,Logan Gilbert,Griffin Jax,Logan Gilbert,1,7.0,5.0,Saturday
+823030,2026-07-11,2026-07-11T23:15:00Z,Final,144,Atlanta Braves,1.0,138,St. Louis Cardinals,4.0,2889,Busch Stadium,R,N,Matthew Liberatore,Reynaldo López,Matthew Liberatore,Reynaldo López,1,5.0,3.0,Saturday
+823198,2026-07-11,2026-07-11T20:05:00Z,Final,115,Colorado Rockies,2.0,137,San Francisco Giants,4.0,2395,Oracle Park,R,N,Tyler Mahle,Kyle Freeland,Tyler Mahle,Kyle Freeland,1,6.0,2.0,Saturday
+823276,2026-07-11,2026-07-12T00:40:00Z,Final,141,Toronto Blue Jays,7.0,135,San Diego Padres,8.0,2680,Petco Park,R,N,Bradgley Rodriguez,Mason Fluharty,Walker Buehler,Trey Yesavage,1,15.0,1.0,Saturday
+823356,2026-07-11,2026-07-11T20:05:00Z,Final,158,Milwaukee Brewers,2.0,134,Pittsburgh Pirates,3.0,31,PNC Park,R,S,Yohan Ramírez,Shane Drohan,Bubba Chandler,Shane Drohan,1,5.0,1.0,Saturday
+823357,2026-07-11,2026-07-11T16:05:00Z,Final,158,Milwaukee Brewers,6.0,134,Pittsburgh Pirates,7.0,31,PNC Park,R,S,Carmen Mlodzinski,Aaron Ashby,Braxton Ashcraft,Brandon Sproat,1,13.0,1.0,Saturday
+823603,2026-07-11,2026-07-11T20:10:00Z,Final,111,Boston Red Sox,4.0,121,New York Mets,0.0,3289,Citi Field,R,N,Jovani Morán,Freddy Peralta,Freddy Peralta,Eduardo Rivera,0,4.0,-4.0,Saturday
+823682,2026-07-11,2026-07-11T18:10:00Z,Final,108,Los Angeles Angels,3.0,142,Minnesota Twins,5.0,3312,Target Field,R,N,Tommy Nance,Mitch Farris,Joe Ryan,Ryan Johnson,1,8.0,2.0,Saturday
+823844,2026-07-11,2026-07-11T20:10:00Z,Final,114,Cleveland Guardians,4.0,146,Miami Marlins,1.0,4169,loanDepot park,R,N,Tanner Bibee,Eury Pérez,Eury Pérez,Tanner Bibee,0,5.0,-3.0,Saturday
+823926,2026-07-11,2026-07-12T01:10:00Z,Final,109,Arizona Diamondbacks,9.0,119,Los Angeles Dodgers,2.0,22,UNIQLO Field at Dodger Stadium,R,N,Brandon Pfaadt,Yoshinobu Yamamoto,Yoshinobu Yamamoto,Brandon Pfaadt,0,11.0,-7.0,Saturday
+824249,2026-07-11,2026-07-11T22:10:00Z,Final,143,Philadelphia Phillies,4.0,116,Detroit Tigers,2.0,2394,Comerica Park,R,N,Cristopher Sánchez,Casey Mize,Casey Mize,Cristopher Sánchez,0,6.0,-2.0,Saturday
+824492,2026-07-11,2026-07-11T23:10:00Z,Final,112,Chicago Cubs,5.0,113,Cincinnati Reds,3.0,2602,Great American Ball Park,R,N,Drew Pomeranz,Julian Garcia,Nick Lodolo,Javier Assad,0,8.0,-2.0,Saturday
+824576,2026-07-11,2026-07-11T18:10:00Z,Final,133,Athletics,0.0,145,Chicago White Sox,1.0,4,Rate Field,R,N,Erick Fedde,Gage Jump,Bryan Hudson,Gage Jump,1,1.0,1.0,Saturday
+824813,2026-07-11,2026-07-11T23:05:00Z,Final,118,Kansas City Royals,1.0,110,Baltimore Orioles,6.0,2,Oriole Park at Camden Yards,R,N,Kyle Bradish,Noah Cameron,Kyle Bradish,Noah Cameron,1,7.0,5.0,Saturday

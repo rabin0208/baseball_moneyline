@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822790,2026-07-18,Scheduled,Chicago White Sox,Toronto Blue Jays,Davis Martin,Shane Bieber,0.4358836487603331,0
+823116,2026-07-18,Scheduled,San Francisco Giants,Seattle Mariners,Logan Webb,Bryan Woo,0.4631001260904467,0
+823441,2026-07-18,Scheduled,New York Mets,Philadelphia Phillies,Sean Manaea,Jesús Luzardo,0.667778032223768,1
+823523,2026-07-18,Scheduled,Los Angeles Dodgers,New York Yankees,Emmet Sheehan,Ryan Weathers,0.49528741476162474,0
+823763,2026-07-18,Scheduled,Miami Marlins,Milwaukee Brewers,Max Meyer,Shane Drohan,0.5355837545551779,1
+824008,2026-07-18,Scheduled,Detroit Tigers,Los Angeles Angels,Tarik Skubal,Grayson Rodriguez,0.5170448275960214,1
+824088,2026-07-18,Scheduled,San Diego Padres,Kansas City Royals,Griffin Canning,Randy Dobnak,0.5590819394062745,1
+824169,2026-07-18,Scheduled,Baltimore Orioles,Houston Astros,Trevor Rogers,Spencer Arrighetti,0.4853545180375193,0
+824331,2026-07-18,Scheduled,Cincinnati Reds,Colorado Rockies,Rhett Lowder,Tomoyuki Sugano,0.605209692223921,1
+824412,2026-07-18,Scheduled,Pittsburgh Pirates,Cleveland Guardians,,Logan Allen,0.4758575323374079,0
+824414,2026-07-18,Postponed,Pittsburgh Pirates,Cleveland Guardians,Jared Jones,Gavin Williams,0.5159663585203111,1
+824414,2026-07-18,Scheduled,Pittsburgh Pirates,Cleveland Guardians,Jared Jones,Gavin Williams,0.5159663585203111,1
+824657,2026-07-18,Scheduled,Minnesota Twins,Chicago Cubs,Taj Bradley,Matthew Boyd,0.48314144438822637,0
+824738,2026-07-18,Scheduled,Tampa Bay Rays,Boston Red Sox,Ian Seymour,Patrick Sandoval,0.5730557710628965,1
+824899,2026-07-18,Scheduled,Texas Rangers,Atlanta Braves,MacKenzie Gore,Owen Murphy,0.5177159692476835,1
+824979,2026-07-18,Scheduled,Washington Nationals,Athletics,Zack Littell,J.T. Ginn,0.502879374337265,1
+825059,2026-07-18,Scheduled,St. Louis Cardinals,Arizona Diamondbacks,Dustin May,Brandon Pfaadt,0.6211078019450177,1

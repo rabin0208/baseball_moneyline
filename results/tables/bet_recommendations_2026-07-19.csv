@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822786,2026-07-19,Pre-Game,Chicago White Sox,Toronto Blue Jays,,,,,0.44525647389857004,,-0.037851634209538076,0.037851634209538076,-104.0,-120.0,7.0,Sean Burke,Trey Yesavage
+823113,2026-07-19,Scheduled,San Francisco Giants,Seattle Mariners,away,San Francisco Giants,160.0,+160,0.5424656664461097,0.09010632958169568,-0.09010632958169562,0.09010632958169568,-196.0,160.0,7.0,Robbie Ray,Logan Gilbert
+823439,2026-07-19,Pre-Game,New York Mets,Philadelphia Phillies,,,,,0.4705346536131733,,0.014918000038939228,-0.014918000038939283,110.0,-132.0,7.0,Nolan McLean,Alan Rangel
+823521,2026-07-19,Scheduled,Los Angeles Dodgers,New York Yankees,,,,,0.5015157513141661,,-0.0006191760983018657,0.0006191760983018102,-112.0,-110.0,7.0,,
+823523,2026-07-19,Postponed,Los Angeles Dodgers,New York Yankees,,,,,0.4954243215747082,,-0.006710605837759787,0.0067106058377596756,-112.0,-110.0,7.0,Emmet Sheehan,Ryan Weathers
+823523,2026-07-19,Pre-Game,Los Angeles Dodgers,New York Yankees,,,,,0.47013011668043075,,-0.03200481073203726,0.03200481073203715,-112.0,-110.0,7.0,Yoshinobu Yamamoto,Cam Schlittler
+823764,2026-07-19,Scheduled,Miami Marlins,Milwaukee Brewers,,,,,0.5601229282856593,,0.01811408431850836,-0.018114084318508417,-132.0,108.0,7.0,Eury Pérez,Robert Gasser
+824007,2026-07-19,Scheduled,Detroit Tigers,Los Angeles Angels,,,,,0.4370326927412631,,0.021962450084813623,-0.021962450084813456,129.0,-160.0,7.0,Casey Mize,Ryan Johnson
+824086,2026-07-19,Pre-Game,San Diego Padres,Kansas City Royals,,,,,0.5019797831387476,,-0.0383879226965842,0.03838792269658409,-130.0,108.0,7.0,Germán Márquez,Noah Cameron
+824168,2026-07-19,Scheduled,Baltimore Orioles,Houston Astros,,,,,0.4823925210715617,,-0.0368876845839653,0.03688768458396524,-120.0,-102.0,7.0,Brandon Young,Hunter Brown
+824330,2026-07-19,Scheduled,Cincinnati Reds,Colorado Rockies,home,Colorado Rockies,140.0,+140,0.493078805726107,0.09484871723053179,0.09484871723053179,-0.0948487172305319,140.0,-170.0,7.0,Hunter Greene,Ryan Feltner
+824411,2026-07-19,Pre-Game,Pittsburgh Pirates,Cleveland Guardians,home,Cleveland Guardians,-108.0,-108,0.5703262008813565,0.07775089328695683,0.07775089328695683,-0.07775089328695683,-108.0,-115.0,7.0,Paul Skenes,Joey Cantillo
+824653,2026-07-19,Scheduled,Minnesota Twins,Chicago Cubs,away,Minnesota Twins,140.0,+140,0.48267399284710066,0.1190959186573241,-0.11909591865732416,0.1190959186573241,-170.0,140.0,7.0,Zebby Matthews,Shota Imanaga
+824739,2026-07-19,Pre-Game,Tampa Bay Rays,Boston Red Sox,home,Boston Red Sox,-125.0,-125,0.6128824373313664,0.08408662581304172,0.08408662581304172,-0.08408662581304177,-125.0,102.0,7.0,Shane McClanahan,Sonny Gray
+824897,2026-07-19,Pre-Game,Texas Rangers,Atlanta Braves,home,Atlanta Braves,100.0,+100,0.5470577287977759,0.06879685923255852,0.06879685923255852,-0.06879685923255852,100.0,-120.0,7.0,Nathan Eovaldi,Grant Holmes
+825057,2026-07-19,Scheduled,St. Louis Cardinals,Arizona Diamondbacks,home,Arizona Diamondbacks,-125.0,-125,0.6348484368924038,0.10238090442487124,0.10238090442487124,-0.1023809044248713,-125.0,105.0,7.0,Andre Pallante,Eduardo Rodriguez

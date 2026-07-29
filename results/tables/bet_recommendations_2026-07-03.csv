@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822714,2026-07-03,Scheduled,Pittsburgh Pirates,Washington Nationals,,,,,0.543167781678535,,-0.036629532319982006,0.03662953231998195,-155.0,127.0,7.0,Mitch Keller,Foster Griffin
+823120,2026-07-03,Scheduled,Toronto Blue Jays,Seattle Mariners,home,Seattle Mariners,108.0,+108,0.5145069302667137,0.05651577423386461,0.05651577423386461,-0.05651577423386467,108.0,-132.0,7.0,Dylan Cease,Luis Castillo
+823527,2026-07-03,Pre-Game,Minnesota Twins,New York Yankees,away,Minnesota Twins,155.0,+155,0.5506312317444373,0.07493364882367115,-0.07493364882367115,0.07493364882367115,-190.0,155.0,7.0,Mike Paredes,Gerrit Cole
+823933,2026-07-03,Scheduled,San Diego Padres,Los Angeles Dodgers,away,San Diego Padres,200.0,+200,0.6253813303508271,0.05789269100148603,-0.057892691001486085,0.05789269100148603,-256.0,200.0,7.0,Michael King,Shohei Ohtani
+824013,2026-07-03,Scheduled,Boston Red Sox,Los Angeles Angels,home,Los Angeles Angels,-115.0,-115,0.5748445143491528,0.06741982194355256,0.06741982194355256,-0.06741982194355256,-115.0,-108.0,7.0,Jake Bennett,Reid Detmers
+824173,2026-07-03,Scheduled,Tampa Bay Rays,Houston Astros,,,,,0.4665843576434162,,-0.03128071494411583,0.03128071494411577,-110.0,-112.0,7.0,Nick Martinez,Spencer Arrighetti
+824336,2026-07-03,Scheduled,San Francisco Giants,Colorado Rockies,,,,,0.46518835802923203,,0.04094593378680772,-0.040945933786807776,125.0,-152.0,7.0,,Ryan Feltner
+824417,2026-07-03,Scheduled,Chicago White Sox,Cleveland Guardians,away,Chicago White Sox,110.0,+110,0.431197088842931,0.11318625758283485,-0.1131862575828349,0.11318625758283485,-132.0,110.0,7.0,Anthony Kay,Gavin Williams
+824498,2026-07-03,Pre-Game,Baltimore Orioles,Cincinnati Reds,,,,,0.4527235280197869,,-0.016026471980213064,0.01602647198021312,104.0,-125.0,7.0,Trevor Rogers,Brady Singer
+824659,2026-07-03,Pre-Game,St. Louis Cardinals,Chicago Cubs,,,,,0.5378835735998777,,-0.007304792591806941,0.00730479259180683,-133.0,110.0,7.0,Andre Pallante,David Peterson
+824904,2026-07-03,Scheduled,New York Mets,Atlanta Braves,,,,,0.5225275666241611,,0.011693330437812288,-0.011693330437812233,-115.0,-105.0,7.0,Christian Scott,Grant Holmes
+825062,2026-07-03,Scheduled,Milwaukee Brewers,Arizona Diamondbacks,,,,,0.45033320285905376,,0.017303749843625982,-0.017303749843625926,120.0,-147.0,7.0,Kyle Harrison,Jose Cabrera

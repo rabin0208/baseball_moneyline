@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822713,2026-07-07,Scheduled,Houston Astros,Washington Nationals,home,Washington Nationals,-122.0,-122,0.5787550454884273,0.05514989527383507,0.05514989527383507,-0.055149895273834904,-122.0,100.0,7.0,Tatsuya Imai,Andrew Alvarez
+822881,2026-07-07,Scheduled,Los Angeles Angels,Texas Rangers,,,,,0.5587264395192946,,-0.0394991814386908,0.03949918143869091,-169.0,137.0,7.0,José Soriano,Jacob deGrom
+822956,2026-07-07,Scheduled,New York Yankees,Tampa Bay Rays,home,Tampa Bay Rays,-122.0,-122,0.6437933720117874,0.12018822179719524,0.12018822179719524,-0.12018822179719507,-122.0,100.0,7.0,Will Warren,Ian Seymour
+823035,2026-07-07,Scheduled,Milwaukee Brewers,St. Louis Cardinals,home,St. Louis Cardinals,160.0,+160,0.47671540511640254,0.11086174657981718,0.11086174657981718,-0.11086174657981707,160.0,-200.0,7.0,Robert Gasser,
+823062,2026-07-07,Postponed,Milwaukee Brewers,St. Louis Cardinals,home,St. Louis Cardinals,160.0,+160,0.5085802309692,0.14272657243261466,0.14272657243261466,-0.14272657243261455,160.0,-200.0,7.0,Brandon Sproat,Andre Pallante
+823062,2026-07-07,Pre-Game,Milwaukee Brewers,St. Louis Cardinals,home,St. Louis Cardinals,160.0,+160,0.48100241975629576,0.1151487612197104,0.1151487612197104,-0.1151487612197103,160.0,-200.0,7.0,Jacob Misiorowski,Matt Svanson
+823203,2026-07-07,Scheduled,Toronto Blue Jays,San Francisco Giants,home,San Francisco Giants,-105.0,-105,0.5415908838222917,0.05242512000864058,0.05242512000864058,-0.052425120008640524,-105.0,-115.0,7.0,Spencer Miles,Trevor McDonald
+823280,2026-07-07,Scheduled,Arizona Diamondbacks,San Diego Padres,,,,,0.49020386898622775,,-0.0343163868773117,0.034316386877311644,-123.0,100.0,7.0,Zac Gallen,Germán Márquez
+823361,2026-07-07,Scheduled,Atlanta Braves,Pittsburgh Pirates,away,Atlanta Braves,125.0,+125,0.363327422010208,0.21243015374736762,-0.2124301537473678,0.21243015374736762,-152.0,125.0,7.0,Hurston Waldrep,Paul Skenes
+823607,2026-07-07,Scheduled,Kansas City Royals,New York Mets,,,,,0.5544408005394027,,-0.022578350168340866,0.022578350168340866,-154.0,125.0,7.0,Seth Lugo,
+823687,2026-07-07,Scheduled,Cleveland Guardians,Minnesota Twins,,,,,0.5669300141716607,,0.04980452716562389,-0.049804527165624,-119.0,-103.0,7.0,Joey Cantillo,Taj Bradley
+823847,2026-07-07,Scheduled,Seattle Mariners,Miami Marlins,,,,,0.5774727845568736,,0.0486769730385489,-0.048676973038548954,-125.0,102.0,7.0,,Max Meyer
+823929,2026-07-07,Scheduled,Colorado Rockies,Los Angeles Dodgers,away,Colorado Rockies,220.0,+220,0.6195996648846834,0.08219900977609279,-0.08219900977609296,0.08219900977609279,-278.0,220.0,7.0,Michael Lorenzen,Justin Wrobleski
+824495,2026-07-07,Scheduled,Philadelphia Phillies,Cincinnati Reds,home,Cincinnati Reds,145.0,+145,0.5627976719483707,0.17203390640662997,0.17203390640662997,-0.17203390640663008,145.0,-175.0,7.0,Zack Wheeler,Andrew Abbott
+824579,2026-07-07,Scheduled,Boston Red Sox,Chicago White Sox,,,,,0.45374252070971655,,-0.011184069828619525,0.011184069828619525,105.0,-128.0,7.0,Payton Tolle,Noah Schultz
+824820,2026-07-07,Scheduled,Chicago Cubs,Baltimore Orioles,,,,,0.4558624661869975,,-0.03330329762665363,0.03330329762665374,-105.0,-115.0,7.0,Matthew Boyd,Shane Baz
