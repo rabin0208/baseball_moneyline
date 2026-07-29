@@ -14,6 +14,7 @@ dependencies:
   - pip
   - altair
   - pip:
+    - streamlit
     - pybaseball
     - MLB-StatsAPI
     - sbr-odds-scraper
