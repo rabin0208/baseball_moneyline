@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822711,2026-07-11,Scheduled,New York Yankees,Washington Nationals,home,Washington Nationals,160.0,+160,0.5739221295832686,0.20806847104668325,0.20806847104668325,-0.20806847104668313,160.0,-200.0,7.0,Cam Schlittler,PJ Poulin
+822875,2026-07-11,Scheduled,Houston Astros,Texas Rangers,,,,,0.5544446845536412,,0.03270555411885856,-0.03270555411885856,-120.0,100.0,7.0,Peter Lambert,Kumar Rocker
+822953,2026-07-11,Scheduled,Seattle Mariners,Tampa Bay Rays,,,,,0.5513128202863468,,0.04163123680958247,-0.04163123680958264,-115.0,-106.0,7.0,Logan Gilbert,Griffin Jax
+823030,2026-07-11,Scheduled,Atlanta Braves,St. Louis Cardinals,,,,,0.4777689800432499,,-0.02644331987250398,0.026443319872504145,-114.0,-110.0,7.0,Reynaldo López,Matthew Liberatore
+823198,2026-07-11,Scheduled,Colorado Rockies,San Francisco Giants,away,Colorado Rockies,125.0,+125,0.4936493681543065,0.0821082076032692,-0.08210820760326931,0.0821082076032692,-152.0,125.0,7.0,Kyle Freeland,Tyler Mahle
+823276,2026-07-11,Scheduled,Toronto Blue Jays,San Diego Padres,,,,,0.4796450703113298,,-0.02667471060293186,0.02667471060293186,-115.0,-109.0,7.0,Trey Yesavage,Walker Buehler
+823356,2026-07-11,Scheduled,Milwaukee Brewers,Pittsburgh Pirates,,,,,0.5055292775621381,,-0.020786511911546124,0.02078651191154618,-125.0,100.0,7.0,Shane Drohan,Bubba Chandler
+823357,2026-07-11,Postponed,Milwaukee Brewers,Pittsburgh Pirates,,,,,0.5289382447186054,,0.002622455244921218,-0.0026224552449211624,-125.0,100.0,7.0,Brandon Sproat,Braxton Ashcraft
+823357,2026-07-11,Warmup,Milwaukee Brewers,Pittsburgh Pirates,,,,,0.5289382447186054,,0.002622455244921218,-0.0026224552449211624,-125.0,100.0,7.0,Brandon Sproat,Braxton Ashcraft
+823603,2026-07-11,Scheduled,Boston Red Sox,New York Mets,away,Boston Red Sox,130.0,+130,0.495985605086058,0.08941538739033067,-0.08941538739033067,0.08941538739033067,-159.0,130.0,7.0,Eduardo Rivera,Freddy Peralta
+823682,2026-07-11,Pre-Game,Los Angeles Angels,Minnesota Twins,,,,,0.628128494445515,,0.01647800900862173,-0.01647800900862184,-180.0,145.0,7.0,Ryan Johnson,Joe Ryan
+823844,2026-07-11,Scheduled,Cleveland Guardians,Miami Marlins,away,Cleveland Guardians,125.0,+125,0.49967337734593176,0.07734577336181181,-0.07734577336181181,0.07734577336181181,-154.0,125.0,7.0,Tanner Bibee,Eury Pérez
+823926,2026-07-11,Scheduled,Arizona Diamondbacks,Los Angeles Dodgers,away,Arizona Diamondbacks,225.0,+225,0.5659042832987811,0.14048275197290627,-0.14048275197290616,0.14048275197290627,-285.0,225.0,7.0,Brandon Pfaadt,Yoshinobu Yamamoto
+824249,2026-07-11,Scheduled,Philadelphia Phillies,Detroit Tigers,home,Detroit Tigers,117.0,+117,0.5623560437639213,0.12318089782403224,0.12318089782403224,-0.12318089782403241,117.0,-143.0,7.0,Cristopher Sánchez,Casey Mize
+824492,2026-07-11,Scheduled,Chicago Cubs,Cincinnati Reds,,,,,0.47939422013262023,,-0.030287363344144058,0.03028736334414389,-115.0,-106.0,7.0,Javier Assad,Nick Lodolo
+824813,2026-07-11,Scheduled,Kansas City Royals,Baltimore Orioles,,,,,0.5967917659069889,,0.011862008563438553,-0.011862008563438386,-160.0,129.0,7.0,Noah Cameron,Kyle Bradish

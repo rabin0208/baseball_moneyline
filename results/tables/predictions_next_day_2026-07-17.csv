@@ -1,0 +1,17 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822789,2026-07-17,Scheduled,Chicago White Sox,Toronto Blue Jays,Anthony Kay,Spencer Miles,0.48844819576576665,0
+823115,2026-07-17,Scheduled,San Francisco Giants,Seattle Mariners,Landen Roupp,Bryce Miller,0.5464926283217096,1
+823524,2026-07-17,Scheduled,Los Angeles Dodgers,New York Yankees,Roki Sasaki,Gerrit Cole,0.4824003707973634,0
+823766,2026-07-17,Scheduled,Miami Marlins,Milwaukee Brewers,Sandy Alcantara,Logan Henderson,0.5684068807683194,1
+824009,2026-07-17,Scheduled,Detroit Tigers,Los Angeles Angels,Troy Melton,Reid Detmers,0.5172668365090437,1
+824090,2026-07-17,Scheduled,San Diego Padres,Kansas City Royals,Michael King,Seth Lugo,0.49938497959843997,0
+824170,2026-07-17,Scheduled,Baltimore Orioles,Houston Astros,Dean Kremer,Peter Lambert,0.5443211182921592,1
+824332,2026-07-17,Scheduled,Cincinnati Reds,Colorado Rockies,Brady Singer,Gabriel Hughes,0.5690565603143296,1
+824414,2026-07-17,Scheduled,Pittsburgh Pirates,Cleveland Guardians,Jared Jones,Gavin Williams,0.5158295783172189,1
+824655,2026-07-17,Scheduled,Minnesota Twins,Chicago Cubs,Bailey Ober,Colin Rea,0.40273645616689807,0
+824737,2026-07-17,Scheduled,Tampa Bay Rays,Boston Red Sox,,,0.5574682294167324,1
+824766,2026-07-17,Postponed,Tampa Bay Rays,Boston Red Sox,Nick Martinez,Payton Tolle,0.5210636724282957,1
+824766,2026-07-17,Pre-Game,Tampa Bay Rays,Boston Red Sox,Griffin Jax,Jake Bennett,0.5524259354911809,1
+824901,2026-07-17,Scheduled,Texas Rangers,Atlanta Braves,Cal Quantrill,Chris Sale,0.6079809039790617,1
+824981,2026-07-17,Scheduled,Washington Nationals,Athletics,Cade Cavalli,Gage Jump,0.4776872465405355,0
+825060,2026-07-17,Scheduled,St. Louis Cardinals,Arizona Diamondbacks,,Merrill Kelly,0.556363084215443,1

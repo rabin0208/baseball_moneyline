@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822710,2026-07-08,Scheduled,Houston Astros,Washington Nationals,,,,,0.566205003584621,,0.00982792410218114,-0.00982792410218103,-140.0,115.0,7.0,Spencer Arrighetti,Foster Griffin
+822880,2026-07-08,Scheduled,Los Angeles Angels,Texas Rangers,away,Los Angeles Angels,127.0,+127,0.49973510483546557,0.08067530623120978,-0.08067530623120989,0.08067530623120978,-156.0,127.0,7.0,Walbert Ureña,MacKenzie Gore
+822957,2026-07-08,Scheduled,New York Yankees,Tampa Bay Rays,home,Tampa Bay Rays,-122.0,-122,0.6080784643248844,0.08447331411029224,0.08447331411029224,-0.08447331411029207,-122.0,100.0,7.0,Gerrit Cole,Shane McClanahan
+823032,2026-07-08,Scheduled,Milwaukee Brewers,St. Louis Cardinals,,,,,0.429418344925701,,-0.00028886267333172455,0.00028886267333172455,123.0,-147.0,7.0,Kyle Harrison,Michael McGreevy
+823202,2026-07-08,Scheduled,Toronto Blue Jays,San Francisco Giants,,,,,0.5117876804513063,,0.035392830665898656,-0.03539283066589849,100.0,-122.0,7.0,Dylan Cease,Logan Webb
+823279,2026-07-08,Scheduled,Arizona Diamondbacks,San Diego Padres,away,Arizona Diamondbacks,120.0,+120,0.5046179133815596,0.060984923497873045,-0.06098492349787299,0.060984923497873045,-145.0,120.0,7.0,Jose Cabrera,Michael King
+823360,2026-07-08,Scheduled,Atlanta Braves,Pittsburgh Pirates,home,Pittsburgh Pirates,-120.0,-120,0.5786274647130052,0.05812681732414027,0.05812681732414027,-0.05812681732414032,-120.0,-101.0,7.0,Grant Holmes,Jared Jones
+823605,2026-07-08,Scheduled,Kansas City Royals,New York Mets,,,,,0.5916826735297969,,-0.01949424793909027,0.01949424793909027,-179.0,145.0,7.0,Steven Cruz,Christian Scott
+823684,2026-07-08,Scheduled,Cleveland Guardians,Minnesota Twins,,,,,0.5243281236010807,,-0.016484163628750603,0.016484163628750714,-132.0,107.0,7.0,Slade Cecconi,Connor Prielipp
+823848,2026-07-08,Scheduled,Seattle Mariners,Miami Marlins,home,Miami Marlins,110.0,+110,0.5130281262993861,0.05821649249107064,0.05821649249107064,-0.05821649249107075,110.0,-133.0,7.0,George Kirby,Tyler Phillips
+823928,2026-07-08,Scheduled,Colorado Rockies,Los Angeles Dodgers,away,Colorado Rockies,195.0,+195,0.610813402365846,0.06581754330063261,-0.06581754330063272,0.06581754330063261,-244.0,195.0,7.0,Gabriel Hughes,Roki Sasaki
+824496,2026-07-08,Scheduled,Philadelphia Phillies,Cincinnati Reds,,,,,0.5763322822281473,,0.014375329421427052,-0.014375329421426997,-143.0,118.0,7.0,,Chase Burns
+824578,2026-07-08,Scheduled,Boston Red Sox,Chicago White Sox,away,Boston Red Sox,-105.0,-105,0.45720582376295904,0.05660046340781416,-0.056600463407813995,0.05660046340781416,-118.0,-105.0,7.0,Jake Bennett,Davis Martin
+824815,2026-07-08,Scheduled,Chicago Cubs,Baltimore Orioles,,,,,0.48683247713377475,,-0.048240932327889174,0.048240932327889174,-128.0,105.0,7.0,Colin Rea,Dean Kremer

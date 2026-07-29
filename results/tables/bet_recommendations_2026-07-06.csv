@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822712,2026-07-06,Scheduled,Houston Astros,Washington Nationals,,,,,0.5243270294080871,,0.00258789897330447,-0.00258789897330447,-120.0,100.0,7,Mike Burrows,Miles Mikolas
+822958,2026-07-06,Scheduled,New York Yankees,Tampa Bay Rays,home,Tampa Bay Rays,-112.0,-112,0.6309923894339221,0.12776769255542875,0.12776769255542875,-0.12776769255542864,-112.0,-109.0,7,Cam Schlittler,Griffin Jax
+823036,2026-07-06,Scheduled,Milwaukee Brewers,St. Louis Cardinals,,,,,0.5172715890158366,,0.018346395550660255,-0.01834639555066031,-110.0,-111.0,7,Shane Drohan,Dustin May
+823205,2026-07-06,Scheduled,Toronto Blue Jays,San Francisco Giants,away,Toronto Blue Jays,-115.0,-115,0.4130669467856863,0.07725146973754948,-0.0772514697375496,0.07725146973754948,-106.0,-115.0,7,Kevin Gausman,Landen Roupp
+823282,2026-07-06,Scheduled,Arizona Diamondbacks,San Diego Padres,,,,,0.5070886815083459,,-0.022937428152228545,0.0229374281522286,-125.0,103.0,7,Brandon Pfaadt,Walker Buehler
+823930,2026-07-06,Scheduled,Colorado Rockies,Los Angeles Dodgers,away,Colorado Rockies,185.0,+185,0.5947544432406935,0.07126030025261176,-0.07126030025261187,0.07126030025261176,-233.0,185.0,7,Kyle Freeland,Eric Lauer
+824089,2026-07-06,Pre-Game,Philadelphia Phillies,Kansas City Royals,,,,,0.3535754379873054,,9.76728789815473e-05,-9.76728789815473e-05,170.0,-210.0,7,Cristopher Sánchez,Noah Cameron
+824900,2026-07-06,Scheduled,New York Mets,Atlanta Braves,home,Atlanta Braves,-133.0,-133,0.5954156468000589,0.050227280608374225,0.050227280608374225,-0.050227280608374336,-133.0,110.0,7,Freddy Peralta,Reynaldo López

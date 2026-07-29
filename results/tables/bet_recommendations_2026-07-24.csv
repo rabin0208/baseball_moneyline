@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822707,2026-07-24,Scheduled,Arizona Diamondbacks,Washington Nationals,,,,,0.46901696743581955,,-0.0009569229036059945,0.00095692290360605,103.0,-125.0,7.0,Eduardo Rodriguez,Carson Palmquist
+822872,2026-07-24,Scheduled,Seattle Mariners,Texas Rangers,,,,,0.5255048258779792,,0.0393111130487524,-0.03931111304875223,-105.0,-118.0,7.0,Bryce Miller,MacKenzie Gore
+822952,2026-07-24,Scheduled,Cleveland Guardians,Tampa Bay Rays,away,Cleveland Guardians,108.0,+108,0.4637927791600779,0.07657492667525378,-0.0765749266752539,0.07657492667525378,-130.0,108.0,7.0,Joey Cantillo,Shane McClanahan
+823031,2026-07-24,Scheduled,Cincinnati Reds,St. Louis Cardinals,,,,,0.5996769848352159,,0.019266573768540463,-0.019266573768540574,-156.0,127.0,7.0,Rhett Lowder,Dustin May
+823196,2026-07-24,Scheduled,Los Angeles Angels,San Francisco Giants,away,Los Angeles Angels,131.0,+131,0.5085313128363681,0.07908777992563593,-0.07908777992563598,0.07908777992563593,-161.0,131.0,7.0,Grayson Rodriguez,Logan Webb
+823352,2026-07-24,Scheduled,Chicago Cubs,Pittsburgh Pirates,,,,,0.48616947964327895,,-0.02125521276232134,0.02125521276232134,-115.0,-108.0,7.0,Matthew Boyd,Jared Jones
+823434,2026-07-24,Scheduled,New York Yankees,Philadelphia Phillies,away,New York Yankees,115.0,+115,0.5011668521424428,0.055940563092327034,-0.05594056309232698,0.055940563092327034,-141.0,115.0,7.0,Cam Schlittler,Jesús Luzardo
+823601,2026-07-24,Scheduled,Los Angeles Dodgers,New York Mets,,,,,0.3961733045532149,,-0.049339874434966846,0.04933987443496679,114.0,-139.0,7.0,Roki Sasaki,Sean Manaea
+823759,2026-07-24,Pre-Game,Colorado Rockies,Milwaukee Brewers,,,,,0.665451678687138,,-0.04112376791111361,0.04112376791111366,-286.0,225.0,7.0,Tomoyuki Sugano,Shane Drohan
+823843,2026-07-24,Scheduled,San Diego Padres,Miami Marlins,away,San Diego Padres,113.0,+113,0.4529790898462355,0.10035038106411265,-0.10035038106411259,0.10035038106411265,-139.0,113.0,7.0,Germán Márquez,Ryan Gusto
+824248,2026-07-24,Scheduled,Kansas City Royals,Detroit Tigers,away,Kansas City Royals,210.0,+210,0.5477891055990206,0.14671191273091827,-0.14671191273091821,0.14671191273091827,-275.0,210.0,7.0,Beck Way,Tarik Skubal
+824573,2026-07-24,Scheduled,Houston Astros,Chicago White Sox,,,,,0.5246101177428375,,-0.02215940974028696,0.022159409740286906,-135.0,110.0,7.0,Spencer Arrighetti,Davis Martin
+824733,2026-07-24,Scheduled,Toronto Blue Jays,Boston Red Sox,home,Boston Red Sox,-125.0,-125,0.6463792913753903,0.11391175890785776,0.11391175890785776,-0.11391175890785782,-125.0,105.0,7.0,Trey Yesavage,Patrick Sandoval
+824812,2026-07-24,Scheduled,Atlanta Braves,Baltimore Orioles,,,,,0.5521380952360214,,0.032857889580494404,-0.03285788958049446,-120.0,-102.0,7.0,Grant Holmes,Trevor Rogers

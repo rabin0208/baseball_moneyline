@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822787,2026-07-21,Scheduled,Tampa Bay Rays,Toronto Blue Jays,,,,,0.47516039632356033,,-0.022704676263971713,0.022704676263971657,-110.0,-112.0,7.0,Drew Rasmussen,Kevin Gausman
+822871,2026-07-21,Scheduled,Chicago White Sox,Texas Rangers,away,Chicago White Sox,108.0,+108,0.48352457817248096,0.058484265794669976,-0.05848426579467003,0.058484265794669976,-132.0,108.0,7.0,Noah Schultz,Kumar Rocker
+823114,2026-07-21,Scheduled,Cincinnati Reds,Seattle Mariners,,,,,0.49662309519891606,,-0.02511603523586653,0.025116035235866474,-120.0,100.0,7.0,Chase Burns,Luis Castillo
+823437,2026-07-21,Scheduled,Los Angeles Dodgers,Philadelphia Phillies,,,,,0.5335082059439914,,0.004712394425666733,-0.004712394425666788,-125.0,102.0,7.0,Justin Wrobleski,Zack Wheeler
+823519,2026-07-21,Scheduled,Pittsburgh Pirates,New York Yankees,away,Pittsburgh Pirates,115.0,+115,0.49884461417728043,0.05679357490889597,-0.05679357490889603,0.05679357490889597,-139.0,115.0,7.0,Bubba Chandler,Will Warren
+823760,2026-07-21,Scheduled,New York Mets,Milwaukee Brewers,home,Milwaukee Brewers,-137.0,-137,0.6144990987334211,0.06383930804632865,0.06383930804632865,-0.06383930804632876,-137.0,112.0,7.0,Zac Thornton,Brandon Sproat
+824005,2026-07-21,Scheduled,St. Louis Cardinals,Los Angeles Angels,,,,,0.5242140161657329,,0.004933810510205916,-0.0049338105102059715,-120.0,-102.0,7.0,Matthew Liberatore,Walbert Ureña
+824085,2026-07-21,Scheduled,San Francisco Giants,Kansas City Royals,home,Kansas City Royals,-105.0,-105,0.5691075450202928,0.0799417812066417,0.0799417812066417,-0.07994178120664164,-105.0,-115.0,7.0,Tyler Mahle,Luinder Avila
+824165,2026-07-21,Scheduled,Miami Marlins,Houston Astros,,,,,0.559954096637128,,0.025738440537815488,-0.025738440537815377,-127.0,105.0,7.0,Tyler Phillips,Tatsuya Imai
+824329,2026-07-21,Scheduled,Washington Nationals,Colorado Rockies,home,Colorado Rockies,-110.0,-110,0.6181834054598356,0.1192582119946593,0.1192582119946593,-0.11925821199465936,-110.0,-111.0,7.0,Carson Palmquist,Michael Lorenzen
+824409,2026-07-21,Scheduled,Minnesota Twins,Cleveland Guardians,,,,,0.5262992619103838,,-0.048369925235173805,0.04836992523517386,-152.0,124.0,7.0,Kendry Rojas,Parker Messick
+824652,2026-07-21,Scheduled,Detroit Tigers,Chicago Cubs,,,,,0.478607017262176,,-0.04313211317260657,0.04313211317260657,-120.0,100.0,7.0,Framber Valdez,David Peterson
+824735,2026-07-21,Scheduled,Baltimore Orioles,Boston Red Sox,,,,,0.5404350630987861,,-0.020389790961324983,0.020389790961324816,-143.0,117.0,7.0,Kyle Bradish,Ranger Suarez
+824895,2026-07-21,Scheduled,San Diego Padres,Atlanta Braves,,,,,0.5642859724489153,,-0.0026845745356568473,0.002684574535656903,-147.0,120.0,7.0,Walker Buehler,Reynaldo López

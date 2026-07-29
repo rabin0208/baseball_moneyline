@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822715,2026-07-05,Pre-Game,Pittsburgh Pirates,Washington Nationals,Bubba Chandler,Cade Cavalli,0.5700783918618252,1
+822879,2026-07-05,Pre-Game,Detroit Tigers,Texas Rangers,Casey Mize,Kumar Rocker,0.5639883251284241,1
+823117,2026-07-05,Scheduled,Toronto Blue Jays,Seattle Mariners,Trey Yesavage,Emerson Hancock,0.5886034772772545,1
+823525,2026-07-05,Pre-Game,Minnesota Twins,New York Yankees,Joe Ryan,Ryan Weathers,0.5107436988177871,1
+823931,2026-07-05,Scheduled,San Diego Padres,Los Angeles Dodgers,JP Sears,Emmet Sheehan,0.649305220571659,1
+824010,2026-07-05,Scheduled,Boston Red Sox,Los Angeles Angels,Ranger Suarez,Ryan Johnson,0.5068566102376824,1
+824091,2026-07-05,Pre-Game,Philadelphia Phillies,Kansas City Royals,Aaron Nola,Luinder Avila,0.44720808269367807,0
+824172,2026-07-05,Scheduled,Tampa Bay Rays,Houston Astros,,Peter Lambert,0.4509057746747901,0
+824333,2026-07-05,Scheduled,San Francisco Giants,Colorado Rockies,Tyler Mahle,Tanner Gordon,0.5216245875804131,1
+824413,2026-07-05,Pre-Game,Chicago White Sox,Cleveland Guardians,Chris Murphy,Tanner Bibee,0.5618547527103392,1
+824497,2026-07-05,Pre-Game,Baltimore Orioles,Cincinnati Reds,Kyle Bradish,Nick Lodolo,0.44777219129109724,0
+824656,2026-07-05,Scheduled,St. Louis Cardinals,Chicago Cubs,Matthew Liberatore,Javier Assad,0.6098581055803262,1
+824902,2026-07-05,Pre-Game,New York Mets,Atlanta Braves,Nolan McLean,Martín Pérez,0.5740280648289398,1
+824980,2026-07-05,Scheduled,Miami Marlins,Athletics,Eury Pérez,Gage Jump,0.5335137563220531,1
+825061,2026-07-05,Scheduled,Milwaukee Brewers,Arizona Diamondbacks,Brandon Sproat,Eduardo Rodriguez,0.5654666589169918,1

@@ -1,0 +1,19 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822784,2026-07-22,Scheduled,Tampa Bay Rays,Toronto Blue Jays,home,Toronto Blue Jays,-110.0,-110,0.5893909952808493,0.08939099528084926,0.08939099528084926,-0.08939099528084926,-110.0,-110.0,7.0,Griffin Jax,Braydon Fisher
+822873,2026-07-22,Scheduled,Chicago White Sox,Texas Rangers,,,,,0.49829846603684896,,-0.0017015339631510362,0.0017015339631509807,-110.0,-110.0,7.0,Anthony Kay,Tyler Alexander
+823110,2026-07-22,Pre-Game,Cincinnati Reds,Seattle Mariners,,,,,0.5815628832912153,,-0.004424377855281603,0.004424377855281492,-160.0,130.0,7.0,Brady Singer,Emerson Hancock
+823438,2026-07-22,Scheduled,Los Angeles Dodgers,Philadelphia Phillies,home,Philadelphia Phillies,100.0,+100,0.5642379295434926,0.08784307975808497,0.08784307975808497,-0.08784307975808481,100.0,-122.0,7.0,Eric Lauer,Aaron Nola
+823518,2026-07-22,In Progress,Pittsburgh Pirates,New York Yankees,away,Pittsburgh Pirates,130.0,+130,0.48694439513049015,0.10216030192127801,-0.10216030192127801,0.10216030192127801,-165.5,130.0,7.0,Mitch Keller,Gerrit Cole
+823519,2026-07-22,Postponed,Pittsburgh Pirates,New York Yankees,away,Pittsburgh Pirates,130.0,+130,0.49898153215555807,0.09012316489621008,-0.09012316489621008,0.09012316489621008,-165.5,130.0,7.0,Bubba Chandler,Will Warren
+823519,2026-07-22,Scheduled,Pittsburgh Pirates,New York Yankees,away,Pittsburgh Pirates,130.0,+130,0.5324519709415979,0.05665272611017025,-0.05665272611017025,0.05665272611017025,-165.5,130.0,7.0,Bubba Chandler,Max Fried
+823761,2026-07-22,Pre-Game,New York Mets,Milwaukee Brewers,,,,,0.5768271522507037,,-0.009740248351228775,0.00974024835122883,-161.0,130.0,7.0,Christian Scott,Logan Henderson
+824004,2026-07-22,Pre-Game,St. Louis Cardinals,Los Angeles Angels,,,,,0.5477015521065582,,-0.0014158692288217534,0.0014158692288216423,-135.0,112.0,7.0,Hunter Dobbins,Reid Detmers
+824083,2026-07-22,Pre-Game,San Francisco Giants,Kansas City Royals,,,,,0.4676678761815215,,0.012051222607287415,-0.012051222607287415,110.0,-132.0,7.0,Landen Roupp,Seth Lugo
+824166,2026-07-22,Scheduled,Miami Marlins,Houston Astros,,,,,0.5457766203694575,,0.024037489934674916,-0.024037489934674916,-120.0,100.0,7.0,Sandy Alcantara,Peter Lambert
+824327,2026-07-22,Pre-Game,Washington Nationals,Colorado Rockies,,,,,0.4839140400942546,,0.04587099290097485,-0.04587099290097474,118.0,-143.0,7.0,Cade Cavalli,Gabriel Hughes
+824408,2026-07-22,Scheduled,Minnesota Twins,Cleveland Guardians,,,,,0.5500595195679151,,0.017591987100382567,-0.017591987100382622,-125.0,105.0,7.0,Bailey Ober,Slade Cecconi
+824650,2026-07-22,Scheduled,Detroit Tigers,Chicago Cubs,,,,,0.5534976239398106,,0.02718183446612643,-0.027181834466126376,-125.0,100.0,7.0,Keider Montero,Colin Rea
+824732,2026-07-22,Scheduled,Baltimore Orioles,Boston Red Sox,,,,,0.526774282949534,,-0.017622770171830893,0.017622770171830893,-135.0,108.0,7.0,Kyle Bradish,
+824735,2026-07-22,Postponed,Baltimore Orioles,Boston Red Sox,,,,,0.5365290993130495,,-0.007867953808315398,0.007867953808315398,-135.0,108.0,7.0,Kyle Bradish,Eduardo Rivera
+824735,2026-07-22,Warmup,Baltimore Orioles,Boston Red Sox,,,,,0.5383736436431446,,-0.006023409478220332,0.006023409478220332,-135.0,108.0,7.0,Dean Kremer,Jake Bennett
+824896,2026-07-22,Scheduled,San Diego Padres,Atlanta Braves,away,San Diego Padres,-102.0,-102,0.46774944652694617,0.051530759128580794,-0.05153075912858085,0.051530759128580794,-120.0,-102.0,7.0,Michael King,Martín Pérez

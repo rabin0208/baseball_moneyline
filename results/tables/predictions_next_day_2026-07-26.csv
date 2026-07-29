@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822706,2026-07-26,Pre-Game,Arizona Diamondbacks,Washington Nationals,Kohl Drake,Miles Mikolas,0.6151435358969087,1
+822870,2026-07-26,Scheduled,Seattle Mariners,Texas Rangers,Logan Gilbert,Jacob deGrom,0.49149819552740664,0
+822950,2026-07-26,Pre-Game,Cleveland Guardians,Tampa Bay Rays,Parker Messick,Drew Rasmussen,0.6454009636767242,1
+823028,2026-07-26,Pre-Game,Cincinnati Reds,St. Louis Cardinals,Andrew Abbott,Kyle Leahy,0.6102217820311443,1
+823194,2026-07-26,Scheduled,Los Angeles Angels,San Francisco Giants,José Soriano,Carson Whisenhunt,0.5971726927078219,1
+823354,2026-07-26,Scheduled,Chicago Cubs,Pittsburgh Pirates,Jameson Taillon,Braxton Ashcraft,0.5347485355390202,1
+823433,2026-07-26,Scheduled,New York Yankees,Philadelphia Phillies,Will Warren,Cristopher Sánchez,0.46818683611178985,0
+823599,2026-07-26,Pre-Game,Los Angeles Dodgers,New York Mets,Emmet Sheehan,Freddy Peralta,0.48549322201976997,0
+823678,2026-07-26,Scheduled,Athletics,Minnesota Twins,Jeffrey Springs,Connor Prielipp,0.5787098174042582,1
+823755,2026-07-26,Pre-Game,Colorado Rockies,Milwaukee Brewers,Kyle Freeland,Jacob Misiorowski,0.5829738515563517,1
+823840,2026-07-26,Pre-Game,San Diego Padres,Miami Marlins,Walker Buehler,Janson Junk,0.42199945099756253,0
+824246,2026-07-26,Pre-Game,Kansas City Royals,Detroit Tigers,Luinder Avila,Framber Valdez,0.5600207177486914,1
+824572,2026-07-26,Scheduled,Houston Astros,Chicago White Sox,Ronel Blanco,Erick Fedde,0.551958905096307,1
+824730,2026-07-26,Pre-Game,Toronto Blue Jays,Boston Red Sox,Kevin Gausman,Ranger Suarez,0.6209560551687856,1
+824810,2026-07-26,Pre-Game,Atlanta Braves,Baltimore Orioles,Reynaldo López,Shane Baz,0.5083139375956135,1

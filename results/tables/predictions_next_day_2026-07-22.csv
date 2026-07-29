@@ -1,0 +1,20 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822784,2026-07-22,Scheduled,Tampa Bay Rays,Toronto Blue Jays,Griffin Jax,Braydon Fisher,0.5893909952808493,1
+822873,2026-07-22,Scheduled,Chicago White Sox,Texas Rangers,Anthony Kay,Tyler Alexander,0.49829846603684896,0
+823110,2026-07-22,Scheduled,Cincinnati Reds,Seattle Mariners,Brady Singer,Emerson Hancock,0.5815628832912153,1
+823438,2026-07-22,Scheduled,Los Angeles Dodgers,Philadelphia Phillies,Eric Lauer,Aaron Nola,0.5642379295434926,1
+823518,2026-07-22,Pre-Game,Pittsburgh Pirates,New York Yankees,Mitch Keller,Gerrit Cole,0.48694439513049015,0
+823519,2026-07-22,Postponed,Pittsburgh Pirates,New York Yankees,Bubba Chandler,Will Warren,0.49898153215555807,0
+823519,2026-07-22,Scheduled,Pittsburgh Pirates,New York Yankees,Bubba Chandler,Max Fried,0.5324519709415979,1
+823761,2026-07-22,Scheduled,New York Mets,Milwaukee Brewers,Christian Scott,Logan Henderson,0.5768271522507037,1
+824004,2026-07-22,Scheduled,St. Louis Cardinals,Los Angeles Angels,Hunter Dobbins,Reid Detmers,0.5477015521065582,1
+824083,2026-07-22,Pre-Game,San Francisco Giants,Kansas City Royals,Landen Roupp,Seth Lugo,0.4676678761815215,0
+824166,2026-07-22,Scheduled,Miami Marlins,Houston Astros,Sandy Alcantara,Peter Lambert,0.5457766203694575,1
+824327,2026-07-22,Scheduled,Washington Nationals,Colorado Rockies,Cade Cavalli,Gabriel Hughes,0.4839140400942546,0
+824408,2026-07-22,Scheduled,Minnesota Twins,Cleveland Guardians,Bailey Ober,Slade Cecconi,0.5500595195679151,1
+824650,2026-07-22,Scheduled,Detroit Tigers,Chicago Cubs,Keider Montero,Colin Rea,0.5534976239398106,1
+824732,2026-07-22,Scheduled,Baltimore Orioles,Boston Red Sox,Kyle Bradish,,0.526774282949534,1
+824735,2026-07-22,Postponed,Baltimore Orioles,Boston Red Sox,Kyle Bradish,Eduardo Rivera,0.5365290993130495,1
+824735,2026-07-22,Pre-Game,Baltimore Orioles,Boston Red Sox,Dean Kremer,Jake Bennett,0.5383736436431446,1
+824896,2026-07-22,Scheduled,San Diego Padres,Atlanta Braves,Michael King,Martín Pérez,0.46774944652694617,0
+825055,2026-07-22,Scheduled,Athletics,Arizona Diamondbacks,Gage Jump,Merrill Kelly,0.5966566360557625,1

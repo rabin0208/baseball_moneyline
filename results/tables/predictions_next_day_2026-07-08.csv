@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822710,2026-07-08,Scheduled,Houston Astros,Washington Nationals,Spencer Arrighetti,Foster Griffin,0.566205003584621,1
+822880,2026-07-08,Scheduled,Los Angeles Angels,Texas Rangers,Walbert Ureña,MacKenzie Gore,0.49973510483546557,0
+822957,2026-07-08,Scheduled,New York Yankees,Tampa Bay Rays,Gerrit Cole,Shane McClanahan,0.6080784643248844,1
+823032,2026-07-08,Scheduled,Milwaukee Brewers,St. Louis Cardinals,Kyle Harrison,Michael McGreevy,0.429418344925701,0
+823202,2026-07-08,Scheduled,Toronto Blue Jays,San Francisco Giants,Dylan Cease,Logan Webb,0.5117876804513063,1
+823279,2026-07-08,Scheduled,Arizona Diamondbacks,San Diego Padres,Jose Cabrera,Michael King,0.5046179133815596,1
+823360,2026-07-08,Scheduled,Atlanta Braves,Pittsburgh Pirates,Grant Holmes,Jared Jones,0.5786274647130052,1
+823605,2026-07-08,Scheduled,Kansas City Royals,New York Mets,Steven Cruz,Christian Scott,0.5916826735297969,1
+823684,2026-07-08,Scheduled,Cleveland Guardians,Minnesota Twins,Slade Cecconi,Connor Prielipp,0.5243281236010807,1
+823848,2026-07-08,Scheduled,Seattle Mariners,Miami Marlins,George Kirby,Tyler Phillips,0.5130281262993861,1
+823928,2026-07-08,Scheduled,Colorado Rockies,Los Angeles Dodgers,Gabriel Hughes,Roki Sasaki,0.610813402365846,1
+824253,2026-07-08,Scheduled,Athletics,Detroit Tigers,Jeffrey Springs,Troy Melton,0.6471623712998544,1
+824496,2026-07-08,Scheduled,Philadelphia Phillies,Cincinnati Reds,,Chase Burns,0.5763322822281473,1
+824578,2026-07-08,Scheduled,Boston Red Sox,Chicago White Sox,Jake Bennett,Davis Martin,0.45720582376295904,0
+824815,2026-07-08,Scheduled,Chicago Cubs,Baltimore Orioles,Colin Rea,Dean Kremer,0.48683247713377475,0

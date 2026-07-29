@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822789,2026-07-17,Scheduled,Chicago White Sox,Toronto Blue Jays,away,Chicago White Sox,113.0,+113,0.48844819576576665,0.06337571074129628,-0.0633757107412965,0.06337571074129628,-137.0,113.0,7.0,Anthony Kay,Spencer Miles
+823115,2026-07-17,Scheduled,San Francisco Giants,Seattle Mariners,away,San Francisco Giants,155.0,+155,0.5464926283217096,0.07864518865734216,-0.07864518865734227,0.07864518865734216,-189.0,155.0,7.0,Landen Roupp,Bryce Miller
+823524,2026-07-17,Scheduled,Los Angeles Dodgers,New York Yankees,,,,,0.4824003707973634,,-0.015464701790168622,0.015464701790168567,-110.0,-112.0,7.0,Roki Sasaki,Gerrit Cole
+823766,2026-07-17,Scheduled,Miami Marlins,Milwaukee Brewers,,,,,0.5684068807683194,,-0.00861226993942421,0.00861226993942421,-154.0,125.0,7.0,Sandy Alcantara,Logan Henderson
+824009,2026-07-17,Scheduled,Detroit Tigers,Los Angeles Angels,,,,,0.5172668365090437,,0.02810107269539258,-0.028101072695392526,-105.0,-115.0,7.0,Troy Melton,Reid Detmers
+824090,2026-07-17,Scheduled,San Diego Padres,Kansas City Royals,,,,,0.49938497959843997,,0.021752055263061676,-0.021752055263061565,-101.0,-122.0,7.0,Michael King,Seth Lugo
+824170,2026-07-17,Scheduled,Baltimore Orioles,Houston Astros,,,,,0.5443211182921592,,0.03348688210581041,-0.033486882105810356,-115.0,-105.0,7.0,Dean Kremer,Peter Lambert
+824332,2026-07-17,Scheduled,Cincinnati Reds,Colorado Rockies,home,Colorado Rockies,-116.0,-116,0.5690565603143296,0.05721841997855692,0.05721841997855692,-0.05721841997855681,-116.0,-105.0,7.0,Brady Singer,Gabriel Hughes
+824414,2026-07-17,Scheduled,Pittsburgh Pirates,Cleveland Guardians,,,,,0.5158295783172189,,-0.026179265649932115,0.02617926564993206,-132.0,108.0,7.0,Jared Jones,Gavin Williams
+824655,2026-07-17,Scheduled,Minnesota Twins,Chicago Cubs,away,Minnesota Twins,120.0,+120,0.40273645616689807,0.16146727410569883,-0.16146727410569878,0.16146727410569883,-143.0,120.0,7.0,Bailey Ober,Colin Rea
+824737,2026-07-17,Scheduled,Tampa Bay Rays,Boston Red Sox,,,,,0.5574682294167324,,0.04663399323038353,-0.046633993230383475,-115.0,-105.0,7.0,,
+824766,2026-07-17,Postponed,Tampa Bay Rays,Boston Red Sox,,,,,0.5210636724282957,,0.010229436241946832,-0.010229436241946777,-115.0,-105.0,7.0,Nick Martinez,Payton Tolle
+824766,2026-07-17,Pre-Game,Tampa Bay Rays,Boston Red Sox,,,,,0.5524259354911809,,0.041591699304832086,-0.04159169930483203,-115.0,-105.0,7.0,Griffin Jax,Jake Bennett
+824901,2026-07-17,Scheduled,Texas Rangers,Atlanta Braves,,,,,0.6079809039790617,,-0.03638035011546348,0.03638035011546331,-204.0,170.0,7.0,Cal Quantrill,Chris Sale
+825060,2026-07-17,Scheduled,St. Louis Cardinals,Arizona Diamondbacks,home,Arizona Diamondbacks,-108.0,-108,0.556363084215443,0.06378777662104329,0.06378777662104329,-0.06378777662104329,-108.0,-115.0,7.0,,Merrill Kelly

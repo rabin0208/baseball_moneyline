@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822715,2026-07-05,Pre-Game,Pittsburgh Pirates,Washington Nationals,,,,,0.5700783918618252,,0.014440202775648725,-0.01444020277564878,-139.0,115.0,7.0,Bubba Chandler,Cade Cavalli
+822879,2026-07-05,Pre-Game,Detroit Tigers,Texas Rangers,home,Texas Rangers,101.0,+101,0.5639883251284241,0.09154738024653436,0.09154738024653436,-0.09154738024653442,101.0,-125.0,7.0,Casey Mize,Kumar Rocker
+823117,2026-07-05,Scheduled,Toronto Blue Jays,Seattle Mariners,,,,,0.5886034772772545,,0.046594633310103495,-0.04659463331010355,-132.0,108.0,7.0,Trey Yesavage,Emerson Hancock
+823525,2026-07-05,Pre-Game,Minnesota Twins,New York Yankees,,,,,0.5107436988177871,,-0.037202824217703934,0.03720282421770388,-135.0,111.0,7.0,Joe Ryan,Ryan Weathers
+823931,2026-07-05,Scheduled,San Diego Padres,Los Angeles Dodgers,,,,,0.649305220571659,,0.001743009108985838,-0.001743009108985838,-213.0,170.0,7.0,JP Sears,Emmet Sheehan
+824010,2026-07-05,Scheduled,Boston Red Sox,Los Angeles Angels,home,Los Angeles Angels,133.0,+133,0.5068566102376824,0.09826377918462725,0.09826377918462725,-0.09826377918462714,133.0,-164.0,7.0,Ranger Suarez,Ryan Johnson
+824091,2026-07-05,Pre-Game,Philadelphia Phillies,Kansas City Royals,,,,,0.44720808269367807,,0.009165035500398322,-0.009165035500398266,118.0,-143.0,7.0,Aaron Nola,Luinder Avila
+824172,2026-07-05,Scheduled,Tampa Bay Rays,Houston Astros,away,Tampa Bay Rays,-107.0,-107,0.4509057746747901,0.05814313200436766,-0.058143132004367604,0.05814313200436766,-115.5,-107.0,6.0,,Peter Lambert
+824333,2026-07-05,Scheduled,San Francisco Giants,Colorado Rockies,,,,,0.5216245875804131,,0.04522973779500544,-0.045229737795005276,100.0,-122.0,7.0,Tyler Mahle,Tanner Gordon
+824413,2026-07-05,Pre-Game,Chicago White Sox,Cleveland Guardians,,,,,0.5618547527103392,,0.005477673227899382,-0.005477673227899271,-140.0,115.0,7.0,Chris Murphy,Tanner Bibee
+824497,2026-07-05,Pre-Game,Baltimore Orioles,Cincinnati Reds,away,Baltimore Orioles,-110.0,-110,0.44777219129109724,0.052227808708902757,-0.052227808708902757,0.052227808708902757,-110.0,-110.0,7.0,Kyle Bradish,Nick Lodolo
+824656,2026-07-05,Scheduled,St. Louis Cardinals,Chicago Cubs,,,,,0.6098581055803262,,0.03539002047394313,-0.03539002047394324,-150.0,125.0,7.0,Matthew Liberatore,Javier Assad
+824902,2026-07-05,Pre-Game,New York Mets,Atlanta Braves,home,Atlanta Braves,-110.0,-110,0.5740280648289398,0.07925819035195225,0.07925819035195225,-0.07925819035195225,-110.0,-115.0,7.0,Nolan McLean,Martín Pérez
+825061,2026-07-05,Scheduled,Milwaukee Brewers,Arizona Diamondbacks,home,Arizona Diamondbacks,101.0,+101,0.5654666589169918,0.09123064675273174,0.09123064675273174,-0.09123064675273174,101.0,-123.0,7.0,Brandon Sproat,Eduardo Rodriguez

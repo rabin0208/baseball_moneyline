@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822877,2026-07-09,Scheduled,Los Angeles Angels,Texas Rangers,away,Los Angeles Angels,115.0,+115,0.49177876528067493,0.06532864995409499,-0.06532864995409488,0.06532864995409499,-141.0,115.0,7.0,Reid Detmers,Nathan Eovaldi
+822954,2026-07-09,Pre-Game,New York Yankees,Tampa Bay Rays,,,,,0.535772433317707,,-0.049157324025843385,0.04915732402584355,-160.0,129.0,7.0,Paul Blackburn,Drew Rasmussen
+823034,2026-07-09,Scheduled,Milwaukee Brewers,St. Louis Cardinals,,,,,0.49230232446079025,,0.04412623096785323,-0.0441262309678534,113.0,-137.0,7.0,Logan Henderson,Andre Pallante
+823201,2026-07-09,Scheduled,Colorado Rockies,San Francisco Giants,,,,,0.5029302283252073,,-0.04655938332343268,0.046559383323432624,-137.0,111.0,6.0,Ryan Feltner,
+823277,2026-07-09,Scheduled,Arizona Diamondbacks,San Diego Padres,,,,,0.488324161692421,,-0.04589149440689155,0.045891494406891664,-127.0,105.0,7.0,Merrill Kelly,Griffin Canning
+823359,2026-07-09,Pre-Game,Atlanta Braves,Pittsburgh Pirates,,,,,0.5313485111001762,,0.045154798270949426,-0.04515479827094926,-105.0,-118.0,7.0,Bryce Elder,Mitch Keller
+823606,2026-07-09,Pre-Game,Kansas City Royals,New York Mets,,,,,0.5632910451626055,,0.004748034898276354,-0.004748034898276299,-143.0,115.0,7.0,Michael Wacha,Sean Manaea
+823683,2026-07-09,Scheduled,Cleveland Guardians,Minnesota Twins,home,Minnesota Twins,107.0,+107,0.5496159899575827,0.08878649687002504,0.08878649687002504,-0.08878649687002504,107.0,-130.0,7.0,Gavin Williams,Bailey Ober
+823846,2026-07-09,Scheduled,Seattle Mariners,Miami Marlins,home,Miami Marlins,115.0,+115,0.5308037612273551,0.08718084070979504,0.08718084070979504,-0.08718084070979493,115.0,-140.0,7.0,Bryce Miller,Janson Junk
+824494,2026-07-09,Scheduled,Philadelphia Phillies,Cincinnati Reds,home,Cincinnati Reds,135.0,+135,0.483590266019104,0.07870740909287754,0.07870740909287754,-0.07870740909287766,135.0,-167.0,7.0,Jesús Luzardo,Brady Singer
+824577,2026-07-09,Pre-Game,Boston Red Sox,Chicago White Sox,,,,,0.530009706794405,,0.01072950113887794,-0.010729501138877995,-120.0,-102.0,7.0,Patrick Sandoval,Anthony Kay
+824816,2026-07-09,Pre-Game,Chicago Cubs,Baltimore Orioles,,,,,0.4998767604436246,,-0.042132083523526376,0.04213208352352632,-132.0,108.0,7.0,David Peterson,Trevor Rogers

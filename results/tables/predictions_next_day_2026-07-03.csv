@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822714,2026-07-03,Scheduled,Pittsburgh Pirates,Washington Nationals,Mitch Keller,Foster Griffin,0.543167781678535,1
+823120,2026-07-03,Scheduled,Toronto Blue Jays,Seattle Mariners,Dylan Cease,Luis Castillo,0.5145069302667137,1
+823527,2026-07-03,Pre-Game,Minnesota Twins,New York Yankees,Mike Paredes,Gerrit Cole,0.5506312317444373,1
+823933,2026-07-03,Scheduled,San Diego Padres,Los Angeles Dodgers,Michael King,Shohei Ohtani,0.6253813303508271,1
+824013,2026-07-03,Scheduled,Boston Red Sox,Los Angeles Angels,Jake Bennett,Reid Detmers,0.5748445143491528,1
+824173,2026-07-03,Scheduled,Tampa Bay Rays,Houston Astros,Nick Martinez,Spencer Arrighetti,0.4665843576434162,0
+824336,2026-07-03,Scheduled,San Francisco Giants,Colorado Rockies,,Ryan Feltner,0.46518835802923203,0
+824417,2026-07-03,Scheduled,Chicago White Sox,Cleveland Guardians,Anthony Kay,Gavin Williams,0.431197088842931,0
+824498,2026-07-03,Pre-Game,Baltimore Orioles,Cincinnati Reds,Trevor Rogers,Brady Singer,0.4527235280197869,0
+824659,2026-07-03,Pre-Game,St. Louis Cardinals,Chicago Cubs,Andre Pallante,David Peterson,0.5378835735998777,1
+824904,2026-07-03,Scheduled,New York Mets,Atlanta Braves,Christian Scott,Grant Holmes,0.5225275666241611,1
+824982,2026-07-03,Scheduled,Miami Marlins,Athletics,Tyler Phillips,Jack Perkins,0.5008859632211259,1
+825062,2026-07-03,Scheduled,Milwaukee Brewers,Arizona Diamondbacks,Kyle Harrison,Jose Cabrera,0.45033320285905376,0

@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822716,2026-07-04,In Progress,Pittsburgh Pirates,Washington Nationals,home,Washington Nationals,130.0,+130,0.5012263610091924,0.08721362215568917,0.08721362215568917,-0.08721362215568929,130.0,-160.0,7.0,Braxton Ashcraft,Carson Palmquist
+822882,2026-07-04,Scheduled,Detroit Tigers,Texas Rangers,home,Texas Rangers,-103.0,-103,0.5844719374289893,0.10254935129542908,0.10254935129542908,-0.10254935129542897,-103.0,-120.0,7.0,Jack Flaherty,Kumar Rocker
+823118,2026-07-04,Scheduled,Toronto Blue Jays,Seattle Mariners,away,Toronto Blue Jays,140.0,+140,0.5427158552554245,0.05905405624900023,-0.059054056249000286,0.05905405624900023,-170.0,140.0,7.0,Shane Bieber,Logan Gilbert
+823526,2026-07-04,Pre-Game,Minnesota Twins,New York Yankees,,,,,0.5412205016893246,,-0.035798649018419004,0.035798649018419004,-154.0,125.0,7.0,Zebby Matthews,Brendan Beck
+823932,2026-07-04,Scheduled,San Diego Padres,Los Angeles Dodgers,,,,,0.6632440851007201,,-0.018574096717461686,0.018574096717461797,-250.0,200.0,7.0,Wandy Peralta,Yoshinobu Yamamoto
+824012,2026-07-04,Scheduled,Boston Red Sox,Los Angeles Angels,home,Los Angeles Angels,139.0,+139,0.5196500322354102,0.12041892178146968,0.12041892178146968,-0.12041892178146962,139.0,-170.0,7.0,Sonny Gray,Sam Aldegheri
+824092,2026-07-04,Scheduled,Philadelphia Phillies,Kansas City Royals,away,Philadelphia Phillies,-156.0,-156,0.3443236677574222,0.07313116232541661,-0.0731311623254165,0.07313116232541661,129.0,-156.0,7.0,Jesús Luzardo,Michael Wacha
+824171,2026-07-04,Scheduled,Tampa Bay Rays,Houston Astros,,,,,0.4910115463625578,,-0.008988453637442217,0.008988453637442273,-110.0,-110.0,7.0,Drew Rasmussen,Hunter Brown
+824334,2026-07-04,Scheduled,San Francisco Giants,Colorado Rockies,home,Colorado Rockies,118.0,+118,0.5780114701315135,0.14136916038280561,0.14136916038280561,-0.14136916038280567,118.0,-145.0,7.0,Robbie Ray,Sean Sullivan
+824415,2026-07-04,Scheduled,Chicago White Sox,Cleveland Guardians,away,Chicago White Sox,119.0,+119,0.5031391810170085,0.0627125054822093,-0.0627125054822093,0.0627125054822093,-147.0,119.0,7.0,Sean Burke,Parker Messick
+824499,2026-07-04,Scheduled,Baltimore Orioles,Cincinnati Reds,away,Baltimore Orioles,107.0,+107,0.4812722857190652,0.059540001510766216,-0.059540001510766105,0.059540001510766216,-132.0,107.0,7.0,Brandon Young,Hunter Greene
+824658,2026-07-04,Scheduled,St. Louis Cardinals,Chicago Cubs,home,Chicago Cubs,-161.0,-161,0.6399437809729417,0.05232468821093761,0.05232468821093761,-0.052324688210937664,-161.0,131.0,7.0,Kyle Leahy,Shota Imanaga
+824903,2026-07-04,Scheduled,New York Mets,Atlanta Braves,,,,,0.5611863468865738,,-0.04161739143118315,0.04161739143118326,-172.0,140.0,7.0,Sean Manaea,Chris Sale
+825063,2026-07-04,Scheduled,Milwaukee Brewers,Arizona Diamondbacks,home,Arizona Diamondbacks,129.0,+129,0.490927021672619,0.0734721915897803,0.0734721915897803,-0.07347219158978013,129.0,-156.0,7.0,Brandon Woodruff,Merrill Kelly

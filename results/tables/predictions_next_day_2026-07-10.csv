@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822709,2026-07-10,Scheduled,New York Yankees,Washington Nationals,Ryan Weathers,Carson Palmquist,0.5415357808600699,1
+822878,2026-07-10,Scheduled,Houston Astros,Texas Rangers,Hunter Brown,Cal Quantrill,0.5260235686974407,1
+822955,2026-07-10,Scheduled,Seattle Mariners,Tampa Bay Rays,Luis Castillo,Nick Martinez,0.5053701987291855,1
+823033,2026-07-10,Scheduled,Atlanta Braves,St. Louis Cardinals,Chris Sale,Kyle Leahy,0.5118246665304297,1
+823200,2026-07-10,Scheduled,Colorado Rockies,San Francisco Giants,Tanner Gordon,Robbie Ray,0.5141974852881113,1
+823278,2026-07-10,Scheduled,Toronto Blue Jays,San Diego Padres,Shane Bieber,JP Sears,0.4746353033755649,0
+823357,2026-07-10,Scheduled,Milwaukee Brewers,Pittsburgh Pirates,Brandon Sproat,Braxton Ashcraft,0.5288017825677852,1
+823604,2026-07-10,Scheduled,Boston Red Sox,New York Mets,Sonny Gray,Nolan McLean,0.46390218395873956,0
+823685,2026-07-10,Scheduled,Los Angeles Angels,Minnesota Twins,Grayson Rodriguez,Zebby Matthews,0.6076062147646729,1
+823845,2026-07-10,Scheduled,Cleveland Guardians,Miami Marlins,Parker Messick,Sandy Alcantara,0.5883162353674697,1
+823927,2026-07-10,Scheduled,Arizona Diamondbacks,Los Angeles Dodgers,Eduardo Rodriguez,Shohei Ohtani,0.5675222945195977,1
+824252,2026-07-10,Scheduled,Philadelphia Phillies,Detroit Tigers,Aaron Nola,Jack Flaherty,0.5786945161138632,1
+824493,2026-07-10,Scheduled,Chicago Cubs,Cincinnati Reds,Shota Imanaga,Hunter Greene,0.44003933040694765,0
+824575,2026-07-10,Scheduled,Athletics,Chicago White Sox,Jacob Lopez,Sean Burke,0.5682571703722659,1
+824817,2026-07-10,Scheduled,Kansas City Royals,Baltimore Orioles,Luinder Avila,Brandon Young,0.5954040208026501,1

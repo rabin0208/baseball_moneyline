@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822877,2026-07-09,Scheduled,Los Angeles Angels,Texas Rangers,Reid Detmers,Nathan Eovaldi,0.49177876528067493,0
+822954,2026-07-09,Pre-Game,New York Yankees,Tampa Bay Rays,Paul Blackburn,Drew Rasmussen,0.535772433317707,1
+823034,2026-07-09,Scheduled,Milwaukee Brewers,St. Louis Cardinals,Logan Henderson,Andre Pallante,0.49230232446079025,0
+823201,2026-07-09,Scheduled,Colorado Rockies,San Francisco Giants,Ryan Feltner,,0.5029302283252073,1
+823277,2026-07-09,Scheduled,Arizona Diamondbacks,San Diego Padres,Merrill Kelly,Griffin Canning,0.488324161692421,0
+823359,2026-07-09,Pre-Game,Atlanta Braves,Pittsburgh Pirates,Bryce Elder,Mitch Keller,0.5313485111001762,1
+823606,2026-07-09,Pre-Game,Kansas City Royals,New York Mets,Michael Wacha,Sean Manaea,0.5632910451626055,1
+823683,2026-07-09,Scheduled,Cleveland Guardians,Minnesota Twins,Gavin Williams,Bailey Ober,0.5496159899575827,1
+823846,2026-07-09,Scheduled,Seattle Mariners,Miami Marlins,Bryce Miller,Janson Junk,0.5308037612273551,1
+824251,2026-07-09,Scheduled,Athletics,Detroit Tigers,Jack Perkins,Framber Valdez,0.5522742970959187,1
+824494,2026-07-09,Scheduled,Philadelphia Phillies,Cincinnati Reds,Jesús Luzardo,Brady Singer,0.483590266019104,0
+824577,2026-07-09,Pre-Game,Boston Red Sox,Chicago White Sox,Patrick Sandoval,Anthony Kay,0.530009706794405,1
+824816,2026-07-09,Pre-Game,Chicago Cubs,Baltimore Orioles,David Peterson,Trevor Rogers,0.4998767604436246,0

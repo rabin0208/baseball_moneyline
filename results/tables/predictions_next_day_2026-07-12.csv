@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822708,2026-07-12,Pre-Game,New York Yankees,Washington Nationals,Will Warren,Cade Cavalli,0.5796761245583668,1
+822876,2026-07-12,Scheduled,Houston Astros,Texas Rangers,Cristian Javier,MacKenzie Gore,0.47471444664470513,0
+822951,2026-07-12,Pre-Game,Seattle Mariners,Tampa Bay Rays,Emerson Hancock,Ian Seymour,0.5442009404593258,1
+823029,2026-07-12,Scheduled,Atlanta Braves,St. Louis Cardinals,JR Ritchie,Dustin May,0.5868953168339998,1
+823199,2026-07-12,Scheduled,Colorado Rockies,San Francisco Giants,Michael Lorenzen,Trevor McDonald,0.4428923751107475,0
+823274,2026-07-12,Scheduled,Toronto Blue Jays,San Diego Padres,Kevin Gausman,Germán Márquez,0.5317930211203492,1
+823358,2026-07-12,Pre-Game,Milwaukee Brewers,Pittsburgh Pirates,Robert Gasser,Paul Skenes,0.46496635215887905,0
+823602,2026-07-12,Pre-Game,Boston Red Sox,New York Mets,Payton Tolle,Zach Thornton,0.4689272661471706,0
+823681,2026-07-12,Pre-Game,Los Angeles Angels,Minnesota Twins,José Soriano,Taj Bradley,0.6532516334838485,1
+823842,2026-07-12,Pre-Game,Cleveland Guardians,Miami Marlins,Joey Cantillo,Tyler Phillips,0.4652923235140646,0
+823925,2026-07-12,Scheduled,Arizona Diamondbacks,Los Angeles Dodgers,Mitch Bratt,Emmet Sheehan,0.5178553145031043,1
+824250,2026-07-12,Pre-Game,Philadelphia Phillies,Detroit Tigers,Zack Wheeler,Tarik Skubal,0.6146597376066296,1
+824491,2026-07-12,Pre-Game,Chicago Cubs,Cincinnati Reds,Matthew Boyd,Andrew Abbott,0.5657615680467991,1
+824574,2026-07-12,Scheduled,Athletics,Chicago White Sox,J.T. Ginn,Noah Schultz,0.6190236718657955,1
+824814,2026-07-12,Pre-Game,Kansas City Royals,Baltimore Orioles,Seth Lugo,Shane Baz,0.5475360961658868,1

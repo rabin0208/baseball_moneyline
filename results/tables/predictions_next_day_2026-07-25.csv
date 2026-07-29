@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822704,2026-07-25,Scheduled,Arizona Diamondbacks,Washington Nationals,Mitch Bratt,Foster Griffin,0.5199036078679227,1
+822869,2026-07-25,Scheduled,Seattle Mariners,Texas Rangers,Bryan Woo,Nathan Eovaldi,0.6268987374668947,1
+822948,2026-07-25,Scheduled,Cleveland Guardians,Tampa Bay Rays,Tanner Bibee,Nick Martinez,0.5798652231443353,1
+823027,2026-07-25,Scheduled,Cincinnati Reds,St. Louis Cardinals,Hunter Greene,Andre Pallante,0.5948798238420653,1
+823197,2026-07-25,Scheduled,Los Angeles Angels,San Francisco Giants,Ryan Johnson,Robbie Ray,0.58087884683121,1
+823355,2026-07-25,Scheduled,Chicago Cubs,Pittsburgh Pirates,Shota Imanaga,Paul Skenes,0.5466221767979209,1
+823435,2026-07-25,Scheduled,New York Yankees,Philadelphia Phillies,Ryan Weathers,,0.49657867938775724,0
+823600,2026-07-25,Scheduled,Los Angeles Dodgers,New York Mets,Yoshinobu Yamamoto,Nolan McLean,0.48387324420311684,0
+823679,2026-07-25,Scheduled,Athletics,Minnesota Twins,Mason Barnett,,0.6239528212349786,1
+823758,2026-07-25,Scheduled,Colorado Rockies,Milwaukee Brewers,Ryan Feltner,Robert Gasser,0.6113793511882012,1
+823841,2026-07-25,Scheduled,San Diego Padres,Miami Marlins,JP Sears,Eury Pérez,0.537040949720238,1
+824244,2026-07-25,Pre-Game,Kansas City Royals,Detroit Tigers,Michael Wacha,Casey Mize,0.5905654819054893,1
+824571,2026-07-25,Scheduled,Houston Astros,Chicago White Sox,Hunter Brown,Sean Burke,0.5633194354724161,1
+824734,2026-07-25,Scheduled,Toronto Blue Jays,Boston Red Sox,Dylan Cease,Sonny Gray,0.5917507059159013,1
+824811,2026-07-25,Scheduled,Atlanta Braves,Baltimore Orioles,Bryce Elder,Brandon Young,0.5773844364374134,1
