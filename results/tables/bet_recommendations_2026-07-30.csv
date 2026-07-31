@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822946,2026-07-30,Pre-Game,Texas Rangers,Tampa Bay Rays,,,,,0.5896878601101175,,-0.019548374348141828,0.019548374348141717,-175.0,145.0,7.0,Cole Winn,Shane McClanahan
+823023,2026-07-30,Scheduled,Chicago Cubs,St. Louis Cardinals,away,Chicago Cubs,-104.0,-104,0.4193679975237996,0.0956071864570322,-0.09560718645703215,0.0956071864570322,-118.0,-104.0,7.0,Javier Assad,Andre Pallante
+823271,2026-07-30,Scheduled,San Francisco Giants,San Diego Padres,,,,,0.5641923473190069,,-0.012826803388736652,0.012826803388736652,-154.0,125.0,7.0,,JP Sears
+823595,2026-07-30,Scheduled,Miami Marlins,New York Mets,home,New York Mets,-132.0,-132,0.594527804892116,0.052518960924965,0.052518960924965,-0.05251896092496505,-132.0,108.0,7.0,Eury Pérez,Nolan McLean
+823674,2026-07-30,Scheduled,Kansas City Royals,Minnesota Twins,away,Kansas City Royals,118.0,+118,0.49394329008034726,0.06801366272637294,-0.06801366272637294,0.06801366272637294,-143.0,118.0,7.0,Noah Cameron,Bailey Ober
+823921,2026-07-30,Scheduled,Seattle Mariners,Los Angeles Dodgers,home,Los Angeles Dodgers,-159.0,-159,0.6367045638200219,0.05130357134363328,0.05130357134363328,-0.051303571343633225,-159.0,130.0,7.0,Bryan Woo,Roki Sasaki
+824488,2026-07-30,Scheduled,Pittsburgh Pirates,Cincinnati Reds,,,,,0.48588501417036367,,-0.002276845493863533,0.002276845493863644,-105.0,-116.0,7.0,Yohan Ramírez,Rhett Lowder
+824568,2026-07-30,Scheduled,New York Yankees,Chicago White Sox,,,,,0.5424391123325963,,0.028632825161823305,-0.02863282516182314,-118.0,-105.0,7.0,Ryan Weathers,Sean Burke
+824894,2026-07-30,Scheduled,Washington Nationals,Atlanta Braves,away,Washington Nationals,124.0,+124,0.49600273272222944,0.07992888207675547,-0.07992888207675547,0.07992888207675547,-154.0,124.0,7.0,Jake Irvin,Grant Holmes

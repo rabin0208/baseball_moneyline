@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822782,2026-07-31,Scheduled,St. Louis Cardinals,Toronto Blue Jays,Kyle Leahy,Dylan Cease,0.6060394344921807,1
+822945,2026-07-31,Scheduled,Chicago White Sox,Tampa Bay Rays,Erick Fedde,Nick Martinez,0.5964809263170668,1
+823111,2026-07-31,Scheduled,Minnesota Twins,Seattle Mariners,Zebby Matthews,Bryce Miller,0.6025653724302138,1
+823272,2026-07-31,Scheduled,San Francisco Giants,San Diego Padres,Carson Whisenhunt,Bradgley Rodriguez,0.5137012914125269,1
+823593,2026-07-31,Scheduled,Miami Marlins,New York Mets,Janson Junk,,0.5659130135105993,1
+823922,2026-07-31,Scheduled,Boston Red Sox,Los Angeles Dodgers,Ranger Suarez,Edgardo Henriquez,0.502079216612078,1
+823999,2026-07-31,Scheduled,Milwaukee Brewers,Los Angeles Angels,Shane Drohan,Ryan Johnson,0.4789303714233506,0
+824164,2026-07-31,Scheduled,Texas Rangers,Houston Astros,Nathan Eovaldi,Hunter Brown,0.5229208612305649,1
+824325,2026-07-31,Scheduled,Kansas City Royals,Colorado Rockies,Michael Wacha,Tomoyuki Sugano,0.5146550267774761,1
+824407,2026-07-31,Scheduled,Arizona Diamondbacks,Cleveland Guardians,Mitch Bratt,Tanner Bibee,0.48844638372678756,0
+824486,2026-07-31,Pre-Game,Pittsburgh Pirates,Cincinnati Reds,Paul Skenes,Hunter Greene,0.5462408080481007,1
+824651,2026-07-31,In Progress,New York Yankees,Chicago Cubs,Will Warren,Shota Imanaga,0.5266411417716717,1
+824809,2026-07-31,Scheduled,Philadelphia Phillies,Baltimore Orioles,,Brandon Young,0.5343301483957082,1
+824892,2026-07-31,Scheduled,Washington Nationals,Atlanta Braves,Foster Griffin,Bryce Elder,0.4447446041104352,0
+824975,2026-07-31,Scheduled,Detroit Tigers,Athletics,,Jeffrey Springs,0.4612363882453975,0

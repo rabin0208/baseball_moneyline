@@ -16,6 +16,14 @@ def normalize_team(name: str) -> str:
     return re.sub(r"\s+", " ", str(name).strip().lower())
 
 
+def is_valid_american_odds(odds: float) -> bool:
+    """American moneylines are <= -100 or >= +100."""
+    if odds is None or (isinstance(odds, float) and np.isnan(odds)):
+        return False
+    o = float(odds)
+    return o <= -100.0 or o >= 100.0
+
+
 def american_to_implied_prob(odds: float) -> float:
     """Convert American moneyline to implied win probability (includes vig)."""
     o = float(odds)
@@ -24,6 +32,26 @@ def american_to_implied_prob(odds: float) -> float:
     if o > 0:
         return 100.0 / (o + 100.0)
     return abs(o) / (abs(o) + 100.0)
+
+
+def american_to_decimal(odds: float) -> float:
+    """Convert American moneyline to European decimal odds."""
+    o = float(odds)
+    if not is_valid_american_odds(o):
+        return float("nan")
+    if o > 0:
+        return 1.0 + o / 100.0
+    return 1.0 + 100.0 / abs(o)
+
+
+def decimal_to_american(decimal_odds: float) -> float:
+    """Convert European decimal odds back to American moneyline."""
+    d = float(decimal_odds)
+    if np.isnan(d) or d <= 1.0:
+        return float("nan")
+    if d >= 2.0:
+        return (d - 1.0) * 100.0
+    return -100.0 / (d - 1.0)
 
 
 def remove_vig(p_home: float, p_away: float) -> tuple[float, float]:
@@ -47,6 +75,11 @@ def flat_bet_profit(american_odds: float, won: bool) -> float:
 def consensus_moneyline(odds_df: pd.DataFrame) -> pd.DataFrame:
     """
     Median closing moneyline per game across sportsbooks.
+
+    Medians are taken in decimal-odds space so pick'em books that straddle
+    +100/-100 do not average to an invalid American price like -1. Results are
+    converted back to American for display and betting.
+
     Expects SBR-style columns: date, home_team, away_team, current_home_odds, current_away_odds.
     """
     required = {"date", "home_team", "away_team", "current_home_odds", "current_away_odds"}
@@ -60,17 +93,27 @@ def consensus_moneyline(odds_df: pd.DataFrame) -> pd.DataFrame:
     df["current_home_odds"] = pd.to_numeric(df["current_home_odds"], errors="coerce")
     df["current_away_odds"] = pd.to_numeric(df["current_away_odds"], errors="coerce")
     df = df.dropna(subset=["current_home_odds", "current_away_odds"])
+    df = df[
+        df["current_home_odds"].map(is_valid_american_odds)
+        & df["current_away_odds"].map(is_valid_american_odds)
+    ]
+
+    df["home_decimal"] = df["current_home_odds"].map(american_to_decimal)
+    df["away_decimal"] = df["current_away_odds"].map(american_to_decimal)
+    df = df.dropna(subset=["home_decimal", "away_decimal"])
 
     cons = (
         df.groupby(["date", "join_home", "join_away"], as_index=False)
         .agg(
-            home_odds=("current_home_odds", "median"),
-            away_odds=("current_away_odds", "median"),
+            home_decimal=("home_decimal", "median"),
+            away_decimal=("away_decimal", "median"),
             n_books=("sportsbook", "nunique") if "sportsbook" in df.columns else ("join_home", "count"),
         )
         .rename(columns={"join_home": "home_team_key", "join_away": "away_team_key"})
     )
-    return cons
+    cons["home_odds"] = cons["home_decimal"].map(decimal_to_american)
+    cons["away_odds"] = cons["away_decimal"].map(decimal_to_american)
+    return cons.drop(columns=["home_decimal", "away_decimal"])
 
 
 def add_market_probs(df: pd.DataFrame) -> pd.DataFrame:
