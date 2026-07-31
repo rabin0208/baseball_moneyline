@@ -13,8 +13,16 @@ def normalize_team(name: str) -> str:
     """Lowercase team name for joins across MLB Stats API and odds sources."""
     if name is None or (isinstance(name, float) and np.isnan(name)):
         return ""
-    return re.sub(r"\s+", " ", str(name).strip().lower())
+    key = re.sub(r"\s+", " ", str(name).strip().lower())
+    # SBR often duplicates the nickname after the A's relocated ("Athletics Athletics").
+    return _TEAM_ALIASES.get(key, key)
 
+
+# Map alternate book / API spellings onto a single join key.
+_TEAM_ALIASES = {
+    "athletics athletics": "athletics",
+    "oakland athletics": "athletics",
+}
 
 def is_valid_american_odds(odds: float) -> bool:
     """American moneylines are <= -100 or >= +100."""

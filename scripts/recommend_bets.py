@@ -36,7 +36,14 @@ TABLES_DIR = SCRIPT_DIR.parent / "results" / "tables"
 
 
 def predict_slate(target: date, season: int) -> pd.DataFrame:
-    """Model probabilities for not-yet-final games on `target`."""
+    """
+    Model probabilities for games on `target`.
+
+    - Past dates: score that day's games (typically Final) using rolling state
+      built only from earlier results (no look-ahead).
+    - Today / future: advance state through Finals through today, then score
+      not-yet-final games on `target` (live betting slate).
+    """
     if not HISTORY_CSV.is_file():
         raise FileNotFoundError(f"Missing {HISTORY_CSV}; run eda.py first.")
     if not MODEL_PATH.is_file() or not SCALER_PATH.is_file():
@@ -47,8 +54,11 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
     end_iso = min(max(target, today), date(season, 11, 30)).isoformat()
 
     history = load_history()
+    # Prior seasons only — current-season Finals are applied from the API walk so
+    # we do not double-count games already present in the history CSV.
+    history_seed = history.loc[history["game_date"].dt.year < season]
     state = RollingFeatureState(window=LAG_WINDOW)
-    state.seed_from_completed(history)
+    state.seed_from_completed(history_seed)
 
     sched = fetch_schedule(start_iso, end_iso)
     if sched.empty:
@@ -57,8 +67,7 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
     sched["game_date"] = pd.to_datetime(sched["game_date"])
     sched = sched[sched["game_date"].dt.year == season].sort_values(["game_date", "game_id"])
 
-    advance = sched[(sched["game_date"].dt.date <= today) & (sched["status"] == "Final")]
-    for _, row in advance.iterrows():
+    def _apply_final(row: pd.Series) -> None:
         hs = pd.to_numeric(row.get("home_score"), errors="coerce")
         aws = pd.to_numeric(row.get("away_score"), errors="coerce")
         if pd.notna(hs) and pd.notna(aws):
@@ -68,9 +77,25 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
             u["home_win"] = int(hs > aws)
             state.update_after_final_game(u)
 
-    to_predict = sched[
-        (sched["game_date"].dt.date == target) & (sched["status"] != "Final")
-    ].copy()
+    if target < today:
+        prior = sched[
+            (sched["game_date"].dt.date < target) & (sched["status"] == "Final")
+        ]
+        for _, row in prior.iterrows():
+            _apply_final(row)
+        to_predict = sched[sched["game_date"].dt.date == target].copy()
+    else:
+        advance = sched[
+            (sched["game_date"].dt.date <= today) & (sched["status"] == "Final")
+        ]
+        for _, row in advance.iterrows():
+            _apply_final(row)
+        to_predict = sched[
+            (sched["game_date"].dt.date == target) & (sched["status"] != "Final")
+        ].copy()
+
+    if to_predict.empty:
+        return pd.DataFrame()
 
     model = joblib.load(MODEL_PATH)
     scaler = joblib.load(SCALER_PATH)
@@ -80,6 +105,8 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
         feats = state.features_for_game(row)
         X_df = pd.DataFrame([[feats[c] for c in FEATURE_COLS]], columns=FEATURE_COLS)
         p_home = float(model.predict_proba(scaler.transform(X_df))[0, 1])
+        hs = pd.to_numeric(row.get("home_score"), errors="coerce")
+        aws = pd.to_numeric(row.get("away_score"), errors="coerce")
         rows.append(
             {
                 "game_id": row["game_id"],
@@ -89,6 +116,8 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
                 "home_name": row["home_name"],
                 "away_probable_pitcher": row.get("away_probable_pitcher", ""),
                 "home_probable_pitcher": row.get("home_probable_pitcher", ""),
+                "away_score": float(aws) if pd.notna(aws) else None,
+                "home_score": float(hs) if pd.notna(hs) else None,
                 "p_home_win": p_home,
             }
         )
