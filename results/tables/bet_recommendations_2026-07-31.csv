@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822782,2026-07-31,Scheduled,St. Louis Cardinals,Toronto Blue Jays,,,,,0.6060394344921807,,-0.020367935006284088,0.020367935006283977,-192.0,155.0,7.0,Kyle Leahy,Dylan Cease
+822945,2026-07-31,Scheduled,Chicago White Sox,Tampa Bay Rays,,,,,0.5964809263170668,,0.03565607225695577,-0.03565607225695594,-143.0,117.0,7.0,Erick Fedde,Nick Martinez
+823111,2026-07-31,Scheduled,Minnesota Twins,Seattle Mariners,,,,,0.6025653724302138,,0.0007954609257889711,-0.0007954609257890266,-170.0,140.0,7.0,Zebby Matthews,Bryce Miller
+823272,2026-07-31,Scheduled,San Francisco Giants,San Diego Padres,away,San Francisco Giants,123.0,+123,0.5137012914125269,0.05858271200920112,-0.058582712009201066,0.05858271200920112,-150.0,123.0,7.0,Carson Whisenhunt,Bradgley Rodriguez
+823593,2026-07-31,Scheduled,Miami Marlins,New York Mets,,,,,0.5659130135105993,,0.03223425703391536,-0.03223425703391536,-125.0,106.0,7.0,Janson Junk,
+823922,2026-07-31,Scheduled,Boston Red Sox,Los Angeles Dodgers,,,,,0.502079216612078,,-0.046234105286149685,0.046234105286149574,-137.0,110.0,7.0,Ranger Suarez,Edgardo Henriquez
+823999,2026-07-31,Scheduled,Milwaukee Brewers,Los Angeles Angels,home,Los Angeles Angels,135.0,+135,0.4789303714233506,0.07404751449712416,0.07404751449712416,-0.07404751449712421,135.0,-167.0,7.0,Shane Drohan,Ryan Johnson
+824164,2026-07-31,Scheduled,Texas Rangers,Houston Astros,,,,,0.5229208612305649,,-0.017446844604766865,0.017446844604766754,-130.0,108.0,7.0,Nathan Eovaldi,Hunter Brown
+824325,2026-07-31,Scheduled,Kansas City Royals,Colorado Rockies,,,,,0.5146550267774761,,0.016789954189944056,-0.016789954189944112,-110.0,-112.0,7.0,Michael Wacha,Tomoyuki Sugano
+824407,2026-07-31,Scheduled,Arizona Diamondbacks,Cleveland Guardians,away,Arizona Diamondbacks,120.0,+120,0.48844638372678756,0.07852416325778461,-0.07852416325778461,0.07852416325778461,-147.0,120.0,7.0,Mitch Bratt,Tanner Bibee
+824486,2026-07-31,Pre-Game,Pittsburgh Pirates,Cincinnati Reds,home,Cincinnati Reds,108.0,+108,0.5462408080481007,0.08824965201525165,0.08824965201525165,-0.0882496520152517,108.0,-132.0,7.0,Paul Skenes,Hunter Greene
+824651,2026-07-31,In Progress,New York Yankees,Chicago Cubs,away,New York Yankees,137.0,+137,0.5266411417716717,0.07051632892040272,-0.07051632892040283,0.07051632892040272,-167.0,137.0,7.0,Will Warren,Shota Imanaga
+824809,2026-07-31,Scheduled,Philadelphia Phillies,Baltimore Orioles,,,,,0.5343301483957082,,0.017204661389671472,-0.017204661389671583,-119.0,-103.0,7.0,,Brandon Young
+824892,2026-07-31,Scheduled,Washington Nationals,Atlanta Braves,away,Washington Nationals,-101.0,-101,0.4447446041104352,0.07575604327842961,-0.07575604327842972,0.07575604327842961,-120.0,-101.0,7.0,Foster Griffin,Bryce Elder

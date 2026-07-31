@@ -201,16 +201,15 @@ with st.sidebar:
         min_value=today,
         max_value=date(today.year, 11, 30),
     )
-    edge_percent = st.slider(
+    edge_threshold = st.slider(
         "Minimum edge",
-        min_value=0,
-        max_value=20,
-        value=5,
-        step=1,
-        format="%d%%",
+        min_value=0.0,
+        max_value=0.20,
+        value=0.05,
+        step=0.01,
+        format="%.0f%%",
         help="A recommendation appears when model probability exceeds fair market probability by this amount.",
     )
-    edge_threshold = edge_percent / 100
     recommendations_only = st.toggle("Recommendations only", value=False)
     if st.button("Refresh model and odds", type="primary", use_container_width=True):
         load_comparison.clear()
