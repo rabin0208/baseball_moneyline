@@ -7,6 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+import altair as alt
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
@@ -376,6 +377,17 @@ def render_daily_slate(
 
 def render_roi_tab(*, season: int, edge_threshold: float) -> None:
     st.subheader("Flat-bet ROI by month")
+    edge_percent = st.slider(
+        "Minimum edge",
+        min_value=0,
+        max_value=20,
+        value=int(round(edge_threshold * 100)),
+        step=1,
+        format="%d%%",
+        key="roi_edge_percent",
+        help="Model probability minus fair closing-line probability.",
+    )
+    edge_threshold = edge_percent / 100.0
     st.caption(
         f"1-unit bets when model edge ≥ {edge_threshold:.0%} vs vig-free closing line. "
         "Uses completed games matched to SportsBookReview closing moneylines."
@@ -421,8 +433,51 @@ def render_roi_tab(*, season: int, edge_threshold: float) -> None:
     display["ROI"] = display["ROI"].map(lambda x: f"{x:+.1%}")
     st.dataframe(display, use_container_width=True, hide_index=True)
 
-    chart_df = monthly.set_index("Month")[["ROI"]]
-    st.bar_chart(chart_df, horizontal=False)
+    chart_data = monthly.copy()
+    chart_data["Result"] = chart_data["ROI"].map(
+        lambda r: "Positive ROI" if r >= 0 else "Negative ROI"
+    )
+    chart = (
+        alt.Chart(chart_data)
+        .mark_bar()
+        .encode(
+            x=alt.X(
+                "Month:N",
+                title="Month",
+                sort=list(chart_data["Month"]),
+                axis=alt.Axis(labelAngle=-35),
+            ),
+            y=alt.Y(
+                "ROI:Q",
+                title="Return on investment (ROI)",
+                axis=alt.Axis(format=".0%"),
+            ),
+            color=alt.Color(
+                "Result:N",
+                title="Result",
+                scale=alt.Scale(
+                    domain=["Positive ROI", "Negative ROI"],
+                    range=["#35d07f", "#ff6b6b"],
+                ),
+                legend=alt.Legend(orient="top"),
+            ),
+            tooltip=[
+                alt.Tooltip("Month:N", title="Month"),
+                alt.Tooltip("ROI:Q", title="ROI", format=".1%"),
+                alt.Tooltip("Bets:Q", title="Bets"),
+                alt.Tooltip("Profit (u):Q", title="Profit (u)", format="+.2f"),
+                alt.Tooltip("Result:N", title="Result"),
+            ],
+        )
+        .properties(
+            title=f"Monthly flat-bet ROI (edge ≥ {edge_threshold:.0%})",
+            height=340,
+        )
+        .configure_title(fontSize=16, anchor="start", color="#eef4ff")
+        .configure_axis(labelColor="#9aa9bd", titleColor="#eef4ff")
+        .configure_legend(labelColor="#eef4ff", titleColor="#eef4ff")
+    )
+    st.altair_chart(chart, use_container_width=True)
 
     date_min = pd.to_datetime(games["game_date"]).min().date()
     date_max = pd.to_datetime(games["game_date"]).max().date()
@@ -461,6 +516,12 @@ with st.sidebar:
         max_value=date(today.year, 11, 30),
     )
     is_past = target_date < today
+    recommendations_only = st.toggle(
+        "Recommendations only",
+        value=False,
+        disabled=is_past,
+        help="Daily slate only. Requires live sportsbook odds (today and future dates).",
+    )
     edge_percent = st.slider(
         "Minimum edge",
         min_value=0,
@@ -468,16 +529,11 @@ with st.sidebar:
         value=5,
         step=1,
         format="%d%%",
-        help="Used for daily bet highlights and the ROI-by-month tab "
-        "(model probability minus fair market probability).",
+        disabled=is_past or not recommendations_only,
+        help="Enabled when Recommendations only is on. "
+        "A recommendation appears when model probability exceeds fair market probability by this amount.",
     )
     edge_threshold = edge_percent / 100.0
-    recommendations_only = st.toggle(
-        "Recommendations only",
-        value=False,
-        disabled=is_past,
-        help="Daily slate only. Requires live sportsbook odds (today and future dates).",
-    )
     if st.button("Refresh data", type="primary", use_container_width=True):
         load_comparison.clear()
         load_roi_games.clear()
