@@ -1,0 +1,9 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822867,2026-08-03,Scheduled,San Francisco Giants,Texas Rangers,Logan Webb,,0.4991089766483881,0
+823431,2026-08-03,Scheduled,Washington Nationals,Philadelphia Phillies,,Aaron Nola,0.5080636743532605,1
+823520,2026-08-03,Scheduled,St. Louis Cardinals,New York Yankees,Michael McGreevy,Cam Schlittler,0.6273839014595501,1
+823757,2026-08-03,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,Bubba Chandler,Brandon Sproat,0.5718915881591228,1
+824160,2026-08-03,Scheduled,Toronto Blue Jays,Houston Astros,Shane Bieber,Cristian Javier,0.5434175243619459,1
+824324,2026-08-03,Scheduled,Tampa Bay Rays,Colorado Rockies,Ian Seymour,Michael Lorenzen,0.48798578291059297,0
+824647,2026-08-03,Scheduled,Los Angeles Dodgers,Chicago Cubs,,Matthew Boyd,0.6469954763582019,1
+825095,2026-08-03,Scheduled,San Diego Padres,Arizona Diamondbacks,Michael King,Brandon Pfaadt,0.6010137391014115,1

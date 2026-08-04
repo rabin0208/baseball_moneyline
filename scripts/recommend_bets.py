@@ -19,7 +19,7 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
-from fetch_odds import scrape_sbr
+from fetch_odds import ensure_odds_api_key, fetch_odds_api, scrape_sbr
 from model_utils import FEATURE_COLS, LAG_WINDOW
 from odds_utils import (
     add_market_probs,
@@ -124,10 +124,48 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def fetch_live_odds(target: date) -> pd.DataFrame:
-    """Current moneylines for one calendar day (SBR consensus)."""
+def fetch_live_odds(
+    target: date,
+    *,
+    source: str = "auto",
+) -> pd.DataFrame:
+    """
+    Current moneylines for one calendar day.
+
+    source:
+      - "sbr": SportsBookReview HTML scrape only
+      - "odds-api": The Odds API only (needs ODDS_API_KEY)
+      - "auto": try SBR, then Odds API if SBR returns nothing
+    """
+    if source not in {"auto", "sbr", "odds-api"}:
+        raise ValueError(f"Unknown odds source: {source!r}")
+
+    # Prefer Odds API when a key is available so we skip slow SBR 503 retries.
+    if source == "auto" and ensure_odds_api_key():
+        source = "odds-api"
+
     iso = target.isoformat()
-    raw = scrape_sbr(iso, iso)
+    raw = pd.DataFrame()
+
+    if source in {"auto", "sbr"}:
+        raw = scrape_sbr(iso, iso)
+        if not raw.empty:
+            raw = raw.loc[raw.get("odds_type", "moneyline") == "moneyline"].copy()
+            if not raw.empty:
+                return raw
+        if source == "sbr":
+            return raw
+        print("  SBR returned no odds (often HTTP 503 / bot block). Trying The Odds API...")
+
+    try:
+        raw = fetch_odds_api(target_date=target)
+    except RuntimeError as exc:
+        print(f"  Odds API unavailable: {exc}")
+        return pd.DataFrame()
+    except Exception as exc:  # noqa: BLE001
+        print(f"  Odds API request failed: {exc}")
+        return pd.DataFrame()
+
     if raw.empty:
         return raw
     return raw.loc[raw.get("odds_type", "moneyline") == "moneyline"].copy()
@@ -146,14 +184,20 @@ def join_predictions_odds(preds: pd.DataFrame, odds_raw: pd.DataFrame) -> pd.Dat
     return add_market_probs(merged)
 
 
-def print_recommendations(recs: pd.DataFrame, *, edge: float, target: date) -> None:
+def print_recommendations(
+    recs: pd.DataFrame,
+    *,
+    edge: float,
+    target: date,
+    with_odds: pd.DataFrame | None = None,
+) -> None:
     print(f"\n{'=' * 72}")
     print(f"  Bet recommendations for {target.isoformat()}  (edge ≥ {edge:.0%})")
     print(f"{'=' * 72}")
 
     if recs.empty:
         print("  No qualifying bets today.")
-        if not with_odds.empty:
+        if with_odds is not None and not with_odds.empty:
             best = with_odds.loc[with_odds[["edge_home", "edge_away"]].max(axis=1).idxmax()]
             best_edge = max(best["edge_home"], best["edge_away"])
             best_side = "home" if best["edge_home"] >= best["edge_away"] else "away"
@@ -211,6 +255,15 @@ def main() -> None:
         default=None,
         help="Optional CSV path (default: results/tables/bet_recommendations_<date>.csv).",
     )
+    p.add_argument(
+        "--odds-source",
+        choices=["auto", "sbr", "odds-api"],
+        default="auto",
+        help=(
+            "Where to pull live moneylines. 'auto' tries SBR then The Odds API "
+            "(ODDS_API_KEY). Default: auto."
+        ),
+    )
     args = p.parse_args()
 
     if args.tomorrow and args.date:
@@ -237,12 +290,18 @@ def main() -> None:
     print(f"  {len(preds)} not-yet-final game(s) with model probabilities.")
 
     print("Fetching current moneylines...")
-    odds_raw = fetch_live_odds(target)
+    odds_raw = fetch_live_odds(target, source=args.odds_source)
     if odds_raw.empty:
-        print("No odds returned. Try again closer to game time.")
+        print("No odds returned.")
+        print(
+            "  SBR often returns HTTP 503 when it rate-limits scrapers — retry later, "
+            "or set ODDS_API_KEY and re-run (auto falls back to The Odds API)."
+        )
+        print("  Free key: https://the-odds-api.com/")
         return
     n_odds_games = odds_raw["game_id"].nunique()
-    print(f"  {n_odds_games} game(s) with odds from SBR.")
+    src_label = "sportsbooks" if args.odds_source == "auto" else args.odds_source
+    print(f"  {n_odds_games} game(s) with odds from {src_label}.")
     if n_odds_games > len(preds):
         n_done = n_odds_games - len(preds)
         print(
@@ -274,7 +333,7 @@ def main() -> None:
         for s, ph, pa in zip(recs["bet_side"], recs["p_home_mkt"], recs["p_away_mkt"])
     ]
 
-    print_recommendations(recs, edge=args.edge, target=target)
+    print_recommendations(recs, edge=args.edge, target=target, with_odds=with_odds)
 
     out_cols = [
         "game_id",

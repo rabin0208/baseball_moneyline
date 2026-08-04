@@ -136,7 +136,11 @@ def load_comparison(target: date, season: int) -> pd.DataFrame:
 
     odds = fetch_live_odds(target)
     if odds.empty:
-        raise RuntimeError("No sportsbook odds are available for this date yet.")
+        raise RuntimeError(
+            "No sportsbook odds are available for this date yet. "
+            "SBR often returns HTTP 503 to scrapers — retry later, or set ODDS_API_KEY "
+            "so recommend_bets/fetch_live_odds can fall back to The Odds API."
+        )
 
     comparison = join_predictions_odds(predictions, odds)
     if comparison.empty:

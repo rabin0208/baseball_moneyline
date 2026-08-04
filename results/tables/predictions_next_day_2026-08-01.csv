@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822781,2026-08-01,Scheduled,St. Louis Cardinals,Toronto Blue Jays,Quinn Mathews,Kevin Gausman,0.4520562344824201,0
+822944,2026-08-01,Scheduled,Chicago White Sox,Tampa Bay Rays,Jordan Hicks,Drew Rasmussen,0.5823455438322978,1
+823109,2026-08-01,Scheduled,Minnesota Twins,Seattle Mariners,Connor Prielipp,Logan Gilbert,0.48119639094503214,0
+823269,2026-08-01,Scheduled,San Francisco Giants,San Diego Padres,Tyler Mahle,Walker Buehler,0.5748460750025204,1
+823594,2026-08-01,Scheduled,Miami Marlins,New York Mets,Tyler Phillips,Zac Thornton,0.5712501207195514,1
+823920,2026-08-01,Scheduled,Boston Red Sox,Los Angeles Dodgers,Payton Tolle,Yoshinobu Yamamoto,0.5763299626364237,1
+824000,2026-08-01,Scheduled,Milwaukee Brewers,Los Angeles Angels,Robert Gasser,José Soriano,0.46950062509493956,0
+824162,2026-08-01,Scheduled,Texas Rangers,Houston Astros,Jacob deGrom,Ronel Blanco,0.5310931809892431,1
+824326,2026-08-01,Scheduled,Kansas City Royals,Colorado Rockies,Luinder Avila,Ryan Feltner,0.43715215073469416,0
+824405,2026-08-01,Scheduled,Arizona Diamondbacks,Cleveland Guardians,Kohl Drake,Parker Messick,0.4345071712491325,0
+824485,2026-08-01,Scheduled,Pittsburgh Pirates,Cincinnati Reds,Braxton Ashcraft,Andrew Abbott,0.524583221888215,1
+824649,2026-08-01,Scheduled,New York Yankees,Chicago Cubs,Max Fried,David Peterson,0.49193823063613534,0
+824808,2026-08-01,Scheduled,Philadelphia Phillies,Baltimore Orioles,Cristopher Sánchez,Shane Baz,0.493914157947994,0
+824890,2026-08-01,Scheduled,Washington Nationals,Atlanta Braves,Miles Mikolas,Reynaldo López,0.536326006810697,1
+824972,2026-08-01,Scheduled,Detroit Tigers,Athletics,Framber Valdez,Jack Perkins,0.36631406627751484,0
