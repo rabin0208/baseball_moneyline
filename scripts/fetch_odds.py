@@ -13,14 +13,66 @@ import argparse
 import os
 from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import pandas as pd
+
+# MLB slate dates align with the US calendar day; Odds API commence_time is UTC,
+# so evening West Coast games often fall on the next UTC date.
+_ODDS_SLATE_TZ = ZoneInfo("America/New_York")
+
+
+def _slate_date_from_commence(commence_time: str) -> str:
+    """Calendar date for an Odds API event in US/Eastern (YYYY-MM-DD)."""
+    if not commence_time:
+        return ""
+    dt = datetime.fromisoformat(commence_time.replace("Z", "+00:00")).astimezone(
+        _ODDS_SLATE_TZ
+    )
+    return dt.date().isoformat()
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 DEFAULT_ODDS_CSV = DATA_DIR / "odds_moneyline.csv"
 FEATURED_CSV = DATA_DIR / "schedule_8_seasons_featured.csv"
+
+
+def _load_dotenv() -> None:
+    """Load PROJECT_ROOT/.env into os.environ (does not override existing vars)."""
+    env_path = PROJECT_ROOT / ".env"
+    if not env_path.is_file():
+        return
+    for raw in env_path.read_text().splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key = key.strip()
+        val = val.strip().strip("'").strip('"')
+        if key and key not in os.environ:
+            os.environ[key] = val
+
+
+def ensure_odds_api_key() -> str | None:
+    """
+    Resolve ODDS_API_KEY from (in order): existing env, project .env,
+    Streamlit secrets (Community Cloud / local secrets.toml).
+    """
+    _load_dotenv()
+    key = os.environ.get("ODDS_API_KEY")
+    if key:
+        return key
+    try:
+        import streamlit as st
+
+        secret = st.secrets.get("ODDS_API_KEY")  # type: ignore[attr-defined]
+        if secret:
+            os.environ["ODDS_API_KEY"] = str(secret)
+            return str(secret)
+    except Exception:
+        pass
+    return None
 
 SBR_COLUMNS = [
     "game_id",
@@ -65,18 +117,28 @@ def scrape_sbr(start_iso: str, end_iso: str, *, fast: bool = False) -> pd.DataFr
     import sbr_odds_scraper as sbr
 
     print(f"  Scraping SBR moneylines {start_iso} – {end_iso} ...")
-    df = sbr.scrape(start_iso, end_iso, odds_types=["moneyline"], fast=fast)
+    try:
+        df = sbr.scrape(start_iso, end_iso, odds_types=["moneyline"], fast=fast)
+    except Exception as exc:  # noqa: BLE001 — network/HTML scraper failures are common
+        print(f"  SBR scrape failed: {exc}")
+        return pd.DataFrame(columns=SBR_COLUMNS)
     if df is None or df.empty:
         return pd.DataFrame(columns=SBR_COLUMNS)
     keep = [c for c in SBR_COLUMNS if c in df.columns]
     return df[keep].copy()
 
 
-def fetch_odds_api_snapshot(out_path: Path) -> pd.DataFrame:
-    """Optional: snapshot current MLB h2h odds from The Odds API (free tier = current only)."""
+def fetch_odds_api(*, target_date: date | None = None) -> pd.DataFrame:
+    """
+    Current MLB h2h moneylines from The Odds API (free tier = live/upcoming only).
+
+    Requires ODDS_API_KEY. Optionally filter to a single US/Eastern calendar date
+    (not the raw UTC prefix of commence_time — late West Coast games are next-day UTC).
+    """
+    ensure_odds_api_key()
     api_key = os.environ.get("ODDS_API_KEY")
     if not api_key:
-        raise RuntimeError("Set ODDS_API_KEY to use The Odds API.")
+        raise RuntimeError("Set ODDS_API_KEY (env, .env, or Streamlit secrets) to use The Odds API.")
 
     import requests
 
@@ -92,12 +154,13 @@ def fetch_odds_api_snapshot(out_path: Path) -> pd.DataFrame:
     remaining = resp.headers.get("x-requests-remaining", "?")
     print(f"  The Odds API requests remaining: {remaining}")
 
+    want = target_date.isoformat() if target_date is not None else None
     rows: list[dict] = []
     for event in resp.json():
-        game_date = (event.get("commence_time") or "")[:10]
-        home = away = None
-        for team in event.get("home_team", ""), event.get("away_team", ""):
-            pass
+        commence = event.get("commence_time") or ""
+        game_date = _slate_date_from_commence(commence)
+        if want is not None and game_date != want:
+            continue
         home_name = event.get("home_team", "")
         away_name = event.get("away_team", "")
         for book in event.get("bookmakers") or []:
@@ -118,7 +181,14 @@ def fetch_odds_api_snapshot(out_path: Path) -> pd.DataFrame:
                         "status": "Scheduled",
                     }
                 )
-    df = pd.DataFrame(rows)
+    if not rows:
+        return pd.DataFrame(columns=SBR_COLUMNS)
+    return pd.DataFrame(rows)
+
+
+def fetch_odds_api_snapshot(out_path: Path) -> pd.DataFrame:
+    """Optional: snapshot current MLB h2h odds from The Odds API and write CSV."""
+    df = fetch_odds_api()
     if not df.empty:
         df.to_csv(out_path, index=False)
         print(f"  Wrote {len(df)} rows to {out_path}")

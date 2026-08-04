@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822865,2026-08-04,Scheduled,San Francisco Giants,Texas Rangers,Blade Tidwell,MacKenzie Gore,0.5387332866094211,1
+823108,2026-08-04,Scheduled,Detroit Tigers,Seattle Mariners,Troy Melton,Emerson Hancock,0.40281736869496815,0
+823432,2026-08-04,Scheduled,Washington Nationals,Philadelphia Phillies,Carson Palmquist,Jesús Luzardo,0.6248444047059217,1
+823517,2026-08-04,Scheduled,St. Louis Cardinals,New York Yankees,Hunter Dobbins,Ryan Weathers,0.48199949837670814,0
+823756,2026-08-04,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,Jared Jones,Logan Henderson,0.579076294176188,1
+824084,2026-08-04,Scheduled,Minnesota Twins,Kansas City Royals,Joe Ryan,Randy Dobnak,0.49253929058327495,0
+824161,2026-08-04,Scheduled,Toronto Blue Jays,Houston Astros,Trey Yesavage,Hayden Wesneski,0.5777818179952252,1
+824321,2026-08-04,Scheduled,Tampa Bay Rays,Colorado Rockies,Freddy Peralta,Gabriel Hughes,0.49912836914538855,0
+824403,2026-08-04,Pre-Game,New York Mets,Cleveland Guardians,Sean Manaea,Joey Cantillo,0.540175025524152,1
+824484,2026-08-04,Pre-Game,Athletics,Cincinnati Reds,J.T. Ginn,Brady Singer,0.5300867013950973,1
+824645,2026-08-04,Scheduled,Los Angeles Dodgers,Chicago Cubs,Tarik Skubal,Javier Assad,0.6306833201402157,1
+824731,2026-08-04,Scheduled,Chicago White Sox,Boston Red Sox,Davis Martin,Patrick Sandoval,0.6190993770833986,1
+824805,2026-08-04,Scheduled,Los Angeles Angels,Baltimore Orioles,Grayson Rodriguez,Cade Povich,0.6389652269565097,1
+824888,2026-08-04,Scheduled,Miami Marlins,Atlanta Braves,Ryan Gusto,Grant Holmes,0.5796334283218352,1
+825054,2026-08-04,Scheduled,San Diego Padres,Arizona Diamondbacks,Randy Vásquez,Eduardo Rodriguez,0.5606368936668039,1

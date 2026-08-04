@@ -110,9 +110,9 @@ Writes `results/tables/market_roi_<season>.csv` and optional per-game output via
 python scripts/recommend_bets.py
 python scripts/recommend_bets.py --tomorrow --edge 0.05
 ```
-Scores **today's** (or `--tomorrow` / `--date`) not-yet-final games with the saved model, fetches **current moneylines** from SportsBookReview, and prints (plus saves) any **flat 1-unit** bets where model probability beats the fair market line by at least `--edge` (default **5%**). Output: `results/tables/bet_recommendations_<date>.csv`.
+Scores **today's** (or `--tomorrow` / `--date`) not-yet-final games with the saved model, fetches **current moneylines** from SportsBookReview (with automatic fallback to [The Odds API](https://the-odds-api.com/) when SBR returns HTTP 503 / empty), and prints (plus saves) any **flat 1-unit** bets where model probability beats the fair market line by at least `--edge` (default **5%**). Output: `results/tables/bet_recommendations_<date>.csv`.
 
-Requires network access, a fitted model, and `eda.py` history CSV. Run `data_load.py` / `eda.py` first so rolling features are up to date.
+Requires network access, a fitted model, and `eda.py` history CSV. Run `data_load.py` / `eda.py` first so rolling features are up to date. If SBR is blocking scrapers, set `ODDS_API_KEY` (free tier works for live odds) or pass `--odds-source odds-api`.
 
 ### 11. Probability dashboard
 ```bash

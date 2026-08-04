@@ -154,10 +154,17 @@ def main() -> None:
 
     print(f"Loading history from {HISTORY_CSV}...")
     history = load_history()
-    print(f"  {len(history)} completed games for seeding.")
+    # Prior seasons only — current-season Finals are applied from the API walk so
+    # we do not double-count games already present in the history CSV (and avoid
+    # look-ahead when scoring early-season games).
+    history_seed = history.loc[history["game_date"].dt.year < season]
+    print(
+        f"  {len(history)} completed games in history; "
+        f"seeding {len(history_seed)} from seasons before {season}."
+    )
 
     state = RollingFeatureState(window=LAG_WINDOW)
-    state.seed_from_completed(history)
+    state.seed_from_completed(history_seed)
 
     if args.next_day:
         mode = f"next-day predictions for {predict_d.isoformat()}"
