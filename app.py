@@ -16,6 +16,7 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from eval_vs_market import join_games_odds, load_games_with_model_probs  # noqa: E402
+from fetch_odds import ensure_odds_api_key  # noqa: E402
 from odds_utils import format_american_odds, is_valid_american_odds, pick_bets  # noqa: E402
 from recommend_bets import (  # noqa: E402
     fetch_live_odds,
@@ -121,7 +122,7 @@ st.markdown(
 )
 
 
-@st.cache_data(ttl=300, show_spinner=False)
+@st.cache_data(ttl=12 * 3600, show_spinner=False)
 def load_comparison(target: date, season: int) -> pd.DataFrame:
     """Score the slate; attach live sportsbook odds only for today/future dates."""
     predictions = predict_slate(target, season)
@@ -259,6 +260,11 @@ def render_daily_slate(
         if is_past
         else f"Scoring the {target_date:%B %-d} slate and fetching current odds…"
     )
+    if not is_past and ensure_odds_api_key():
+        st.warning(
+            "Using **The Odds API** for live moneylines. Results are cached for **12 hours** — "
+            "frequent refreshes or date changes burn free-tier credits (~500/month)."
+        )
     with st.spinner(spinner_msg):
         try:
             games = load_comparison(target_date, target_date.year)
@@ -538,7 +544,17 @@ with st.sidebar:
         "A recommendation appears when model probability exceeds fair market probability by this amount.",
     )
     edge_threshold = edge_percent / 100.0
-    if st.button("Refresh data", type="primary", use_container_width=True):
+    if st.button(
+        "Refresh data",
+        type="primary",
+        use_container_width=True,
+        help=(
+            "Clears the cache and reloads. For live dates this calls The Odds API "
+            "again and spends credits."
+            if ensure_odds_api_key() and not is_past
+            else "Clears the cache and reloads model / odds data."
+        ),
+    ):
         load_comparison.clear()
         load_roi_games.clear()
         st.rerun()
@@ -549,6 +565,11 @@ with st.sidebar:
             on_click=choose_tomorrow,
         )
     st.divider()
+    if ensure_odds_api_key() and not is_past:
+        st.caption(
+            "⚠ Live odds via The Odds API · cached 12 h · "
+            "Refresh / date changes spend credits (~500/month free)."
+        )
     if is_past:
         st.caption(
             "Past dates on the Daily slate show model win probabilities only."
