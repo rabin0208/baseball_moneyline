@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822699,2026-08-07,Scheduled,Cincinnati Reds,Washington Nationals,Chase Petty,Cade Cavalli,0.5356244316344232,1
+822863,2026-08-07,Scheduled,Baltimore Orioles,Texas Rangers,Shane Baz,Nathan Eovaldi,0.6106914751854069,1
+823024,2026-08-07,Scheduled,Colorado Rockies,St. Louis Cardinals,Ryan Feltner,Kyle Leahy,0.54377867137721,1
+823103,2026-08-07,Scheduled,Tampa Bay Rays,Seattle Mariners,Drew Rasmussen,Logan Gilbert,0.45165846017055394,0
+823191,2026-08-07,Scheduled,Detroit Tigers,San Francisco Giants,Keider Montero,,0.5355106043568277,1
+823266,2026-08-07,Scheduled,Houston Astros,San Diego Padres,Ronel Blanco,Robbie Ray,0.5573165652136711,1
+823349,2026-08-07,Scheduled,New York Mets,Pittsburgh Pirates,Zac Thornton,Carmen Mlodzinski,0.4614675635169037,0
+823428,2026-08-07,Scheduled,Toronto Blue Jays,Philadelphia Phillies,José Soriano,Zack Wheeler,0.5503324380159087,1
+823515,2026-08-07,Scheduled,Atlanta Braves,New York Yankees,Tyler Mahle,Max Fried,0.4705996649441021,0
+823750,2026-08-07,Scheduled,Minnesota Twins,Milwaukee Brewers,Zebby Matthews,Shane Drohan,0.5736441976782413,1
+823836,2026-08-07,Scheduled,Los Angeles Angels,Miami Marlins,George Klassen,Tyler Phillips,0.5555812033015809,1
+824081,2026-08-07,Scheduled,Chicago Cubs,Kansas City Royals,,Daniel Lynch IV,0.47764772856458476,0
+824566,2026-08-07,Scheduled,Cleveland Guardians,Chicago White Sox,Parker Messick,Noah Schultz,0.4747634560874181,0
+824727,2026-08-07,Scheduled,Athletics,Boston Red Sox,Jack Perkins,Payton Tolle,0.6604458610957016,1
+825051,2026-08-07,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,Roki Sasaki,Merrill Kelly,0.4865334378358592,0

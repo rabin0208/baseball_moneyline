@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+823105,2026-08-06,Scheduled,Detroit Tigers,Seattle Mariners,away,Detroit Tigers,113.99999999999997,+114,0.4804263441839832,0.06359754412204532,-0.06359754412204544,0.06359754412204532,-126.00000000000003,113.99999999999997,9,Framber Valdez,Bryce Miller
+823430,2026-08-06,Scheduled,Washington Nationals,Philadelphia Phillies,away,Washington Nationals,280.0,+280,0.6129177541000701,0.1310581495143877,-0.13105814951438777,0.1310581495143877,-325.0,280.0,9,Miles Mikolas,Cristopher Sánchez
+823754,2026-08-06,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,,,,,0.5200098480358069,,-0.02573449369195846,0.02573449369195846,-128.0,113.99999999999997,9,Braxton Ashcraft,Dustin May
+824080,2026-08-06,Scheduled,Minnesota Twins,Kansas City Royals,,,,,0.5169107425739964,,-0.01738046116838099,0.017380461168381045,-123.0,108.0,9,Bailey Ober,Michael Wacha
+824401,2026-08-06,Pre-Game,New York Mets,Cleveland Guardians,,,,,0.5520682307429603,,0.019614985418427877,-0.01961498541842782,-121.00000000000001,108.0,9,Nolan McLean,Foster Griffin
+824481,2026-08-06,Pre-Game,Athletics,Cincinnati Reds,,,,,0.5808041432647754,,-0.021563439069418044,0.02156343906941799,-161.99999999999997,145.00000000000003,9,Mason Barnett,Andrew Abbott
+824664,2026-08-06,Postponed,Toronto Blue Jays,Chicago Cubs,home,Chicago Cubs,102.0,+102,0.563006358196802,0.08029775102642622,0.08029775102642622,-0.08029775102642633,102.0,-113.0,9,Dylan Cease,Shota Imanaga
+824664,2026-08-06,Scheduled,Toronto Blue Jays,Chicago Cubs,,,,,0.507361421433003,,0.02465281426262722,-0.02465281426262733,102.0,-113.0,9,Dylan Cease,David Peterson
+824729,2026-08-06,Scheduled,Chicago White Sox,Boston Red Sox,,,,,0.6478287437168431,,0.023063265292828095,-0.02306326529282804,-180.0,159.0,9,Luis Castillo,Ranger Suarez
+824804,2026-08-06,Pre-Game,Los Angeles Angels,Baltimore Orioles,,,,,0.6050825386576739,,-0.030321031872876825,0.03032103187287677,-190.00000000000006,166.0,9,Ryan Johnson,Brandon Young
+824885,2026-08-06,Scheduled,Miami Marlins,Atlanta Braves,,,,,0.5690526278138601,,-0.004275063571590687,0.004275063571590743,-142.0,129.0,9,Janson Junk,Martín Pérez
+825053,2026-08-06,Scheduled,San Diego Padres,Arizona Diamondbacks,,,,,0.5166400155856634,,0.016640015585663415,-0.016640015585663415,-105.0,-105.0,9,Walker Buehler,Kohl Drake

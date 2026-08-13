@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822866,2026-08-05,Scheduled,San Francisco Giants,Texas Rangers,Carson Whisenhunt,Cody Bradford,0.4446708760431537,0
+823106,2026-08-05,Scheduled,Detroit Tigers,Seattle Mariners,Drew Anderson,Bryan Woo,0.4413878012662179,0
+823429,2026-08-05,Scheduled,Washington Nationals,Philadelphia Phillies,Jake Irvin,Andrew Painter,0.5809778664423106,1
+823516,2026-08-05,Scheduled,St. Louis Cardinals,New York Yankees,Andre Pallante,Will Warren,0.5248671321023956,1
+823753,2026-08-05,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,Paul Skenes,Kyle Harrison,0.5717742772038561,1
+824082,2026-08-05,Scheduled,Minnesota Twins,Kansas City Royals,Dean Kremer,Noah Cameron,0.4849278290664457,0
+824158,2026-08-05,Scheduled,Toronto Blue Jays,Houston Astros,Jameson Taillon,Hunter Brown,0.5869942903665731,1
+824322,2026-08-05,Scheduled,Tampa Bay Rays,Colorado Rockies,Nick Martinez,Tomoyuki Sugano,0.48832942611151986,0
+824402,2026-08-05,Scheduled,New York Mets,Cleveland Guardians,Christian Scott,Tanner Bibee,0.4980181272718635,0
+824482,2026-08-05,Scheduled,Athletics,Cincinnati Reds,Jacob Lopez,Rhett Lowder,0.4881945345150395,0
+824646,2026-08-05,Pre-Game,Los Angeles Dodgers,Chicago Cubs,Eric Lauer,Shota Imanaga,0.5537497963447805,1
+824728,2026-08-05,Scheduled,Chicago White Sox,Boston Red Sox,Sean Burke,Sonny Gray,0.6515365705098958,1
+824806,2026-08-05,Scheduled,Los Angeles Angels,Baltimore Orioles,Reid Detmers,Trevor Rogers,0.5770808755929856,1
+824889,2026-08-05,Scheduled,Miami Marlins,Atlanta Braves,Eury Pérez,Bryce Elder,0.60479822452602,1
+825052,2026-08-05,Scheduled,San Diego Padres,Arizona Diamondbacks,Casey Mize,Mitch Bratt,0.5184390674507113,1

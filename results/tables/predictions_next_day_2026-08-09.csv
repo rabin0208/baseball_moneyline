@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822700,2026-08-09,Scheduled,Cincinnati Reds,Washington Nationals,Brady Singer,Brad Lord,0.5445552091534264,1
+822862,2026-08-09,Scheduled,Baltimore Orioles,Texas Rangers,Cade Povich,Kumar Rocker,0.6034517251740328,1
+823020,2026-08-09,Scheduled,Colorado Rockies,St. Louis Cardinals,Michael Lorenzen,Michael McGreevy,0.4819993057325581,0
+823104,2026-08-09,Scheduled,Tampa Bay Rays,Seattle Mariners,,Emerson Hancock,0.4289285316958909,0
+823190,2026-08-09,Scheduled,Detroit Tigers,San Francisco Giants,Troy Melton,Logan Webb,0.3694725576614411,0
+823268,2026-08-09,Scheduled,Houston Astros,San Diego Padres,Cristian Javier,,0.4881263084146429,0
+823345,2026-08-09,Scheduled,New York Mets,Pittsburgh Pirates,Sean Manaea,Jared Jones,0.49409832477259297,0
+823425,2026-08-09,Scheduled,Toronto Blue Jays,Philadelphia Phillies,Shane Bieber,Jesús Luzardo,0.5566746046994828,1
+823513,2026-08-09,Scheduled,Atlanta Braves,New York Yankees,Grant Holmes,Cam Schlittler,0.440023407359677,0
+823751,2026-08-09,Scheduled,Minnesota Twins,Milwaukee Brewers,Connor Prielipp,Jacob Misiorowski,0.6318525853003408,1
+823835,2026-08-09,Scheduled,Los Angeles Angels,Miami Marlins,Grayson Rodriguez,Ryan Gusto,0.5279077615669815,1
+824078,2026-08-09,Scheduled,Chicago Cubs,Kansas City Royals,Matthew Boyd,Randy Dobnak,0.48070442099582544,0
+824564,2026-08-09,Scheduled,Cleveland Guardians,Chicago White Sox,Joey Cantillo,Davis Martin,0.48296069219157645,0
+824724,2026-08-09,Scheduled,Athletics,Boston Red Sox,J.T. Ginn,,0.6614065451581245,1
+825050,2026-08-09,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,Justin Wrobleski,Eduardo Rodriguez,0.6607438807245186,1

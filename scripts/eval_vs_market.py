@@ -6,7 +6,7 @@ Joins:
   - Closing moneylines (data/odds_moneyline.csv from fetch_odds.py)
   - Actual outcomes (home_win)
 
-Prints accuracy / log-loss / Brier for model vs market, plus ROI at edge thresholds.
+Prints accuracy / log-loss / Brier for model vs market, plus flat and Kelly-weighted ROI at edge thresholds.
 """
 from __future__ import annotations
 
@@ -24,8 +24,10 @@ from odds_utils import (
     brier_score,
     consensus_moneyline,
     log_loss,
+    normalize_stakes_mean_one,
     normalize_team,
     pick_bets,
+    roi_on_wagered,
 )
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -97,14 +99,23 @@ def summarize_binary(name: str, y_true: pd.Series, p_home: pd.Series, pred_home:
 
 def summarize_roi(df: pd.DataFrame, edge_threshold: float) -> dict:
     bets = pick_bets(df, edge_threshold=edge_threshold)
-    placed = bets.dropna(subset=["bet_side"])
+    placed = bets.dropna(subset=["bet_side", "bet_odds", "bet_profit"]).copy()
     if placed.empty:
-        return {"edge_threshold": edge_threshold, "n_bets": 0, "roi": float("nan"), "hit_rate": float("nan")}
+        return {
+            "edge_threshold": edge_threshold,
+            "n_bets": 0,
+            "roi": float("nan"),
+            "hit_rate": float("nan"),
+            "kelly_roi": float("nan"),
+        }
 
     profit = placed["bet_profit"].sum()
     n = len(placed)
     roi = profit / n
     hit = placed["bet_won"].mean()
+    kelly_stake = normalize_stakes_mean_one(placed["kelly_stake"])
+    kelly_profit = kelly_stake * placed["bet_profit"]
+    n_kelly = int((placed["kelly_stake"] > 0).sum())
     return {
         "edge_threshold": edge_threshold,
         "n_bets": n,
@@ -113,6 +124,10 @@ def summarize_roi(df: pd.DataFrame, edge_threshold: float) -> dict:
         "units_profit": float(profit),
         "roi": float(roi),
         "hit_rate": float(hit),
+        "n_kelly_bets": n_kelly,
+        "kelly_units_wagered": float(kelly_stake.sum()),
+        "kelly_units_profit": float(kelly_profit.sum()),
+        "kelly_roi": roi_on_wagered(kelly_profit, kelly_stake),
     }
 
 
@@ -195,7 +210,7 @@ def main() -> None:
     print(f"\n  Mean overround (vig): {mean_vig:.4f}")
 
     thresholds = [float(x.strip()) for x in args.edge.split(",") if x.strip()]
-    print("\nFlat 1-unit ROI (bet when model edge ≥ threshold):")
+    print("\nFlat 1-unit vs Kelly-weighted ROI (same bets; Kelly stake ∝ f*, mean 1u, no compounding):")
     roi_rows = []
     for t in thresholds:
         s = summarize_roi(merged, t)
@@ -203,9 +218,15 @@ def main() -> None:
         if s["n_bets"] == 0:
             print(f"  edge ≥ {t:.0%}: no bets")
         else:
+            kelly_roi = s["kelly_roi"]
+            kelly_str = "n/a" if kelly_roi != kelly_roi else f"{kelly_roi:+.1%}"
+            delta = kelly_roi - s["roi"] if kelly_roi == kelly_roi else float("nan")
+            delta_str = "n/a" if delta != delta else f"{delta:+.1%}"
             print(
                 f"  edge ≥ {t:.0%}: {s['n_bets']} bets, hit rate {s['hit_rate']:.1%}, "
-                f"profit {s['units_profit']:+.2f}u, ROI {s['roi']:+.1%}"
+                f"flat {s['units_profit']:+.2f}u ROI {s['roi']:+.1%}  |  "
+                f"Kelly {s['kelly_units_profit']:+.2f}u ROI {kelly_str}  "
+                f"(Δ {delta_str})"
             )
 
     roi_path = TABLES_DIR / f"market_roi_{args.season}.csv"
