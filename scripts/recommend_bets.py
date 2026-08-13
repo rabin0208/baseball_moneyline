@@ -22,9 +22,14 @@ import pandas as pd
 from fetch_odds import ensure_odds_api_key, fetch_odds_api, scrape_sbr
 from model_utils import FEATURE_COLS, LAG_WINDOW
 from odds_utils import (
+    KELLY_MULTIPLIER,
+    MARKET_SHRINK,
+    MAX_BET_FRAC,
+    SLATE_CAP_FRAC,
     add_market_probs,
+    cap_slate_stakes,
     consensus_moneyline,
-    format_american_odds,
+    format_decimal_odds,
     normalize_team,
     pick_bets,
 )
@@ -190,9 +195,15 @@ def print_recommendations(
     edge: float,
     target: date,
     with_odds: pd.DataFrame | None = None,
+    bankroll: float = 0.0,
 ) -> None:
     print(f"\n{'=' * 72}")
     print(f"  Bet recommendations for {target.isoformat()}  (edge ≥ {edge:.0%})")
+    print(
+        f"  Sizing: {KELLY_MULTIPLIER:.0%} Kelly on "
+        f"{1.0 - MARKET_SHRINK:.0%}/{MARKET_SHRINK:.0%} model/market blend, "
+        f"max {MAX_BET_FRAC:.0%}/bet, {SLATE_CAP_FRAC:.0%} slate cap"
+    )
     print(f"{'=' * 72}")
 
     if recs.empty:
@@ -213,22 +224,37 @@ def print_recommendations(
         team = r["home_name"] if side == "home" else r["away_name"]
         p_model = r["p_home_win"] if side == "home" else (1.0 - r["p_home_win"])
         p_mkt = r["p_home_mkt"] if side == "home" else r["p_away_mkt"]
-        odds_str = format_american_odds(r["bet_odds"])
+        odds_str = format_decimal_odds(r["bet_odds"])
+        stake_frac = r.get("stake_frac")
+        if pd.isna(stake_frac) or float(stake_frac) <= 0:
+            stake_line = "    stake: skip (not +EV after shrink toward market)"
+        else:
+            stake_line = f"    stake: {float(stake_frac):.1%} of bankroll"
+            if bankroll > 0:
+                stake_line += f"  (${float(stake_frac) * bankroll:,.0f})"
         print(
             f"\n  BET {team}  {odds_str}\n"
             f"    {r['away_name']} @ {r['home_name']}\n"
             f"    model {p_model:.1%}  vs  market {p_mkt:.1%}  →  edge {r['bet_edge']:.1%}\n"
+            f"{stake_line}\n"
             f"    pitchers: {r.get('away_probable_pitcher', '')} vs {r.get('home_probable_pitcher', '')}\n"
             f"    status: {r.get('status', '')}  ({int(r.get('n_books', 0))} books)"
         )
 
-    print(f"\n  Total: {len(recs)} bet(s)")
+    slate = float(pd.to_numeric(recs["stake_frac"], errors="coerce").fillna(0).sum())
+    slate_line = f"  Total: {len(recs)} bet(s)  ·  slate stake {slate:.1%} of bankroll"
+    if bankroll > 0:
+        slate_line += f" (${slate * bankroll:,.0f})"
+    print(f"\n{slate_line}")
     print(f"{'=' * 72}\n")
 
 
 def main() -> None:
     p = argparse.ArgumentParser(
-        description="List moneyline bets where model edge exceeds market (flat 1u strategy)."
+        description=(
+            "List moneyline bets where model edge exceeds market, with ¼-Kelly "
+            "stakes on a 50/50 model+market blend."
+        )
     )
     p.add_argument("--season", type=int, default=date.today().year)
     p.add_argument(
@@ -247,6 +273,12 @@ def main() -> None:
         type=float,
         default=0.05,
         help="Minimum model edge vs fair market prob (default 0.05 = 5%%).",
+    )
+    p.add_argument(
+        "--bankroll",
+        type=float,
+        default=1000.0,
+        help="Bankroll in dollars for stake sizing (default 1000). Use 0 for percents only.",
     )
     p.add_argument(
         "-o",
@@ -323,7 +355,7 @@ def main() -> None:
         h if s == "home" else a
         for s, h, a in zip(recs["bet_side"], recs["home_name"], recs["away_name"])
     ]
-    recs["bet_odds_fmt"] = recs["bet_odds"].map(format_american_odds)
+    recs["bet_odds_fmt"] = recs["bet_odds"].map(format_decimal_odds)
     recs["p_model_bet"] = [
         ph if s == "home" else 1.0 - ph
         for s, ph in zip(recs["bet_side"], recs["p_home_win"])
@@ -332,8 +364,21 @@ def main() -> None:
         ph if s == "home" else pa
         for s, ph, pa in zip(recs["bet_side"], recs["p_home_mkt"], recs["p_away_mkt"])
     ]
+    if not recs.empty:
+        recs["stake_frac"] = cap_slate_stakes(recs["stake_frac"])
+        recs["stake_dollars"] = recs["stake_frac"] * args.bankroll if args.bankroll > 0 else 0.0
+        picks.loc[recs.index, "stake_frac"] = recs["stake_frac"]
+        picks.loc[recs.index, "stake_dollars"] = recs["stake_dollars"]
+    else:
+        picks["stake_dollars"] = float("nan")
 
-    print_recommendations(recs, edge=args.edge, target=target, with_odds=with_odds)
+    print_recommendations(
+        recs,
+        edge=args.edge,
+        target=target,
+        with_odds=with_odds,
+        bankroll=args.bankroll,
+    )
 
     out_cols = [
         "game_id",
@@ -348,9 +393,14 @@ def main() -> None:
         "p_home_win",
         "p_model_bet",
         "p_market_bet",
+        "p_shrunk",
         "bet_edge",
         "edge_home",
         "edge_away",
+        "kelly_f",
+        "kelly_f_shrunk",
+        "stake_frac",
+        "stake_dollars",
         "home_odds",
         "away_odds",
         "n_books",
@@ -365,8 +415,12 @@ def main() -> None:
         for s, h, a in zip(export["bet_side"], export["home_name"], export["away_name"])
     ]
     export["bet_odds_fmt"] = export["bet_odds"].map(
-        lambda x: format_american_odds(x) if pd.notna(x) else ""
+        lambda x: format_decimal_odds(x) if pd.notna(x) else ""
     )
+    if "bet_prob" in export.columns:
+        export["p_model_bet"] = export["bet_prob"]
+    if "bet_mkt_prob" in export.columns:
+        export["p_market_bet"] = export["bet_mkt_prob"]
     export[[c for c in out_cols if c in export.columns]].to_csv(out_path, index=False)
     n_qual = len(recs)
     print(f"Wrote {len(export)} game(s) to {out_path} ({n_qual} with edge ≥ {args.edge:.0%})")

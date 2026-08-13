@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822698,2026-08-12,Scheduled,Chicago Cubs,Washington Nationals,David Peterson,Jackson Kent,0.5289541167409019,1
+822779,2026-08-12,Scheduled,Boston Red Sox,Toronto Blue Jays,Ranger Suarez,José Soriano,0.48901085963583635,0
+823017,2026-08-12,Scheduled,Philadelphia Phillies,St. Louis Cardinals,Zack Wheeler,Kyle Leahy,0.5278331882694399,1
+823187,2026-08-12,Scheduled,Houston Astros,San Francisco Giants,Bryan King,,0.5303912876306147,1
+823263,2026-08-12,Scheduled,Milwaukee Brewers,San Diego Padres,Dustin May,Robbie Ray,0.5195371712407963,1
+823511,2026-08-12,Scheduled,Seattle Mariners,New York Yankees,Bryce Miller,Will Warren,0.6009607005738937,1
+823672,2026-08-12,Scheduled,Baltimore Orioles,Minnesota Twins,Shane Baz,Zebby Matthews,0.5195143789945698,1
+823833,2026-08-12,Scheduled,Pittsburgh Pirates,Miami Marlins,Carmen Mlodzinski,Janson Junk,0.5474113289514008,1
+823916,2026-08-12,Scheduled,Kansas City Royals,Los Angeles Dodgers,Daniel Lynch IV,Eric Lauer,0.6250731280754059,1
+823994,2026-08-12,Scheduled,Texas Rangers,Los Angeles Angels,Cal Quantrill,George Klassen,0.5588001617225523,1
+824241,2026-08-12,Scheduled,Cleveland Guardians,Detroit Tigers,Foster Griffin,Framber Valdez,0.521764765398075,1
+824562,2026-08-12,Scheduled,Cincinnati Reds,Chicago White Sox,Rhett Lowder,Luis Castillo,0.4948532232016467,0
+824883,2026-08-12,Scheduled,New York Mets,Atlanta Braves,Zac Thornton,Tyler Mahle,0.5137173088720718,1
+824967,2026-08-12,Scheduled,Tampa Bay Rays,Athletics,Drew Rasmussen,Jack Perkins,0.41036766189392576,0
+825047,2026-08-12,Scheduled,Colorado Rockies,Arizona Diamondbacks,Ryan Feltner,Merrill Kelly,0.6080164627352523,1

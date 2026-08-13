@@ -110,7 +110,7 @@ Writes `results/tables/market_roi_<season>.csv` and optional per-game output via
 python scripts/recommend_bets.py
 python scripts/recommend_bets.py --tomorrow --edge 0.05
 ```
-Scores **today's** (or `--tomorrow` / `--date`) not-yet-final games with the saved model, fetches **current moneylines** from SportsBookReview (with automatic fallback to [The Odds API](https://the-odds-api.com/) when SBR returns HTTP 503 / empty), and prints (plus saves) any **flat 1-unit** bets where model probability beats the fair market line by at least `--edge` (default **5%**). Output: `results/tables/bet_recommendations_<date>.csv`.
+Scores **today's** (or `--tomorrow` / `--date`) not-yet-final games with the saved model, fetches **current moneylines** from SportsBookReview (with automatic fallback to [The Odds API](https://the-odds-api.com/) when SBR returns HTTP 503 / empty), and prints (plus saves) any bets where model probability beats the fair market line by at least `--edge` (default **5%**), with a **¼-Kelly** stake on a 50/50 blend of model and market probability (max 5% per bet, 10% of bankroll for the slate). Pass `--bankroll` to print dollar amounts (default $1,000). Output: `results/tables/bet_recommendations_<date>.csv`.
 
 Requires network access, a fitted model, and `eda.py` history CSV. Run `data_load.py` / `eda.py` first so rolling features are up to date. If SBR is blocking scrapers, set `ODDS_API_KEY` (free tier works for live odds) or pass `--odds-source odds-api`.
 
@@ -121,8 +121,9 @@ streamlit run app.py
 
 Opens a dark-themed daily slate interface that compares the logistic regression
 win probability for each team with the vig-free sportsbook consensus. Use the
-sidebar to select today or a future date, change the minimum model edge, show
-only recommended bets, or refresh the 12-hour model and odds cache.
+sidebar to select today or a future date, set a bankroll for recommended stake
+sizes, change the minimum model edge, show only recommended bets, or refresh
+the 12-hour model and odds cache.
 
 The dashboard uses the same prediction, consensus-moneyline, and bet-selection
 functions as `scripts/recommend_bets.py`. It requires the saved logistic model,

@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823105,2026-08-06,Scheduled,Detroit Tigers,Seattle Mariners,Framber Valdez,Bryce Miller,0.4804263441839832,0
+823430,2026-08-06,Scheduled,Washington Nationals,Philadelphia Phillies,Miles Mikolas,Cristopher Sánchez,0.6129177541000701,1
+823754,2026-08-06,Scheduled,Pittsburgh Pirates,Milwaukee Brewers,Braxton Ashcraft,Dustin May,0.5200098480358069,1
+824080,2026-08-06,Scheduled,Minnesota Twins,Kansas City Royals,Bailey Ober,Michael Wacha,0.5169107425739964,1
+824401,2026-08-06,Pre-Game,New York Mets,Cleveland Guardians,Nolan McLean,Foster Griffin,0.5520682307429603,1
+824481,2026-08-06,Pre-Game,Athletics,Cincinnati Reds,Mason Barnett,Andrew Abbott,0.5808041432647754,1
+824664,2026-08-06,Postponed,Toronto Blue Jays,Chicago Cubs,Dylan Cease,Shota Imanaga,0.563006358196802,1
+824664,2026-08-06,Scheduled,Toronto Blue Jays,Chicago Cubs,Dylan Cease,David Peterson,0.507361421433003,1
+824729,2026-08-06,Scheduled,Chicago White Sox,Boston Red Sox,Luis Castillo,Ranger Suarez,0.6478287437168431,1
+824804,2026-08-06,Pre-Game,Los Angeles Angels,Baltimore Orioles,Ryan Johnson,Brandon Young,0.6050825386576739,1
+824885,2026-08-06,Scheduled,Miami Marlins,Atlanta Braves,Janson Junk,Martín Pérez,0.5690526278138601,1
+825053,2026-08-06,Scheduled,San Diego Padres,Arizona Diamondbacks,Walker Buehler,Kohl Drake,0.5166400155856634,1

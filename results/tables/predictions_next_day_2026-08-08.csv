@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822701,2026-08-08,Scheduled,Cincinnati Reds,Washington Nationals,Chase Burns,Andrew Alvarez,0.44698155325778693,0
+822864,2026-08-08,Scheduled,Baltimore Orioles,Texas Rangers,Kyle Bradish,Jacob deGrom,0.580146485242625,1
+823021,2026-08-08,Scheduled,Colorado Rockies,St. Louis Cardinals,Kyle Freeland,Matthew Liberatore,0.5744956954730711,1
+823102,2026-08-08,Scheduled,Tampa Bay Rays,Seattle Mariners,Griffin Jax,George Kirby,0.44697913740263245,0
+823188,2026-08-08,Scheduled,Detroit Tigers,San Francisco Giants,Jackson Jobe,Landen Roupp,0.4245294119264379,0
+823267,2026-08-08,Scheduled,Houston Astros,San Diego Padres,Peter Lambert,Michael King,0.38965952678156834,0
+823348,2026-08-08,Scheduled,New York Mets,Pittsburgh Pirates,Robert Stock,Bubba Chandler,0.5394430984096331,1
+823426,2026-08-08,Scheduled,Toronto Blue Jays,Philadelphia Phillies,Max Scherzer,Aaron Nola,0.5024113538116344,1
+823514,2026-08-08,Scheduled,Atlanta Braves,New York Yankees,Chris Sale,Gerrit Cole,0.43718952785030146,0
+823752,2026-08-08,Scheduled,Minnesota Twins,Milwaukee Brewers,Taj Bradley,Robert Gasser,0.4658196143528007,0
+823834,2026-08-08,Scheduled,Los Angeles Angels,Miami Marlins,Walbert Ureña,Sandy Alcantara,0.5292769298562845,1
+824079,2026-08-08,Scheduled,Chicago Cubs,Kansas City Royals,Clay Holmes,Seth Lugo,0.47040589436192065,0
+824565,2026-08-08,Scheduled,Cleveland Guardians,Chicago White Sox,Gavin Williams,Anthony Kay,0.5599006001055917,1
+824726,2026-08-08,Scheduled,Athletics,Boston Red Sox,Gage Jump,Jake Bennett,0.6910044102528686,1
+825049,2026-08-08,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,Yoshinobu Yamamoto,Brandon Pfaadt,0.5879854924992252,1

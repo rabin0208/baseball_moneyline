@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822696,2026-08-13,Scheduled,Chicago Cubs,Washington Nationals,Kevin Gausman,Cade Cavalli,0.5198909530848868,1
+822776,2026-08-13,Scheduled,Boston Red Sox,Toronto Blue Jays,Payton Tolle,Max Scherzer,0.480029045358052,0
+823508,2026-08-13,Pre-Game,Seattle Mariners,New York Yankees,Logan Gilbert,Max Fried,0.64163224715277,1
+823669,2026-08-13,Scheduled,Philadelphia Phillies,Minnesota Twins,Aaron Nola,Taj Bradley,0.5336827499188449,1
+823829,2026-08-13,Pre-Game,Pittsburgh Pirates,Miami Marlins,Braxton Ashcraft,Tyler Phillips,0.5477622214390498,1
+823915,2026-08-13,Scheduled,Milwaukee Brewers,Los Angeles Dodgers,Shane Drohan,Roki Sasaki,0.5585271343027446,1
+823995,2026-08-13,Scheduled,Texas Rangers,Los Angeles Angels,Jacob deGrom,Walbert Ureña,0.5346339495245064,1
+824238,2026-08-13,Pre-Game,Cleveland Guardians,Detroit Tigers,Parker Messick,Keider Montero,0.6056486128746298,1
+824561,2026-08-13,Pre-Game,Cincinnati Reds,Chicago White Sox,Andrew Abbott,Davis Martin,0.5155852056343083,1

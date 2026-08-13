@@ -80,6 +80,89 @@ def flat_bet_profit(american_odds: float, won: bool) -> float:
     return 100.0 / abs(o)
 
 
+# Live sizing: believe only half the model's disagreement with the market,
+# bet a quarter of full Kelly, and cap exposure.
+MARKET_SHRINK = 0.5
+KELLY_MULTIPLIER = 0.25
+MAX_BET_FRAC = 0.05
+SLATE_CAP_FRAC = 0.10
+
+
+def kelly_fraction(p: float, american_odds: float) -> float:
+    """
+    Full-Kelly fraction of bankroll for a win/lose moneyline.
+
+    f* = (p * d - 1) / (d - 1), where d is the decimal price actually paid.
+    Negative means the posted odds are -EV at probability p.
+    """
+    if p is None or (isinstance(p, float) and np.isnan(p)):
+        return float("nan")
+    d = american_to_decimal(american_odds)
+    if np.isnan(d) or d <= 1.0:
+        return float("nan")
+    return (float(p) * d - 1.0) / (d - 1.0)
+
+
+def recommended_bankroll_frac(
+    p_model: float,
+    p_market: float,
+    american_odds: float,
+    *,
+    shrink: float = MARKET_SHRINK,
+    multiplier: float = KELLY_MULTIPLIER,
+    max_frac: float = MAX_BET_FRAC,
+) -> float:
+    """
+    Fraction of bankroll to bet on one moneyline.
+
+    Uses a shrink toward the market probability, then fractional Kelly, then a
+    per-bet cap. Returns 0 when the blended probability is not +EV at the price.
+    """
+    try:
+        p_model_f = float(p_model)
+        p_market_f = float(p_market)
+    except (TypeError, ValueError):
+        return float("nan")
+    if np.isnan(p_model_f) or np.isnan(p_market_f):
+        return float("nan")
+    p_hat = (1.0 - shrink) * p_model_f + shrink * p_market_f
+    full = kelly_fraction(p_hat, american_odds)
+    if np.isnan(full) or full <= 0:
+        return 0.0
+    return float(min(multiplier * full, max_frac))
+
+
+def cap_slate_stakes(
+    stake_frac: pd.Series,
+    *,
+    cap: float = SLATE_CAP_FRAC,
+) -> pd.Series:
+    """Scale a day's recommended stakes so they do not exceed `cap` of bankroll."""
+    s = pd.to_numeric(stake_frac, errors="coerce").fillna(0.0).clip(lower=0.0)
+    total = float(s.sum())
+    if total <= 0 or total <= cap:
+        return s
+    return s * (cap / total)
+
+
+def normalize_stakes_mean_one(stakes: pd.Series) -> pd.Series:
+    """Rescale stakes so the mean is 1 (same total wagered as 1u flats)."""
+    s = pd.to_numeric(stakes, errors="coerce").fillna(0.0).clip(lower=0.0)
+    total = float(s.sum())
+    n = len(s)
+    if total <= 0 or n == 0:
+        return s
+    return s * (n / total)
+
+
+def roi_on_wagered(profit: pd.Series, stake: pd.Series) -> float:
+    """Profit / amount wagered. Independent of a constant stake scale."""
+    wagered = float(pd.to_numeric(stake, errors="coerce").fillna(0.0).sum())
+    if wagered <= 0:
+        return float("nan")
+    return float(pd.to_numeric(profit, errors="coerce").fillna(0.0).sum()) / wagered
+
+
 def consensus_moneyline(odds_df: pd.DataFrame) -> pd.DataFrame:
     """
     Median closing moneyline per game across sportsbooks.
@@ -156,6 +239,8 @@ def pick_bets(
     bet_side: list[str | None] = []
     bet_odds: list[float | None] = []
     bet_edge: list[float | None] = []
+    bet_prob: list[float | None] = []
+    bet_mkt: list[float | None] = []
 
     for _, row in out.iterrows():
         eh, ea = row["edge_home"], row["edge_away"]
@@ -168,18 +253,49 @@ def pick_bets(
             bet_side.append("home")
             bet_odds.append(float(row["home_odds"]))
             bet_edge.append(float(eh))
+            bet_prob.append(float(row[prob_col]))
+            mkt = row.get("p_home_mkt")
+            bet_mkt.append(float(mkt) if pd.notna(mkt) else None)
         elif side == "away":
             bet_side.append("away")
             bet_odds.append(float(row["away_odds"]))
             bet_edge.append(float(ea))
+            bet_prob.append(1.0 - float(row[prob_col]))
+            mkt = row.get("p_away_mkt")
+            bet_mkt.append(float(mkt) if pd.notna(mkt) else None)
         else:
             bet_side.append(None)
             bet_odds.append(None)
             bet_edge.append(None)
+            bet_prob.append(None)
+            bet_mkt.append(None)
 
     out["bet_side"] = bet_side
     out["bet_odds"] = bet_odds
     out["bet_edge"] = bet_edge
+    out["bet_prob"] = bet_prob
+    out["bet_mkt_prob"] = bet_mkt
+    out["kelly_f"] = [
+        kelly_fraction(p, o) if p is not None and o is not None else np.nan
+        for p, o in zip(bet_prob, bet_odds)
+    ]
+    out["kelly_stake"] = out["kelly_f"].clip(lower=0.0, upper=1.0)
+    out["p_shrunk"] = [
+        (1.0 - MARKET_SHRINK) * p + MARKET_SHRINK * m
+        if p is not None and m is not None
+        else np.nan
+        for p, m in zip(bet_prob, bet_mkt)
+    ]
+    out["kelly_f_shrunk"] = [
+        kelly_fraction(p, o) if pd.notna(p) and o is not None else np.nan
+        for p, o in zip(out["p_shrunk"], bet_odds)
+    ]
+    out["stake_frac"] = [
+        recommended_bankroll_frac(p, m, o)
+        if p is not None and m is not None and o is not None
+        else np.nan
+        for p, m, o in zip(bet_prob, bet_mkt, bet_odds)
+    ]
     if "home_win" in out.columns:
         out["bet_won"] = [
             (s == "home" and bool(w)) or (s == "away" and not bool(w))
@@ -191,12 +307,26 @@ def pick_bets(
             flat_bet_profit(o, bool(w)) if s is not None and pd.notna(o) else np.nan
             for s, o, w in zip(out["bet_side"], out["bet_odds"], out["bet_won"])
         ]
+        out["kelly_profit"] = [
+            float(s) * flat_bet_profit(o, bool(w))
+            if pd.notna(s) and s is not None and pd.notna(o) and pd.notna(w)
+            else np.nan
+            for s, o, w in zip(out["kelly_stake"], out["bet_odds"], out["bet_won"])
+        ]
     return out
 
 
 def format_american_odds(odds: float) -> str:
     o = int(round(float(odds)))
     return f"+{o}" if o > 0 else str(o)
+
+
+def format_decimal_odds(american_odds: float) -> str:
+    """Display American moneylines as European decimal odds (e.g. 1.91)."""
+    d = american_to_decimal(american_odds)
+    if np.isnan(d):
+        return "—"
+    return f"{d:.2f}"
 
 
 def log_loss(y_true: pd.Series, p: pd.Series, eps: float = 1e-15) -> float:

@@ -36,6 +36,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 DEFAULT_ODDS_CSV = DATA_DIR / "odds_moneyline.csv"
 FEATURED_CSV = DATA_DIR / "schedule_8_seasons_featured.csv"
+TABLES_DIR = PROJECT_ROOT / "results" / "tables"
 
 
 def _load_dotenv() -> None:
@@ -195,6 +196,76 @@ def fetch_odds_api_snapshot(out_path: Path) -> pd.DataFrame:
     return df
 
 
+def odds_from_recommendation_csvs() -> pd.DataFrame:
+    """
+    Rebuild SBR-shaped moneyline rows from saved daily recommendation CSVs.
+
+    Used when SportsBookReview returns 503 so the ROI tab can still score
+    completed games that were priced live at recommendation time.
+    """
+    paths = sorted(TABLES_DIR.glob("bet_recommendations_*.csv"))
+    rows: list[dict] = []
+    for path in paths:
+        df = pd.read_csv(path)
+        needed = {"home_odds", "away_odds", "home_name", "away_name"}
+        if not needed.issubset(df.columns):
+            continue
+        stem_date = path.stem.replace("bet_recommendations_", "")
+        for _, rec in df.iterrows():
+            if pd.isna(rec.get("home_odds")) or pd.isna(rec.get("away_odds")):
+                continue
+            raw_date = rec.get("game_date")
+            if pd.notna(raw_date):
+                date_str = pd.to_datetime(raw_date).date().isoformat()
+            else:
+                date_str = stem_date
+            rows.append(
+                {
+                    "game_id": rec.get("game_id"),
+                    "date": date_str,
+                    "start_time": "",
+                    "away_team": rec["away_name"],
+                    "away_team_short": "",
+                    "home_team": rec["home_name"],
+                    "home_team_short": "",
+                    "away_score": rec.get("away_score", ""),
+                    "home_score": rec.get("home_score", ""),
+                    "venue": "",
+                    "game_type": "",
+                    "status": rec.get("status", ""),
+                    "sportsbook": "live_snapshot",
+                    "odds_type": "moneyline",
+                    "opening_home_odds": rec["home_odds"],
+                    "opening_away_odds": rec["away_odds"],
+                    "current_home_odds": rec["home_odds"],
+                    "current_away_odds": rec["away_odds"],
+                }
+            )
+    if not rows:
+        return pd.DataFrame(columns=SBR_COLUMNS)
+    return pd.DataFrame(rows)
+
+
+def fill_missing_odds_from_recommendations(
+    existing: pd.DataFrame | None,
+) -> pd.DataFrame:
+    """Add live-snapshot odds only for games not already in the odds file."""
+    snapshots = odds_from_recommendation_csvs()
+    if snapshots.empty:
+        return existing if existing is not None else pd.DataFrame(columns=SBR_COLUMNS)
+    if existing is None or existing.empty:
+        return snapshots
+    have_ids = set(
+        pd.to_numeric(existing["game_id"], errors="coerce").dropna().astype(int)
+    )
+    snap_ids = pd.to_numeric(snapshots["game_id"], errors="coerce")
+    new_rows = snapshots.loc[snap_ids.notna() & ~snap_ids.astype(int).isin(have_ids)].copy()
+    if new_rows.empty:
+        return existing
+    print(f"  Backfilled {new_rows['game_id'].nunique()} games from recommendation CSVs")
+    return upsert_odds(existing, new_rows)
+
+
 def upsert_odds(existing: pd.DataFrame | None, incoming: pd.DataFrame) -> pd.DataFrame:
     if incoming.empty:
         return existing if existing is not None else pd.DataFrame(columns=SBR_COLUMNS)
@@ -242,13 +313,20 @@ def fetch_season_odds(
 
     print(f"Fetching odds → {out_path}")
     incoming = scrape_sbr(start_iso, end_iso, fast=fast)
+    merged = existing
     if incoming.empty:
-        print("No odds returned.")
+        print("No SBR odds returned.")
+    else:
+        merged = upsert_odds(existing, incoming)
+        print(f"  SBR saved {incoming['date'].nunique()} dates")
+
+    merged = fill_missing_odds_from_recommendations(merged)
+    if merged is None or merged.empty:
+        print("No odds available.")
         return out_path
 
-    merged = upsert_odds(existing, incoming)
     merged.to_csv(out_path, index=False)
-    print(f"  Saved {len(merged):,} rows ({incoming['date'].nunique()} dates in this fetch)")
+    print(f"  Saved {len(merged):,} rows to {out_path}")
     return out_path
 
 

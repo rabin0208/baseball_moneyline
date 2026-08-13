@@ -1,4 +1,4 @@
 stage,n_observations,n_dropped
-loaded,25310,
-after_completed_filter,22908,
-after_drop_missing,22583,325.0
+loaded,25564,
+after_completed_filter,23107,
+after_drop_missing,22782,325.0

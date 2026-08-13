@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,bet_side,bet_team,bet_odds,bet_odds_fmt,p_home_win,bet_edge,edge_home,edge_away,home_odds,away_odds,n_books,away_probable_pitcher,home_probable_pitcher
+822696,2026-08-13,Scheduled,Chicago Cubs,Washington Nationals,home,Washington Nationals,129.0,+129,0.5198909530848868,0.09600150896592197,0.09600150896592197,-0.09600150896592197,129.0,-145.99999999999997,9,Kevin Gausman,Cade Cavalli
+822776,2026-08-13,Scheduled,Boston Red Sox,Toronto Blue Jays,home,Toronto Blue Jays,138.0,+138,0.480029045358052,0.071917835053244,0.071917835053244,-0.0719178350532439,138.0,-156.0,9,Payton Tolle,Max Scherzer
+823508,2026-08-13,Pre-Game,Seattle Mariners,New York Yankees,home,New York Yankees,-143.00000000000003,-143,0.64163224715277,0.06974309791297495,0.06974309791297495,-0.06974309791297506,-143.00000000000003,127.0,9,Logan Gilbert,Max Fried
+823669,2026-08-13,Scheduled,Philadelphia Phillies,Minnesota Twins,,,,,0.5336827499188449,,0.03022302116157949,-0.030223021161579433,-106.99999999999999,-103.99999999999999,9,Aaron Nola,Taj Bradley
+823829,2026-08-13,Pre-Game,Pittsburgh Pirates,Miami Marlins,home,Miami Marlins,108.99999999999999,+109,0.5477622214390498,0.08233390159335402,0.08233390159335402,-0.08233390159335408,108.99999999999999,-122.0,9,Braxton Ashcraft,Tyler Phillips
+823915,2026-08-13,Scheduled,Milwaukee Brewers,Los Angeles Dodgers,,,,,0.5585271343027446,,-0.01301318713090649,0.013013187130906378,-140.99999999999997,128.00000000000003,9,Shane Drohan,Roki Sasaki
+823995,2026-08-13,Scheduled,Texas Rangers,Los Angeles Angels,home,Los Angeles Angels,134.0,+134,0.5346339495245064,0.11930483015461524,0.11930483015461524,-0.11930483015461535,134.0,-151.0,9,Jacob deGrom,Walbert Ureña
+824238,2026-08-13,Pre-Game,Cleveland Guardians,Detroit Tigers,home,Detroit Tigers,-101.0,-101,0.6056486128746298,0.12024616946823374,0.12024616946823374,-0.12024616946823374,-101.0,-113.99999999999999,9,Parker Messick,Keider Montero
+824561,2026-08-13,Pre-Game,Cincinnati Reds,Chicago White Sox,,,,,0.5155852056343083,,-0.035431269941373356,0.0354312699413733,-133.0,114.99999999999999,9,Andrew Abbott,Davis Martin
