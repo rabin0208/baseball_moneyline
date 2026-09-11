@@ -20,6 +20,18 @@ Eduardo + ChatGPT may coordinate routine reversible work when it stays within al
 
 This delegation is intended to reduce coordination overhead. It does not make Rabin nominal, advisory-only, or subordinate in the shared project.
 
+## Branch-first collaboration model
+
+The default working pattern is deliberately asynchronous:
+
+1. Eduardo + ChatGPT may specify, implement, iterate, and validate routine reversible work on an isolated branch without asking Rabin for intermediate approval.
+2. Rabin does not need to participate in routine planning, branch-level iteration, experiments, documentation edits, or technical refinement merely because the repository is collaborative.
+3. Once a branch is solid, validated, and ready to enter shared `main`, Eduardo may ask Rabin for one consolidated PR review/approval or merge when practical. This is the preferred low-overhead collaboration point rather than involving him throughout the work.
+4. Rabin approval is a governance requirement before merge only when the change crosses a reserved shared matter below or another explicit repository rule requires it. Routine reversible work should not be blocked on repeated collaborator approvals.
+5. No material work should be written directly to `main`; branch/PR history remains the auditable collaboration surface.
+
+This model keeps Rabin meaningfully involved where shared ownership actually matters while allowing Eduardo + ChatGPT to make real progress independently between integration points.
+
 ## Reserved shared matters
 
 Rabin must meaningfully participate before a decision is treated as approved when it concerns any of the following:
