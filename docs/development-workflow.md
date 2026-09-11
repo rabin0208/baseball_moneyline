@@ -26,6 +26,8 @@ A worker-ready issue should identify:
 
 Prefer one narrow approved task per isolated branch/PR. Keep changes auditable and reversible. Avoid mixing model experiments, UI redesign, infrastructure changes, governance changes, and unrelated cleanup in one PR unless the approved issue explicitly requires them together.
 
+Routine branch work does not require Rabin's intermediate approval. Eduardo + ChatGPT may fully iterate and validate on the isolated branch. Once the branch is solid and ready for shared `main`, a single consolidated PR review/approval or merge request to Rabin is the preferred collaboration point when practical. Rabin approval is mandatory only for reserved shared matters or another explicit repository rule.
+
 PRs should explain:
 
 - what changed and why;
@@ -67,7 +69,7 @@ No sportsbook account access or automated wager placement is part of the normal 
 
 ## Collaboration review
 
-Routine reversible work can proceed under Eduardo/ChatGPT day-to-day coordination. If the issue crosses a reserved shared matter in `docs/collaboration-governance.md`, obtain meaningful Rabin participation on the decision before treating that matter as approved.
+Routine reversible work can proceed under Eduardo/ChatGPT day-to-day coordination without involving Rabin during intermediate branch work. If the issue crosses a reserved shared matter in `docs/collaboration-governance.md`, obtain meaningful Rabin participation on the decision before treating that matter as approved.
 
 Once a reserved matter is decided, Rabin does not automatically need to inspect every routine implementation detail unless the collaborators choose that review level.
 
