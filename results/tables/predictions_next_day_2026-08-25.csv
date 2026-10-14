@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822693,2026-08-25,Scheduled,Colorado Rockies,Washington Nationals,,Andrew Alvarez,0.5683007723911475,1
+822773,2026-08-25,Scheduled,Kansas City Royals,Toronto Blue Jays,Seth Lugo,Max Scherzer,0.37648796133804807,0
+823016,2026-08-25,Scheduled,Baltimore Orioles,St. Louis Cardinals,Chris Bassitt,,0.5281591128907637,1
+823098,2026-08-25,Scheduled,Philadelphia Phillies,Seattle Mariners,Aaron Nola,George Kirby,0.44376528877629984,0
+823181,2026-08-25,Scheduled,Cincinnati Reds,San Francisco Giants,Brady Singer,Adrian Houser,0.5767062776718596,1
+823259,2026-08-25,Scheduled,Pittsburgh Pirates,San Diego Padres,Paul Skenes,Michael King,0.5900677898989634,1
+823505,2026-08-25,Scheduled,Houston Astros,New York Yankees,Ethan Pecko,Will Warren,0.5675351357462953,1
+823585,2026-08-25,Scheduled,Milwaukee Brewers,New York Mets,Kyle Harrison,Zac Thornton,0.4555992789999903,0
+823826,2026-08-25,Scheduled,Boston Red Sox,Miami Marlins,Payton Tolle,,0.427497315120785,0
+823989,2026-08-25,Scheduled,Cleveland Guardians,Los Angeles Angels,Gavin Williams,Walbert Ureña,0.48987551788532346,0
+824233,2026-08-25,Scheduled,Tampa Bay Rays,Detroit Tigers,Ian Seymour,Jackson Jobe,0.6165908880751313,1
+824556,2026-08-25,Scheduled,Texas Rangers,Chicago White Sox,Jacob deGrom,Anthony Kay,0.4793620409567592,0
+824881,2026-08-25,Scheduled,Los Angeles Dodgers,Atlanta Braves,Tyler Glasnow,Bryce Elder,0.48053167329696805,0
+824962,2026-08-25,Scheduled,Minnesota Twins,Athletics,Taj Bradley,Gage Jump,0.5313276453907002,1
+825042,2026-08-25,Scheduled,Chicago Cubs,Arizona Diamondbacks,Clay Holmes,Brandon Pfaadt,0.5300467087589665,1

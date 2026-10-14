@@ -1,0 +1,14 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822689,2026-08-31,Scheduled,Miami Marlins,Washington Nationals,Ryan Gusto,Will Dion,0.4356423462687862,0
+822855,2026-08-31,Scheduled,Athletics,Texas Rangers,Gage Jump,Jacob deGrom,0.5607463761703737,1
+822932,2026-08-31,Scheduled,New York Mets,Tampa Bay Rays,Robert Stock,Ian Seymour,0.595503433691678,1
+823663,2026-08-31,Scheduled,Detroit Tigers,Minnesota Twins,Jackson Jobe,Taj Bradley,0.5445165321095564,1
+823982,2026-08-31,Scheduled,New York Yankees,Los Angeles Angels,Elmer Rodríguez,Walbert Ureña,0.4739300931473782,0
+824149,2026-08-31,Scheduled,Chicago White Sox,Houston Astros,Anthony Kay,Peter Lambert,0.5489710409452949,1
+824314,2026-08-31,Scheduled,Baltimore Orioles,Colorado Rockies,,Tanner Gordon,0.49187747135158644,0
+824473,2026-08-31,Scheduled,San Diego Padres,Cincinnati Reds,Michael King,Brady Singer,0.46160867276695006,0
+824635,2026-08-31,Scheduled,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,Clay Holmes,0.4856082441698503,0
+824719,2026-08-31,Scheduled,Seattle Mariners,Boston Red Sox,George Kirby,Payton Tolle,0.6497493526955082,1
+824911,2026-08-31,Postponed,San Francisco Giants,Atlanta Braves,Landen Roupp,Martín Pérez,0.5087867197039919,1
+824911,2026-08-31,Scheduled,San Francisco Giants,Atlanta Braves,Anthony Molina,Bryce Elder,0.4976855386511352,0
+825040,2026-08-31,Scheduled,Philadelphia Phillies,Arizona Diamondbacks,Aaron Nola,,0.49849518850234575,0

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822692,2026-08-26,Scheduled,Colorado Rockies,Washington Nationals,Tanner Gordon,Matt Waldron,0.57742869822223,1
+822772,2026-08-26,Scheduled,Kansas City Royals,Toronto Blue Jays,Randy Dobnak,Spencer Miles,0.46227721313701164,0
+823015,2026-08-26,Scheduled,Baltimore Orioles,St. Louis Cardinals,Kyle Bradish,Michael McGreevy,0.553294356794584,1
+823096,2026-08-26,Scheduled,Philadelphia Phillies,Seattle Mariners,Jesús Luzardo,Bryan Woo,0.4117227879289634,0
+823180,2026-08-26,Scheduled,Cincinnati Reds,San Francisco Giants,Nick Lodolo,Landen Roupp,0.5146174984926084,1
+823255,2026-08-26,Scheduled,Pittsburgh Pirates,San Diego Padres,Bubba Chandler,Randy Vásquez,0.563817813486851,1
+823506,2026-08-26,Scheduled,Houston Astros,New York Yankees,Peter Lambert,,0.5911805134797522,1
+823584,2026-08-26,Scheduled,Milwaukee Brewers,New York Mets,Dustin May,Robert Stock,0.4280487883156276,0
+823825,2026-08-26,Scheduled,Boston Red Sox,Miami Marlins,Sonny Gray,Ryan Gusto,0.4513978280616449,0
+823988,2026-08-26,Scheduled,Cleveland Guardians,Los Angeles Angels,Joey Cantillo,Grayson Rodriguez,0.42172395054746586,0
+824234,2026-08-26,Pre-Game,Tampa Bay Rays,Detroit Tigers,Freddy Peralta,Troy Melton,0.6073583194773369,1
+824555,2026-08-26,Scheduled,Texas Rangers,Chicago White Sox,MacKenzie Gore,Sean Burke,0.4659132164221932,0
+824878,2026-08-26,Scheduled,Los Angeles Dodgers,Atlanta Braves,Roki Sasaki,AJ Smith-Shawver,0.4591430727902912,0
+824963,2026-08-26,Scheduled,Minnesota Twins,Athletics,Connor Prielipp,J.T. Ginn,0.5730409295212968,1
+825039,2026-08-26,Scheduled,Chicago Cubs,Arizona Diamondbacks,Matthew Boyd,Eduardo Rodriguez,0.45719932018814224,0

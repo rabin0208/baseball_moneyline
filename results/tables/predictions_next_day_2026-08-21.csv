@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822857,2026-08-21,Scheduled,Los Angeles Angels,Texas Rangers,Reid Detmers,MacKenzie Gore,0.5182816957682798,1
+823101,2026-08-21,Scheduled,Chicago Cubs,Seattle Mariners,Matthew Boyd,Emerson Hancock,0.3648696893060692,0
+823262,2026-08-21,Scheduled,Minnesota Twins,San Diego Padres,Connor Prielipp,,0.5764459427161862,1
+823420,2026-08-21,Scheduled,St. Louis Cardinals,Philadelphia Phillies,,Jesús Luzardo,0.4951318447820977,0
+823510,2026-08-21,Scheduled,Toronto Blue Jays,New York Yankees,Mason Fluharty,Cam Schlittler,0.5513246453113871,1
+823746,2026-08-21,Scheduled,Atlanta Braves,Milwaukee Brewers,Chris Sale,Jacob Misiorowski,0.6309461238122684,1
+823830,2026-08-21,Scheduled,Washington Nationals,Miami Marlins,Brad Lord,Ryan Gusto,0.5849151583159691,1
+823911,2026-08-21,Scheduled,Pittsburgh Pirates,Los Angeles Dodgers,Bubba Chandler,Yoshinobu Yamamoto,0.49774872062909953,0
+824072,2026-08-21,Scheduled,Detroit Tigers,Kansas City Royals,Troy Melton,Noah Cameron,0.4720828230176295,0
+824152,2026-08-21,Scheduled,Athletics,Houston Astros,J.T. Ginn,Hayden Wesneski,0.5449836752620308,1
+824317,2026-08-21,Scheduled,Cleveland Guardians,Colorado Rockies,Joey Cantillo,Tanner Gordon,0.4656764650070305,0
+824559,2026-08-21,Scheduled,New York Mets,Chicago White Sox,Sean Manaea,Sean Burke,0.5145993799078304,1
+824721,2026-08-21,Scheduled,San Francisco Giants,Boston Red Sox,Logan Webb,Sonny Gray,0.5940360422437236,1
+824800,2026-08-21,Scheduled,Tampa Bay Rays,Baltimore Orioles,Freddy Peralta,Trevor Rogers,0.6155574514544402,1
+825045,2026-08-21,Scheduled,Cincinnati Reds,Arizona Diamondbacks,Nick Lodolo,Eduardo Rodriguez,0.6194630924131207,1

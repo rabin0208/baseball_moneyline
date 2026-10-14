@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822774,2026-08-16,Pre-Game,New York Yankees,Toronto Blue Jays,Ryan Weathers,Dylan Cease,0.5355165773106011,1
+822940,2026-08-16,Pre-Game,Baltimore Orioles,Tampa Bay Rays,Trevor Rogers,Freddy Peralta,0.48657310103876195,0
+823182,2026-08-16,Scheduled,Colorado Rockies,San Francisco Giants,Gabriel Hughes,Blade Tidwell,0.5222685919385768,1
+823344,2026-08-16,Pre-Game,Boston Red Sox,Pittsburgh Pirates,Patrick Sandoval,Lake Bachar,0.5084596256817938,1
+823590,2026-08-16,Scheduled,Washington Nationals,New York Mets,Jake Irvin,Christian Scott,0.47151218509731624,0
+823670,2026-08-16,Pre-Game,Philadelphia Phillies,Minnesota Twins,Andrew Painter,Dean Kremer,0.5427463295318038,1
+823912,2026-08-16,Scheduled,Milwaukee Brewers,Los Angeles Dodgers,Logan Henderson,Tarik Skubal,0.5134752641592201,1
+823991,2026-08-16,Scheduled,Kansas City Royals,Los Angeles Angels,Noah Cameron,Ryan Johnson,0.5357205201450828,1
+824156,2026-08-16,Scheduled,Seattle Mariners,Houston Astros,Bryan Woo,Hunter Brown,0.5399840661910948,1
+824236,2026-08-16,Pre-Game,Chicago White Sox,Detroit Tigers,Sean Burke,Drew Anderson,0.5461477471439303,1
+824397,2026-08-16,Pre-Game,San Diego Padres,Cleveland Guardians,Casey Mize,Tanner Bibee,0.47131333314336027,0
+824477,2026-08-16,Pre-Game,Miami Marlins,Cincinnati Reds,Eury Pérez,Nick Lodolo,0.5019714067347061,1
+824642,2026-08-16,Scheduled,St. Louis Cardinals,Chicago Cubs,Hunter Dobbins,Edward Cabrera,0.47991935237003075,0
+824880,2026-08-16,Pre-Game,Arizona Diamondbacks,Atlanta Braves,Michael Soroka,Bryce Elder,0.46160543396175163,0
+824965,2026-08-16,Scheduled,Texas Rangers,Athletics,Cody Bradford,Jacob Lopez,0.4617451589686031,0

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822859,2026-08-18,Scheduled,Washington Nationals,Texas Rangers,Jackson Kent,Cal Quantrill,0.5305119238185749,1
+822938,2026-08-18,Scheduled,Toronto Blue Jays,Tampa Bay Rays,José Soriano,Nick Martinez,0.5754350244510199,1
+823341,2026-08-18,Scheduled,Detroit Tigers,Pittsburgh Pirates,Keider Montero,Braxton Ashcraft,0.5886489570380593,1
+823423,2026-08-18,Scheduled,Miami Marlins,Philadelphia Phillies,Cade Gibson,Zack Wheeler,0.47963241729649564,0
+823586,2026-08-18,Scheduled,San Diego Padres,New York Mets,Robbie Ray,Zac Thornton,0.49883568867497874,0
+823667,2026-08-18,Scheduled,Atlanta Braves,Minnesota Twins,Tyler Mahle,Zebby Matthews,0.5152071031897074,1
+823749,2026-08-18,Scheduled,Seattle Mariners,Milwaukee Brewers,Bryce Miller,Kyle Harrison,0.5768560936012527,1
+824075,2026-08-18,Scheduled,Athletics,Kansas City Royals,Jack Perkins,,0.6099852754113844,1
+824154,2026-08-18,Scheduled,Los Angeles Angels,Houston Astros,George Klassen,Cristian Javier,0.5449193183445645,1
+824319,2026-08-18,Scheduled,Los Angeles Dodgers,Colorado Rockies,Eric Lauer,Ryan Feltner,0.43904832174799857,0
+824398,2026-08-18,Scheduled,San Francisco Giants,Cleveland Guardians,Carson Whisenhunt,Foster Griffin,0.6175077644599725,1
+824475,2026-08-18,Scheduled,St. Louis Cardinals,Cincinnati Reds,Kyle Leahy,Andrew Abbott,0.426624339886085,0
+824639,2026-08-18,Scheduled,Chicago White Sox,Chicago Cubs,,Kevin Gausman,0.4591433498967507,0
+824723,2026-08-18,Scheduled,Arizona Diamondbacks,Boston Red Sox,Merrill Kelly,Ranger Suarez,0.5229123443810517,1
+824803,2026-08-18,Scheduled,New York Yankees,Baltimore Orioles,Carlos Rodón,Shane Baz,0.45983790912376676,0

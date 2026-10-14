@@ -1,6 +1,7 @@
 """Streamlit dashboard for comparing model and sportsbook win probabilities."""
 from __future__ import annotations
 
+import importlib.util
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -12,8 +13,32 @@ import altair as alt
 PROJECT_ROOT = Path(__file__).resolve().parent
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 ODDS_CSV = PROJECT_ROOT / "data" / "odds_moneyline.csv"
+
+
+def _load_scripts_module(name: str):
+    """Load a file from scripts/ by path so Streamlit Cloud cannot pick up another package."""
+    path = SCRIPTS_DIR / f"{name}.py"
+    if not path.is_file():
+        listing = sorted(p.name for p in SCRIPTS_DIR.glob("*.py")) if SCRIPTS_DIR.is_dir() else []
+        raise ImportError(
+            f"Missing {path}. scripts/ contains: {listing or 'no .py files (directory missing?)'}"
+        )
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Could not create import spec for {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+# Sibling imports inside scripts/*.py (from odds_utils import ...) need this.
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+
+_load_scripts_module("odds_utils")
+_load_scripts_module("eval_vs_market")
+_load_scripts_module("fetch_odds")
 
 from eval_vs_market import join_games_odds, load_games_with_model_probs  # noqa: E402
 from fetch_odds import ensure_odds_api_key  # noqa: E402
@@ -133,6 +158,18 @@ st.markdown(
     .bm-stake-skip {
       background: #3a4456;
       color: #eef4ff;
+    }
+    .bm-round {
+      display: inline-block;
+      margin: 0 0 0.55rem;
+      padding: 0.2rem 0.5rem;
+      color: #031018;
+      background: var(--bm-accent);
+      border-radius: 0.3rem;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
     }
     .bm-no-pick {
       color: var(--bm-muted);
@@ -257,6 +294,26 @@ def moneyline(value: object) -> str:
 
 def count(value: object) -> int:
     return 0 if pd.isna(value) else int(value)
+
+
+GAME_TYPE_LABELS = {
+    "F": "Wild Card",
+    "D": "Division Series",
+    "L": "Championship Series",
+    "W": "World Series",
+    "A": "All-Star",
+    "S": "Spring Training",
+    "E": "Exhibition",
+}
+
+
+def round_label(game_type: object) -> str:
+    if pd.isna(game_type) or not str(game_type).strip():
+        return ""
+    key = str(game_type).strip().upper()
+    if key == "R":
+        return ""
+    return GAME_TYPE_LABELS.get(key, key)
 
 
 def dollars(amount: object) -> str:
@@ -445,6 +502,12 @@ def render_daily_slate(
                 f"<div class='bm-game-title'>{game['away_name']} @ {game['home_name']}</div>",
                 unsafe_allow_html=True,
             )
+            round_name = round_label(game.get("game_type"))
+            if round_name:
+                st.markdown(
+                    f"<span class='bm-round'>{round_name}</span>",
+                    unsafe_allow_html=True,
+                )
             if is_past:
                 status.markdown(
                     f"<div class='bm-meta'>{final_score_caption(game)}</div>",
@@ -649,9 +712,10 @@ def render_roi_tab(*, season: int, edge_threshold: float) -> None:
     date_min = pd.to_datetime(games["game_date"]).min().date()
     date_max = pd.to_datetime(games["game_date"]).max().date()
     st.caption(
-        f"Matched games: {len(games):,} · lines {date_min} → {date_max}. "
-        "SBR closing lines when available; recent dates use the live consensus "
-        "saved with that day's recommendations (SBR often returns HTTP 503). "
+        f"Matched games: {len(games):,} · lines {date_min} → {date_max} "
+        "(regular season and postseason). "
+        "SBR closing lines when available; recent dates may use the live consensus "
+        "saved with that day's recommendations. "
         "Kelly uses posted (vigged) odds, not the vig-free probability. "
         "This is a sizing diagnostic, not a compounding bankroll path."
     )
@@ -661,7 +725,7 @@ st.markdown(
     """
     <section class="bm-hero">
       <h1>Moneyline Edge</h1>
-      <p>Logistic regression win probabilities compared with the sportsbook consensus.</p>
+      <p>Regular-season and postseason win probabilities compared with the sportsbook consensus.</p>
     </section>
     """,
     unsafe_allow_html=True,
@@ -749,7 +813,8 @@ with st.sidebar:
     else:
         st.caption(
             "Sportsbook probabilities use the median moneyline across available books "
-            "(in decimal-odds space), then remove the vig so both teams sum to 100%."
+            "(in decimal-odds space), then remove the vig so both teams sum to 100%. "
+            "Postseason rounds (Wild Card, DS, LCS, World Series) are labeled on each card."
         )
 
 slate_tab, roi_tab = st.tabs(["Daily slate", "ROI by month"])

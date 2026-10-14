@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822688,2026-08-30,Pre-Game,Miami Marlins,Washington Nationals,Janson Junk,Andrew Alvarez,0.45789732631562213,0
+822766,2026-08-30,Scheduled,Seattle Mariners,Toronto Blue Jays,Logan Gilbert,Max Scherzer,0.48750775704191024,0
+822933,2026-08-30,Scheduled,San Diego Padres,Tampa Bay Rays,Robbie Ray,Drew Rasmussen,0.5474532636461286,1
+823010,2026-08-30,Scheduled,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Matthew Liberatore,0.46491280901134335,0
+823502,2026-08-30,Scheduled,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.4866511237195493,0
+823580,2026-08-30,Scheduled,Houston Astros,New York Mets,Ethan Pecko,Zac Thornton,0.5163322554617172,1
+823662,2026-08-30,Scheduled,Chicago White Sox,Minnesota Twins,Jordan Hicks,Zebby Matthews,0.5424387398266158,1
+823740,2026-08-30,Scheduled,Texas Rangers,Milwaukee Brewers,Kumar Rocker,Dustin May,0.5620043842778849,1
+823987,2026-08-30,Scheduled,Philadelphia Phillies,Los Angeles Angels,Zack Wheeler,Yusei Kikuchi,0.41948314607710446,0
+824232,2026-08-30,Scheduled,Los Angeles Dodgers,Detroit Tigers,Tyler Glasnow,Framber Valdez,0.4611851225715584,0
+824393,2026-08-30,Pre-Game,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.5046530705498457,1
+824636,2026-08-30,Scheduled,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.6194172365835684,1
+824876,2026-08-30,Scheduled,Colorado Rockies,Atlanta Braves,Mason Adams,Tyler Mahle,0.6202887564432304,1
+824959,2026-08-30,Scheduled,Baltimore Orioles,Athletics,Chris Bassitt,Jeffrey Springs,0.4684499732368973,0

@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822858,2026-08-22,Scheduled,Los Angeles Angels,Texas Rangers,Ryan Johnson,Cody Bradford,0.4717207783801735,0
+823100,2026-08-22,Scheduled,Chicago Cubs,Seattle Mariners,David Peterson,Kade Anderson,0.4921632703211231,0
+823261,2026-08-22,Scheduled,Minnesota Twins,San Diego Padres,Dean Kremer,Casey Mize,0.5396498369088406,1
+823422,2026-08-22,Scheduled,St. Louis Cardinals,Philadelphia Phillies,,Andrew Painter,0.48431243778228017,0
+823509,2026-08-22,Pre-Game,Toronto Blue Jays,New York Yankees,Dylan Cease,Ryan Weathers,0.5089832401665227,1
+823743,2026-08-22,Pre-Game,Atlanta Braves,Milwaukee Brewers,Martín Pérez,Logan Henderson,0.610922414780856,1
+823831,2026-08-22,Scheduled,Washington Nationals,Miami Marlins,Jake Irvin,Eury Pérez,0.586956055112368,1
+823910,2026-08-22,Scheduled,Pittsburgh Pirates,Los Angeles Dodgers,Jared Jones,Tarik Skubal,0.5257072219672373,1
+824073,2026-08-22,Scheduled,Detroit Tigers,Kansas City Royals,Drew Anderson,Michael Wacha,0.5310856290354141,1
+824151,2026-08-22,Scheduled,Athletics,Houston Astros,Jacob Lopez,Hunter Brown,0.562780490488105,1
+824316,2026-08-22,Scheduled,Cleveland Guardians,Colorado Rockies,Tanner Bibee,Gabriel Hughes,0.48249498807559926,0
+824560,2026-08-22,Scheduled,New York Mets,Chicago White Sox,Christian Scott,Luis Castillo,0.4474149964858841,0
+824718,2026-08-22,Scheduled,San Francisco Giants,Boston Red Sox,Blade Tidwell,Patrick Sandoval,0.6201124779603214,1
+824798,2026-08-22,Scheduled,Tampa Bay Rays,Baltimore Orioles,Shane McClanahan,Brandon Young,0.5824233437719754,1
+825044,2026-08-22,Scheduled,Cincinnati Reds,Arizona Diamondbacks,Rhett Lowder,Michael Soroka,0.607954381653258,1

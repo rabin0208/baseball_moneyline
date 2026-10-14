@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+823092,2026-09-08,Scheduled,Texas Rangers,Seattle Mariners,,,0.49418660455852337,0
+823174,2026-09-08,Scheduled,St. Louis Cardinals,San Francisco Giants,Quinn Mathews,Landen Roupp,0.4390170727584685,0
+823250,2026-09-08,Scheduled,Washington Nationals,San Diego Padres,Riley Cornelio,Casey Mize,0.5434574483873102,1
+823414,2026-09-08,Scheduled,Houston Astros,Philadelphia Phillies,Hayden Wesneski,Andrew Painter,0.5170871530340246,1
+823500,2026-09-08,Scheduled,Colorado Rockies,New York Yankees,Gabriel Hughes,Cam Schlittler,0.5885429913449362,1
+823738,2026-09-08,Scheduled,Chicago Cubs,Milwaukee Brewers,David Peterson,Jacob Misiorowski,0.6229688677243512,1
+823821,2026-09-08,Scheduled,New York Mets,Miami Marlins,Sean Manaea,Sandy Alcantara,0.5036709201421324,1
+823901,2026-09-08,Scheduled,Cincinnati Reds,Los Angeles Dodgers,Nick Lodolo,Tarik Skubal,0.613870841667325,1
+824063,2026-09-08,Scheduled,Arizona Diamondbacks,Kansas City Royals,Corbin Burnes,Michael Wacha,0.5424864096832953,1
+824228,2026-09-08,Scheduled,Minnesota Twins,Detroit Tigers,Dean Kremer,Drew Anderson,0.5013597175218104,1
+824551,2026-09-08,Scheduled,Pittsburgh Pirates,Chicago White Sox,Bubba Chandler,Sean Burke,0.5456497848487629,1
+824714,2026-09-08,Scheduled,Los Angeles Angels,Boston Red Sox,Reid Detmers,Patrick Sandoval,0.554468540404768,1
+824792,2026-09-08,Scheduled,Cleveland Guardians,Baltimore Orioles,Tanner Bibee,Brandon Young,0.558181690942439,1
+824875,2026-09-08,Scheduled,Tampa Bay Rays,Atlanta Braves,Freddy Peralta,AJ Smith-Shawver,0.5062463471833553,1
+824957,2026-09-08,Scheduled,Toronto Blue Jays,Athletics,José Soriano,Jack Perkins,0.4213396517137065,0

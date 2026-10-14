@@ -1,0 +1,15 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822777,2026-08-14,Scheduled,New York Yankees,Toronto Blue Jays,Gerrit Cole,Shane Bieber,0.5034588784214364,1
+822942,2026-08-14,Scheduled,Baltimore Orioles,Tampa Bay Rays,,Steven Matz,0.6366801608756775,1
+823185,2026-08-14,Scheduled,Colorado Rockies,San Francisco Giants,Kyle Freeland,Landen Roupp,0.5004895899306582,1
+823346,2026-08-14,Scheduled,Boston Red Sox,Pittsburgh Pirates,Jake Bennett,Bubba Chandler,0.4529161317465638,0
+823591,2026-08-14,Scheduled,Washington Nationals,New York Mets,Andrew Alvarez,Robert Stock,0.5064882087493631,1
+823913,2026-08-14,Scheduled,Milwaukee Brewers,Los Angeles Dodgers,Robert Gasser,Yoshinobu Yamamoto,0.5155883161592746,1
+823993,2026-08-14,Scheduled,Kansas City Royals,Los Angeles Angels,Seth Lugo,Grayson Rodriguez,0.495519592635702,0
+824159,2026-08-14,Scheduled,Seattle Mariners,Houston Astros,George Kirby,Peter Lambert,0.5799678419274525,1
+824237,2026-08-14,Scheduled,Chicago White Sox,Detroit Tigers,Sean Newcomb,Jackson Jobe,0.6463134702881372,1
+824399,2026-08-14,Scheduled,San Diego Padres,Cleveland Guardians,Michael King,Gavin Williams,0.4465078127319254,0
+824479,2026-08-14,Scheduled,Miami Marlins,Cincinnati Reds,Sandy Alcantara,Chase Burns,0.5416669633712655,1
+824643,2026-08-14,Pre-Game,St. Louis Cardinals,Chicago Cubs,Matthew Liberatore,Clay Holmes,0.5616179417639556,1
+824882,2026-08-14,Scheduled,Arizona Diamondbacks,Atlanta Braves,Brandon Pfaadt,,0.5012624145878324,1
+824968,2026-08-14,Scheduled,Texas Rangers,Athletics,Kumar Rocker,,0.45228037333086973,0

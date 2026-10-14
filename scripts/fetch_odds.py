@@ -129,12 +129,20 @@ def scrape_sbr(start_iso: str, end_iso: str, *, fast: bool = False) -> pd.DataFr
     return df[keep].copy()
 
 
+# Regular season plus postseason keys The Odds API uses during October.
+ODDS_API_SPORT_KEYS = (
+    "baseball_mlb",
+    "baseball_mlb_world_series",
+)
+
+
 def fetch_odds_api(*, target_date: date | None = None) -> pd.DataFrame:
     """
     Current MLB h2h moneylines from The Odds API (free tier = live/upcoming only).
 
     Requires ODDS_API_KEY. Optionally filter to a single US/Eastern calendar date
     (not the raw UTC prefix of commence_time — late West Coast games are next-day UTC).
+    Tries regular-season and World Series sport keys so LCS/WS games still price.
     """
     ensure_odds_api_key()
     api_key = os.environ.get("ODDS_API_KEY")
@@ -143,45 +151,48 @@ def fetch_odds_api(*, target_date: date | None = None) -> pd.DataFrame:
 
     import requests
 
-    url = "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds"
-    params = {
-        "apiKey": api_key,
-        "regions": "us",
-        "markets": "h2h",
-        "oddsFormat": "american",
-    }
-    resp = requests.get(url, params=params, timeout=60)
-    resp.raise_for_status()
-    remaining = resp.headers.get("x-requests-remaining", "?")
-    print(f"  The Odds API requests remaining: {remaining}")
-
     want = target_date.isoformat() if target_date is not None else None
     rows: list[dict] = []
-    for event in resp.json():
-        commence = event.get("commence_time") or ""
-        game_date = _slate_date_from_commence(commence)
-        if want is not None and game_date != want:
+    remaining = "?"
+    for sport_key in ODDS_API_SPORT_KEYS:
+        url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds"
+        params = {
+            "apiKey": api_key,
+            "regions": "us",
+            "markets": "h2h",
+            "oddsFormat": "american",
+        }
+        resp = requests.get(url, params=params, timeout=60)
+        remaining = resp.headers.get("x-requests-remaining", remaining)
+        if resp.status_code == 404:
             continue
-        home_name = event.get("home_team", "")
-        away_name = event.get("away_team", "")
-        for book in event.get("bookmakers") or []:
-            for market in book.get("markets") or []:
-                if market.get("key") != "h2h":
-                    continue
-                prices = {o["name"]: o["price"] for o in market.get("outcomes") or []}
-                rows.append(
-                    {
-                        "game_id": event.get("id"),
-                        "date": game_date,
-                        "away_team": away_name,
-                        "home_team": home_name,
-                        "sportsbook": book.get("key"),
-                        "odds_type": "moneyline",
-                        "current_home_odds": prices.get(home_name),
-                        "current_away_odds": prices.get(away_name),
-                        "status": "Scheduled",
-                    }
-                )
+        resp.raise_for_status()
+        for event in resp.json():
+            commence = event.get("commence_time") or ""
+            game_date = _slate_date_from_commence(commence)
+            if want is not None and game_date != want:
+                continue
+            home_name = event.get("home_team", "")
+            away_name = event.get("away_team", "")
+            for book in event.get("bookmakers") or []:
+                for market in book.get("markets") or []:
+                    if market.get("key") != "h2h":
+                        continue
+                    prices = {o["name"]: o["price"] for o in market.get("outcomes") or []}
+                    rows.append(
+                        {
+                            "game_id": event.get("id"),
+                            "date": game_date,
+                            "away_team": away_name,
+                            "home_team": home_name,
+                            "sportsbook": book.get("key"),
+                            "odds_type": "moneyline",
+                            "current_home_odds": prices.get(home_name),
+                            "current_away_odds": prices.get(away_name),
+                            "status": "Scheduled",
+                        }
+                    )
+    print(f"  The Odds API requests remaining: {remaining}")
     if not rows:
         return pd.DataFrame(columns=SBR_COLUMNS)
     return pd.DataFrame(rows)

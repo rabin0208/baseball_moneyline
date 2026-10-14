@@ -1,0 +1,13 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822939,2026-08-17,Scheduled,Baltimore Orioles,Tampa Bay Rays,Brandon Young,Shane McClanahan,0.487740350402918,0
+823343,2026-08-17,Scheduled,Detroit Tigers,Pittsburgh Pirates,Framber Valdez,Carmen Mlodzinski,0.5138223340525062,1
+823427,2026-08-17,Scheduled,Miami Marlins,Philadelphia Phillies,Janson Junk,Cristopher Sánchez,0.5208428780532784,1
+823589,2026-08-17,Scheduled,San Diego Padres,New York Mets,Walker Buehler,Nolan McLean,0.4345047118312036,0
+823668,2026-08-17,Scheduled,Atlanta Braves,Minnesota Twins,Martín Pérez,Bailey Ober,0.5023420232672668,1
+824077,2026-08-17,Scheduled,Athletics,Kansas City Royals,Mason Barnett,Michael Wacha,0.5127113938098522,1
+824320,2026-08-17,Scheduled,Los Angeles Dodgers,Colorado Rockies,Blake Snell,Tomoyuki Sugano,0.5168466752719622,1
+824478,2026-08-17,Scheduled,St. Louis Cardinals,Cincinnati Reds,Andre Pallante,Rhett Lowder,0.4847095718630507,0
+824514,2026-08-17,Postponed,St. Louis Cardinals,Cincinnati Reds,Brycen Mautz,Brady Singer,0.4877479323803819,0
+824514,2026-08-17,Pre-Game,St. Louis Cardinals,Cincinnati Reds,Quinn Mathews,Kent Emanuel,0.496554176577653,0
+824641,2026-08-17,Scheduled,Chicago White Sox,Chicago Cubs,Luis Castillo,Shota Imanaga,0.5608177525010621,1
+824725,2026-08-17,Scheduled,Arizona Diamondbacks,Boston Red Sox,Mitch Bratt,,0.42906982641185465,0

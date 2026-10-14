@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822687,2026-09-01,Scheduled,Atlanta Braves,Washington Nationals,AJ Smith-Shawver,Jake Irvin,0.4653909091257316,0
+822854,2026-09-01,Scheduled,Athletics,Texas Rangers,Brady Basso,MacKenzie Gore,0.5643741809871079,1
+822929,2026-09-01,Scheduled,New York Mets,Tampa Bay Rays,Sean Manaea,Freddy Peralta,0.5671530808509918,1
+823340,2026-09-01,Scheduled,San Francisco Giants,Pittsburgh Pirates,Logan Webb,Paul Skenes,0.5018232882308711,1
+823661,2026-09-01,Scheduled,Detroit Tigers,Minnesota Twins,Troy Melton,Andrew Morris,0.5477508981533775,1
+823908,2026-09-01,Scheduled,St. Louis Cardinals,Los Angeles Dodgers,Michael McGreevy,Eric Lauer,0.5932659781330762,1
+823984,2026-09-01,Scheduled,New York Yankees,Los Angeles Angels,Gerrit Cole,Grayson Rodriguez,0.5204819514479259,1
+824070,2026-09-01,Scheduled,Miami Marlins,Kansas City Royals,Tyler Phillips,Randy Dobnak,0.5312632798641936,1
+824148,2026-09-01,Scheduled,Chicago White Sox,Houston Astros,Sean Burke,Ronel Blanco,0.5719314789224015,1
+824313,2026-09-01,Scheduled,Baltimore Orioles,Colorado Rockies,Kyle Bradish,Gabriel Hughes,0.39501385116991816,0
+824391,2026-09-01,Scheduled,Toronto Blue Jays,Cleveland Guardians,Spencer Arrighetti,Gavin Williams,0.5190442289706317,1
+824472,2026-09-01,Scheduled,San Diego Padres,Cincinnati Reds,Randy Vásquez,Nick Lodolo,0.45521795096469564,0
+824633,2026-09-01,Scheduled,Milwaukee Brewers,Chicago Cubs,Robert Gasser,Matthew Boyd,0.5906951844184474,1
+824716,2026-09-01,Scheduled,Seattle Mariners,Boston Red Sox,Bryan Woo,,0.5705388880372526,1
+825038,2026-09-01,Scheduled,Philadelphia Phillies,Arizona Diamondbacks,Jesús Luzardo,Eduardo Rodriguez,0.5253950964953399,1

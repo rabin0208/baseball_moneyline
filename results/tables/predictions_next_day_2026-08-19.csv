@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822860,2026-08-19,Scheduled,Washington Nationals,Texas Rangers,Cade Cavalli,Kumar Rocker,0.5199648708676448,1
+822937,2026-08-19,Scheduled,Toronto Blue Jays,Tampa Bay Rays,Max Scherzer,Drew Rasmussen,0.5992266287516584,1
+823342,2026-08-19,Pre-Game,Detroit Tigers,Pittsburgh Pirates,Jackson Jobe,Paul Skenes,0.48499264439690726,0
+823424,2026-08-19,Scheduled,Miami Marlins,Philadelphia Phillies,Sandy Alcantara,Aaron Nola,0.42877658289801296,0
+823587,2026-08-19,Pre-Game,San Diego Padres,New York Mets,Michael King,Robert Stock,0.4806806177326887,0
+823664,2026-08-19,Pre-Game,Atlanta Braves,Minnesota Twins,AJ Smith-Shawver,Taj Bradley,0.5060023598322108,1
+823748,2026-08-19,Scheduled,Seattle Mariners,Milwaukee Brewers,Logan Gilbert,Dustin May,0.5926464261756098,1
+824076,2026-08-19,Scheduled,Athletics,Kansas City Royals,,,0.5618952325299361,1
+824155,2026-08-19,Scheduled,Los Angeles Angels,Houston Astros,Walbert Ureña,Ethan Pecko,0.5622151423973959,1
+824318,2026-08-19,Scheduled,Los Angeles Dodgers,Colorado Rockies,Roki Sasaki,Kyle Freeland,0.48115841572553064,0
+824394,2026-08-19,Scheduled,San Francisco Giants,Cleveland Guardians,Matt Wilkinson,Parker Messick,0.5014474432443797,1
+824476,2026-08-19,Scheduled,St. Louis Cardinals,Cincinnati Reds,Matthew Liberatore,Chase Burns,0.4950175054815715,0
+824640,2026-08-19,Pre-Game,Chicago White Sox,Chicago Cubs,Sean Newcomb,Clay Holmes,0.49016938551814904,0
+824722,2026-08-19,Scheduled,Arizona Diamondbacks,Boston Red Sox,Brandon Pfaadt,Payton Tolle,0.5256391588989201,1
+824801,2026-08-19,Scheduled,New York Yankees,Baltimore Orioles,Will Warren,Chris Bassitt,0.5533260806193363,1

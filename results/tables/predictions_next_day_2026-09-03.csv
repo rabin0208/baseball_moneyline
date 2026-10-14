@@ -1,0 +1,10 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822853,2026-09-03,Scheduled,Tampa Bay Rays,Texas Rangers,Shane McClanahan,Cal Quantrill,0.5168611535279389,1
+823095,2026-09-03,Scheduled,Athletics,Seattle Mariners,Jack Perkins,Kade Anderson,0.5647967194997062,1
+823337,2026-09-03,Scheduled,San Francisco Giants,Pittsburgh Pirates,Blade Tidwell,Lake Bachar,0.5618504430698854,1
+823907,2026-09-03,Scheduled,St. Louis Cardinals,Los Angeles Dodgers,Quinn Mathews,Tarik Skubal,0.6182086874298258,1
+824069,2026-09-03,Scheduled,Miami Marlins,Kansas City Royals,Sandy Alcantara,Michael Wacha,0.4991060446043191,0
+824144,2026-09-03,Scheduled,Chicago White Sox,Houston Astros,Luis Castillo,Hunter Brown,0.5338822558693747,1
+824388,2026-09-03,Scheduled,Toronto Blue Jays,Cleveland Guardians,José Soriano,Tanner Bibee,0.48563338566445574,0
+824632,2026-09-03,Scheduled,Milwaukee Brewers,Chicago Cubs,Logan Henderson,Kevin Gausman,0.46940657564885824,0
+824796,2026-09-03,Scheduled,Boston Red Sox,Baltimore Orioles,Jake Bennett,Brandon Young,0.5851517246110579,1

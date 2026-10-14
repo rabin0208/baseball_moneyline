@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822686,2026-09-02,Scheduled,Atlanta Braves,Washington Nationals,Grant Holmes,Brad Lord,0.45528580077172454,0
+822851,2026-09-02,Scheduled,Athletics,Texas Rangers,Jacob Lopez,Cody Bradford,0.5627988690876159,1
+822931,2026-09-02,Scheduled,New York Mets,Tampa Bay Rays,Justin Hagenman,Griffin Jax,0.6337893854347155,1
+823339,2026-09-02,Scheduled,San Francisco Giants,Pittsburgh Pirates,Landen Roupp,Bubba Chandler,0.5090345280775956,1
+823660,2026-09-02,Scheduled,Detroit Tigers,Minnesota Twins,Drew Anderson,Dean Kremer,0.6205216282555613,1
+823906,2026-09-02,Scheduled,St. Louis Cardinals,Los Angeles Dodgers,,Yoshinobu Yamamoto,0.5976775150547259,1
+823983,2026-09-02,Scheduled,New York Yankees,Los Angeles Angels,Cam Schlittler,Reid Detmers,0.441967174971031,0
+824068,2026-09-02,Scheduled,Miami Marlins,Kansas City Royals,Eury Pérez,Noah Cameron,0.5628263538701317,1
+824147,2026-09-02,Scheduled,Chicago White Sox,Houston Astros,Davis Martin,Hayden Wesneski,0.621228274356159,1
+824312,2026-09-02,Scheduled,Baltimore Orioles,Colorado Rockies,Trevor Rogers,Tomoyuki Sugano,0.4083565603743916,0
+824390,2026-09-02,Scheduled,Toronto Blue Jays,Cleveland Guardians,Dylan Cease,Joey Cantillo,0.5291394637438323,1
+824470,2026-09-02,Pre-Game,San Diego Padres,Cincinnati Reds,Casey Mize,Brandon Williamson,0.5216948230125821,1
+824634,2026-09-02,Scheduled,Milwaukee Brewers,Chicago Cubs,Jacob Misiorowski,David Peterson,0.561673326271474,1
+824717,2026-09-02,Scheduled,Seattle Mariners,Boston Red Sox,Bryce Miller,Patrick Sandoval,0.5748985603690449,1
+825037,2026-09-02,Scheduled,Philadelphia Phillies,Arizona Diamondbacks,Andrew Painter,Taylor Clarke,0.5069165255966362,1

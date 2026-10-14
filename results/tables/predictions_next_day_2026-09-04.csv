@@ -1,0 +1,18 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822852,2026-09-04,Scheduled,Tampa Bay Rays,Texas Rangers,Nick Martinez,Trevor Williams,0.47474220002551015,0
+823093,2026-09-04,Scheduled,Athletics,Seattle Mariners,Kade Morris,Logan Gilbert,0.5869236795966027,1
+823256,2026-09-04,Scheduled,New York Yankees,San Diego Padres,Max Fried,Walker Buehler,0.5402891732921284,1
+823338,2026-09-04,Scheduled,Los Angeles Angels,Pittsburgh Pirates,Ryan Johnson,Jared Jones,0.5264646174160391,1
+823418,2026-09-04,Scheduled,Atlanta Braves,Philadelphia Phillies,Chris Sale,Cristopher Sánchez,0.4941068748553189,0
+823579,2026-09-04,Scheduled,San Francisco Giants,New York Mets,Matt Wilkinson,Nolan McLean,0.5557576465075341,1
+823824,2026-09-04,Scheduled,Chicago Cubs,Miami Marlins,Shota Imanaga,Janson Junk,0.5043531249772516,1
+823905,2026-09-04,Scheduled,Washington Nationals,Los Angeles Dodgers,Jackson Kent,Blake Snell,0.5989246206455021,1
+824067,2026-09-04,Scheduled,Toronto Blue Jays,Kansas City Royals,Jameson Taillon,Daniel Lynch IV,0.5800331330133198,1
+824146,2026-09-04,Scheduled,Arizona Diamondbacks,Houston Astros,Merrill Kelly,Cristian Javier,0.554883187780868,1
+824311,2026-09-04,Scheduled,St. Louis Cardinals,Colorado Rockies,Andre Pallante,Ryan Feltner,0.5142341182774381,1
+824387,2026-09-04,Scheduled,Detroit Tigers,Cleveland Guardians,Andrew Sears,Foster Griffin,0.668183791262956,1
+824424,2026-09-04,Postponed,Detroit Tigers,Cleveland Guardians,Casey Mize,Gavin Williams,0.6403814089821961,1
+824424,2026-09-04,Scheduled,Detroit Tigers,Cleveland Guardians,Keider Montero,Logan Allen,0.5839585149518135,1
+824471,2026-09-04,Scheduled,Milwaukee Brewers,Cincinnati Reds,Shane Drohan,Rhett Lowder,0.3270213139432685,0
+824554,2026-09-04,Scheduled,Minnesota Twins,Chicago White Sox,Zebby Matthews,Erick Fedde,0.5802188943225397,1
+824797,2026-09-04,Scheduled,Boston Red Sox,Baltimore Orioles,Ranger Suarez,Shane Baz,0.4913482069647933,0

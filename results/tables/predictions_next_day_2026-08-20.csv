@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822861,2026-08-20,Scheduled,Washington Nationals,Texas Rangers,Andrew Alvarez,Jacob deGrom,0.48543492093580054,0
+822934,2026-08-20,Pre-Game,Toronto Blue Jays,Tampa Bay Rays,Shane Bieber,Ian Seymour,0.5390549940549405,1
+823747,2026-08-20,Scheduled,Seattle Mariners,Milwaukee Brewers,George Kirby,Robert Gasser,0.6788300185607586,1
+824074,2026-08-20,Pre-Game,Athletics,Kansas City Royals,Gage Jump,Randy Dobnak,0.6114627367838396,1
+824153,2026-08-20,Scheduled,Los Angeles Angels,Houston Astros,Grayson Rodriguez,Peter Lambert,0.6098612591419543,1
+824395,2026-08-20,Pre-Game,San Francisco Giants,Cleveland Guardians,Landen Roupp,Gavin Williams,0.5586345553289508,1
+824474,2026-08-20,Pre-Game,St. Louis Cardinals,Cincinnati Reds,Michael McGreevy,Brady Singer,0.4672081499423008,0
+824589,2026-08-20,Postponed,Atlanta Braves,Chicago White Sox,Martín Pérez,Anthony Kay,0.5655224627628637,1
+824589,2026-08-20,Pre-Game,Atlanta Braves,Chicago White Sox,Grant Holmes,Anthony Kay,0.5358182855431576,1
+824802,2026-08-20,Scheduled,New York Yankees,Baltimore Orioles,Gerrit Cole,Kyle Bradish,0.48573068047096496,0

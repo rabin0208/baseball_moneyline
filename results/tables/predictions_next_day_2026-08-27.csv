@@ -1,0 +1,8 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822694,2026-08-27,Pre-Game,Colorado Rockies,Washington Nationals,Gabriel Hughes,Jake Irvin,0.5545275094557418,1
+822771,2026-08-27,Scheduled,Kansas City Royals,Toronto Blue Jays,Noah Cameron,Spencer Arrighetti,0.4646395513232106,0
+823014,2026-08-27,Scheduled,Baltimore Orioles,St. Louis Cardinals,Trevor Rogers,,0.47042095582247007,0
+823179,2026-08-27,Scheduled,Arizona Diamondbacks,San Francisco Giants,Jose Cabrera,Landen Roupp,0.4213332629079176,0
+823503,2026-08-27,Scheduled,Houston Astros,New York Yankees,Hayden Wesneski,Gerrit Cole,0.6089802808966471,1
+823581,2026-08-27,Scheduled,Milwaukee Brewers,New York Mets,Jacob Misiorowski,Sean Manaea,0.44691317236763917,0
+824879,2026-08-27,Scheduled,Los Angeles Dodgers,Atlanta Braves,Yoshinobu Yamamoto,Chris Sale,0.48389426233434113,0

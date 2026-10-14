@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822691,2026-08-28,Scheduled,Miami Marlins,Washington Nationals,Eury Pérez,Jackson Kent,0.4600899355880445,0
+822769,2026-08-28,Scheduled,Seattle Mariners,Toronto Blue Jays,,Dylan Cease,0.5855690777069357,1
+822935,2026-08-28,Scheduled,San Diego Padres,Tampa Bay Rays,Casey Mize,Shane McClanahan,0.5096512688982038,1
+823013,2026-08-28,Scheduled,Pittsburgh Pirates,St. Louis Cardinals,Jared Jones,Quinn Mathews,0.5321732193418314,1
+823178,2026-08-28,Scheduled,Arizona Diamondbacks,San Francisco Giants,Kohl Drake,Blade Tidwell,0.5282035645280517,1
+823504,2026-08-28,Scheduled,Boston Red Sox,New York Yankees,Patrick Sandoval,Cam Schlittler,0.4965830670866263,0
+823583,2026-08-28,Scheduled,Houston Astros,New York Mets,Hunter Brown,Christian Scott,0.5857431480455486,1
+823666,2026-08-28,Scheduled,Chicago White Sox,Minnesota Twins,Luis Castillo,Dean Kremer,0.4600011631179979,0
+823744,2026-08-28,Scheduled,Texas Rangers,Milwaukee Brewers,Cody Bradford,Logan Henderson,0.627938085731297,1
+823985,2026-08-28,Scheduled,Philadelphia Phillies,Los Angeles Angels,Andrew Painter,Reid Detmers,0.44328052348789493,0
+824231,2026-08-28,Scheduled,Los Angeles Dodgers,Detroit Tigers,Tarik Skubal,Drew Anderson,0.4757056193563591,0
+824396,2026-08-28,Scheduled,Kansas City Royals,Cleveland Guardians,Michael Wacha,Tanner Bibee,0.5137180402886656,1
+824638,2026-08-28,Scheduled,Cincinnati Reds,Chicago Cubs,Rhett Lowder,David Peterson,0.6273253334610317,1
+824877,2026-08-28,Scheduled,Colorado Rockies,Atlanta Braves,Tomoyuki Sugano,Grant Holmes,0.6392619018476227,1
+824960,2026-08-28,Scheduled,Baltimore Orioles,Athletics,Brandon Young,,0.514842648955646,1

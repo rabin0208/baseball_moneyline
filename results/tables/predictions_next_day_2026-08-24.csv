@@ -1,0 +1,11 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822695,2026-08-24,Scheduled,Colorado Rockies,Washington Nationals,Ryan Feltner,Cade Cavalli,0.5782831760838822,1
+823097,2026-08-24,Scheduled,Philadelphia Phillies,Seattle Mariners,Zack Wheeler,Logan Gilbert,0.42591821989574946,0
+823183,2026-08-24,Scheduled,Cincinnati Reds,San Francisco Giants,Chase Burns,,0.48574464569478,0
+823260,2026-08-24,Scheduled,Pittsburgh Pirates,San Diego Padres,Braxton Ashcraft,Robbie Ray,0.5620574000063259,1
+823828,2026-08-24,Scheduled,Boston Red Sox,Miami Marlins,Ranger Suarez,Sandy Alcantara,0.4668097286059002,0
+823992,2026-08-24,Scheduled,Cleveland Guardians,Los Angeles Angels,Parker Messick,George Klassen,0.49895351712677166,0
+824235,2026-08-24,Scheduled,Tampa Bay Rays,Detroit Tigers,Drew Rasmussen,Framber Valdez,0.5148251998718804,1
+824557,2026-08-24,Scheduled,Texas Rangers,Chicago White Sox,Kumar Rocker,,0.5862689218535548,1
+824964,2026-08-24,Scheduled,Minnesota Twins,Athletics,Zebby Matthews,Jeffrey Springs,0.5455919226475962,1
+825041,2026-08-24,Scheduled,Chicago Cubs,Arizona Diamondbacks,Kevin Gausman,Merrill Kelly,0.5920260792263002,1

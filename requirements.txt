@@ -4,5 +4,7 @@ numpy
 scikit-learn
 joblib
 requests
+altair
+python-dateutil
 MLB-StatsAPI
 sbr-odds-scraper

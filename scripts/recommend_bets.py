@@ -13,6 +13,7 @@ Example:
 from __future__ import annotations
 
 import argparse
+import re
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -38,6 +39,19 @@ from rolling_state import RollingFeatureState
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 TABLES_DIR = SCRIPT_DIR.parent / "results" / "tables"
+
+# MLB Stats API keeps TBD playoff slots (Wild Card #1, AL Champion, ...) until
+# the series is actually set. Those are not bettable games.
+_PLACEHOLDER_TEAM = re.compile(
+    r"(seed|winner|champion|wild card\s*#)",
+    re.IGNORECASE,
+)
+
+
+def _is_real_matchup(row: pd.Series) -> bool:
+    home = str(row.get("home_name") or "")
+    away = str(row.get("away_name") or "")
+    return not (_PLACEHOLDER_TEAM.search(home) or _PLACEHOLDER_TEAM.search(away))
 
 
 def predict_slate(target: date, season: int) -> pd.DataFrame:
@@ -99,6 +113,7 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
             (sched["game_date"].dt.date == target) & (sched["status"] != "Final")
         ].copy()
 
+    to_predict = to_predict.loc[to_predict.apply(_is_real_matchup, axis=1)].copy()
     if to_predict.empty:
         return pd.DataFrame()
 
@@ -123,6 +138,7 @@ def predict_slate(target: date, season: int) -> pd.DataFrame:
                 "home_probable_pitcher": row.get("home_probable_pitcher", ""),
                 "away_score": float(aws) if pd.notna(aws) else None,
                 "home_score": float(hs) if pd.notna(hs) else None,
+                "game_type": row.get("game_type", ""),
                 "p_home_win": p_home,
             }
         )

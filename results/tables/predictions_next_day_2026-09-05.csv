@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822850,2026-09-05,Scheduled,Tampa Bay Rays,Texas Rangers,Drew Rasmussen,Jacob deGrom,0.42867125322412053,0
+823094,2026-09-05,Scheduled,Athletics,Seattle Mariners,Jeffrey Springs,George Kirby,0.5358209827210089,1
+823257,2026-09-05,Scheduled,New York Yankees,San Diego Padres,Carlos Rodón,Robbie Ray,0.40202714103324927,0
+823335,2026-09-05,Scheduled,Los Angeles Angels,Pittsburgh Pirates,Yusei Kikuchi,Braxton Ashcraft,0.6497712975777383,1
+823419,2026-09-05,Scheduled,Atlanta Braves,Philadelphia Phillies,Martín Pérez,Zack Wheeler,0.47673868025176847,0
+823577,2026-09-05,Scheduled,San Francisco Giants,New York Mets,Anthony Molina,Zac Thornton,0.5314598893519977,1
+823823,2026-09-05,Scheduled,Chicago Cubs,Miami Marlins,Javier Assad,Ryan Gusto,0.4781394301693596,0
+823904,2026-09-05,Scheduled,Washington Nationals,Los Angeles Dodgers,Cade Cavalli,Tyler Glasnow,0.4832709215907587,0
+824066,2026-09-05,Scheduled,Toronto Blue Jays,Kansas City Royals,Max Scherzer,Seth Lugo,0.5481191586436148,1
+824145,2026-09-05,Scheduled,Arizona Diamondbacks,Houston Astros,Brandon Pfaadt,Ethan Pecko,0.538404616345969,1
+824310,2026-09-05,Scheduled,St. Louis Cardinals,Colorado Rockies,Matthew Liberatore,Mason Adams,0.5739218911520761,1
+824389,2026-09-05,Scheduled,Detroit Tigers,Cleveland Guardians,Framber Valdez,Parker Messick,0.5318714068226335,1
+824468,2026-09-05,Scheduled,Milwaukee Brewers,Cincinnati Reds,Dustin May,Andrew Abbott,0.45782469728388403,0
+824553,2026-09-05,Scheduled,Minnesota Twins,Chicago White Sox,Taj Bradley,Anthony Kay,0.5944279566233568,1
+824795,2026-09-05,Scheduled,Boston Red Sox,Baltimore Orioles,Sonny Gray,Chris Bassitt,0.5155123715005558,1

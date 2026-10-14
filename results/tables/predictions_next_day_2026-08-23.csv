@@ -1,0 +1,16 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822856,2026-08-23,Pre-Game,Los Angeles Angels,Texas Rangers,Yusei Kikuchi,Cal Quantrill,0.4787038635186246,0
+823099,2026-08-23,Scheduled,Chicago Cubs,Seattle Mariners,Shota Imanaga,Bryce Miller,0.45665105267866457,0
+823258,2026-08-23,Scheduled,Minnesota Twins,San Diego Padres,Bailey Ober,Walker Buehler,0.6230662776533614,1
+823421,2026-08-23,Pre-Game,St. Louis Cardinals,Philadelphia Phillies,Kyle Leahy,Cristopher Sánchez,0.5346223087878731,1
+823507,2026-08-23,Pre-Game,Toronto Blue Jays,New York Yankees,José Soriano,Carlos Rodón,0.5150309654811995,1
+823745,2026-08-23,Scheduled,Atlanta Braves,Milwaukee Brewers,Tyler Mahle,Shane Drohan,0.569133901592556,1
+823827,2026-08-23,Pre-Game,Washington Nationals,Miami Marlins,Jackson Kent,Janson Junk,0.5735034036568597,1
+823909,2026-08-23,Scheduled,Pittsburgh Pirates,Los Angeles Dodgers,Lake Bachar,Blake Snell,0.5276979379603491,1
+824071,2026-08-23,Pre-Game,Detroit Tigers,Kansas City Royals,Jacob Waguespack,Daniel Lynch IV,0.5965427486480777,1
+824150,2026-08-23,Pre-Game,Athletics,Houston Astros,Brady Basso,Cristian Javier,0.5308127777841044,1
+824315,2026-08-23,Pre-Game,Cleveland Guardians,Colorado Rockies,Foster Griffin,Tomoyuki Sugano,0.43323593236813884,0
+824558,2026-08-23,Pre-Game,New York Mets,Chicago White Sox,Nolan McLean,Sean Newcomb,0.4136969190382921,0
+824720,2026-08-23,Pre-Game,San Francisco Giants,Boston Red Sox,Matt Wilkinson,Jake Bennett,0.5707008942416738,1
+824799,2026-08-23,Pre-Game,Tampa Bay Rays,Baltimore Orioles,Nick Martinez,Shane Baz,0.48101679510311046,0
+825043,2026-08-23,Scheduled,Cincinnati Reds,Arizona Diamondbacks,Andrew Abbott,Mitch Bratt,0.5539291485609301,1

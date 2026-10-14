@@ -1,0 +1,19 @@
+game_id,game_date,status,away_name,home_name,away_probable_pitcher,home_probable_pitcher,p_home_win,pred_home_win
+822690,2026-08-29,Scheduled,Miami Marlins,Washington Nationals,Sandy Alcantara,Cade Cavalli,0.542653931019509,1
+822770,2026-08-29,Scheduled,Seattle Mariners,Toronto Blue Jays,Kade Anderson,José Soriano,0.6203845168175635,1
+822936,2026-08-29,Scheduled,San Diego Padres,Tampa Bay Rays,Walker Buehler,Nick Martinez,0.5066413652539976,1
+823011,2026-08-29,Scheduled,Pittsburgh Pirates,St. Louis Cardinals,Lake Bachar,Kyle Leahy,0.5785561701894792,1
+823176,2026-08-29,Scheduled,Arizona Diamondbacks,San Francisco Giants,Mitch Bratt,,0.5122900196087353,1
+823177,2026-08-29,Scheduled,Arizona Diamondbacks,San Francisco Giants,Merrill Kelly,,0.524591835544768,1
+823501,2026-08-29,Scheduled,Boston Red Sox,New York Yankees,,Max Fried,0.5408701744884891,1
+823539,2026-08-29,Postponed,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.49360156318231324,0
+823539,2026-08-29,Pre-Game,Boston Red Sox,New York Yankees,Jake Bennett,Carlos Rodón,0.5313219683919339,1
+823582,2026-08-29,Scheduled,Houston Astros,New York Mets,Bennett Sousa,Nolan McLean,0.5265874889562036,1
+823665,2026-08-29,Pre-Game,Chicago White Sox,Minnesota Twins,Erick Fedde,Bailey Ober,0.46662515990887876,0
+823741,2026-08-29,Scheduled,Texas Rangers,Milwaukee Brewers,Cal Quantrill,Shane Drohan,0.5443355566612664,1
+823986,2026-08-29,Scheduled,Philadelphia Phillies,Los Angeles Angels,Cristopher Sánchez,Ryan Johnson,0.522168452355515,1
+824230,2026-08-29,Pre-Game,Los Angeles Dodgers,Detroit Tigers,Blake Snell,Keider Montero,0.46107790802313,0
+824392,2026-08-29,Scheduled,Kansas City Royals,Cleveland Guardians,Daniel Lynch IV,Foster Griffin,0.47982590941098713,0
+824637,2026-08-29,Pre-Game,Cincinnati Reds,Chicago Cubs,Andrew Abbott,Kevin Gausman,0.5996409029710051,1
+824874,2026-08-29,Scheduled,Colorado Rockies,Atlanta Braves,Ryan Feltner,Martín Pérez,0.6115325445293704,1
+824961,2026-08-29,Scheduled,Baltimore Orioles,Athletics,Shane Baz,Jack Perkins,0.5044868521962892,1
